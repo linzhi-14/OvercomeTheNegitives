@@ -1,0 +1,678 @@
+{
+	autofocus_id: "37D74B6AC32A7113"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "0D8D9BEEBDB930FB"
+	group: "253036D279AE5E2D"
+	icon: "iter_rpg:netherite_ring_diamond"
+	id: "0D8D9BEEBDB930FB"
+	images: [
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -2.7d
+			y: 2.1d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -2.7d
+			y: 3.3d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -2.7d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "create:item/shopping_list"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.4d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.6d
+			y: 5.1d
+		}
+		{
+			height: 1.0d
+			image: "linzhi:item/z_coin"
+			rotation: 0.0d
+			width: 0.9922480620155039d
+			x: 3.6d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/shop.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.2d
+			y: 5.4d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: [
+				"7F6B480AD2639184"
+				"24B7AE8AD7B33C20"
+			]
+			dependency_requirement: "one_completed"
+			icon: "l2hostility:protection"
+			id: "5C9A15FF5F83F49C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB3ED4E1513A63F"
+				table_id: 1425902122933807177L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1CC47DC41583C648"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "恶意词条"
+			x: -8.1d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0D8535F4D9BDDF85"
+				"71992DFF2C4BC3C3"
+				"58D28934E2957EB7"
+				"7B238032F7CC442D"
+			]
+			dependency_requirement: "one_completed"
+			icon: "obscure_api:astral_dust"
+			id: "456C5FE3F8265A1D"
+			rewards: [{
+				count: 2
+				id: "044412489093AF0C"
+				item: "obscure_api:astral_dust"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6EA5CFAA86208D64"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "星尘"
+			x: -6.9d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F6B480AD2639184"]
+			dependency_requirement: "one_completed"
+			icon: "enigmaticlegacy:soul_crystal"
+			id: "2C649AA16CAE8016"
+			rewards: [{
+				id: "0A9EA7329FCED821"
+				item: "enigmaticlegacy:soul_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "18413B6F2C98B7F1"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "灵魂水晶"
+			x: -5.7d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3D3EE23C74A61989"
+				"0F6453A7ECDCE619"
+				"063EE03862C10051"
+				"3AD873C2E090B981"
+			]
+			dependency_requirement: "one_completed"
+			icon: "l2complements:enchanted_totemic_apple"
+			id: "36C4D99C89B52686"
+			rewards: [{
+				id: "1A791B7AE7F5905D"
+				item: "l2complements:enchanted_totemic_apple"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "314BE7448E0AF39F"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "附魔生命苹果"
+			x: -4.5d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"535D6F57F2DEB84C"
+				"1DFE1F5E7E471173"
+				"5FA823B52058C091"
+			]
+			dependency_requirement: "one_completed"
+			icon: "botania:life_essence"
+			id: "6FF196CF59627F8F"
+			rewards: [{
+				id: "1726E8B1E2FE43F8"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2A8DE512AB69CB92"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "盖亚之魂"
+			x: -3.3d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F6B480AD2639184"]
+			dependency_requirement: "one_completed"
+			icon: "enigmaticlegacy:twisted_heart"
+			id: "2567B7803BDD21B1"
+			rewards: [{
+				count: 2
+				id: "206197623A529CA1"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2E770D610C6734BB"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "扭曲之心"
+			x: -2.1d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F6B480AD2639184"]
+			dependency_requirement: "one_completed"
+			icon: "enigmaticlegacy:evil_essence"
+			id: "74528550F58EA67E"
+			rewards: [{
+				id: "39AFBDAEBF21C2C8"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "765D66BDC9CF7587"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "邪恶精髓"
+			x: -0.9d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"177AB6042186FA37"
+				"56D76D6EF1783623"
+				"1883D3A85B6A5ABA"
+			]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:wildwood_chunk"
+			id: "0099B3820B870093"
+			rewards: [{
+				id: "74614935C1178A66"
+				item: "divinerpg:wildwood_chunk"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0242FBE4C975DBE3"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "原始森林宝石块"
+			x: 0.3d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"40DD4C4B99EB20AE"
+				"246EDC8BCD9698A3"
+				"0D21CCAD7560D112"
+			]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:echo_shard"
+			id: "2B8C0B900B15433A"
+			rewards: [{
+				id: "540A608997D6FF47"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3BFF70C701673525"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "回响碎片"
+			x: 1.5d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7BF7C9D3A09C700C"
+				"24B7AE8AD7B33C20"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "52B11CA151985D64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26CA2415D1B32A97"
+				table_id: 4257226029200493546L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "73BA1D476A46E3A7"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "各种通往末地的眼睛"
+			x: 2.7d
+			y: 2.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7BF7C9D3A09C700C"
+				"24B7AE8AD7B33C20"
+			]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:corrupted_shards"
+			id: "70A5467A4C6E67FD"
+			rewards: [{
+				count: 6
+				id: "535BFC571B428CC6"
+				item: "divinerpg:corrupted_shards"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0B7A1BDB2BA959BF"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "腐化碎片"
+			x: -8.1d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"388FD9A8DA20EA4E"
+				"3EF63522F71D6982"
+				"1C265208BD6ACC36"
+			]
+			dependency_requirement: "one_completed"
+			icon: "botania:ender_air_bottle"
+			id: "5A9712E9565893D6"
+			rewards: [{
+				count: 6
+				id: "1316BCB86F4C5547"
+				item: "botania:ender_air_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0CEE81964AECC218"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "末地空气"
+			x: -6.9d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"388FD9A8DA20EA4E"
+				"3EF63522F71D6982"
+				"1C265208BD6ACC36"
+			]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:dragon_breath"
+			id: "62CA51C223FC5212"
+			rewards: [{
+				id: "6C5DCDD1D1122178"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2573422F5D148181"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "龙息"
+			x: -5.7d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7BF7C9D3A09C700C"
+				"24B7AE8AD7B33C20"
+			]
+			dependency_requirement: "one_completed"
+			icon: "l2complements:life_essence"
+			id: "37D74B6AC32A7113"
+			rewards: [{
+				id: "6B4A1F616A40D9F6"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "76FA1895AD695B1C"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "生命精华"
+			x: -4.5d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7BF7C9D3A09C700C"
+				"24B7AE8AD7B33C20"
+			]
+			dependency_requirement: "one_completed"
+			icon: "mythicbotany:alfsteel_ingot"
+			id: "5BFBC46D75E8B8E9"
+			rewards: [{
+				count: 2
+				id: "63650EE17758260E"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "208C2C22735D1FB1"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "精灵钢"
+			x: -3.3d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3AD873C2E090B981"]
+			dependency_requirement: "one_completed"
+			icon: "goety:shadow_essence"
+			id: "3DCBA26412C36F20"
+			rewards: [{
+				count: 2
+				id: "243C5432B6EF6528"
+				item: "goety:shadow_essence"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "759B860770211734"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "暗影精髓"
+			x: -2.1d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"1AC22EDEA5FC50B4"
+				"7F036DB80BE76B8F"
+				"760D6253DCABE445"
+				"601EC3D8A7402B0F"
+			]
+			dependency_requirement: "one_completed"
+			icon: "enigmaticlegacy:ichor_bottle"
+			id: "3E54F7D0E0F0C12C"
+			rewards: [{
+				id: "0B5401DC5C00F3BD"
+				item: "enigmaticlegacy:ichor_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "0AAD21B5F8B28EAF"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "灵液瓶"
+			x: -0.9d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7BF7C9D3A09C700C"
+				"24B7AE8AD7B33C20"
+			]
+			dependency_requirement: "one_completed"
+			icon: "l2hostility:chaos_ingot"
+			id: "528BDC3368246774"
+			rewards: [{
+				id: "2EA74F69B307265C"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "72E0FE20B1CBE017"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "混沌锭"
+			x: 0.3d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7BF7C9D3A09C700C"
+				"24B7AE8AD7B33C20"
+			]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:oxdrite_ore"
+			id: "447D125490FC7192"
+			rewards: [{
+				id: "2DFF9567B9197204"
+				item: "divinerpg:oxdrite_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0CAAC3D697FB6A09"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "粗牛罕石"
+			x: 1.5d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7BF7C9D3A09C700C"
+				"24B7AE8AD7B33C20"
+			]
+			dependency_requirement: "one_completed"
+			icon: "l2complements:eternium_ingot"
+			id: "4EEE03B47F592E89"
+			rewards: [{
+				id: "488B0B87453E81A3"
+				item: "l2complements:eternium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6F61697CE1171BD2"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "永恒锭"
+			x: 2.7d
+			y: 3.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"388FD9A8DA20EA4E"
+				"3EF63522F71D6982"
+				"1C265208BD6ACC36"
+			]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:enderite_ingot"
+			id: "31381D01B67137E5"
+			rewards: [{
+				id: "59B8588C84284128"
+				item: "cataclysm:enderite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "42F9C3CE2452B6D4"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "末影合金锭"
+			x: -8.1d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07291364716704B3"]
+			dependency_requirement: "one_completed"
+			icon: "goety:dark_ingot"
+			id: "039E0312CB311445"
+			rewards: [{
+				id: "3D50DDCC5174ABF4"
+				item: "goety:dark_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "774A22F86FEAF0D6"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "黑暗金属锭"
+			x: -6.9d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"535D6F57F2DEB84C"
+				"1DFE1F5E7E471173"
+				"5FA823B52058C091"
+			]
+			dependency_requirement: "one_completed"
+			icon: "apotheosis:epic_material"
+			id: "3EB858BB63FC1072"
+			rewards: [{
+				id: "2BB010AC635CCF2E"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3F2C49DF7E677FC4"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "玄奥沙"
+			x: 2.7d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"535D6F57F2DEB84C"
+				"1DFE1F5E7E471173"
+				"5FA823B52058C091"
+			]
+			dependency_requirement: "one_completed"
+			icon: "extrabotany:hero_medal"
+			id: "427CE58EF13E3EBB"
+			rewards: [{
+				id: "2DA5AF340B3C5E95"
+				item: "extrabotany:hero_medal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "25505A3ADE7658E9"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "英雄勋章"
+			x: 1.5d
+			y: 4.5d
+		}
+	]
+	title: "第四章特供货"
+}

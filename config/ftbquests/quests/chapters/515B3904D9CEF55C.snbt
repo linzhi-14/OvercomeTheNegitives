@@ -1,0 +1,448 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "515B3904D9CEF55C"
+	group: "217CC514C94C2430"
+	icon: "aether:gold_dungeon_key"
+	id: "515B3904D9CEF55C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"     由衷地感谢您能完整地过完一条故事线"
+				""
+				"        &a尽管不是最好的结局，但起码...."
+				"      "
+				"            &a这个世界有救了，对吗？"
+			]
+			hide_text_until_complete: true
+			icon: "ars_nouveau:jar_of_light"
+			id: "3468A3D7489B72E3"
+			rewards: [{
+				id: "58D7307E521489F7"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			subtitle: "结局"
+			tasks: [{
+				id: "2D83F0B8C01D6C6E"
+				stage: "first_end"
+				type: "gamestage"
+			}]
+			title: "第一结局"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"     由衷地感谢您能完整地过完一条故事线"
+				""
+				"       &a这是最好的结局吗？起码是完美的"
+				""
+				" &a但哪个是真正的完美结局，也该由玩家自己选择"
+				""
+				"          &a至于他们后来的故事怎么样..."
+				""
+				"           &a那是他们继续冒险的故事"
+				""
+				"         &a将由他们...或者你们...继续书写"
+			]
+			hide_text_until_complete: true
+			icon: "yuushya:potted_sunflower"
+			id: "4BE5B58B7FD071A1"
+			rewards: [{
+				id: "228724D0C9275A9B"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			subtitle: "结局"
+			tasks: [{
+				id: "015BBF87EFC81818"
+				stage: "second_end"
+				type: "gamestage"
+			}]
+			title: "第二结局"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"     由衷地感谢您能完整地过完一条故事线"
+				""
+				"&a       这是一个在结尾没有人受伤的结局"
+				""
+				"&a      三个互不相干的部分就这样合在一起"
+				""
+				"&a         我敢打赌他们以后还有得吵的"
+				""
+				"&a真正的黑暗还未真正去除，道阻且长，未来可期！"
+			]
+			hide_text_until_complete: true
+			icon: "iceandfire:tide_trident_inventory"
+			id: "76ACB23E1898EF45"
+			rewards: [{
+				id: "3950D9EB4206BE07"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			subtitle: "结局"
+			tasks: [{
+				id: "21382639281D1F46"
+				stage: "third_end"
+				type: "gamestage"
+			}]
+			title: "第三结局"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"     由衷地感谢你能完整地过完一条故事线"
+				""
+				"&a               没有人能够阻止历史"
+				""
+				"&a                就连主角...也不行"
+				""
+				"&a          洁方将在他的十年监牢生活中"
+				""
+				"&a                完成真正的救赎"
+				""
+				"&e                迎接这个新世界"
+			]
+			hide_text_until_complete: true
+			icon: "enigmaticaddons:bless_ring"
+			id: "5839AB8A93D8BECB"
+			rewards: [{
+				id: "1BA4FF41B8A9373C"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			subtitle: "结局"
+			tasks: [{
+				id: "5F2ACF6E656034A5"
+				stage: "fourth_end"
+				type: "gamestage"
+			}]
+			title: "第四结局"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"     由衷地感谢您能完整地过完一条故事线"
+				""
+				"&a      洁方最终和斯大林娜成为最好的朋友"
+				""
+				"&a         随着他们与人民的共同计划改革"
+				" "
+				"&a          曙光正从地平线上慢慢爬起来"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:friend_pottery_sherd"
+			id: "78F64309AA667A4B"
+			rewards: [{
+				id: "38749B6C7A766748"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			subtitle: "结局"
+			tasks: [{
+				id: "5E0294716588F5C7"
+				stage: "fifth_end"
+				type: "gamestage"
+			}]
+			title: "第五结局"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"     由衷地感谢您能完整地过完一条故事线"
+				""
+				"&a         恶人也有自己的救世主...哼哼哼"
+				""
+				"&a    想被别人原谅，就一定要认清自己的行为"
+				""
+				"&a   而不是一味地推脱，强行要求别人原谅自己"
+				""
+				"&a       尽管这个世界的暮色已经开始褪去"
+				""
+				"&a       但是先导赎罪的日子....还长着呢....."
+			]
+			hide_text_until_complete: true
+			icon: "enigmaticlegacy:redemption_potion"
+			id: "19850A8DF2F7159F"
+			rewards: [{
+				id: "30311E751769E486"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			subtitle: "结局"
+			tasks: [{
+				id: "4D855A73925A2C05"
+				stage: "sixth_end"
+				type: "gamestage"
+			}]
+			title: "第六结局"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"     由衷地感谢您能完整地过完一条故事线"
+				""
+				"&a          从普通的开始到普通的回归"
+				""
+				"&a               这是他的宿命吗？"
+				""
+				"&a   或许下一次，他还能够积极对抗自己的命运"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "l2complements:totemic_gold_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "13AF0EFD95B2B552"
+			rewards: [{
+				id: "060E3876306F1132"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			subtitle: "结局"
+			tasks: [{
+				id: "5C09EAE0909DA62C"
+				stage: "seventh_end"
+				type: "gamestage"
+			}]
+			title: "第七结局"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"     由衷地感谢您能完整地过完一条故事线"
+				""
+				"&a           看看你都选了些什么东西呀"
+				""
+				"&a               不过...也不怪你....."
+				""
+				"&a        维齐尔把屏幕外的你...也迷惑到了"
+				""
+				"&a      希望下一次，能够对这个世界好点吧..."
+			]
+			hide_dependent_lines: true
+			hide_text_until_complete: true
+			icon: "nameless_trinkets:broken_ankh"
+			id: "3C4242ED998D3E58"
+			rewards: [{
+				id: "6E77B8A4324B721F"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			subtitle: "结局"
+			tasks: [{
+				id: "3042BD430DD410D6"
+				stage: "eighth_end"
+				type: "gamestage"
+			}]
+			title: "第八结局"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"     由衷地感谢您能完整地过完一条故事线"
+				""
+				"&a      我！的！天！呐，这都被你发现了！"
+				""
+				"&a      那你一定很喜欢这个整合包了，嘻嘻"
+				""
+				"&a                没事我也喜欢你！"
+				""
+				"&a      永远不涉世事，待在自己的桃花源里"
+				""
+				"&a              那也很不错了吧？"
+			]
+			hide_dependent_lines: true
+			hide_text_until_complete: true
+			icon: "l2hostility:invisible"
+			id: "382BA957AE53002E"
+			invisible: true
+			rewards: [{
+				id: "64AFBA55F64C7603"
+				ignore_reward_blocking: true
+				stage: "end"
+				type: "gamestage"
+			}]
+			subtitle: "隐藏结局"
+			tasks: [{
+				id: "0D1E3700E9517D54"
+				stage: "ninth_end"
+				type: "gamestage"
+			}]
+			title: "第九结局"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			hide_text_until_complete: true
+			icon: "iter_rpg:first_shard"
+			id: "65058ACD8DF2EFBC"
+			invisible: true
+			rewards: [
+				{
+					id: "404F5573C5ACDE3E"
+					item: "create:creative_motor"
+					type: "item"
+				}
+				{
+					id: "61B8DC1A0369F922"
+					item: "ars_nouveau:creative_source_jar"
+					type: "item"
+				}
+				{
+					id: "7A42FE2D05C68AFD"
+					item: "botania:creative_pool"
+					type: "item"
+				}
+			]
+			subtitle: "有一就有二，继续冒险吧！"
+			tasks: [{
+				id: "61DEBD8FCF067A4B"
+				stage: "the_first_playthrough"
+				type: "gamestage"
+			}]
+			title: "通关一周目！"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			id: "38B07DCC1649550E"
+			invisible: true
+			subtitle: "三生万物！我欣赏你的毅力！"
+			tasks: [{
+				id: "00EBA5F792F888F6"
+				stage: "the_third_playthrough"
+				type: "gamestage"
+			}]
+			title: "通关三周末！"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"382BA957AE53002E"
+				"3C4242ED998D3E58"
+				"13AF0EFD95B2B552"
+				"19850A8DF2F7159F"
+				"78F64309AA667A4B"
+				"5839AB8A93D8BECB"
+				"76ACB23E1898EF45"
+				"4BE5B58B7FD071A1"
+				"3468A3D7489B72E3"
+			]
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "cataclysm:final_fractal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6190787553133107"
+			invisible: true
+			rewards: [
+				{
+					id: "2849D1DDAEA4C70D"
+					item: "enigmaticlegacy:enigmatic_item"
+					type: "item"
+				}
+				{
+					id: "616C2D6142F1524D"
+					ignore_reward_blocking: true
+					stage: "all_end"
+					type: "gamestage"
+				}
+				{
+					id: "3A0FB8706D60C662"
+					ignore_reward_blocking: true
+					stage: "all_end_stage"
+					type: "gamestage"
+				}
+			]
+			subtitle: "这份坚持！简直不是人！林芝的骄傲！"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "4F3DDD5982CE81D3"
+				type: "advancement"
+			}]
+			title: "通关所有结局！"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			description: ["&c       惊人的挑战力！惊人的毅力和决心！"]
+			icon: "biomeswevegone:red_birch_sapling"
+			id: "6B2D4510E1EB0A22"
+			invisible: true
+			subtitle: "以困难模式通关一个周目！"
+			tasks: [{
+				id: "609F3FBC8D519756"
+				stage: "hard_end"
+				type: "gamestage"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			description: ["&a        普普通通的也好，起码玩得通了！"]
+			icon: "create:brass_hand"
+			id: "3A518966CDB26C1D"
+			invisible: true
+			subtitle: "以普通模式通关一个周目！"
+			tasks: [{
+				id: "34B8CE7C8CCA2285"
+				stage: "normal_end"
+				type: "gamestage"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			description: ["&a        不必再畏惧！试试更难一点的吧！"]
+			icon: "l2complements:heirophant_green"
+			id: "241D818CF3695160"
+			invisible: true
+			subtitle: "以简单模式通关一个周目！"
+			tasks: [{
+				id: "3049E9E8622406A0"
+				stage: "easy_end"
+				type: "gamestage"
+			}]
+			title: "简单通关"
+			x: -0.5d
+			y: 7.5d
+		}
+	]
+	title: "结局一览"
+}

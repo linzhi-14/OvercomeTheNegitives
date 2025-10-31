@@ -1,0 +1,704 @@
+{
+	autofocus_id: "6528D62CE5B8CDE6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "1B7A55042305CE39"
+	group: "0867D519EA45AC19"
+	hide_quest_until_deps_complete: true
+	icon: "botania:vial"
+	id: "1B7A55042305CE39"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["698914D6EDDD05E1"]
+			description: [
+				"工作台上散乱摊着木棍和圆石，洁方的手指在材料间迟疑游移，左拨弄右摆弄，愣是拼不出一点新鲜的东西"
+				""
+				"&c“还是我们一起合作吧” 妮妮蹦蹦哒哒跳了过来，靴子踩得木地板咚咚轻响"
+				""
+				"“怎么说？” 洁方挠了挠后脑，用手肘在工作台上，肩膀颓下来，让身子贴在一旁，眼神黏在那些毫无生气的零件上"
+				""
+				"&c“我们造一个武器研究所吧！你给我一些报酬，我来给你设计武器！”"
+				""
+				"护目镜片反着篝火的光，她小脸得意地仰起“怎么样呀，洁方哥哥”"
+				""
+				"“不错不错，这样我就可以有更多的时间来做其他事情了”"
+				""
+				"妮妮立刻抽出炭笔写出一张“不正式合同”，接着右下角点上自己歪扭扭的名字，把笔尖戳向洁方"
+			]
+			icon: "botania:vial"
+			icon_scale: 0.75d
+			id: "7F862C98F3DB057A"
+			rewards: [
+				{
+					description: ""
+					id: "346C40B8DB70622D"
+					title: "“那就这样决定吧！”"
+					type: "toast"
+				}
+				{
+					auto: "enabled"
+					id: "517084B278294384"
+					ignore_reward_blocking: true
+					stage: "diamond_greatsword"
+					team_reward: true
+					type: "gamestage"
+				}
+			]
+			size: 2.0d
+			subtitle: "研究所"
+			tasks: [{
+				id: "2E59B46E8731D2F4"
+				title: "研究的艺术"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F862C98F3DB057A"]
+			icon_scale: 2.0d
+			id: "6EC0FEBD78798C3B"
+			tasks: [{
+				id: "40D962124A1222E9"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7F862C98F3DB057A"]
+			icon_scale: 2.0d
+			id: "1F6366ADEDF90868"
+			rewards: [{
+				id: "34003D6D0EB7196C"
+				ignore_reward_blocking: true
+				stage: "diamond_heavy_crossbow"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "0D93D97F9110BF2C"
+				item: {
+					Count: 1
+					id: "spartanweaponry:iron_longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F862C98F3DB057A"]
+			icon_scale: 2.0d
+			id: "6528D62CE5B8CDE6"
+			rewards: [{
+				id: "341CB453153F167E"
+				ignore_reward_blocking: true
+				stage: "cursed_opal_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "25B588FF8321A34D"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6EC0FEBD78798C3B"
+				"215BEEEE2EE80F5D"
+			]
+			icon_scale: 2.0d
+			id: "37D9568DCBDD3DD4"
+			rewards: [{
+				id: "5FEE2D43912BDD16"
+				ignore_reward_blocking: true
+				stage: "flaming_fury"
+				type: "gamestage"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0809762C95546267"
+				item: {
+					Count: 1
+					id: "infinite_abyss:violet_diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6528D62CE5B8CDE6"]
+			icon_scale: 2.0d
+			id: "0FE7A720D296EE06"
+			rewards: [{
+				id: "0383B1E5590C505B"
+				ignore_reward_blocking: true
+				stage: "ironwood_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "77D6A2334152E413"
+				item: {
+					Count: 1
+					id: "infinite_abyss:cursed_opal_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FE7A720D296EE06"]
+			icon_scale: 2.0d
+			id: "1FD956D2A76A65C9"
+			rewards: [{
+				id: "48681CA10AF98D40"
+				ignore_reward_blocking: true
+				stage: "ametrine_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "0E71B67F9CBC5C13"
+				item: {
+					Count: 1
+					id: "twilightforest:ironwood_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F6366ADEDF90868"]
+			icon_scale: 2.0d
+			id: "05CECEAD7042D5BE"
+			rewards: [{
+				id: "48D02ECBA70B3ADD"
+				ignore_reward_blocking: true
+				stage: "ghast_cannon"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "7A73B4702267E6E8"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_heavy_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05CECEAD7042D5BE"]
+			icon_scale: 2.0d
+			id: "7C01A85C9A4CCD73"
+			rewards: [{
+				id: "0EE27E66FD6E2C5B"
+				ignore_reward_blocking: true
+				stage: "serenade_of_death"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "1138D01D140C700F"
+				item: {
+					Count: 1
+					id: "divinerpg:ghast_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C01A85C9A4CCD73"]
+			icon_scale: 2.0d
+			id: "35F4B46847217BA7"
+			tasks: [{
+				id: "06EC1E0BF6AF18EA"
+				item: {
+					Count: 1
+					id: "divinerpg:serenade_of_death"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FD956D2A76A65C9"]
+			icon: {
+				Count: 1
+				id: "iter_rpg:ametrine_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "66075212862A98F0"
+			tasks: [
+				{
+					id: "11E83DA16B59DA38"
+					item: {
+						Count: 1
+						id: "iter_rpg:ametrine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EE0982994325956"
+					item: {
+						Count: 1
+						id: "iter_rpg:ametrine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E1C1DC8D9E28183"
+					item: {
+						Count: 1
+						id: "iter_rpg:ametrine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69ED4FAE768C1018"
+					item: {
+						Count: 1
+						id: "iter_rpg:ametrine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EC0FEBD78798C3B"]
+			icon_scale: 2.0d
+			id: "215BEEEE2EE80F5D"
+			rewards: [
+				{
+					id: "624B7AB24AB17C5E"
+					ignore_reward_blocking: true
+					stage: "violet_diamond_sword"
+					type: "gamestage"
+				}
+				{
+					count: 3
+					id: "116DE3891248FB4E"
+					item: "mutantmonsters:mutant_zombie_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "工作台已经满足不了啦"
+			tasks: [{
+				id: "67DEF9A7ECC7F7B4"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B1814CD57EF6F0C"]
+			description: [
+				"           &b你需要做一个水元素刷怪蛋"
+				""
+				"                &b以获取相关材料"
+			]
+			icon_scale: 2.0d
+			id: "5C5CBAE18A5ED0D2"
+			rewards: [{
+				id: "62AB8B924142B118"
+				ignore_reward_blocking: true
+				stage: "ghost_sword"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "1258D4A6C050A551"
+				item: {
+					Count: 1
+					id: "l2complements:poseidite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37D9568DCBDD3DD4"]
+			icon_scale: 2.0d
+			id: "6B1814CD57EF6F0C"
+			rewards: [{
+				id: "588BF6AEDB770BCB"
+				ignore_reward_blocking: true
+				stage: "poseidite_sword"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "0423B54CDFB2107C"
+				item: {
+					Count: 1
+					id: "divinerpg:flaming_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C5CBAE18A5ED0D2"]
+			icon_scale: 2.0d
+			id: "1867B3BFEEC14B7D"
+			tasks: [{
+				id: "1057696EA741FD72"
+				item: {
+					Count: 1
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["05CECEAD7042D5BE"]
+			icon_scale: 2.0d
+			id: "0652F56F3CA6A347"
+			rewards: [
+				{
+					id: "263ACF769A336280"
+					item: {
+						Count: 1
+						id: "slashblade:proudsoul_sphere"
+						tag: {
+							SpecialAttackType: "slashblade:circle_slash"
+						}
+					}
+					type: "item"
+				}
+				{
+					description: ""
+					id: "3690C2541FECCFA5"
+					title: "将拔刀剑放在刀架上，用耀魂宝珠左键它，即可使拔刀剑获得这项技能"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				id: "1C9179ABDC852E0D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_white"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/white.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 3.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: ""
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.0d
+			y: 7.4d
+		}
+		{
+			dependencies: [
+				"7C01A85C9A4CCD73"
+				"0652F56F3CA6A347"
+			]
+			icon_scale: 2.0d
+			id: "2D7AAD9254E8267E"
+			rewards: [{
+				id: "77EFB0B7285A408B"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:wave_edge"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BCCF310135B26E0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 4.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 40
+							proudSoul: 0
+							translationKey: ""
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 4.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 40
+							proudSoul: 0
+							translationKey: ""
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: 7.4d
+		}
+		{
+			dependencies: [
+				"35F4B46847217BA7"
+				"2D7AAD9254E8267E"
+			]
+			icon_scale: 2.0d
+			id: "388C71C0716C7AB2"
+			rewards: [{
+				id: "7E757082CE306E94"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:sakura_end"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "210C92067DCF32B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/agito_false.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 4.5f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1000
+							proudSoul: 0
+							translationKey: "item.slashblade.agito"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/agito_false.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 4.5f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1000
+							proudSoul: 0
+							translationKey: "item.slashblade.agito"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 10.0d
+			y: 7.4d
+		}
+	]
+	title: "妮妮的武器研究所"
+}

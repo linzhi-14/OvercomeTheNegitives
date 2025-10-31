@@ -1,0 +1,610 @@
+{
+	autofocus_id: "1D84C5AAB32D8497"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "6C779EF836D2AF63"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "botania:cosmetic_questgiver_mark"
+	id: "6C779EF836D2AF63"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["         点击左边的按钮完成第一个任务"]
+			icon: "ftbquests:book"
+			id: "1D84C5AAB32D8497"
+			rewards: [{
+				id: "1C67C42FCB886C2D"
+				ignore_reward_blocking: true
+				stage: "s"
+				type: "gamestage"
+			}]
+			size: 2.0d
+			subtitle: "点击我"
+			tasks: [
+				{
+					id: "45E40A086E8AF846"
+					title: "点击我完成第一个任务"
+					type: "checkmark"
+				}
+				{
+					id: "592133237C74ECEB"
+					title: "建议下载我们的官方地图游玩，那是一个开局出生点，有比较好的发展起点"
+					type: "checkmark"
+				}
+			]
+			title: "任务书？怎么用？"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D84C5AAB32D8497"]
+			icon: "ftbquests:book"
+			icon_scale: 2.0d
+			id: "3B7FDA435A847005"
+			rewards: [{
+				count: 5
+				id: "1B75C65558101FA7"
+				item: "minecraft:baked_potato"
+				title: "点击我领取奖励！"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "74CB0403B1599840"
+					title: "如你所见，两个任务中有连线和箭头"
+					type: "checkmark"
+				}
+				{
+					id: "22A73BF3B6A772EC"
+					title: "你只有完成前面一个任务，才能向后推进"
+					type: "checkmark"
+				}
+				{
+					id: "13597131CB1A7CFF"
+					title: "当你点完这三个按钮，右边会有奖励出现"
+					type: "checkmark"
+				}
+			]
+			title: "第二说明"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B7FDA435A847005"]
+			icon: "yuushya:road_marking_arrow_forward"
+			id: "72F57720EB30B308"
+			tasks: [
+				{
+					id: "6948C1FD8CD203A5"
+					title: "接下来有三个分支"
+					type: "checkmark"
+				}
+				{
+					id: "7EAEB99597822507"
+					title: "如果有标记为[Optional quest]或者[可选]"
+					type: "checkmark"
+				}
+				{
+					id: "0273BAABAD8B64AB"
+					title: "则这个任务为非必须任务"
+					type: "checkmark"
+				}
+			]
+			title: "第三说明"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72F57720EB30B308"]
+			description: [
+				"                    特别鸣谢"
+				"                "
+				"                &e小助手："
+				"                     &e：燃剑"
+				"                     &e：猹猹"
+				"                     &e：Caren"
+				"                     &e：柠檬"
+				""
+				"             &a赞助或支持:"
+				"                     &a：燃剑"
+				"                     &a：casino"
+				"                     &a：If I was a pig"
+				"                     &a：柠檬"
+				"                     &a：FlaminGE"
+				"                     &a：拾叁"
+				"                     &a：晴天"
+				"                     &a：FlaminGE"
+				"                     &a：视界"
+				"                     &a：JmousE"
+				"                     &a：GVEATHOST"
+				"                     &a：落璇清"
+				"                     &a：千层膏"
+				"                     &a：njhkhydx"
+				"                     &a：以及一系列热心群友"
+				""
+				"           由衷地感谢你们的帮助和支持"
+				"          同时也感谢您能够游玩此整合包"
+			]
+			icon_scale: 2.0d
+			id: "1638BC9F9352C881"
+			optional: true
+			subtitle: "鸣谢"
+			tasks: [
+				{
+					id: "7FDFAD01A79DA049"
+					title: "我是任务2"
+					type: "checkmark"
+				}
+				{
+					id: "46DCA007D6C1FA5F"
+					title: "我是可选择任务噢，或者你也可以叫我非必须任务，嘻嘻"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72F57720EB30B308"]
+			description: [
+				"                     小提示"
+				""
+				"&4           本整合包一些键位有些改动"
+				"&4       比如说疾跑切换为alt，切换人称为F"
+				"&4         你可以自己尝试适应这套键位"
+				"&4              （或者自己改回去）"
+				""
+				"&6           一些画面设置已经被调过啦"
+				"&6          如果你不是很会调整这些设置"
+				"&6               请不要随便乱碰哦"
+				""
+				"&e           还有如果你想要全程玩光影"
+				"&e         Photo 和 interation 是最佳选择！"
+			]
+			icon_scale: 2.0d
+			id: "69D1D57F39C55E8C"
+			tasks: [{
+				id: "6D2A87F8403CAFD8"
+				title: "我是任务1"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72F57720EB30B308"]
+			description: [
+				"                     小提示"
+				""
+				"&b               如果你是离线玩家"
+				"&b        而且你想要整上自己喜欢的皮肤"
+				"&b        本整合包有Custom Skin Loader！"
+				"&b                  你只需要在"
+				""
+				"   \"整合包路径\\CustomSkinLoader\\LocalSkin\\skins\""
+				""
+				"&b               放上你的皮肤文件"
+				"&b        记住你的你的皮肤文件名字得是"
+				"&b                 你的名字.png"
+				"&b              不然皮肤无法生效"
+			]
+			icon_scale: 2.0d
+			id: "0563E3D748E8FB05"
+			tasks: [{
+				id: "6E02DD091D1F37F4"
+				title: "我是任务3"
+				type: "checkmark"
+			}]
+			x: 5.1d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69D1D57F39C55E8C"]
+			description: [
+				" &4左边箭头                              &b右边箭头"
+				" &4选择需要新手装备          &b选择不需要新手装备"
+				" "
+				" &4新手装备有:"
+				"  &4&e皮革套&r一套"
+				"   &4&e锚钉拳套&r一双"
+				" 128个&e烤马铃薯"
+				"          "
+			]
+			icon: "divinerpg:degraded_template"
+			id: "37CB92B0A757EE7B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "180E9BFF492548F4"
+					table_id: 8431790278992142073L
+					type: "choice"
+				}
+				{
+					description: ""
+					id: "5C53389A86D13566"
+					title: "如果你不小心选错了？没有关系！在工作台界面上可以相互转化这些箭头"
+					type: "toast"
+				}
+			]
+			subtitle: "线路选择"
+			tasks: [{
+				id: "7A1D504833FC06E7"
+				title: "点击我，然后在右边进行选择"
+				type: "checkmark"
+			}]
+			title: "是否需要新手装备"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37CB92B0A757EE7B"]
+			icon: "linzhi:left"
+			icon_scale: 2.0d
+			id: "6C3A4257C1C2DBDC"
+			rewards: [
+				{
+					count: 128
+					id: "19B07368B1ECDA24"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					id: "56DCAD9B945E5A8C"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 0.0d
+								AttributeName: ""
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-1361072552
+									-450803791
+									-1692875458
+									-459805729
+								]
+							}]
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 100
+							}]
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E67C0CFD5F647B4"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 100
+							}]
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E77F35BA1F1424F"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 100
+							}]
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C0DBFB8213AA2FE"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 100
+							}]
+							display: {
+								color: 16777215
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A211F553CC90657"
+					item: {
+						Count: 1
+						id: "spartanweaponry:studded_cestus"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "6ACCE380A451C70C"
+					item: "linzhi:left"
+					type: "item"
+				}
+				{
+					id: "2DE7754806F837B1"
+					title: "点击左边的箭头，点击【submit】即可提交！"
+					type: "checkmark"
+				}
+			]
+			title: "新手装备"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37CB92B0A757EE7B"]
+			icon: "linzhi:right"
+			icon_scale: 2.0d
+			id: "0A57974084261E50"
+			rewards: [
+				{
+					count: 16
+					id: "3560F05A4EAAF006"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					description: ""
+					id: "5E2E4C2C207D9D50"
+					title: "我还是送你一些烤刀哥吧"
+					type: "toast"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "124B6F7B39640471"
+					item: "linzhi:right"
+					type: "item"
+				}
+				{
+					id: "7EEE610BCE2C28A9"
+					title: "点击左边的箭头，点击【submit】即可提交！"
+					type: "checkmark"
+				}
+			]
+			title: "什么都不需要"
+			x: -0.1d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0563E3D748E8FB05"]
+			description: [
+				" &4左:简单             &8中:普通             &b右:困难"
+				"                   "
+				"=================你所遇到的生物================"
+				"     "
+				"&4血量变为一半      &8各项属性      &b血量变为两倍"
+				"&4伤害变为一半        &8基本上       &b伤害变为1.25倍"
+				"&4速度变为四分之三 &8没有变化       &b速度变为1.25倍"
+				"&4攻击速度变为一半             &b攻击速度变为1.5倍"
+				""
+				"&4适合只想         &8 适合有                &b适合有"
+				"&4走走剧情          &8一定经验     &b  强大挑战欲望"
+				"&4的新手玩家       &8基础的玩家     &b的超级老玩家"
+			]
+			icon: "minecraft:small_dripleaf"
+			icon_scale: 2.0d
+			id: "5E34F89C3B4C84A0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57AE928DD0FE7995"
+					table_id: 8431790278992142073L
+					type: "choice"
+				}
+				{
+					description: ""
+					id: "0A30E2101DB6243B"
+					title: "如果你不小心选错了？没有关系！在工作台界面上可以相互转化这些箭头"
+					type: "toast"
+				}
+			]
+			subtitle: "难度选择:注意没有奖励！只影响生物属性 建议选择普通"
+			tasks: [
+				{
+					id: "28548EA3821D04FE"
+					title: "难度选择"
+					type: "checkmark"
+				}
+				{
+					id: "3EB6925AF7B71B81"
+					title: "如果你不是很熟悉各种模组，建议在第一周目时选择简单模式"
+					type: "checkmark"
+				}
+			]
+			x: 5.1d
+			y: -1.1d
+		}
+		{
+			dependencies: ["5E34F89C3B4C84A0"]
+			icon: "linzhi:left"
+			icon_scale: 2.0d
+			id: "4F09EDE1193243E1"
+			rewards: [{
+				id: "5F3EDC4CCD2C1BD7"
+				ignore_reward_blocking: true
+				stage: "easy"
+				type: "gamestage"
+			}]
+			subtitle: "喔，有点弱"
+			tasks: [
+				{
+					consume_items: true
+					id: "3EF91AC95B041518"
+					item: "linzhi:left"
+					type: "item"
+				}
+				{
+					id: "021890A4A9C6B77E"
+					title: "点击左边的箭头，点击【submit】即可提交！"
+					type: "checkmark"
+				}
+			]
+			title: "简单难度"
+			x: 3.9d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5E34F89C3B4C84A0"]
+			icon: "linzhi:mid"
+			icon_scale: 2.0d
+			id: "20069BC9DBF41C40"
+			subtitle: "中规中矩吧..."
+			tasks: [
+				{
+					consume_items: true
+					id: "123BAAB41DEDB41D"
+					item: "linzhi:mid"
+					type: "item"
+				}
+				{
+					id: "39F06992B905E5C3"
+					title: "点击左边的箭头，点击【submit】即可提交！"
+					type: "checkmark"
+				}
+			]
+			title: "普通难度"
+			x: 5.1d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5E34F89C3B4C84A0"]
+			icon: "linzhi:right"
+			icon_scale: 2.0d
+			id: "554D1960B2C807AF"
+			rewards: [{
+				id: "593B72D476C853A9"
+				ignore_reward_blocking: true
+				stage: "hard"
+				type: "gamestage"
+			}]
+			subtitle: "(0O0)这么强？！！！！"
+			tasks: [
+				{
+					consume_items: true
+					id: "72BAF6AF6D8FE0D9"
+					item: "linzhi:right"
+					type: "item"
+				}
+				{
+					id: "35FB98802E2E964C"
+					title: "点击左边的箭头，点击【submit】即可提交！"
+					type: "checkmark"
+				}
+			]
+			x: 6.3d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6C3A4257C1C2DBDC"
+				"0A57974084261E50"
+			]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:cherry_sapling"
+			icon_scale: 2.0d
+			id: "6061B8390AFAED3A"
+			tasks: [{
+				id: "56F14AC008391347"
+				title: "点击"
+				type: "checkmark"
+			}]
+			title: "完成左支"
+			x: -1.0d
+			y: 3.05d
+		}
+		{
+			dependencies: [
+				"4F09EDE1193243E1"
+				"20069BC9DBF41C40"
+				"554D1960B2C807AF"
+			]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:cherry_sapling"
+			icon_scale: 2.0d
+			id: "16D98D20DC73A6B7"
+			tasks: [{
+				id: "6F5763082D0137BE"
+				title: "点击"
+				type: "checkmark"
+			}]
+			title: "完成右支"
+			x: 5.1d
+			y: 3.05d
+		}
+		{
+			dependencies: [
+				"6061B8390AFAED3A"
+				"16D98D20DC73A6B7"
+			]
+			description: [
+				"          点击完之后，点击左侧展开栏"
+				"       选择&e五个基础化&r章节，开始游玩体验"
+				""
+				" &4          不可以创建或者加入ftb团队"
+				""
+				"                  &e祝你游玩愉快！"
+			]
+			icon: "create:linked_controller"
+			icon_scale: 2.0d
+			id: "549E0637DFBEAE33"
+			rewards: [
+				{
+					id: "2BDBE7625C57A2F6"
+					item: "linzhi:difficulty_reset_button"
+					type: "item"
+				}
+				{
+					id: "0719FEAD8C6327C4"
+					item: "l2hostility:bottle_of_sanity"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "看我"
+			tasks: [{
+				id: "7D187A4412FB0954"
+				title: "正式开始游戏"
+				type: "checkmark"
+			}]
+			x: 2.05d
+			y: 3.05d
+		}
+	]
+	title: "前言"
+}

@@ -1,0 +1,1205 @@
+ [
+    {
+        "mob":"undergarden:rotling",
+        "mincount":{
+            "amount":5,
+            "perplayer":true,
+            "mob":"undergarden:rotling"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"undergarden:scintling",
+        "mincount":{
+            "amount":10,
+            "mob":"undergarden:scintling"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"undergarden:forgotten",
+        "mincount":{
+            "amount":5,
+            "perplayer":true,
+            "mob":"undergarden:forgotten"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:glow_squid",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"minecraft:glow_squid"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:squid",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"minecraft:squid"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:pumpkin_spider",
+        "mincount":{
+            "amount":1,
+            "mob":"divinerpg:pumpkin_spider"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:cyclops",
+        "mincount":{
+            "amount":1,
+            "mob":"divinerpg:cyclops"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:guardian",
+        "mincount":{
+            "amount":15,
+            "mob":"minecraft:guardian"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+
+    {
+        "mob":"aquamirae:golden_moth",
+        "mincount":{
+            "amount":0.5,
+            "perchunk":true,
+            "mob":"aquamirae:golden_moth"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"upgrade_aquatic:thrasher",
+        "mincount":{
+            "amount":0.5,
+            "perchunk":true,
+            "mob":"upgrade_aquatic:thrasher"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"upgrade_aquatic:great_thrasher",
+        "mincount":{
+            "amount":0.1,
+            "perchunk":true,
+            "mob":"upgrade_aquatic:great_thrasher"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"aquamirae:spinefish",
+        "mincount":{
+            "amount":5,
+            "mob":"aquamirae:spinefish"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"aquamirae:maw",
+        "mincount":{
+            "amount":3,
+            "perplayer":true,
+            "mob":"aquamirae:maw"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"aquamirae:maze_mother",
+        "mincount":{
+            "amount":3,
+            "perchunk":true,
+            "mob":"aquamirae:maze_mother"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"aquamirae:anglerfish",
+        "mincount":{
+            "amount":3,
+            "perchunk":true,
+            "mob":"aquamirae:anglerfish"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"goety:wraith",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"goety:wraith"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:strider",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"minecraft:strider"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:kobblin",
+        "mincount":{
+            "amount":3,
+            "perplayer":true,
+            "mob":"divinerpg:kobblin"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"iter_rpg:bloated",
+        "mincount":{
+            "amount":0.5,
+            "perchunk":true,
+            "mob":"iter_rpg:bloated"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:miner",
+        "mincount":{
+            "amount":0.1,
+            "perchunk":true,
+            "mob":"divinerpg:miner"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:rotatick",
+        "mincount":{
+            "amount":0.2,
+            "perchunk":true,
+            "mob":"divinerpg:rotatick"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"iter_rpg:giant_spider",
+        "mincount":{
+            "amount":0.2,
+            "perchunk":true,
+            "mob":"iter_rpg:giant_spider"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:enthralled_dramcryx",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"divinerpg:enthralled_dramcryx"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:caveclops",
+        "mincount":{
+            "amount":0.5,
+            "perchunk":true,
+            "mob":"divinerpg:caveclops"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:cave_crawler",
+        "mincount":{
+            "amount":0.1,
+            "perchunk":true,
+            "mob":"divinerpg:cave_crawler"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:rainbour",
+        "mincount":{
+            "amount":0.2,
+            "perchunk":true,
+            "mob":"divinerpg:rainbour"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"goety:reaper",
+        "mincount":{
+            "amount":0.2,
+            "perchunk":true,
+            "mob":"goety:reaper"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:the_grue",
+        "mincount":{
+            "amount":0.2,
+            "perchunk":true,
+            "mob":"divinerpg:the_grue"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"cataclysm:deepling_angler",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"cataclysm:deepling_angler"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"cataclysm:lionfish",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"cataclysm:lionfish"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"cataclysm:deepling",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"cataclysm:deepling"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:zombie",
+        "mincount":{
+            "amount":3,
+            "perplayer":true,
+            "mob":"minecraft:zombie"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:creeper",
+        "mincount":{
+            "amount":3,
+            "perplayer":true,
+            "mob":"minecraft:creeper"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:skeleton",
+        "mincount":{
+            "amount":3,
+            "perplayer":true,
+            "mob":"minecraft:skeleton"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:spider",
+        "mincount":{
+            "amount":10,
+            "mob":"minecraft:spider"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"goety:icy_spider",
+        "mincount":{
+            "amount":0.1,
+            "perchunk":true,
+            "mob":"goety:icy_spider"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:ender_spider",
+        "mincount":{
+            "amount":0.1,
+            "perchunk":true,
+            "mob":"divinerpg:ender_spider"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"iter_rpg:unbound_soul",
+        "mincount":{
+            "amount":0.1,
+            "perchunk":true,
+            "mob":"iter_rpg:unbound_soul"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"iceandfire:troll",
+        "mincount":{
+            "amount":0.1,
+            "mob":"iceandfire:troll",
+            "perchunk":true
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"aquamirae:tortured_soul",
+        "mincount":{
+            "amount":0.5,
+            "perchunk":true,
+            "mob":"aquamirae:tortured_soul"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:stray",
+        "mincount":{
+            "amount":1,
+            "perplayer":true,
+            "mob":"minecraft:stray"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:glacon",
+        "mincount":{
+            "amount":0.1,
+            "perchunk":true,
+            "mob":"divinerpg:glacon"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:frost",
+        "mincount":{
+            "amount":0.1,
+            "perchunk":true,
+            "mob":"divinerpg:frost"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"iter_rpg:scallop",
+        "mincount":{
+            "amount":0.2,
+            "perchunk":true,
+            "mob":"iter_rpg:scallop"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"goety:web_spider",
+        "mincount":{
+            "amount":3,
+            "perplayer":true,
+            "mob":"goety:web_spider"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:enderman",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"minecraft:enderman"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:ender_scrounge",
+        "mincount":{
+            "amount":0,
+            "mob":"divinerpg:ender_scrounge"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:zombified_piglin",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"minecraft:zombified_piglin"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:the_eye",
+        "mincount":{
+            "amount":0.5,
+            "perchunk":true,
+            "mob":"divinerpg:the_eye"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"undergarden:rotbeast",
+        "mincount":{
+            "amount":3,
+            "perplayer":true,
+            "mob":"undergarden:rotbeast"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"undergarden:rotwalker",
+        "mincount":{
+            "amount":5,
+            "perplayer":true,
+            "mob":"undergarden:rotwalker"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"upgrade_aquatic:nautilus",
+        "mincount":{
+            "amount":5,
+            "mob":"upgrade_aquatic:nautilus"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:crab",
+        "mincount":{
+            "amount":16,
+            "mob":"divinerpg:crab"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:king_crab",
+        "mincount":{
+            "amount":1,
+            "perchunk":true,
+            "mob":"divinerpg:king_crab"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"iter_rpg:small_scallop",
+        "mincount":{
+            "amount":0.2,
+            "perchunk":true,
+            "mob":"iter_rpg:small_scallop"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"iter_rpg:spiderling",
+        "mincount":{
+            "amount":0.2,
+            "perchunk":true,
+            "mob":"iter_rpg:spiderling"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"ars_nouveau:drygmy",
+        "mincount":{
+            "amount":10,
+            "mob":"ars_nouveau:drygmy"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"ars_nouveau:starbuncle",
+        "mincount":{
+            "amount":10,
+            "mob":"ars_nouveau:starbuncle"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"ars_nouveau:whirlisprig",
+        "mincount":{
+            "amount":10,
+            "mob":"ars_nouveau:whirlisprig"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"upgrade_aquatic:pike",
+        "mincount":{
+            "amount":3,
+            "mob":"upgrade_aquatic:pike"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:tropical_fish",
+        "mincount":{
+            "amount":3,
+            "mob":"minecraft:tropical_fish"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"upgrade_aquatic:perch",
+        "mincount":{
+            "amount":3,
+            "mob":"upgrade_aquatic:perch"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"naturalist:catfish",
+        "mincount":{
+            "amount":3,
+            "mob":"naturalist:catfish"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"naturalist:bass",
+        "mincount":{
+            "amount":3,
+            "mob":"naturalist:bass"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"undergarden:gwibling",
+        "mincount":{
+            "amount":3,
+            "mob":"undergarden:gwibling"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"undergarden:gwib",
+        "mincount":{
+            "amount":3,
+            "mob":"undergarden:gwib"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:cod",
+        "mincount":{
+            "amount":3,
+            "mob":"minecraft:cod"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:salmon",
+        "mincount":{
+            "amount":3,
+            "mob":"minecraft:salmon"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"biomeswevegone:man_o_war",
+        "mincount":{
+            "amount":5,
+            "mob":"biomeswevegone:man_o_war"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:aequorea",
+        "mincount":{
+            "amount":3,
+            "mob":"divinerpg:aequorea"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"naturalist:dragonfly",
+        "mincount":{
+            "amount":3,
+            "mob":"naturalist:dragonfly"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:wildfire",
+        "mincount":{
+            "amount":5,
+            "mob":"divinerpg:wildfire"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:bat",
+        "mincount":{
+            "amount":0.05,
+            "mob":"minecraft:bat"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"naturalist:firefly",
+        "mincount":{
+            "amount":4,
+            "mob":"naturalist:firefly"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"divinerpg:jungle_bat",
+        "mincount":{
+            "amount":4,
+            "mob":"divinerpg:jungle_bat"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"naturalist:butterfly",
+        "mincount":{
+            "amount":4,
+            "mob":"naturalist:butterfly"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+
+
+    {
+        "mob":"infinite_abyss:charya",
+        "damagemultiply": 0.5,
+        "speedmultiply": 0.5,
+        "healthset":145,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:king_of_scorchers",
+        "healthset":180,
+        "damageset":6,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"cataclysm:netherite_monstrosity",
+        "healthset":160,
+        "damageset":7,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"goety:vizier",
+        "healthset":350,
+        "damageset":6.5,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"undergarden:forgotten_guardian",
+        "healthset":220,
+        "damageset":11,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"infinite_abyss:crystal_construct",
+        "healthset":550,
+        "damageset":13,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"minecraft:wither",
+        "healthset":750,
+        "damageset":14,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"cataclysm:the_harbinger",
+        "healthset":950,
+        "damageset":16,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:the_watcher",
+        "healthset":240,
+        "damageset":10,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:sunstorm",
+        "healthset":1024,
+        "damageset":17,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:termasect",
+        "healthset":1350,
+        "damageset":20,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"aether:slider",
+        "healthset":180,
+        "damageset":32,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"minecraft:warden",
+        "healthset":3666,
+        "damageset":18,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:ancient_entity",
+        "healthset":900,
+        "damageset":18,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"goety:crone",
+        "healthset":3200,
+        "damageset":32,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"goety:wight",
+        "healthset":3000,
+        "damageset":32,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"twilightforest:minoshroom",
+        "healthset":1850,
+        "damageset":19,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"twilightforest:knight_phantom",
+        "healthset":2850,
+        "damageset":34,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"twilightforest:snow_queen",
+        "healthset":3262,
+        "damageset":36,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"twilightforest:hydra",
+        "healthset":4500,
+        "damageset":38,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"twilightforest:ur_ghast",
+        "healthset":7000,
+        "damageset":39,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:eternal_archer",
+        "healthset":3000,
+        "damageset":30,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:experienced_cori",
+        "healthset":3350,
+        "damageset":30,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:densos",
+        "healthset":3500,
+        "damageset":32,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:karot",
+        "healthset":3500,
+        "damageset":33,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"mowziesmobs:frostmaw",
+        "healthset":5050,
+        "damageset":40,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"eeeabsmobs:nameless_guardian",
+        "healthset":1048,
+        "damageset":60,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:reyvor",
+        "healthset":6050,
+        "damageset":40,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:soul_fiend",
+        "healthset":5090,
+        "damageset":45,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:twilight_demon",
+        "healthset":6000,
+        "damageset":48,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:vamacheron",
+        "healthset":6700,
+        "damageset":49,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"infinite_abyss:frozen_wither",
+        "healthset":2000,
+        "damageset":55,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"divinerpg:parasecta",
+        "healthset":3000,
+        "damageset":32,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"cataclysm:ancient_remnant",
+        "healthset":7050,
+        "damageset":65,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"cataclysm:ignis",
+        "healthset":9000,
+        "damageset":65,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"cataclysm:scylla",
+        "healthset":12000,
+        "damageset":70,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"aquamirae:captain_cornelia",
+        "healthset":8050,
+        "damageset":67,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"cataclysm:the_leviathan",
+        "healthset":15000,
+        "damageset":75,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"cataclysm:ender_guardian",
+        "healthset":8800,
+        "damageset":45,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"cataclysm:maledictus",
+        "healthset":30303,
+        "damageset":99,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"minecraft:ender_dragon",
+        "healthset":3000,
+        "damageset":20,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"undergarden:minion",
+        "healthset":25000,
+        "damageset":25,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"mutantmonsters:mutant_snow_golem",
+        "healthset":4000,
+        "damageset":45,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"goety:redstone_monstrosity",
+        "healthset":40000,
+        "damageset":255,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"goety:grave_golem",
+        "healthset":10000,
+        "damageset":100,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"goety:squall_golem",
+        "healthset":8000,
+        "damageset":75,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mob":"goety:ice_golem",
+        "healthset":4500,
+        "damageset":50,
+        "when": "onjoin",
+        "result": "default"
+    },
+
+    {
+        "gamestage": "hard",
+        "healthmultiply":2.0,
+        "damagemultiply": 1.25,
+        "speedmultiply": 1.25,
+        "attackspeedmultiply": 1.5,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "gamestage": "easy",
+        "healthmultiply": 0.5,
+        "damagemultiply": 0.5,
+        "speedmultiply": 0.75,
+        "attackspeedmultiply": 0.5,
+        "when": "onjoin",
+        "result": "default"
+    },
+
+    {
+        "minheight": 350,
+        "hostile": true,
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:phantom",
+        "mincount":{
+            "amount":5,
+            "perplayer":true,
+            "mob":"minecraft:phantom"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"iceandfire:pixie",
+        "mincount":{
+            "amount":0.1,
+            "perchunk":true,
+            "mob":"iceandfire:pixie"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:strider",
+        "mincount":{
+            "amount":10,
+            "mob":"minecraft:strider"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:blaze",
+        "mincount":{
+            "amount":8,
+            "perchunk":true,
+            "mob":"minecraft:blaze"
+        },
+        "when": "onjoin",
+        "result": "deny"
+    },
+
+
+    {
+        "mod": "minecraft",
+        "mincount": {
+            "amount": 8,
+            "mod": "minecraft",
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "divinerpg",
+        "mincount": {
+            "amount": 5,
+            "mod": "divinerpg",
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "iceandfire",
+        "mincount": {
+            "amount": 1,
+            "mod": "iceandfire",
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "deeperdarker",
+        "mincount": {
+            "amount": 1,
+            "mod": "deeperdarker",
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "goety",
+        "mincount": {
+            "amount": 1,
+            "mod": "goety",
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "aquamirae",
+        "mincount": {
+            "amount": 5,
+            "mod": "aquamirae",
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "ars_nouveau",
+        "mincount": {
+            "amount": 1,
+            "mod": "ars_nouveau",
+            "perchunk": true
+        },
+        "result": "deny"
+    }
+    ,
+    {
+        "mod": "naturalist",
+        "mincount": {
+            "amount": 0.4,
+            "mod": "naturalist",
+            "perchunk": true
+        },
+        "result": "deny"
+    }
+]

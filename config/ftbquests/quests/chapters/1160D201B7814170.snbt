@@ -1,0 +1,720 @@
+{
+	autofocus_id: "7BF7C9D3A09C700C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1160D201B7814170"
+	group: "10EF6FBC097C1A95"
+	hide_quest_until_deps_complete: true
+	icon: "botania:blacker_lotus"
+	id: "1160D201B7814170"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7BF7C9D3A09C700C"]
+			description: [
+				"红沙被热风卷成旋，打着转扑在洁方面上，沙粒钻进衣领，磨得锁骨发疼，他的披风早被汗浸成深褐，贴在背上像块湿泥"
+				""
+				"每走一步都能听见布料扯动的涩响，水壶晃了晃，只剩个底儿，晃不出半点水声"
+				""
+				"地堡的黑石顶在红沙里露着尖，像颗没炸的炸弹，炼狱游者从堡门阴影里走出来，火棒围着身体转着圈"
+				""
+				"火苗舔着他的指尖，却没烧着衣料，红沙在他脚边分开，像怕被烫着似的"
+				""
+				"&5“比我想的还早半个时辰”&r 他的声音裹着沙粒，粗得像磨过的铁，目光扫过洁方攥剑柄的手，指节发白，伊甸盾的冰纹在热风里泛着淡光，水珠如血融出"
+				""
+				"洁方没应声，喉结滚了滚，舌尖尝到点铁锈味，是渴的，他盯着地堡门，黑洞洞的，像张要吞人的嘴，村长的咳嗽声说不定就藏在里面"
+				""
+				"&5“怎么，不敢说话” &r炼狱游者突然把火棍往沙里一戳，“轰” 的声，火星子溅起半尺高"
+				""
+				"红沙下突然传来窸窣响，先是几点火苗钻出来，接着是成片的橙红，烈焰人从沙里冒出来了，一个个裹着火焰，手里的火矛闪着光"
+				""
+				"它们慢慢围上来，步子踩在沙上没声，只有火苗噼啪响，包围圈越缩越小，热风里的硫磺味浓得呛人，能把人的肺烧疼，最前面的烈焰人离洁方不过三步，火矛尖的热浪已经燎到他的眉角"
+				""
+				"洁方猛地抬手，伊甸盾横在身前，光纹突然亮了亮，另一只手按在剑柄上，指尖蹭过冰凉的金属，汗水顺着下颌线往下滴，砸在盾面上，瞬间被蒸成白汽"
+				""
+				"炼狱游者靠在黑石上，火棒支着下巴，看着包围圈里的洁方，像在看笼里的困兽，嘴角勾出点笑，火苗在他眼里跳，映得瞳孔发红"
+				""
+				"&5“剑拔出来吧”&r 他慢悠悠地说，火棍往洁方的方向偏了偏"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:red_sand"
+			icon_scale: 2.0d
+			id: "1E6E90D3B20D5363"
+			rewards: [
+				{
+					description: ""
+					id: "4EB02883D46B4E24"
+					title: "“省得等会儿，没机会了”"
+					type: "toast"
+				}
+				{
+					id: "23E6C9E76E116C73"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: ["{\"translate\": \"incendium.book.alter.page1\", \"fallback\": \"\\u00a7kOn this\\u00a7r alt\\u00a7ker a\\u00a7r nether sta\\u00a7kr does\\u00a7r be\\u00a7klong:\\u00a7r\\n\\nTo summon the INFERNO, \\u00a7ka god of\\u00a7r fir\\u00a7ke.\\u00a7r\\n\\nA warrior \\u00a7kmust\\u00a7r be worthy \\u00a7kand\\u00a7r str\\u00a7kong,\\u00a7r\\n\\nTo \\u00a7ksurvive t\\u00a7rhis blaze\\u00a7k's\\u00a7r ter\\u00a7krible\\u00a7r ire.\"}"]
+							resolved: 1b
+							title: ""
+						}
+					}
+					type: "item"
+				}
+				{
+					description: ""
+					id: "6C8F84A9291C32B3"
+					title: "如果到达现场已经发现中央没有讲台和书了，那你可以自己将左边的这本书放在一个讲台上，再扔一个下界之星来召唤boss"
+					type: "toast"
+				}
+				{
+					count: 5
+					id: "1A2880608C6B7DFA"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "18A6E12783275F97"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "沙围的矛"
+			tasks: [
+				{
+					advancement: "incendium:infernal_dunes/root"
+					criterion: ""
+					id: "376C2A3E4C6AADBC"
+					type: "advancement"
+				}
+				{
+					id: "71B5B3B0C4558B8A"
+					title: "进度属【Incendium】"
+					type: "checkmark"
+				}
+				{
+					id: "44CE754C7FF784EA"
+					title: "就在刚刚提到的坐标位置"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"48C5F9BCB06BB53F"
+				"7D3648B6F21D33B9"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"夕阳的余晖淌过杏仁村的木栅栏，却照不亮满地狼藉，妮妮的捕鼠夹还张着铁爪，夹着片撕碎的衣角"
+				""
+				"红石线路的火花在断木间跳，像没灭的余烬，铁傀儡的铁臂断在晒谷场，石眼的红光早灭了，碎石混着麦壳堆成小丘"
+				""
+				"&c“洁方哥...”&r 妮妮的哭声从槐树后钻出来，她的羊角辫散了，脸上还沾着泥，手里攥着块破布，看见两人时，眼泪突然决堤"
+				""
+				"&c“村长爷爷... 被一个冒火的东西抓走了...”&r 她指着村口的焦痕，那里的土是黑的，像被烙铁烫过 &c“它是个会烧的棍，铁傀儡拦它，被烧成灰了...”&r"
+				""
+				"洁方蹲下身，指尖碰了碰焦土，烫意还没散尽，混着硫磺味，是烈焰人的气息"
+				""
+				"妮妮从怀里掏出封信，纸角被烧了个豁口，字迹歪歪扭扭，墨痕被眼泪泡得发晕，他展开信纸时，指腹蹭过烧焦的边缘，像触到团火"
+				""
+				"“我去吧...” 洁方把信折好塞进口袋，胸前的符石泛着冷光，伊甸盾被他重新背在肩上"
+				""
+				"基米剑鞘的冰纹在暮色里闪 “你就留在这好了，加固陷阱，别让任何人进来”"
+				""
+				"基米拽住他的胳膊，手腕的勒痕还红着 &e“我跟你去！”&r 他的声音哑得像磨过砂纸，目光扫过满地残骸，拳头攥得发白 “烈焰人怕水，我能帮你”"
+				""
+				"“村子需要人守...” 洁方拨开他的手，指尖触到他腕间的伤 “妮妮一个人不行，铁傀儡得修好，红石线路也得接，等我回来吧”"
+				""
+				"基米顿了顿，从腰间解下瓶抗火药水，塞在洁方手心&e “防身用”&r"
+				""
+				"妮妮抱着洁方的衣角，眼泪滴在他手背上 &c“你会回来的吧”&r 洁方摸了摸她的头，像小时候那样，&c“嗯，会很快的”&r 他转身往村口走"
+				""
+				"披风扫过焦土，带起的灰粘在靴底，夕阳把他的影子拉得很长，一直铺到远处的山口"
+				""
+				"基米望着他的背影，握紧了手里的拔刀，凉意渗进掌心，他低头对妮妮说，声音里带着股没散的颤，却比刚才稳了些"
+			]
+			hide_text_until_complete: true
+			icon: "yuushya:exit_sign"
+			id: "7BF7C9D3A09C700C"
+			rewards: [
+				{
+					command: "execute in minecraft:the_nether run locate structure incendium:infernal_altar"
+					elevate_perms: true
+					id: "2F6FEBDA24197BC8"
+					title: "位置坐标，记得在下界里才按下这个奖励"
+					type: "command"
+				}
+				{
+					id: "2EEA237BABBB36C3"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Linzhi"
+							pages: [
+								"{\"text\":\"亲启\\n洁方，基米：\\n  见字如见人 —— 哦不对，该见的是你们村长那把老骨头。他现在蜷在我这沙丘的笼子里，听见没？笼子缝里漏着他的咳嗽声，跟破风箱似的。\\n       \\n别装傻，帝国的通缉令早贴满了四芬河沿岸，画着你们俩的脸，一个披金黄盾子，一个扛豁口太刀。\"}"
+								"{\"text\":\"魏绛和说了，抓着你们，赏十车精铁，够你们那破村子盖十座铁傀儡了。\\n\\n  但现在，筹码在我手里！\\n\\n想让老东西喘口气，就自己滚到炼狱沙丘来。记住，就你们俩，多带一个人，我就让烈焰人把他烤成焦炭。那地方好找，往南走三天，看见漫天黄沙裹着火星子，就是了。\"}"
+								"{\"text\":\"别耍花样，我的眼睛比你们村口的红石瞭望塔尖还尖。\\n\\n就给你们三天时间。\\n\\n来，或者，收尸！\"}"
+							]
+							resolved: 1b
+							title: "炼狱游者的书信"
+						}
+					}
+					type: "item"
+				}
+				{
+					description: ""
+					id: "436E1FCA95A368F7"
+					title: "“我们修铁傀儡去”"
+					type: "toast"
+				}
+			]
+			size: 2.0d
+			subtitle: "残阳"
+			tasks: [{
+				id: "65B3DA828E9D6914"
+				title: "第四章，启动！"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E6E90D3B20D5363"]
+			description: [
+				"红沙被热风掀得漫天转，像无数燃烧的碎屑，洁方的靴底陷进沙里半寸，帽檐的冰晶早被晒得发蔫"
+				""
+				"突然听见身后 “轰” 的一声，热浪裹着硫磺味扑来，他猛地转身，伊甸盾横在身前，正撞上团篮球大的火球"
+				""
+				"“铛” 的脆响里，火球炸开成火星，溅在盾面上，滋滋冒白烟，老烈焰人从沙里钻出来，比普通烈焰人高半个头"
+				""
+				"火焰是深橙的，像烧透的铁块，手里的火矛拖着长尾，矛尖的光刺得人睁不开眼"
+				""
+				"&5“来得正好！”&r 它的声音像烧红的铁互相摩擦，火矛横扫过来，带着股能燎掉眉毛的热，洁方旋身避开"
+				""
+				"剑刃在沙上划出弧，冷纹与火焰撞在一起，迸出的火花落进红沙，烫出个个小黑坑​"
+				""
+				"老烈焰人突然沉肩，火矛直刺洁方心口，矛尖的热浪烤得他胸前发疼，洁方矮身侧滑"
+				""
+				"盾沿磕在火矛杆上，借力旋身劈剑，剑刃斩在老烈焰人的火焰臂上，“滋啦” 一声，那处的火焰瞬间暗了暗，却更快地燃起"
+				""
+				"&5“痛快！”&r 老烈焰人吼着扑上来，火球连珠似的砸，洁方举盾格挡，他瞅准空档，剑刃斜挑"
+				""
+				"刺穿老烈焰人胸前的火焰核心，那里的火光猛地一缩"
+				""
+				"红沙突然静了，老烈焰人的火焰开始变浅，从深橙褪成淡红，像快熄灭的炭，它晃了晃"
+				""
+				"火矛 “哐当” 插进沙里，看着洁方握剑的手，指节还在发颤，汗水顺着盾沿往下滴，砸在沙上洇出湿斑"
+				""
+				"&5“打得好...”&r 它的声音轻了些，像风刮过烧红的铁，火焰形态渐渐透明，能看见背后的红沙"
+				""
+				"&5“如果重来一世...”&r 它顿了顿，熊熊烈火的金棒颤了颤，像是在攥拳 &5“你会选什么？”&r"
+				""
+				"洁方的喉结滚了滚，没说话，剑刃垂在沙里，冰纹映着老烈焰人渐消的火"
+				""
+				"老烈焰人突然笑了，火焰抖出细碎的火星，像撒了把星子 &5“我啊...”&r 它的声音越来越轻，几乎要被热风卷走，火焰彻底变成淡白"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:redstone_lamp"
+			icon_scale: 2.0d
+			id: "423F8E2234EB1E20"
+			optional: true
+			rewards: [
+				{
+					id: "453B6ABE5A6FE64A"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "41ACBD1661DF9DBD"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "焰消的最后发问"
+			tasks: [
+				{
+					advancement: "incendium:infernal_dunes/border_of_life"
+					criterion: ""
+					id: "6534A09500DF1528"
+					type: "advancement"
+				}
+				{
+					id: "6BB55CB4944BACD4"
+					title: "进度属【Incendium】"
+					type: "checkmark"
+				}
+				{
+					id: "64580744A592B78D"
+					title: "在光与暗的交界处杀死一个沙漠烈焰人"
+					type: "checkmark"
+				}
+				{
+					id: "63D48BCCD4AC9087"
+					title: "可选"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E6E90D3B20D5363"]
+			description: [
+				"烈焰弹拖着橙红尾迹在眼前炸开，洁方矮身滑过地堡的石缝，肩甲蹭过粗糙的墙，带起串火星"
+				""
+				"剑刃劈碎迎面而来的火球，热浪燎得他鬓角发焦，终于瞅准空档，剑刃重重砍在炼狱游者肩头，对方闷哼一声倒在沙地上"
+				""
+				"可没等他喘口气，炼狱游者突然腾空而起，红沙在他脚下旋转成涡，大笑着 &5“有意思！！！”&r "
+				""
+				"话音未落，领域的暗紫色光膜猛地张开，无数激光束从膜上射出，像织成的铁网，潜影弹 “嗖嗖” 从暗处飞来，炸开成墨色烟雾，呛得人睁不开眼"
+				""
+				"洁方咬紧牙关冲上前，剑刃直冲劈向炼狱游者心口，却像砍在黑石上，“铛” 的一声震得发麻，刃口连道白痕都没留下"
+				""
+				"他猛地后退，才避开横扫的激光，只能转身在地堡的通道里狂奔，心中暗想着： “这是...什么...力量！！” "
+				""
+				"石墙被激光灼出焦黑的痕，潜影弹在身后炸开，气浪掀得他踉跄，他钻进狭窄的岔路，后背贴着发烫的石壁"
+				""
+				"听着身后炼狱游者的笑声，像磨牙的沙砾，每一步都踩在自己的心跳上，只想活下去，哪怕像困兽般逃窜"
+				""
+				"&4“结束了！！小年轻！！！这是我最后的法术！！！”&r 炼狱游者的声音裹着能量波动传来，终极法术的光芒在地堡顶端汇聚，像团即将炸裂的星，随即倾泻而下，无数光弹织成密不透风的网"
+				""
+				"洁方还未来得及举盾，就被其中一发击中胸口，伊甸盾的黄纹瞬间崩碎，他眼前一黑，重重摔在沙上，意识沉入黑暗"
+				""
+				"再次有知觉时，他还活着，胸口的灼痛钻心，却没危及性命，炼狱游者站在旁边，红沙在他脚边打旋"
+				""
+				"&4“还从来没人能扛过这招”&r 它的声音里带着点新奇 &4“这场架可太有意思了”&r 说着从怀里掏出枚黑戒，戒面嵌着七道暗红咒纹 &4“既然让我爽到了，那就不杀你们了，给你留点小纪念吧！”&r"
+				""
+				"七咒之戒被强行套在洁方手上，冰凉的金属贴着皮肤，咒纹突然发烫，像有针在扎，他想挣扎，却浑身无力，只能看着炼狱游者拎起昏迷的老高，又拽着他的衣领，猛地扔出地堡"
+				""
+				"红沙的风灌进喉咙时，他听见炼狱游者最后一句话，轻得像叹息"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:jigsaw"
+				tag: {
+					Enchantments: [ ]
+				}
+			}
+			icon_scale: 2.0d
+			id: "2405F4481C1FD8E7"
+			rewards: [
+				{
+					description: ""
+					id: "0E569A8689CD9383"
+					title: "“下次如果还见面，可别这么弱了”"
+					type: "toast"
+				}
+				{
+					id: "2640DED9F0B93026"
+					item: "enigmaticlegacy:cursed_ring"
+					type: "item"
+				}
+				{
+					id: "21327490BD5DC59A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					description: "请将炸在地上的讲台和书本放回原位，以供下一位玩家方便使用"
+					id: "69D7F4071820F2BA"
+					title: "请将炸在地上的讲台和书本放回原位，以供下一位玩家方便使用"
+					type: "toast"
+				}
+				{
+					count: 9
+					id: "7509ACEBB9D30D2B"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "无尽诅咒"
+			tasks: [
+				{
+					advancement: "incendium:infernal_dunes/inferno/kill"
+					criterion: ""
+					id: "2E45ADEF134ACFF5"
+					type: "advancement"
+				}
+				{
+					id: "4E2A6697B1BA37DC"
+					title: "将下界之星扔到讲台上即可召唤炼狱游者"
+					type: "checkmark"
+				}
+				{
+					id: "7FB47410AA80FF37"
+					title: "依然是刚刚坐标位置的附近！"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2405F4481C1FD8E7"]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:white_banner"
+				tag: {
+					Enchantments: [ ]
+				}
+			}
+			icon_scale: 2.0d
+			id: "7E2F26BE0DFDA6C6"
+			optional: true
+			rewards: [
+				{
+					id: "659DC534746C0129"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "636856F304693653"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "这么强？！"
+			tasks: [
+				{
+					advancement: "incendium:infernal_dunes/inferno/lunatic_mode"
+					criterion: ""
+					id: "64F48BBD221EC18E"
+					type: "advancement"
+				}
+				{
+					id: "730D7F908DDDE6CC"
+					title: "进度属【Incendium】"
+					type: "checkmark"
+				}
+				{
+					id: "5E20901200D82A48"
+					title: "可选"
+					type: "checkmark"
+				}
+				{
+					id: "72F681112B24CF2E"
+					title: "不穿任何护甲在炼狱游者的二阶段中存活下来"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2405F4481C1FD8E7"]
+			description: [
+				"基米在沙丘边缘转了整整两天，靴底磨出的血泡沾着沙粒，每走一步都钻心地疼，直到看见远处红沙里躺着个熟悉的身影"
+				""
+				"他疯了似的冲过去，膝盖重重磕在沙上，洁方的披风被烧得只剩半截，胸口的焦痕还在冒烟"
+				""
+				"&e“洁方！” &r基米的声音抖得像风中的草，老高正用破布蘸着仅剩的水擦洁方的脸，见他来"
+				""
+				"叹了口气说醒过两次，都疼得晕过去了，基米伸手去探他的鼻息，微弱得像风中残烛，目光突然落在洁方的右手上，一枚黑戒正死死套在指根，戒面的七道咒纹泛着暗红，像嵌着凝固的血"
+				""
+				"洁方猛地睁开眼，喉间溢出痛哼，那戒指像长了牙的虫，正往骨血里钻，每一次心跳都被吸走半分力气，他想扯掉，手指刚碰到戒面就被烫得缩回，咒纹突然亮起，疼得他额头青筋暴起，“取... 取不下...”"
+				""
+				"老高按住他的肩，掌心的老茧蹭着他发烫的皮肤 &6“别硬来...”&r 他看着那戒指，眉头拧成疙瘩"
+				""
+				"&e“这是咒器，靠吸食生命力活着”&r 基米攥紧了拳，太刀的刀柄硌得掌心生疼 &e“我去找人解！之前听说过，东南边的迷雾森林有位高人”&r"
+				""
+				"&6“我跟你去”&r 老高站起身，拍了拍身上的沙 &6“你认得路，我懂点草药，路上能照顾你”&r 他转头看向洁方，声音放得柔"
+				""
+				"&6“你在这儿等着，我们找着人就回来，别乱动，也别跟戒指较劲”&r"
+				""
+				"洁方的意识在疼意里浮沉，只能眨了眨眼算作应答，基米最后看了眼他手上的戒指，咒纹还在暗亮，像在嘲笑，他咬着牙转身，老高跟在他身后，两人的脚印在红沙里拖得老长，被热风慢慢抚平"
+				""
+				"基米的声音裹着沙粒，飘向躺在沙里的洁方，轻得像片羽毛，却带着股没断的劲"
+			]
+			hide_text_until_complete: true
+			icon: "enigmaticlegacy:cursed_ring"
+			icon_scale: 2.0d
+			id: "7F6B480AD2639184"
+			rewards: [
+				{
+					description: ""
+					id: "67B41A745D7516BD"
+					title: "“等着我们...”"
+					type: "toast"
+				}
+				{
+					id: "0867784CB286E3E5"
+					item: "nameless_trinkets:rage_mind"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "60AA414DCA4870C9"
+					ignore_reward_blocking: true
+					stage: "tm_drak_ahead"
+					type: "gamestage"
+				}
+			]
+			subtitle: "戒痕与行"
+			tasks: [
+				{
+					advancement: "enigmaticlegacy:main/cursed_ring"
+					criterion: ""
+					id: "74343924E7861324"
+					type: "advancement"
+				}
+				{
+					id: "59E622B1AE245936"
+					title: "戴上【七咒之戒】"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7F6B480AD2639184"
+				"43A36927C823DE10"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"杏仁村的老槐树下，夕阳把木栅栏的影子拉得老长，基米扶着位拄木杖的老人，老高背着个鼓鼓的书箱跟在后面，书脊露出来几本，封皮都磨白了"
+				""
+				"妮妮蹲在门槛上，看见他们就喊 &c“洁方哥！人找着了”&r"
+				""
+				"老人放下书箱时发出 “咚” 的闷响，他摘下草帽，露出满头银发，额角的皱纹里还沾着路尘"
+				""
+				"&a“我的名字是欧阳・柏舟，从南边来”&r，他的手指搭在洁方的手腕上，指腹的茧子蹭过发烫的皮肤，目光落在那枚黑戒上，咒纹正暗亮，像喘着气的活物"
+				""
+				"&a“七咒之戒，古籍里有记过两种解途”&r 老人从书箱抽出本泛黄的册子，指尖点着墨迹模糊的页"
+				""
+				"&a“一是留着它，咒力会慢慢融进骨血，疼是疼，但之后，你挥剑能劈开沙丘，握拳能捏碎红石，代价是日夜被它啃噬，像揣着团不灭的火”&r"
+				""
+				"基米突然开口，声音里带着急 &e“别听这个，疼成这样哪撑得这么久”&r 老高也点头 &6“要不我们找找别的方法吧”&r "
+				""
+				"老人抬眼瞅他们，继续说 “二是做出神圣之石，它会带着七咒戒指消亡，咒纹会褪，疼也没了，但你这辈子，力气就跟普通士兵没两样，再难有精进”"
+				""
+				"洁方的喉结滚了滚，戒指突然灼痛，他攥紧了拳，指甲嵌进掌心，疼让他想起在炼狱沙丘挥剑的劲，想起劈开烈焰人时的畅快感，可又看见基米眼下的青黑，老高肩上的伤"
+				""
+				"&e“选第二种吧！”&r 基米蹲下来，视线跟他齐平，乱发下的眼睛亮得像星 &e“我们不要什么劈开沙丘的力，守着村子，修修房子，种种麦，就挺好的了” &r"
+				""
+				"老高往火里添了根柴，火星跳起来 &6“活着比啥都强，有我们在，不用你拼”&r"
+				""
+				"柏舟合上册子，草帽扇了扇风 &a“路在你脚前，选哪条，得问你自己的心”&r 洁方望着远处的山脉，夕阳正往山坳里沉，像他握剑时见过的无数个黄昏"
+				""
+				"戒指的疼突然轻了些，却更清楚地钻进心里，是以那股能掀翻世界的力改变这一切，还是放弃，过普普通通的生活"
+				""
+				"老人的目光在他脸上顿了顿，把册子塞进他手里 &a“想好了，就告诉我，泉水我也知道在哪，戒指的性子，我也摸得差不多了”&r"
+				""
+				"基米往火里又添了根柴，火星溅在洁方的靴边，像在催他说话"
+			]
+			hide_text_until_complete: true
+			icon: "enigmaticlegacy:the_acknowledgment"
+			icon_scale: 2.0d
+			id: "19500FEB3EB7E9AC"
+			rewards: [
+				{
+					description: ""
+					id: "2E5C6F070D44CBEE"
+					title: "“我的...内心....是...”"
+					type: "toast"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "140FECA38674D02E"
+					table_id: 8431790278992142073L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "4D19DB8EC7978C33"
+					item: "enigmaticaddons:ichor_droplet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "743F7EB5ED9EDF16"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "戒途两岔"
+			tasks: [
+				{
+					id: "2ABF70FCB26ADB94"
+					item: "enigmaticlegacy:the_acknowledgment"
+					type: "item"
+				}
+				{
+					id: "6D54316CB0B90A21"
+					stage: "stay_at_home"
+					title: "待在家"
+					type: "gamestage"
+				}
+				{
+					id: "515402AADE1B3A9F"
+					item: "ars_nouveau:glyph_summon_undead"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F6B480AD2639184"]
+			description: [
+				"杏仁村的木栅栏还歪着，修复到一半的铁傀儡支着断臂，在夕阳里像尊沉默的石像，妮妮蹲在晒谷场补网"
+				""
+				"看见残墙后走出个紫袍人影，手里的骨杖点过焦土，惊飞了檐下的麻雀"
+				""
+				"洁方靠在老槐树的断枝上，七咒之戒的灼痛顺着指骨往心口钻，每一次呼吸都带着木头烧焦的味，是修复木屋时溅上的火星燎的"
+				""
+				"他抬头时，看见维齐尔的银面具在暮色里泛冷光，紫袍扫过地上的红石线路，火花跳了跳"
+				""
+				"&d“没想到会在这种地方见”&r 维齐尔的骨杖往树根一戳，洁方手背的咒纹突然亮了亮，疼得他蜷了蜷手指 &d“你上次放我走时，我就说过，我们会再遇的”&r"
+				""
+				"他从袖里掏出个图纸，图纸上画着个黑石头，&d“我可听说过这个，只需要做出这石头，你的戒指，就有救”&r"
+				""
+				"妮妮抱着补网的线轴躲在草垛后，眼睛睁得溜圆，洁方的喉结滚了滚，视线扫过村里的破屋，基米临走时修到一半的门，老高堆在墙角的草药，这些零碎像针，扎在他疼得发木的脑子里"
+				""
+				"&d“这世界早该翻个面了！”&r 维齐尔的声音压得低，像怕惊着谁"
+				""
+				"&d“帝国的粮窖空着，百姓在啃树皮，同盟的防线塌了，钟国英的血白流，你守着这破村子，等基米回来又能怎样？一起看着它被风沙吞掉？”&r"
+				""
+				"戒指的疼突然变剧，洁方咬着牙没哼出声，指节抠进槐树皮，木刺扎进掌心也没知觉，他想起基米临走时的背影"
+				""
+				"“&e等着&r&6我们&r”的声音里的劲像没断的弦，可维齐尔手里的图纸，晃得他眼晕"
+				""
+				"&5“跟我走吧！”&r，维齐尔把图纸往他面前递了递，紫袍被晚风掀起，露出里面绣的星图"
+				""
+				"&d“我们去掀了那些发霉的规矩，让该吃饭的吃饭，该握剑的握剑，总比在这儿等着疼死强”"
+				"&r"
+				"妮妮的线轴掉在地上，轱辘辘滚到洁方脚边，他看着那图纸，又瞅了瞅村口的路 “基米他们该快回到了吧...”"
+				""
+				"&d“选吧” &r维齐尔的骨杖轻轻敲着法杖，蓝球中央晃出细碎的光"
+				""
+				"“&c留在这&r，&b还是走&r？”"
+			]
+			hide_text_until_complete: true
+			icon: "ars_nouveau:archmage_spell_book"
+			icon_scale: 2.0d
+			id: "34C90EDE3AA7A7B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AC5E203B3BCC17C"
+					table_id: 8431790278992142073L
+					type: "choice"
+				}
+				{
+					id: "7FDA65893CF18BD5"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "忍痛抉择"
+			tasks: [
+				{
+					id: "6169381892FBAAF3"
+					item: "ars_nouveau:archmage_spell_book"
+					type: "item"
+				}
+				{
+					id: "0A7E3FA0B65C8B45"
+					stage: "event_don_kill_v"
+					title: "没杀维齐尔"
+					type: "gamestage"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19500FEB3EB7E9AC"]
+			icon_scale: 2.0d
+			id: "40CC07CE96BFE2E8"
+			subtitle: "我选第一种"
+			tasks: [{
+				consume_items: true
+				id: "3AD68712EEC957C9"
+				item: "linzhi:left"
+				type: "item"
+			}]
+			title: "第一方案"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19500FEB3EB7E9AC"]
+			icon_scale: 2.0d
+			id: "62E742D6A64889A2"
+			subtitle: "我选第二种"
+			tasks: [{
+				consume_items: true
+				id: "1928FA5969263D34"
+				item: "linzhi:right"
+				type: "item"
+			}]
+			title: "第二方案"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["34C90EDE3AA7A7B5"]
+			icon_scale: 2.0d
+			id: "242B93B087BF7629"
+			subtitle: "“对！就该这样！”"
+			tasks: [{
+				consume_items: true
+				id: "50111E9052C52C59"
+				item: "linzhi:right"
+				type: "item"
+			}]
+			title: "离走"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34C90EDE3AA7A7B5"]
+			icon_scale: 2.0d
+			id: "43A36927C823DE10"
+			rewards: [
+				{
+					id: "00E026FB23073132"
+					ignore_reward_blocking: true
+					stage: "stay_at_home"
+					type: "gamestage"
+				}
+				{
+					description: ""
+					id: "4FDB51C150FD0628"
+					title: "维齐尔叹叹气，留下些补品，离开了"
+					type: "toast"
+				}
+				{
+					count: 10
+					id: "296A7FEB205B67CE"
+					item: "l2complements:enchanted_totemic_apple"
+					type: "item"
+				}
+			]
+			subtitle: "“我相信他们”"
+			tasks: [{
+				consume_items: true
+				id: "31D78E27A65740E8"
+				item: "linzhi:left"
+				type: "item"
+			}]
+			title: "留在原地"
+			x: 3.0d
+			y: 5.0d
+		}
+	]
+	title: "前途黑暗"
+}

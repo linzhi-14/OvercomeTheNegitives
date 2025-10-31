@@ -1,0 +1,13 @@
+{
+  "isWhitelist": true,
+  "list": [
+    "$eminecraftservices.com",
+    "$emojang.com",
+    "$eminecraft.net",
+    "$elittleskin.cn",
+    "$emcmod.cn",
+    "$emodrinth.com",
+    "$eapi.stopmodreposts.org"
+  ],
+  "allowServerConnects": true
+}

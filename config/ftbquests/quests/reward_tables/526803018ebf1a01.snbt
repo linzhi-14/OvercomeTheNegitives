@@ -1,0 +1,32 @@
+{
+	id: "526803018EBF1A01"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 3, item: "minecraft:wheat_seeds" }
+		{ count: 3, item: "minecraft:pumpkin_seeds" }
+		{ count: 3, item: "minecraft:melon_seeds" }
+		{ count: 3, item: "minecraft:torchflower_seeds" }
+		{ count: 3, item: "minecraft:beetroot_seeds" }
+		{ count: 3, item: "ars_nouveau:magebloom_crop" }
+		{ count: 3, item: "iter_rpg:arcane_flower_seeds" }
+		{ count: 3, item: "divinerpg:tomato_seeds" }
+		{ count: 3, item: "divinerpg:white_mushroom_seeds" }
+		{ count: 3, item: "divinerpg:aquamarine_seeds" }
+		{ count: 3, item: "divinerpg:eucalyptus_root_seeds" }
+		{ count: 3, item: "divinerpg:firestock_seeds" }
+		{ count: 3, item: "divinerpg:hitchak_seeds" }
+		{ count: 3, item: "divinerpg:lamona_seeds" }
+		{ count: 3, item: "divinerpg:marsine_seeds" }
+		{ count: 3, item: "divinerpg:pinfly_seeds" }
+		{ count: 3, item: "divinerpg:veilo_seeds" }
+		{ count: 3, item: "divinerpg:moonbulb_seeds" }
+		{ count: 3, item: "divinerpg:pink_glowbone_seeds" }
+		{ count: 3, item: "divinerpg:purple_glowbone_seeds" }
+		{ count: 3, item: "divinerpg:sky_plant_seeds" }
+		{ count: 3, item: "undergarden:gloomgourd_seeds" }
+		{ count: 3, item: "farmersdelight:cabbage_seeds" }
+		{ count: 3, item: "farmersdelight:tomato_seeds" }
+	]
+	title: "种子集"
+}

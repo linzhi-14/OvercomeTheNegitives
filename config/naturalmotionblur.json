@@ -1,0 +1,8 @@
+{
+  "motionBlurStrength": 1000.0,
+  "motionBlurSamples": 30,
+  "blurAlgorithm": "CENTERED",
+  "renderF5": true,
+  "enabled": true,
+  "toggleKey": "key.keyboard.v"
+}

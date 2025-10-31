@@ -1,0 +1,712 @@
+{
+	autofocus_id: "698914D6EDDD05E1"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "299BDA27A89D77DF"
+	group: "0867D519EA45AC19"
+	hide_quest_until_deps_complete: true
+	icon: "linzhi:special_point"
+	id: "299BDA27A89D77DF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["059439A3A9899685"]
+			description: [
+				"      &a顾名思义，就是提升玩家的某一样属性"
+				""
+				"       &e特质点会作为一些任务的奖励而出现"
+				""
+				"            &b玩家可以用获得的特质点"
+				""
+				"        &a在这里选择某一个选项进行提升！"
+			]
+			icon: "linzhi:special_point"
+			icon_scale: 0.75d
+			id: "698914D6EDDD05E1"
+			rewards: [{
+				description: ""
+				id: "461A506CB5598A5F"
+				title: "妮妮的武器研究所已提出，请仔细查看任务书左边栏目"
+				type: "toast"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "什么是特质提升？"
+			tasks: [{
+				id: "520AA43EF0907F65"
+				title: "五个基础化结束"
+				type: "checkmark"
+			}]
+			title: "特质提升"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["698914D6EDDD05E1"]
+			description: ["&a      在此提交特质点可以获得一级力量效果"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "3B77AF77C3FE6062"
+			rewards: [{
+				id: "148340F60A2FD2BF"
+				ignore_reward_blocking: true
+				stage: "e_strength_s"
+				type: "gamestage"
+			}]
+			subtitle: "抛瓦"
+			tasks: [{
+				consume_items: true
+				id: "24BF01034F69D570"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级力量"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B77AF77C3FE6062"]
+			description: ["&a     在此提交特质点可以获得 二段跳 效果"]
+			icon: "goety:feet_of_frog"
+			icon_scale: 2.0d
+			id: "0C9D2F443A3AA41D"
+			rewards: [{
+				id: "18ACDEA91C58CF09"
+				ignore_reward_blocking: true
+				stage: "e_frog_leg_s"
+				type: "gamestage"
+			}]
+			subtitle: "猜猜谁做不到？"
+			tasks: [{
+				consume_items: true
+				id: "071C4A0A02E2CD0E"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "二段跳"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0C9D2F443A3AA41D"]
+			description: ["&a      在此提交特质点可以获得二级力量效果"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "68CFE598609702D0"
+			rewards: [{
+				id: "1166192DC3A2D6EC"
+				ignore_reward_blocking: true
+				stage: "e_strength_ss"
+				type: "gamestage"
+			}]
+			subtitle: "抛瓦！"
+			tasks: [{
+				consume_items: true
+				id: "34C99C1510973B18"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "二级力量"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68CFE598609702D0"]
+			description: ["&a      在此提交特质点可以获得二级寒庇效果"]
+			icon: "nameless_trinkets:ice_cube"
+			icon_scale: 2.0d
+			id: "2AF8AE1B73A21C60"
+			rewards: [{
+				id: "3E092306991C093C"
+				ignore_reward_blocking: true
+				stage: "e_chill_hide_s"
+				type: "gamestage"
+			}]
+			subtitle: "寒冷的光圈会庇护着你"
+			tasks: [{
+				consume_items: true
+				id: "6151111190A5D4B7"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "寒庇"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["698914D6EDDD05E1"]
+			description: ["&a      在此提交特质点可以获得一级速度效果"]
+			icon: "l2hostility:speedy"
+			icon_scale: 1.5d
+			id: "712CD1CC46572A4A"
+			rewards: [{
+				id: "3679E766EB039680"
+				ignore_reward_blocking: true
+				stage: "e_speed_s"
+				type: "gamestage"
+			}]
+			subtitle: "我即是驰骋的光"
+			tasks: [{
+				consume_items: true
+				id: "0431CA715D334D22"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级速度"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["712CD1CC46572A4A"]
+			description: ["&a  在此提交特质点可以获得一级海豚的恩惠效果"]
+			icon: "minecraft:heart_of_the_sea"
+			icon_scale: 2.0d
+			id: "5D2EE62486E419BD"
+			rewards: [{
+				id: "52768E95B3B8A533"
+				ignore_reward_blocking: true
+				stage: "e_dolphin_s"
+				type: "gamestage"
+			}]
+			subtitle: "你喜欢海豚吗"
+			tasks: [{
+				consume_items: true
+				id: "69B6A298C90F2EF1"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级海豚的恩惠"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D2EE62486E419BD"]
+			description: ["&a   在此提交特质点可以获得一级潮涌能量效果"]
+			icon: "aquamirae:ship_graveyard_echo"
+			icon_scale: 2.0d
+			id: "321DCC5FDBABED36"
+			rewards: [{
+				id: "0FED1542782FFB9F"
+				ignore_reward_blocking: true
+				stage: "e_tide_s"
+				type: "gamestage"
+			}]
+			subtitle: "海王！"
+			tasks: [{
+				consume_items: true
+				id: "0C1FC96F47045D63"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级潮涌能量"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["321DCC5FDBABED36"]
+			description: ["&a  在此提交特质点可以获得二级海豚的恩惠效果"]
+			icon: "minecraft:heart_of_the_sea"
+			icon_scale: 2.0d
+			id: "7E0A5940E9E9E426"
+			rewards: [{
+				id: "6272AC1F1FF8F193"
+				ignore_reward_blocking: true
+				stage: "e_dolphin_ss"
+				type: "gamestage"
+			}]
+			subtitle: "芜湖！"
+			tasks: [{
+				consume_items: true
+				id: "1F479833E80C02A7"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "二级海豚的恩惠"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E0A5940E9E9E426"]
+			description: ["&a   在此提交特质点可以获得二级潮涌能量效果"]
+			icon: "aquamirae:ship_graveyard_echo"
+			icon_scale: 2.0d
+			id: "02A6D9B8BE2CF4CA"
+			rewards: [{
+				id: "558DF8C45A470A5B"
+				ignore_reward_blocking: true
+				stage: "e_tide_ss"
+				type: "gamestage"
+			}]
+			subtitle: "大海才是我的家"
+			tasks: [{
+				consume_items: true
+				id: "79B63E4CC4A0B2D6"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "二级潮涌能量"
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["698914D6EDDD05E1"]
+			description: ["&a      在此提交特质点可以获得一级急迫效果"]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "12B5A0FC712F1BF7"
+			rewards: [{
+				id: "2FF5792A5024B453"
+				ignore_reward_blocking: true
+				stage: "e_haste_s"
+				type: "gamestage"
+			}]
+			subtitle: "速度的另一种体现"
+			tasks: [{
+				consume_items: true
+				id: "433E7A5BB7ED16E6"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级急迫"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12B5A0FC712F1BF7"]
+			description: ["&a      在此提交特质点可以获得一级好运效果"]
+			icon: "botania:cosmetic_four_leaf_clover"
+			icon_scale: 2.0d
+			id: "3C1FCF115709757A"
+			rewards: [{
+				id: "4FB2CDA0127B192E"
+				ignore_reward_blocking: true
+				stage: "e_luck_s"
+				type: "gamestage"
+			}]
+			subtitle: "总算有点运气了"
+			tasks: [{
+				consume_items: true
+				id: "6ED0F28953FAEA9E"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级好运"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C1FCF115709757A"]
+			description: ["&a      在此提交特质点可以获得二级急迫效果"]
+			icon: {
+				Count: 1
+				id: "twilightforest:fiery_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "1F8D69F15B4DC4CD"
+			rewards: [{
+				id: "5B3963F8711E4772"
+				ignore_reward_blocking: true
+				stage: "e_haste_ss"
+				type: "gamestage"
+			}]
+			subtitle: "更快！"
+			tasks: [{
+				consume_items: true
+				id: "0DE8FD52BBCBF43A"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "二级急迫"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F8D69F15B4DC4CD"]
+			description: ["&a      在此提交特质点可以获得三级好运效果"]
+			icon: "nameless_trinkets:four_leaf_clover"
+			icon_scale: 2.0d
+			id: "76F3A9D489B46528"
+			rewards: [{
+				id: "46F97A77C33A0495"
+				ignore_reward_blocking: true
+				stage: "e_luck_sss"
+				type: "gamestage"
+			}]
+			subtitle: "好运爆棚！"
+			tasks: [{
+				consume_items: true
+				id: "19AAE93955EF22EA"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "三级好运"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76F3A9D489B46528"]
+			description: ["&a      在此提交特质点可以获得三级急迫效果"]
+			icon: {
+				Count: 1
+				id: "l2complements:totemic_gold_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "6121E279ECAFB1F9"
+			rewards: [{
+				id: "7D81C3CC58250026"
+				ignore_reward_blocking: true
+				stage: "e_haste_sss"
+				type: "gamestage"
+			}]
+			subtitle: "我的手速堪比时停！"
+			tasks: [{
+				consume_items: true
+				id: "170A4F1A58CB7439"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "三级急迫"
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["698914D6EDDD05E1"]
+			description: ["&a      在此提交特质点可以获得一级抗性效果"]
+			icon: "l2hostility:protection"
+			icon_scale: 1.5d
+			id: "0CA3FA82B76F7E89"
+			rewards: [{
+				id: "033260FC2ECDA8A2"
+				ignore_reward_blocking: true
+				stage: "e_resistance_s"
+				type: "gamestage"
+			}]
+			subtitle: "长结实了！"
+			tasks: [{
+				consume_items: true
+				id: "4FC4FD69E87DEAC6"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级抗性"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0CA3FA82B76F7E89"]
+			description: ["&a      在此提交特质点可以获得一级抗火效果"]
+			icon: "yuushya:sparking_flame"
+			icon_scale: 2.0d
+			id: "2D24391F7F29CFFB"
+			rewards: [{
+				id: "2B38494D02697038"
+				ignore_reward_blocking: true
+				stage: "e_fire_resist_s"
+				type: "gamestage"
+			}]
+			subtitle: "火焰不及吾身"
+			tasks: [{
+				consume_items: true
+				id: "1392B6788F33AD9F"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级抗火"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["698914D6EDDD05E1"]
+			description: ["&a    在此提交特质点基础血量将由20提升到30"]
+			icon: "infinite_abyss:heart_of_restoration"
+			icon_scale: 2.0d
+			id: "6B385A2D7AA2DD99"
+			rewards: [{
+				id: "36CED7CA9C8FF96B"
+				ignore_reward_blocking: true
+				stage: "e_health_s"
+				type: "gamestage"
+			}]
+			subtitle: "提升基础血量"
+			tasks: [{
+				consume_items: true
+				id: "25A7878BC7943CA2"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "血量提升"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D24391F7F29CFFB"]
+			description: ["&a      在此提交特质点可以获得二级抗性效果"]
+			icon: "l2hostility:protection"
+			icon_scale: 1.5d
+			id: "33196D28DE7EAA11"
+			rewards: [{
+				id: "419990D507047879"
+				ignore_reward_blocking: true
+				stage: "e_resistance_ss"
+				type: "gamestage"
+			}]
+			subtitle: "金钟罩！"
+			tasks: [{
+				consume_items: true
+				id: "4A63B40F256C3491"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "二级抗性"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33196D28DE7EAA11"]
+			description: ["&a   在此提交特质点可以获得一级活力迸发效果"]
+			icon: "ae2:singularity"
+			icon_scale: 2.0d
+			id: "011EA3A2932C24AF"
+			rewards: [{
+				id: "431A4C2441BC1F52"
+				ignore_reward_blocking: true
+				stage: "e_vitality_s"
+				type: "gamestage"
+			}]
+			subtitle: "更快的恢复血量！"
+			tasks: [{
+				consume_items: true
+				id: "5E4C0F2209641463"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级活力迸发"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["011EA3A2932C24AF"]
+			description: ["&a      在此提交特质点可以获得三级抗性效果"]
+			icon: "l2hostility:protection"
+			icon_scale: 1.5d
+			id: "0F6E0332783E083D"
+			rewards: [{
+				id: "2649F239DD30EB4C"
+				ignore_reward_blocking: true
+				stage: "e_resistance_sss"
+				type: "gamestage"
+			}]
+			subtitle: "铁布衫！"
+			tasks: [{
+				consume_items: true
+				id: "4809BFF1DCEA3196"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "三级抗性"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6B385A2D7AA2DD99"]
+			description: ["&a       在此提交特质点将获得一级村庄英雄"]
+			icon: "goety:magic_emerald"
+			icon_scale: 2.0d
+			id: "58E11AC0F5526BB3"
+			rewards: [{
+				id: "072C2FED20405210"
+				ignore_reward_blocking: true
+				stage: "e_village_hero_s"
+				type: "gamestage"
+			}]
+			subtitle: "优惠"
+			tasks: [{
+				consume_items: true
+				id: "69E3736DBCD5BD1E"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "一级村庄英雄"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58E11AC0F5526BB3"]
+			description: ["&a    在此提交特质点基础血量将由30提升到40"]
+			icon: "enigmaticlegacy:golem_heart"
+			icon_scale: 2.0d
+			id: "2559DBA9927E43C9"
+			rewards: [{
+				id: "7945597DFD540936"
+				ignore_reward_blocking: true
+				stage: "e_health_ss"
+				type: "gamestage"
+			}]
+			subtitle: "提升基础血量"
+			tasks: [{
+				consume_items: true
+				id: "6C6FBBD52E7EF5E5"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "血量提升"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2559DBA9927E43C9"]
+			description: ["&a       在此提交特质点将获得三级村庄英雄"]
+			icon: "goety:soul_emerald"
+			icon_scale: 2.0d
+			id: "22C66924CED56158"
+			rewards: [{
+				id: "3F3B71F6B833D4E4"
+				ignore_reward_blocking: true
+				stage: "e_village_hero_sss"
+				type: "gamestage"
+			}]
+			subtitle: "嘻嘻！我要大买特买！"
+			tasks: [{
+				consume_items: true
+				id: "078909847B39253A"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "三级村庄英雄"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22C66924CED56158"]
+			description: ["&a    在此提交特质点基础血量将由40提升到60"]
+			icon: "enigmaticaddons:pure_heart"
+			icon_scale: 2.0d
+			id: "4807A6A9D4445442"
+			rewards: [{
+				id: "3AF08570E07B4966"
+				ignore_reward_blocking: true
+				stage: "e_health_sss"
+				type: "gamestage"
+			}]
+			subtitle: "提升基础血量"
+			tasks: [{
+				consume_items: true
+				id: "5AEA6734B5EF98F1"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "血量提升"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2AF8AE1B73A21C60"]
+			description: ["&a      在此提交特质点可以获得三级力量效果"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 1s
+					}]
+				}
+			}
+			icon_scale: 2.0d
+			id: "3BF7111BDD436322"
+			rewards: [{
+				id: "3F1DFDCD0B24ACDF"
+				ignore_reward_blocking: true
+				stage: "e_strength_sss"
+				type: "gamestage"
+			}]
+			subtitle: "至上的抛瓦！"
+			tasks: [{
+				consume_items: true
+				id: "55CD4AA6F4B229A9"
+				item: "linzhi:special_point"
+				type: "item"
+			}]
+			title: "三级力量"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3BF7111BDD436322"]
+			description: [
+				"     此buff状态下会获得三项及其酷炫的技能"
+				""
+				"你可以尝试："
+				""
+				"                  &e空手右击地面&r"
+				""
+				"                  &e蹲下空手右击"
+				" "
+				"                  &e蹲下空手左击"
+				""
+				"                 &e蹲下空手左右击"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:the_incinerator"
+				tag: { }
+			}
+			icon_scale: 2.0d
+			id: "3BEA41030A62D1B2"
+			rewards: [{
+				id: "7BD305ECFD135DA4"
+				ignore_reward_blocking: true
+				stage: "e_sun_blessing_s"
+				type: "gamestage"
+			}]
+			subtitle: "获得炎葬，收集阳光！"
+			tasks: [
+				{
+					id: "6A739754528F1D92"
+					item: {
+						Count: 1
+						id: "cataclysm:the_incinerator"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "455F3CC3D73D7735"
+					item: "goety:corruption_focus"
+					type: "item"
+				}
+			]
+			title: "太阳祝福"
+			x: 0.5d
+			y: -9.5d
+		}
+	]
+	title: "特质提升"
+}

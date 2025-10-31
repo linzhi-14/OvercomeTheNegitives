@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "06A801A64CEA8820", title: "山雨欲来" }
+		{ id: "6A1ED092991F1077", title: "燎原烈火" }
+		{ id: "10EF6FBC097C1A95", title: "枯树成花" }
+		{ id: "51707624D2A3CE9A", title: "山海自有归期" }
+		{ id: "0867D519EA45AC19", title: "进阶与研究" }
+		{ id: "253036D279AE5E2D", title: "雅柏芝序金牌百货商店" }
+		{ id: "217CC514C94C2430", title: "其他" }
+	]
+}

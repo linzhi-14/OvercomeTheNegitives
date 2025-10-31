@@ -1,0 +1,560 @@
+{
+	autofocus_id: "62198D4867B9B991"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "1B7554AA075228A2"
+	group: "253036D279AE5E2D"
+	icon: "iter_rpg:iron_ring_emerald"
+	id: "1B7554AA075228A2"
+	images: [
+		{
+			height: 0.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -1.0d
+			y: -0.3d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -1.0d
+			y: 0.9d
+		}
+		{
+			height: 2.0d
+			image: "create:item/shopping_list"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.6d
+			y: -1.8d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/shop.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.6d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.3d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "linzhi:item/z_coin"
+			rotation: 0.0d
+			width: 0.9922480620155039d
+			x: 5.3d
+			y: -2.1d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["4EE90030191EC3AD"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:iron_ore"
+			id: "3C000C6499FCDE51"
+			rewards: [{
+				count: 4
+				id: "03E5FEE5541BC68D"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1D9AD1344956A31C"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "铁矿石"
+			x: -6.4d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4EE90030191EC3AD"]
+			icon: "iceandfire:silver_ore"
+			id: "3FFEAA613C354FB5"
+			rewards: [{
+				count: 2
+				id: "6EB466966512099D"
+				item: "iceandfire:silver_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1844D49D89A2EBFB"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "银矿石"
+			x: -5.1d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4EE90030191EC3AD"]
+			icon: "divinerpg:realmite_ore"
+			id: "6297CAF8D0F87634"
+			rewards: [{
+				count: 2
+				id: "12A0862A5331C3A8"
+				item: "divinerpg:realmite_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "312FF886B7272047"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "领域石矿石"
+			x: -3.9d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4EBD081A8EB1CF1C"]
+			icon: "minecraft:emerald"
+			id: "6811AB275221BB43"
+			rewards: [{
+				count: 10
+				id: "74D1FBF02BE31643"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "205D007E9E05FAF5"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "绿宝石"
+			x: -2.7d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4EBD081A8EB1CF1C"]
+			icon: "minecraft:diamond_ore"
+			id: "756677BC5C722A27"
+			rewards: [{
+				count: 2
+				id: "16C7CA24208E7E2D"
+				item: "minecraft:diamond_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "783849D4C9ECDF7E"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "钻石"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4EBD081A8EB1CF1C"]
+			icon: "minecraft:gold_ingot"
+			id: "3743E1086A606976"
+			rewards: [{
+				count: 5
+				id: "0452FA2FA1E540C8"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6D38B23DDA70581B"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "金锭"
+			x: -0.2999999999999998d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["291004093F890C22"]
+			icon: "ars_nouveau:source_gem"
+			id: "7C088038B006BAF8"
+			rewards: [{
+				count: 10
+				id: "36D0EBE876C31039"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3814A7607838C71E"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "魔源宝石"
+			x: 0.9000000000000004d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B48BE23F43835F1"]
+			icon: "minecraft:copper_ingot"
+			id: "55CA189B6C17AB9A"
+			rewards: [{
+				count: 20
+				id: "4C62801F578ED68C"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "32AB83551E47AC82"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "铜锭"
+			x: 2.1000000000000014d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B48BE23F43835F1"]
+			icon: "create:andesite_alloy"
+			id: "41D8D4550D04D624"
+			rewards: [{
+				count: 12
+				id: "59B2BBF5474E1795"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5ECF18B29873783D"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "安山合金"
+			x: 3.3d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B48BE23F43835F1"]
+			icon: "create:brass_ingot"
+			id: "4C26A001BE585C03"
+			rewards: [{
+				count: 10
+				id: "52EA33D297A9F847"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4FA05457AD93FE7F"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "黄铜锭"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:white_wool"
+			id: "09CFF46E1CB089F0"
+			rewards: [{
+				count: 6
+				id: "385D7448829E86B4"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6CB8BA4B3C53FEC2"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "羊毛"
+			x: -6.4d
+			y: -0.3d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:leather"
+			id: "59B9731B0CD11819"
+			rewards: [{
+				count: 4
+				id: "456029276A823CEC"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1ABB15E112432A90"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "皮革"
+			x: -5.1d
+			y: -0.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B528D50ACFBF477"]
+			icon: "slashblade:proudsoul"
+			id: "29B8AC1E981A767E"
+			rewards: [{
+				id: "469222F42DB9F78C"
+				item: "slashblade:proudsoul"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6D92BBE79585C4A0"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "耀魂碎片"
+			x: -3.9d
+			y: -0.3d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:amethyst_shard"
+			id: "62198D4867B9B991"
+			rewards: [{
+				count: 6
+				id: "17141194E99CD4D6"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6601B919D7889EF3"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "紫水晶碎片"
+			x: -2.7d
+			y: -0.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["39A06C4C3E4A15AE"]
+			icon: "create:chocolate_bucket"
+			id: "371AF2E2E6AF70D8"
+			rewards: [{
+				id: "0AE184B7D55615FB"
+				item: "create:chocolate_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6464338865130EB7"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "巧克力桶"
+			x: -1.5d
+			y: -0.3d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:bamboo"
+			id: "4320705554C17D86"
+			rewards: [{
+				count: 16
+				id: "15491FECFE3D514F"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6534B17079F00C84"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "竹子"
+			x: -0.3d
+			y: -0.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BEE4C06894D4F1C"]
+			icon: "minecraft:wheat_seeds"
+			id: "0B632DEEA60D78BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40FCCC7339D7B914"
+				table_id: 5937999413912738305L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7628E0D50699E823"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "各种种子"
+			x: -6.4d
+			y: 0.9d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:lapis_lazuli"
+			id: "6AF43191AACF06EF"
+			rewards: [{
+				count: 16
+				id: "3EE3FB2D865F09C9"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6E3DE8AFDF93C76F"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "青金石"
+			x: 0.9d
+			y: -0.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BEE4C06894D4F1C"]
+			icon: "minecraft:oak_sapling"
+			id: "6D4736FC4C3EF8BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FBBC8A1BC549A4D"
+				table_id: 4588696233572230685L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1A6EF0CA024B0DA8"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "各种树苗"
+			x: -5.1d
+			y: 0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["728D2D9BE38206FF"]
+			icon: "botania:white_mushroom"
+			id: "7EBEE94436F5EBEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "496FB2DD0C1F4E79"
+				table_id: 7974773527130454360L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "05930EEC00124163"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "各种植物魔法蘑菇"
+			x: -3.9d
+			y: 0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["728D2D9BE38206FF"]
+			icon: "botania:white_petal"
+			id: "1B788B4AD0C1BCD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52CB16A3A5D6CE4E"
+				table_id: 8948642072203464640L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "316A3BC6C00EB5F8"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "各种植物魔法花瓣"
+			x: -2.7d
+			y: 0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21AB0D6B6F5352EC"]
+			icon: "botania:blacker_lotus"
+			id: "6795F0B7361BA7F4"
+			rewards: [{
+				id: "782A6811D7548309"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "63956EC4B25331C4"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "暗黑莲花"
+			x: -1.5d
+			y: 0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["04E68F2A1624A7FB"]
+			icon: "minecraft:golden_apple"
+			id: "0A742649D56E1B92"
+			rewards: [{
+				id: "2B41572B14025E88"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "51D109B3144E59B7"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "金苹果"
+			x: -0.3d
+			y: 0.9d
+		}
+	]
+	title: "第一章特供货"
+}

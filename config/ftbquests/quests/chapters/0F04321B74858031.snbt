@@ -1,0 +1,1749 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "0F04321B74858031"
+	group: "0867D519EA45AC19"
+	hide_quest_until_deps_complete: true
+	icon: "iter_rpg:gold_ring_diamond"
+	id: "0F04321B74858031"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["31CD7506CEA3C730"]
+			icon: "iter_rpg:gold_ring_diamond"
+			id: "292B908EF8571AD5"
+			rewards: [
+				{
+					id: "71FD89903243C0AD"
+					ignore_reward_blocking: true
+					stage: "earth_sword"
+					type: "gamestage"
+				}
+				{
+					id: "46FB83D50E9D7DA0"
+					ignore_reward_blocking: true
+					stage: "eden_armor"
+					type: "gamestage"
+				}
+				{
+					id: "7AF55DE4A24A4152"
+					ignore_reward_blocking: true
+					stage: "netherite_heavy_crossbow"
+					type: "gamestage"
+				}
+				{
+					count: 10
+					id: "4888CBA02CFE21CC"
+					item: "mowziesmobs:sculptor_spawn_egg"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "36DE2CC156153368"
+				title: "帝国科学院"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["292B908EF8571AD5"]
+			icon_scale: 2.0d
+			id: "2473092E009461CC"
+			rewards: [{
+				id: "3ED8972E20EF16B5"
+				ignore_reward_blocking: true
+				stage: "golden_spear"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "3364EE99D26152E2"
+				item: {
+					Count: 1
+					id: "iter_rpg:earth_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F29B779497F3685"]
+			icon_scale: 2.0d
+			id: "2073D0719A2CD980"
+			rewards: [{
+				id: "7331840ABA8908E1"
+				ignore_reward_blocking: true
+				stage: "wand_of_freezing"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "3403E929D6D6B41E"
+				item: {
+					Count: 1
+					id: "divinerpg:eden_shickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2073D0719A2CD980"]
+			icon_scale: 2.0d
+			id: "138DBE2AA7ADADE4"
+			rewards: [
+				{
+					id: "017FEEE6A358978D"
+					item: {
+						Count: 1
+						id: "savage_and_ravage:wand_of_freezing"
+						tag: {
+							Damage: 7
+							RepairCost: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01F802E2EE78A12F"
+					ignore_reward_blocking: true
+					stage: "void_sword"
+					type: "gamestage"
+				}
+			]
+			subtitle: "这个任务需要提交"
+			tasks: [{
+				consume_items: true
+				id: "61AB76032C270304"
+				item: {
+					Count: 1
+					id: "savage_and_ravage:wand_of_freezing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["292B908EF8571AD5"]
+			icon_scale: 2.0d
+			id: "749E9056C2BC8712"
+			rewards: [{
+				id: "7C8BE979E6D2F7E1"
+				ignore_reward_blocking: true
+				stage: "netherite_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "40950C0480E9105D"
+				item: {
+					Count: 1
+					id: "divinerpg:eden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B7619B87C4ABAE8"]
+			icon_scale: 2.0d
+			id: "79574F5BB80DFD36"
+			rewards: [{
+				id: "42F02BCC34E83A9B"
+				ignore_reward_blocking: true
+				stage: "warden_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "38136566A50317C2"
+				item: {
+					Count: 1
+					id: "divinerpg:frozen_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["749E9056C2BC8712"]
+			icon_scale: 2.0d
+			id: "1B7619B87C4ABAE8"
+			rewards: [{
+				id: "339C912AD193669E"
+				ignore_reward_blocking: true
+				stage: "frozen_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "3BB38349185E58E9"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2473092E009461CC"]
+			icon_scale: 2.0d
+			id: "3F29B779497F3685"
+			rewards: [{
+				id: "21A1DAC3E9AC4B9C"
+				ignore_reward_blocking: true
+				stage: "eden_shickaxe"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6D7BD632CD8BBD7B"
+				item: {
+					Count: 1
+					id: "iter_rpg:golden_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["292B908EF8571AD5"]
+			icon_scale: 2.0d
+			id: "5F1EBF969539525D"
+			rewards: [{
+				id: "1737F52EEE02528D"
+				ignore_reward_blocking: true
+				stage: "eden_bow"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "2CD689D260A61CEB"
+				item: {
+					Count: 1
+					id: "spartanweaponry:netherite_heavy_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F1EBF969539525D"]
+			icon_scale: 2.0d
+			id: "1C9CABE6F85A43CD"
+			rewards: [{
+				id: "7710F045729EA517"
+				ignore_reward_blocking: true
+				stage: "eden_blitz"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "2E71767B7FD11AB8"
+				item: {
+					Count: 1
+					id: "divinerpg:eden_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C9CABE6F85A43CD"]
+			icon_scale: 2.0d
+			id: "3660D36EB39DDFC8"
+			rewards: [{
+				id: "59083D3242774E95"
+				ignore_reward_blocking: true
+				stage: "golden_fury"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "77DE972065E4368A"
+				item: {
+					Count: 1
+					id: "divinerpg:eden_blitz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3660D36EB39DDFC8"]
+			icon_scale: 2.0d
+			id: "7AF639CAF9EA423A"
+			rewards: [{
+				id: "7AC8A405D76E0490"
+				ignore_reward_blocking: true
+				stage: "bowhead_anchor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6E6F59B7029CAD1B"
+				item: {
+					Count: 1
+					id: "divinerpg:golden_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7AE55216689B16C0"
+				"138DBE2AA7ADADE4"
+			]
+			icon: {
+				Count: 1
+				id: "iter_rpg:void_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "12A02DAE166B552F"
+			rewards: [{
+				id: "69B461062929C711"
+				ignore_reward_blocking: true
+				stage: "sculkium_sword"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "0FA4B3821631F90C"
+					item: {
+						Count: 1
+						id: "iter_rpg:void_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00497A11CCEE3376"
+					title: "这个物品有两个同位配方，请仔细查看"
+					type: "checkmark"
+				}
+			]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7AE55216689B16C0"
+				"79574F5BB80DFD36"
+			]
+			icon_scale: 2.0d
+			id: "4430C2FCD58E1E8E"
+			rewards: [{
+				id: "5A6D36060A3EFC33"
+				ignore_reward_blocking: true
+				stage: "ender_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "70D45D4628E4947B"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7AE55216689B16C0"
+				"7AF639CAF9EA423A"
+			]
+			icon_scale: 2.0d
+			id: "0CA4317C498B95C8"
+			rewards: [{
+				id: "76C81C1846BC6E2E"
+				ignore_reward_blocking: true
+				stage: "wildwood_bow"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "5515B3B532F2169D"
+				item: {
+					Count: 1
+					id: "divinerpg:bowhead_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12A02DAE166B552F"]
+			icon_scale: 2.0d
+			id: "0315C0FDDA91FD91"
+			rewards: [{
+				id: "046EEF05E1CED21C"
+				ignore_reward_blocking: true
+				stage: "ender_sword"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "4CE8A49EA220247E"
+				item: {
+					Count: 1
+					id: "l2complements:sculkium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0315C0FDDA91FD91"]
+			icon_scale: 2.0d
+			id: "2A6E919E4B7CFCE1"
+			rewards: [{
+				id: "597DD6DF4B6A66EC"
+				ignore_reward_blocking: true
+				stage: "shulkerate_sword"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "2AE59EAC020638B6"
+				item: {
+					Count: 1
+					id: "divinerpg:ender_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A6E919E4B7CFCE1"]
+			icon_scale: 2.0d
+			id: "1D209F9D021AB57B"
+			rewards: [{
+				id: "59A3F41380B4778F"
+				ignore_reward_blocking: true
+				stage: "dread_queen_sword"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "62275CE5D5AAA428"
+				item: {
+					Count: 1
+					id: "l2complements:shulkerate_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4430C2FCD58E1E8E"]
+			icon_scale: 2.0d
+			id: "5C6ACD2B88CCEB71"
+			rewards: [{
+				id: "0ACFCE93B77ADA79"
+				ignore_reward_blocking: true
+				stage: "sculkium_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "351C1B7206E0806F"
+				item: {
+					Count: 1
+					id: "divinerpg:ender_chestplate"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C6ACD2B88CCEB71"]
+			icon_scale: 2.0d
+			id: "2C34BFBDB622031E"
+			rewards: [{
+				id: "76270BFA8876E23F"
+				ignore_reward_blocking: true
+				stage: "shulkerate_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "610EAA0D54CCE330"
+				item: {
+					Count: 1
+					id: "l2complements:sculkium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0CA4317C498B95C8"]
+			icon_scale: 2.0d
+			id: "6134714405899BDA"
+			rewards: [{
+				id: "22714CFFC8E9213B"
+				ignore_reward_blocking: true
+				stage: "dragon_bow"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "65F6FED8DB6BBA6E"
+				item: {
+					Count: 1
+					id: "divinerpg:wildwood_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6134714405899BDA"]
+			icon_scale: 2.0d
+			id: "2842AAC7C840366A"
+			rewards: [
+				{
+					id: "2E614E7965548881"
+					item: {
+						Count: 1
+						id: "enigmaticaddons:dragon_bow"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:power"
+								lvl: 6s
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E517A90F3137AD8"
+					ignore_reward_blocking: true
+					stage: "skythern_bow"
+					type: "gamestage"
+				}
+				{
+					id: "0B3BA48A65A5991A"
+					ignore_reward_blocking: true
+					stage: "mortum_bow"
+					type: "gamestage"
+				}
+			]
+			subtitle: "这个任务需要提交"
+			tasks: [{
+				consume_items: true
+				id: "49364BA2F145172E"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C34BFBDB622031E"]
+			icon_scale: 2.0d
+			id: "420178F9FF31A74A"
+			rewards: [{
+				id: "304FCEFFBC1301E4"
+				ignore_reward_blocking: true
+				stage: "jet_suit_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "32AA7FEDB80356EE"
+				item: {
+					Count: 1
+					id: "l2complements:shulkerate_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D209F9D021AB57B"]
+			icon_scale: 2.0d
+			id: "3BAD16EA2D03E63B"
+			rewards: [
+				{
+					id: "6E4E8D346FD40BB9"
+					ignore_reward_blocking: true
+					stage: "dragonsteel_sword"
+					type: "gamestage"
+				}
+				{
+					id: "0EA63E7112BC9438"
+					item: {
+						Count: 1
+						id: "iceandfire:dread_queen_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 91
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "2D407230D4AD459A"
+				item: {
+					Count: 1
+					id: "iceandfire:dread_queen_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BAD16EA2D03E63B"]
+			icon_scale: 2.0d
+			id: "3F2C29C96754F811"
+			tasks: [{
+				id: "067F23476027470D"
+				item: {
+					Count: 1
+					id: "iceandfire:lich_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["420178F9FF31A74A"]
+			icon_scale: 2.0d
+			id: "056D6D818F8E1598"
+			rewards: [{
+				id: "32D8A4AC154B3DC2"
+				ignore_reward_blocking: true
+				stage: "abyssal_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "0C9D8EFC7604092D"
+				item: {
+					Count: 1
+					id: "ad_astra:jet_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["056D6D818F8E1598"]
+			icon: {
+				Count: 1
+				id: "aquamirae:abyssal_brigantine"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "57A314F6AF3B2B0D"
+			rewards: [{
+				id: "61F3044E0FC3A43D"
+				ignore_reward_blocking: true
+				stage: "etherium_armor"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "6CF27DD221B24F7C"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C795B9033CC9D43"
+					item: {
+						Count: 1
+						id: "spartanshields:elementium_tower_shield"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "spartanshields:spikes"
+									lvl: 2s
+								}
+								{
+									id: "spartanshields:firebrand"
+									lvl: 2s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57A314F6AF3B2B0D"]
+			icon_scale: 2.0d
+			id: "496B2C082EA69628"
+			rewards: [{
+				id: "357DAC9C739CE98F"
+				ignore_reward_blocking: true
+				stage: "dragonsteel_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "15CC6DBB0F773C88"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["496B2C082EA69628"]
+			icon_scale: 2.0d
+			id: "484B9CA0EB78D8E6"
+			tasks: [{
+				id: "441FD05CD153D93D"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["496B2C082EA69628"]
+			icon_scale: 2.0d
+			id: "46161C85592CCDB2"
+			tasks: [{
+				id: "6F9EA5E7C6DEE2F1"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 26.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["496B2C082EA69628"]
+			icon_scale: 2.0d
+			id: "14E22C606FAF395E"
+			tasks: [{
+				id: "2641975192D8B671"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 26.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2842AAC7C840366A"]
+			icon_scale: 2.0d
+			id: "6001FF69493CB1DE"
+			tasks: [{
+				id: "6E084F733684A904"
+				item: {
+					Count: 1
+					id: "divinerpg:mortum_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BAD16EA2D03E63B"]
+			icon_scale: 2.0d
+			id: "46F5396AC6B5B18F"
+			rewards: [{
+				id: "69D31ED2C03641A5"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 130
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "130EDF804B99771C"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BAD16EA2D03E63B"]
+			icon_scale: 2.0d
+			id: "57AB2666F0BE6BEB"
+			rewards: [{
+				id: "516DC4C4F1F6C0CA"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 130
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7ACB543014F18BE1"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3BAD16EA2D03E63B"]
+			icon_scale: 2.0d
+			id: "40D134BA979306C9"
+			rewards: [{
+				id: "26619E606705B986"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 130
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "47CC719D7614CDF4"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F1EBF969539525D"]
+			icon_scale: 2.0d
+			id: "088293C15165EF37"
+			rewards: [{
+				id: "56DB3484FA35CA2C"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:drive_vertical"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6900B02C27C43D4B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:circle_slash"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/muramasa/doutanuki.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.8f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1200
+							proudSoul: 0
+							translationKey: "item.slashblade.doutanuki"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:circle_slash"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/muramasa/doutanuki.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.8f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1200
+							proudSoul: 0
+							translationKey: "item.slashblade.doutanuki"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"088293C15165EF37"
+				"1C9CABE6F85A43CD"
+			]
+			icon_scale: 2.0d
+			id: "367691CAB8DD354E"
+			subtitle: "传闻其中一个锈掉的鄂门掌握在娜迦手中..."
+			tasks: [{
+				id: "672AF6721F2B6371"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/sange/sange.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/sange/white.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 10.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1700
+							proudSoul: 0
+							translationKey: "item.slashblade.fox_white"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:knockback"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/sange/sange.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/sange/white.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 10.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1700
+							proudSoul: 0
+							translationKey: "item.slashblade.fox_white"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"367691CAB8DD354E"
+				"3660D36EB39DDFC8"
+			]
+			icon_scale: 2.0d
+			id: "4F65F7119D8D9BE2"
+			subtitle: "传言散华被凋灵保管着...."
+			tasks: [{
+				id: "30B1DB112E60BD62"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/orotiagito.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 14.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 2200
+							proudSoul: 0
+							translationKey: "item.slashblade.orotiagito"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/orotiagito.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 14.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 2200
+							proudSoul: 0
+							translationKey: "item.slashblade.orotiagito"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"4F65F7119D8D9BE2"
+				"7AF639CAF9EA423A"
+			]
+			icon_scale: 2.0d
+			id: "3B6D2B1ADC11B4D7"
+			rewards: [{
+				id: "00EF31ADE3E96932"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:drive_vertical"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "043E355E98FCB5B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_wooden.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 2500
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_wooden"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_wooden.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 2500
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_wooden"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 7.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"3B6D2B1ADC11B4D7"
+				"0CA4317C498B95C8"
+			]
+			icon_scale: 2.0d
+			id: "1E2D0C4196AC6BA6"
+			rewards: [{
+				id: "20CDA64D0F0B54AD"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:sakura_end"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "传闻其中一个锈掉的鄂门掌握在监守者手中..."
+			tasks: [{
+				id: "14C5DB3423DD82DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_netherite.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 55.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 4000
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_netherite"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_netherite.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 55.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 4000
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_netherite"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.5d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"1E2D0C4196AC6BA6"
+				"6134714405899BDA"
+			]
+			icon_scale: 2.0d
+			id: "527B8848030967FA"
+			rewards: [{
+				id: "112C669FCD27BE6F"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:drive_horizontal"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "传说夜叉被某位亚玻伦之徒所收纳\\n而枯石大刀，它是凋零的意外产物...."
+			tasks: [{
+				id: "6241AC7826546EA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_vertical"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/muramasa/muramasa.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 144.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34214083L
+							maxDamage: 30000
+							proudSoul: 0
+							translationKey: "item.slashblade.muramasa"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_vertical"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/muramasa/muramasa.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 144.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34214083L
+							maxDamage: 30000
+							proudSoul: 0
+							translationKey: "item.slashblade.muramasa"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 12.0d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"527B8848030967FA"
+				"2842AAC7C840366A"
+			]
+			icon_scale: 2.0d
+			id: "253E95AE3DD58D6E"
+			subtitle: "传闻夜叉鬼哭被某位末影的战士所守护了起来"
+			tasks: [{
+				id: "31CC88EF7A3BCB4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_horizontal"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "slashblade:model/named/a_tukumo.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 169.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34214083L
+							maxDamage: 10000
+							proudSoul: 0
+							translationKey: "item.slashblade.yuzukitukumo"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_horizontal"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "slashblade:model/named/a_tukumo.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 169.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34214083L
+							maxDamage: 10000
+							proudSoul: 0
+							translationKey: "item.slashblade.yuzukitukumo"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 14.5d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"253E95AE3DD58D6E"
+				"6001FF69493CB1DE"
+			]
+			icon_scale: 2.0d
+			id: "60EAAE82965FBBA3"
+			subtitle: "阎魔刀，象征最强大的力量\\n它为某位帝国首领所掌控"
+			tasks: [{
+				id: "077BDC4E55DCE5F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/yamato.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "slashblade:model/named/yamato.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 256.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 4
+							lastActionTime: 34214091L
+							maxDamage: 1000000
+							proudSoul: 143
+							translationKey: "item.slashblade.yamato"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:soul_speed"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:power"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:feather_falling"
+								lvl: 4s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/yamato.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "slashblade:model/named/yamato.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 256.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 4
+							lastActionTime: 34214091L
+							maxDamage: 1000000
+							proudSoul: 143
+							translationKey: "item.slashblade.yamato"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 17.0d
+			y: 4.8d
+		}
+	]
+	title: "雅柏芝序帝国科学院"
+}

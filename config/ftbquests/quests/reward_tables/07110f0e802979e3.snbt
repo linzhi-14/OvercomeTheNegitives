@@ -1,0 +1,50 @@
+{
+	id: "07110F0E802979E3"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_ice_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 130
+					}]
+					RepairCost: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 130
+					}]
+					RepairCost: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_lightning_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 130
+					}]
+					RepairCost: 1
+				}
+			}
+		}
+	]
+	title: "龙钢剑"
+}

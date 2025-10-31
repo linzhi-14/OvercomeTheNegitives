@@ -1,0 +1,1420 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "boss"
+	group: "253036D279AE5E2D"
+	icon: "goety:ring_of_the_dragon"
+	id: "6AF55331F05FDCA7"
+	images: [
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.4d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.7d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.3d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.6d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.9d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.4d
+			y: 3.4d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.6d
+			y: 6.199999999999999d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.7d
+			y: 3.4d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 3.4d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.3d
+			y: 3.4d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.6d
+			y: 3.4d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.9d
+			y: 3.4d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.4d
+			y: 6.2d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.7000000000000002d
+			y: 6.2d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.9999999999999996d
+			y: 6.2d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.3d
+			y: 6.2d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.9d
+			y: 6.199999999999999d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.4d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.6999999999999997d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.9999999999999996d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.300000000000001d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.6d
+			y: 9.000000000000002d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.8999999999999995d
+			y: 9.000000000000002d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.4d
+			y: 11.8d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["58C85E706FB0D250"]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:king_of_scorchers_statue"
+			id: "4030F60CBFF6CE04"
+			rewards: [{
+				id: "58B41807A06C6BF5"
+				item: "divinerpg:infernal_flame"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "612908D6926D63B4"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "怒焰王：地狱之焰"
+			x: 0.4d
+			y: -0.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["58C85E706FB0D250"]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:fury_fire"
+			id: "20F4370ACA56A448"
+			rewards: [
+				{
+					count: 6
+					id: "6118E03D25C7A94B"
+					item: "divinerpg:fury_fire"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "500E4FF528DD866B"
+					item: "divinerpg:soulfire_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6FD2042BF8BB429C"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "怒焰粉，魂焰石"
+			x: 0.4d
+			y: 1.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1D1780ABA1EA616D"]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:netherite_monstrosity_spawn_egg"
+			id: "7EEC9AC416F86067"
+			rewards: [{
+				id: "1007CD844D9EC7CC"
+				item: "cataclysm:netherite_monstrosity_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1D34DD699107363B"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "下界合金巨兽"
+			x: 1.7d
+			y: -0.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1D1780ABA1EA616D"]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:lava_power_cell"
+			id: "16A3505343CA74D7"
+			rewards: [
+				{
+					count: 2
+					id: "111E6FA9BF17859F"
+					item: "cataclysm:lava_power_cell"
+					type: "item"
+				}
+				{
+					id: "70CD737DE00463DB"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "71A5AE9BD9172719"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "熔岩动力电池，恶兽犄角"
+			x: 1.7d
+			y: 1.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1FF94DD24A180EFB"]
+			dependency_requirement: "one_completed"
+			icon: "goety:vizier_spawn_egg"
+			id: "3716994C10CDDD56"
+			rewards: [{
+				id: "66257C1DCB59ED92"
+				item: "goety:vizier_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4394EE04B3E86206"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "灾厄宰相"
+			x: 3.0d
+			y: -0.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1FF94DD24A180EFB"]
+			dependency_requirement: "one_completed"
+			icon: "goety:soul_ruby"
+			id: "76FFBC32C8EBDB34"
+			rewards: [{
+				id: "30E220EF493D57C7"
+				item: "goety:soul_ruby"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5F51FFC123156509"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "灵魂红宝石"
+			x: 3.0d
+			y: 1.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["668445622F84BD86"]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:naga_spawn_egg"
+			id: "3F0FF84E54288196"
+			rewards: [{
+				id: "5A28DC6D961B6605"
+				item: "twilightforest:naga_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "45CD97BBEF831B01"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "娜迦"
+			x: 4.3d
+			y: -0.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["668445622F84BD86"]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:naga_scale"
+			id: "700AE01CBD408D65"
+			rewards: [{
+				count: 3
+				id: "5AB4D949C9D088D3"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1B31AEAD21AAF97E"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "娜迦鳞片"
+			x: 4.3d
+			y: 1.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0A37A8784EF97763"]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:lich_spawn_egg"
+			id: "4B1647EFA6A9E7B8"
+			rewards: [{
+				id: "0611A80F9C00FF01"
+				item: "twilightforest:lich_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1CAC0DE12A3DD5F0"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "巫妖"
+			x: 5.6d
+			y: -0.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0A37A8784EF97763"]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "twilightforest:fortification_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C5ACF9D0B08B189"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55238ED2164CC596"
+				table_id: 5034807712903609535L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "52BA96C0A0B0C6A8"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "四种权杖"
+			x: 5.6d
+			y: 1.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7DF743873C684B6C"]
+			dependency_requirement: "one_completed"
+			icon: "undergarden:forgotten_guardian_spawn_egg"
+			id: "3EE82FDD5B216638"
+			rewards: [{
+				id: "49DE87183D4CA2F9"
+				item: "undergarden:forgotten_guardian_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4FA08E0A25B50C76"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "遗忆守卫"
+			x: 6.9d
+			y: -0.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7DF743873C684B6C"]
+			dependency_requirement: "one_completed"
+			icon: "undergarden:forgotten_ingot"
+			id: "20B49D81B4F68D61"
+			rewards: [{
+				id: "0CAE284AB15404A6"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "06885974F5C5F01C"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "遗忆锭"
+			x: 6.9d
+			y: 1.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: "infinite_abyss:crystal_construct_spawn_egg"
+			id: "038624760484499E"
+			rewards: [{
+				id: "4B57C8EC3B26801C"
+				item: "infinite_abyss:crystal_construct_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6806DF8713DDC543"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "水晶构想"
+			x: 0.4d
+			y: 2.8d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"330B69EFC377DB3A"
+				"6FE709072E503AE4"
+			]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:wither_spawn_egg"
+			id: "4BAF34D31C996FFF"
+			rewards: [{
+				id: "4CFA84C88CB9A3CC"
+				item: "minecraft:wither_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "254F4EE6786DA992"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "凋灵"
+			x: 1.7d
+			y: 2.8d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"330B69EFC377DB3A"
+				"6FE709072E503AE4"
+			]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:nether_star"
+			id: "0B538A39EBC611AA"
+			rewards: [{
+				id: "6CA1259C2A13D6C3"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6F26BFD414E9EA03"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "下界之星"
+			x: 1.7d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D736FF1C222EAC6"
+				"2A23DB9D7F38EA80"
+			]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:the_harbinger_spawn_egg"
+			id: "48093C5E2DC3C34C"
+			rewards: [{
+				id: "3FC858EDB852AE07"
+				item: "cataclysm:the_harbinger_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7C04669187DFB557"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "先驱者"
+			x: 3.0d
+			y: 2.8d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D736FF1C222EAC6"
+				"2A23DB9D7F38EA80"
+			]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:witherite_block"
+			id: "65E51DAED3AE716D"
+			rewards: [{
+				id: "7E65AEE3433D9DF3"
+				item: "cataclysm:witherite_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "1B33C374AC5D3AC9"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "凋灵合金块"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"37AE8615985DACD7"
+				"569B8B3A6E6D4C7C"
+			]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:call_of_the_watcher"
+			id: "08D83EE54ECC7E70"
+			rewards: [{
+				id: "7CE31CD20EC0B0D9"
+				item: "divinerpg:call_of_the_watcher"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "43FDC8A5A24F975D"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "监视者之召"
+			x: 4.3d
+			y: 2.8d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"37AE8615985DACD7"
+				"569B8B3A6E6D4C7C"
+			]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:divine_shards"
+			id: "339E90996252CFC7"
+			rewards: [{
+				count: 3
+				id: "05920DA897A499E0"
+				item: "divinerpg:divine_shards"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4843C5034426DC79"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "神圣碎片"
+			x: 4.3d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"18A24DBE229F4C06"
+				"5173CB805C830837"
+			]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:sunstorm_statue"
+			id: "52AF9366E4143A04"
+			rewards: [{
+				id: "53F2A0D2A96D660D"
+				item: "divinerpg:sunstorm_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5EC6FDCD1A15818E"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "太阳风暴"
+			x: 5.6d
+			y: 2.8d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"18A24DBE229F4C06"
+				"5173CB805C830837"
+			]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:eden_heart"
+			id: "6E4153061D675FB1"
+			rewards: [{
+				id: "0713F1EDC1349200"
+				item: "divinerpg:eden_heart"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "71936F34970944AE"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "伊甸之心"
+			x: 5.6d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"70E635DB348C5503"
+				"3E4155E2F2AC93D6"
+			]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:minoshroom_spawn_egg"
+			id: "51FB3D7C6DBD468D"
+			rewards: [{
+				id: "51302D2AD16EFAE3"
+				item: "twilightforest:minoshroom_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "59142D6134ECD3A5"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "米诺陶"
+			x: 6.9d
+			y: 2.8d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"70E635DB348C5503"
+				"3E4155E2F2AC93D6"
+			]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:meef_stroganoff"
+			id: "03DC5F69F02C37F6"
+			rewards: [{
+				count: 5
+				id: "590A2B687F96D10F"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "16698C79AFB89802"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "牛头人沙拉酱肉"
+			x: 6.9d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "goety:infernal_tome"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "000DE2EFF6E7F53A"
+			rewards: [{
+				id: "48C6113A5CC24AE6"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Unknown"
+						generation: 3
+						pages: ["{\"translate\": \"incendium.book.alter.page1\", \"fallback\": \"\\u00a7kOn this\\u00a7r alt\\u00a7ker a\\u00a7r nether sta\\u00a7kr does\\u00a7r be\\u00a7klong:\\u00a7r\\n\\nTo summon the INFERNO, \\u00a7ka god of\\u00a7r fir\\u00a7ke.\\u00a7r\\n\\nA warrior \\u00a7kmust\\u00a7r be worthy \\u00a7kand\\u00a7r str\\u00a7kong,\\u00a7r\\n\\nTo \\u00a7ksurvive t\\u00a7rhis blaze\\u00a7k's\\u00a7r ter\\u00a7krible\\u00a7r ire.\"}"]
+						resolved: 1b
+						title: ""
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6FB93564D278C9E5"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "炼狱游者"
+			x: 0.4d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["41A9F6608716E19B"]
+			dependency_requirement: "one_completed"
+			icon: "aether:slider_spawn_egg"
+			id: "09CD6FCC350E9E38"
+			rewards: [{
+				id: "712BA0BE802442FC"
+				item: "aether:slider_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "71289D1095B19B0C"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "滑行魔石"
+			x: 0.4d
+			y: 5.7d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5D6A2EAD3949F15D"]
+			dependency_requirement: "one_completed"
+			icon: "aether:bronze_dungeon_key"
+			id: "36BD7297EA24BC1A"
+			rewards: [{
+				id: "1CE770D0BF4DE86F"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "07C609F366B41864"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "青铜钥匙"
+			x: 0.4d
+			y: 6.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5CF616344C2F8954"]
+			dependency_requirement: "one_completed"
+			icon: "aether:valkyrie_queen_spawn_egg"
+			id: "1A65FA1676EDFF20"
+			rewards: [{
+				id: "721DBF3382F70EB9"
+				item: "aether:valkyrie_queen_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1730298F0FC6953D"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "武神女王"
+			x: 1.7000000000000002d
+			y: 5.7d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5CF616344C2F8954"]
+			dependency_requirement: "one_completed"
+			icon: "aether:silver_dungeon_key"
+			id: "4A3A86710B015461"
+			rewards: [{
+				id: "22B465A43005B289"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3823C18415CE3B69"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "白银钥匙"
+			x: 1.7000000000000002d
+			y: 6.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["429AA2EBD5A46860"]
+			dependency_requirement: "one_completed"
+			icon: "aether:sun_spirit_spawn_egg"
+			id: "0668AD41CD14D0D6"
+			rewards: [{
+				id: "19266239DCBC71AF"
+				item: "aether:sun_spirit_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "10028D18D837F56C"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "烈阳巨灵"
+			x: 2.9999999999999996d
+			y: 5.7d
+		}
+		{
+			can_repeat: true
+			dependencies: ["429AA2EBD5A46860"]
+			dependency_requirement: "one_completed"
+			icon: "aether:gold_dungeon_key"
+			id: "3685107E5FADA8A4"
+			rewards: [{
+				id: "1B8AA1CE6505D0D0"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "01BF91675CA8D4A3"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "黄金钥匙"
+			x: 2.9999999999999996d
+			y: 6.9d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"269EB95CAEF110C9"
+				"1B8BD95EE88EBAE7"
+			]
+			dependency_requirement: "one_completed"
+			icon: "mowziesmobs:frostmaw_spawn_egg"
+			id: "05E852454237AB56"
+			rewards: [{
+				id: "76B88BF119870F77"
+				item: "mowziesmobs:frostmaw_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6F3DDFE070BA2361"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "霜冻巨兽"
+			x: 4.3d
+			y: 5.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"269EB95CAEF110C9"
+				"1B8BD95EE88EBAE7"
+			]
+			dependency_requirement: "one_completed"
+			icon: "eeeabsmobs:nameless_guardian_egg"
+			id: "6AAE44E17D4C75C2"
+			rewards: [{
+				id: "179CA2D4AE0C6B2F"
+				item: "eeeabsmobs:nameless_guardian_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1EF59C212236E636"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "无名守卫者"
+			x: 4.3d
+			y: 6.9d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"601EC3D8A7402B0F"
+				"2D296ED558CCCA98"
+				"1752F12ADD4240B6"
+			]
+			dependency_requirement: "one_completed"
+			icon: "goety:apostle_spawn_egg"
+			id: "1BD237847051EA76"
+			rewards: [{
+				id: "26ABBDC16CE465BF"
+				item: "goety:apostle_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7E0C007AF301F556"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "使徒"
+			x: 5.6d
+			y: 5.6d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"601EC3D8A7402B0F"
+				"2D296ED558CCCA98"
+				"1752F12ADD4240B6"
+			]
+			dependency_requirement: "one_completed"
+			icon: "goety:unholy_blood"
+			id: "0CC63696360B82EC"
+			rewards: [{
+				id: "3B8F75C298547898"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "315FE755C0992485"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "不洁之血"
+			x: 5.6d
+			y: 6.899999999999999d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6F6501FFAD4726D4"
+				"5E8B7156E2A9DDAE"
+			]
+			dependency_requirement: "one_completed"
+			icon: "infinite_abyss:frozen_wither_spawn_egg"
+			id: "649304E403D9798D"
+			rewards: [{
+				id: "4A4DDC7CACE2B368"
+				item: "infinite_abyss:frozen_wither_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2FDE9B2DAAD24BB6"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "极寒凋灵"
+			x: 6.9d
+			y: 5.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6F44E323FA2C16A0"]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:ender_golem_spawn_egg"
+			id: "19F9054756064BCD"
+			rewards: [{
+				id: "6B0B016DCEDA5EA6"
+				item: "cataclysm:ender_golem_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "091FD4B482A08E8B"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "末影傀儡"
+			x: 0.4d
+			y: 8.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6F44E323FA2C16A0"]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:void_core"
+			id: "30A8F0276947850E"
+			rewards: [{
+				id: "7F817C02AD51C038"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "165ED775899DB2CE"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "虚空核心"
+			x: 0.4d
+			y: 9.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"489089CAA9683632"
+				"3F201A3ABC64F406"
+			]
+			dependency_requirement: "one_completed"
+			icon: "aquamirae:shell_horn"
+			id: "34123759FFE3C218"
+			rewards: [{
+				id: "22D568958CA51175"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2BC4969404E6CE73"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "科妮莉亚船长"
+			x: 1.6999999999999997d
+			y: 8.4d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3F201A3ABC64F406"
+				"489089CAA9683632"
+			]
+			dependency_requirement: "one_completed"
+			icon: "aquamirae:frozen_key"
+			id: "0A31C20D6759B9B6"
+			rewards: [{
+				id: "5E90BCAE328BA162"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "75B8E0E223EE207D"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "冻结钥匙"
+			x: 1.6999999999999997d
+			y: 9.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"72ADED7576A88291"
+				"18FC362D02488BB3"
+				"252104EDECDAED33"
+				"0CB3E54695B301FE"
+			]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:hydra_spawn_egg"
+			id: "52E5356F2E5CDA27"
+			rewards: [{
+				id: "31E652834BA852CB"
+				item: "twilightforest:hydra_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0F28D8673894F82C"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "九头蛇"
+			x: 2.9999999999999996d
+			y: 8.4d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"72ADED7576A88291"
+				"18FC362D02488BB3"
+				"252104EDECDAED33"
+				"0CB3E54695B301FE"
+			]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:hydra_chop"
+			id: "570350E10EA0C608"
+			rewards: [{
+				count: 8
+				id: "5F1FC5B89F7DC62E"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1EAFF31B85C0DC27"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "九头蛇肉排"
+			x: 2.9999999999999996d
+			y: 9.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7E8196D65D59CCCF"
+				"7CEAE23BEA25DF4F"
+			]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:scylla_spawn_egg"
+			id: "7F1C7A01A8C48AFB"
+			rewards: [{
+				id: "0287AFC220E50E00"
+				item: "cataclysm:scylla_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "78B4A20F885FDF9D"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "斯库拉"
+			x: 4.300000000000001d
+			y: 8.4d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"04A725C4670FEAFE"
+				"621C0AC7E70E57BE"
+			]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:the_leviathan_spawn_egg"
+			id: "207FA714532E1824"
+			rewards: [{
+				id: "3DF5C1AFC6916583"
+				item: "cataclysm:the_leviathan_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5CB4B4C92A7A3D96"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "利维坦"
+			x: 4.300000000000001d
+			y: 9.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"72ADED7576A88291"
+				"18FC362D02488BB3"
+				"252104EDECDAED33"
+				"0CB3E54695B301FE"
+			]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:knight_phantom_spawn_egg"
+			id: "5745139AA2BBC2BE"
+			rewards: [{
+				id: "60C1C14F53B515F5"
+				item: "twilightforest:knight_phantom_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "35A240CBEE942FC1"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "幻影骑士"
+			x: 5.6d
+			y: 8.4d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"72ADED7576A88291"
+				"18FC362D02488BB3"
+				"252104EDECDAED33"
+				"0CB3E54695B301FE"
+			]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:ur_ghast_spawn_egg"
+			id: "33DC9D6C2DBEA3E7"
+			rewards: [{
+				id: "763A09BFC04E5AE3"
+				item: "twilightforest:ur_ghast_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1859EFC3073424A2"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "暮色恶魂"
+			x: 6.8999999999999995d
+			y: 8.4d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"72ADED7576A88291"
+				"18FC362D02488BB3"
+				"252104EDECDAED33"
+				"0CB3E54695B301FE"
+			]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:alpha_yeti_spawn_egg"
+			id: "2A4E7CAF26F91C51"
+			rewards: [{
+				id: "7C1CE2757BF3D047"
+				item: "twilightforest:alpha_yeti_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "39037A1D70C10196"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "雪怪首领"
+			x: 0.4d
+			y: 11.2d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"72ADED7576A88291"
+				"18FC362D02488BB3"
+				"252104EDECDAED33"
+				"0CB3E54695B301FE"
+			]
+			dependency_requirement: "one_completed"
+			icon: "twilightforest:alpha_yeti_fur"
+			id: "28E0CFF64D9354C6"
+			rewards: [{
+				count: 3
+				id: "2A6126C924BE6A5E"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "146457F881414CC7"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "雪怪首领毛皮"
+			x: 0.4d
+			y: 12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6F6501FFAD4726D4"
+				"5E8B7156E2A9DDAE"
+			]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:ender_guardian_spawn_egg"
+			id: "41023DD2407AEDE9"
+			rewards: [{
+				id: "1773AF87A87950BA"
+				item: "cataclysm:ender_guardian_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3467088E985B4636"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "末影守卫"
+			x: 6.9d
+			y: 6.899999999999999d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"12F17AB4C4CA8293"
+				"2DE93457EA4010BB"
+			]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:ignis_spawn_egg"
+			id: "6107A4EDAEA5A611"
+			rewards: [{
+				id: "2768EF7890CAFE32"
+				item: "cataclysm:ignis_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7805047A80A93E18"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "焰魔"
+			x: 5.6d
+			y: 9.700000000000001d
+		}
+		{
+			can_repeat: true
+			dependencies: ["45E8987A52189B41"]
+			dependency_requirement: "one_completed"
+			icon: "cataclysm:maledictus_spawn_egg"
+			id: "60CBC71F33731203"
+			rewards: [{
+				id: "68AAFFE6B8A3EA99"
+				item: "cataclysm:maledictus_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "19B908C600F8B03A"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "咒翼灵骸"
+			x: 6.8999999999999995d
+			y: 9.700000000000001d
+		}
+	]
+	title: "BOSS特供应"
+}

@@ -1,0 +1,20 @@
+{
+  "general": {
+    "enable": false,
+    "debugDisplay": false
+  },
+  "movement": {
+    "enable": true,
+    "jump": true,
+    "sneak": "Pressed",
+    "dismount": true,
+    "textFieldDisables": true,
+    "unrecognizedScreenDefault": false
+  },
+  "background": {
+    "enable": true,
+    "hideOnPause": "AllowHide",
+    "unrecognizedScreenDefault": false
+  },
+  "allowedKeysOverrides": {}
+}

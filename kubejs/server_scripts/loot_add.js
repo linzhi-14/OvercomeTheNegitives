@@ -1,0 +1,42 @@
+LootJS.modifiers((event) => {
+    //方块
+    event
+        .addBlockLootModifier("infinite_abyss:astarium_ore")
+        .addLoot("infinite_abyss:astarium_ore")
+        .addLoot("infinite_abyss:astarium_crystal")
+    event
+        .addBlockLootModifier("infinite_abyss:vicerite_ore")
+        .addLoot("infinite_abyss:vicerite_ore")
+        .addLoot("infinite_abyss:vicerite_crystal")
+    event
+        .addBlockLootModifier("infinite_abyss:mycelium_vine")
+        .addLoot("infinite_abyss:mycelium_vine")
+    event
+        .addBlockLootModifier("infinite_abyss:icicle_bottom")
+        .addLoot("infinite_abyss:icicle_bottom")
+    event
+        .addBlockLootModifier("iceandfire:sapphire_ore")
+        .addLoot("iceandfire:sapphire_ore")
+
+    //生物
+    event
+        .addEntityLootModifier("minecraft:drowned")
+        .addLoot("divinerpg:rupee_ingot")
+    event
+        .addEntityLootModifier("minecraft:creeper")
+        .addLoot("divinerpg:arlemite_ingot")
+        .addLoot("savage_and_ravage:blast_proof_plating")
+    event
+        .addEntityLootModifier("undergarden:rotbeast")
+        .addLoot("minecraft:totem_of_undying")
+    event
+        .addEntityLootModifier("divinerpg:frozen_flesh")
+        .addLoot("divinerpg:oxdrite_ingot")
+    event.
+        addEntityLootModifier("undergarden:forgotten_guardian")
+        .addLoot("undergarden:forgotten_block")
+    event.addEntityLootModifier("deeperdarker:sculk_centipede")
+        .addLoot("deeperdarker:sculk_bone")
+    event.addEntityLootModifier("iceandfire:hippocampus")
+        .addLoot("iceandfire:hippocampus_fin")
+});

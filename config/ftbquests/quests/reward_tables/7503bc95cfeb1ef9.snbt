@@ -1,0 +1,12 @@
+{
+	icon: "yuushya:road_marking_arrow_forward"
+	id: "7503BC95CFEB1EF9"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "linzhi:left" }
+		{ item: "linzhi:mid" }
+		{ item: "linzhi:right" }
+	]
+	title: "线路选择"
+}

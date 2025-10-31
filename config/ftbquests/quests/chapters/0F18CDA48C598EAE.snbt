@@ -1,0 +1,578 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "0F18CDA48C598EAE"
+	group: "0867D519EA45AC19"
+	hide_quest_until_deps_complete: true
+	icon: "botania:brew_vial"
+	id: "0F18CDA48C598EAE"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["19500FEB3EB7E9AC"]
+			icon: "botania:brew_vial"
+			id: "1291DCF14F3BF55D"
+			rewards: [
+				{
+					id: "54BA9B343ACA8294"
+					ignore_reward_blocking: true
+					stage: "netherite_sword"
+					type: "gamestage"
+				}
+				{
+					id: "5722566E1276AE94"
+					ignore_reward_blocking: true
+					stage: "warden_armor"
+					type: "gamestage"
+				}
+				{
+					id: "1844DA6B26BE3510"
+					ignore_reward_blocking: true
+					stage: "bowhead_anchor"
+					type: "gamestage"
+				}
+				{
+					count: 15
+					id: "06D0973A28119405"
+					item: "divinerpg:shark_spawn_egg"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "1FE58F02B77C6A45"
+				title: "欢迎回来"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1291DCF14F3BF55D"]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "229088D8D97947B7"
+			rewards: [{
+				id: "57C3672450EA3715"
+				ignore_reward_blocking: true
+				stage: "sculkium_sword"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "7EAD9B24E15CEE51"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65C099A77B6E9340"
+					title: "这个物品有两个同位配方，请仔细查看"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["229088D8D97947B7"]
+			icon: {
+				Count: 1
+				id: "l2complements:sculkium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "70C3BA662D2F0C76"
+			rewards: [{
+				id: "30651BDFA5435041"
+				ignore_reward_blocking: true
+				stage: "ender_sword"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "0A0E1893DFD5E620"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "633F0DE31A967E08"
+					title: "这个物品有两个同位配方，请仔细查看"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70C3BA662D2F0C76"]
+			icon_scale: 2.0d
+			id: "3F605348627E3040"
+			tasks: [{
+				id: "4546575DDC30AF0C"
+				item: {
+					Count: 1
+					id: "divinerpg:ender_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1291DCF14F3BF55D"]
+			icon_scale: 2.0d
+			id: "2A70C300E0798806"
+			rewards: [{
+				id: "3C0F67489506FFEF"
+				ignore_reward_blocking: true
+				stage: "ender_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "64F639D4D50DC6B0"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36283C853F0520E6"]
+			icon_scale: 2.0d
+			id: "06C828477A7BA801"
+			tasks: [{
+				id: "08BE82BB671595DC"
+				item: {
+					Count: 1
+					id: "l2complements:sculkium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A70C300E0798806"]
+			icon_scale: 2.0d
+			id: "36283C853F0520E6"
+			rewards: [{
+				id: "42EBF0CA8F4AEFA7"
+				ignore_reward_blocking: true
+				stage: "sculkium_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "4B8D952932F16675"
+				item: {
+					Count: 1
+					id: "divinerpg:ender_chestplate"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1291DCF14F3BF55D"]
+			icon_scale: 2.0d
+			id: "0391A7E54AE1C274"
+			rewards: [{
+				id: "34EDE3C19B8A1A7D"
+				ignore_reward_blocking: true
+				stage: "wildwood_bow"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "710E90284E921C98"
+				item: {
+					Count: 1
+					id: "divinerpg:bowhead_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0391A7E54AE1C274"]
+			icon_scale: 2.0d
+			id: "533CAABC6EA7A12F"
+			rewards: [{
+				id: "4680AC27E055039C"
+				ignore_reward_blocking: true
+				stage: "dragon_bow"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "767E66AC1D529E89"
+				item: {
+					Count: 1
+					id: "divinerpg:wildwood_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["533CAABC6EA7A12F"]
+			icon_scale: 2.0d
+			id: "3A4D9D3A93E1457F"
+			rewards: [{
+				id: "3ABDCBF14E9BD679"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:power"
+							lvl: 6s
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "这个任务需要提交"
+			tasks: [{
+				consume_items: true
+				id: "20A95A018A33D146"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0391A7E54AE1C274"]
+			icon_scale: 2.0d
+			id: "4856D7C7F9831455"
+			rewards: [{
+				id: "13F8FFBC47987CB2"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:drive_vertical"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ECBC95BC07B26A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_wooden.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 2500
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_wooden"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_wooden.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 2500
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_wooden"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -0.5d
+			y: 4.7d
+		}
+		{
+			dependencies: [
+				"4856D7C7F9831455"
+				"533CAABC6EA7A12F"
+			]
+			icon_scale: 2.0d
+			id: "737B96BFAEADF6E0"
+			rewards: [{
+				id: "61361BF86D34B4BB"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:void_slash"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "416146F3C04C1EC0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_iron.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 27.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 3300
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_iron"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_iron.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 27.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 3300
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_iron"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.0d
+			y: 4.7d
+		}
+		{
+			dependencies: [
+				"737B96BFAEADF6E0"
+				"3A4D9D3A93E1457F"
+			]
+			icon_scale: 2.0d
+			id: "3F99962C4C61E97F"
+			rewards: [{
+				id: "0F6924BC4D7B8BC4"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:sakura_end"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "传闻其中一个锈掉的鄂门掌握在监守者手中..."
+			tasks: [{
+				id: "3308E959078BE95F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_netherite.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 55.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 4000
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_netherite"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/rodai_netherite.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 55.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 4000
+							proudSoul: 0
+							translationKey: "item.slashblade.rodai_netherite"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.5d
+			y: 4.7d
+		}
+	]
+	title: "妮妮的进阶武器研究所"
+}

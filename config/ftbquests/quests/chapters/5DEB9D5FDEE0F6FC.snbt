@@ -1,0 +1,151 @@
+{
+	autofocus_id: "192893813FE5B026"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5DEB9D5FDEE0F6FC"
+	group: "217CC514C94C2430"
+	icon: "minecraft:spore_blossom"
+	id: "5DEB9D5FDEE0F6FC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "linzhi:difficulty_reset_button"
+			id: "5D1722A1CC0472E4"
+			rewards: [{
+				id: "73239F8120B74B4F"
+				ignore_reward_blocking: true
+				stage: "difficulty_reset"
+				type: "gamestage"
+			}]
+			size: 2.0d
+			subtitle: "行吧你个笨蛋"
+			tasks: [{
+				consume_items: true
+				id: "765A45213EF23C37"
+				item: "linzhi:difficulty_reset_button"
+				title: "后悔了？重置难度！"
+				type: "item"
+			}]
+			title: "什么，你要重新设置难度？！"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				" &4左:简单             &8中:普通             &b右:困难"
+				"                   "
+				"=================你所遇到的生物================"
+				"     "
+				"&4血量变为一半      &8各项属性      &b血量变为两倍"
+				"&4伤害变为一半        &8基本上       &b伤害变为两倍"
+				"&4速度变为四分之三 &8没有变化       &b速度变为两倍"
+				"&4攻击速度变为一半             &b攻击速度变为两倍"
+				""
+				"&4适合只想         &8 适合有                &b适合有"
+				"&4走走剧情          &8一定经验     &b  强大挑战欲望"
+				"&4的新手玩家       &8基础的玩家     &b的超级老玩家"
+			]
+			icon: "minecraft:small_dripleaf"
+			icon_scale: 2.0d
+			id: "192893813FE5B026"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2658A523C93C785C"
+				table_id: 8431790278992142073L
+				type: "choice"
+			}]
+			subtitle: "难度选择"
+			tasks: [{
+				id: "3AAE4DBB9898DA81"
+				stage: "difficulty_reset"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["192893813FE5B026"]
+			icon_scale: 2.0d
+			id: "78695725811A521A"
+			rewards: [
+				{
+					id: "651B24171B7D5A78"
+					ignore_reward_blocking: true
+					stage: "easy"
+					type: "gamestage"
+				}
+				{
+					id: "4FFEEE1120F07A90"
+					ignore_reward_blocking: true
+					stage: "difficulty_reset_finish"
+					type: "gamestage"
+				}
+			]
+			subtitle: "喔，有点弱"
+			tasks: [{
+				consume_items: true
+				id: "318136B2B43F7AB8"
+				item: "linzhi:left"
+				type: "item"
+			}]
+			title: "简单难度"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["192893813FE5B026"]
+			icon_scale: 2.0d
+			id: "2ADF62B383B09B50"
+			rewards: [{
+				id: "48EC610C8BBE6483"
+				ignore_reward_blocking: true
+				stage: "difficulty_reset_finish"
+				type: "gamestage"
+			}]
+			subtitle: "中规中矩吧..."
+			tasks: [{
+				consume_items: true
+				id: "00486CD91823BF96"
+				item: "linzhi:mid"
+				type: "item"
+			}]
+			title: "普通难度"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5E34F89C3B4C84A0"
+				"192893813FE5B026"
+			]
+			icon_scale: 2.0d
+			id: "75451A98A929A461"
+			rewards: [
+				{
+					id: "642E9219FDAF6AA2"
+					ignore_reward_blocking: true
+					stage: "hard"
+					type: "gamestage"
+				}
+				{
+					id: "15C4DE078427225A"
+					ignore_reward_blocking: true
+					stage: "difficulty_reset_finish"
+					type: "gamestage"
+				}
+			]
+			subtitle: "这么强？！！！！"
+			tasks: [{
+				consume_items: true
+				id: "3D041C85FE1DB65A"
+				item: "linzhi:right"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	title: "重新设置难度"
+}

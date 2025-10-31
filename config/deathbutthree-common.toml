@@ -1,0 +1,6 @@
+
+[DeathButThree]
+	#Before ';': boss' registry name
+	#After ';': its max death times
+	ValidBossesAndMaxDeathTimes = ["infinite_abyss:charya;3", "divinerpg:king_of_scorchers;3", "cataclysm:netherite_monstrosity;3", "goety:vizier;3", "undergarden:forgotten_guardian;3", "infinite_abyss:crystal_construct;3", "minecraft:wither;3", "cataclysm:the_harbinger;3", "divinerpg:the_watcher;3", "divinerpg:sunstorm;3", "divinerpg:termasect;3", "minecraft:warden;3", "divinerpg:ancient_entity;3", "goety:crone;3", "goety:wight;3", "goety:apostle;3", "divinerpg:eternal_archer;3", "divinerpg:experienced_cori;3", "divinerpg:densos;3", "divinerpg:karot;3", "divinerpg:reyvor;3", "divinerpg:soul_fiend;3", "divinerpg:twilight_demon;3", "minecraft:ender_dragon;3", "infinite_abyss:frozen_wither;3", "divinerpg:parasecta;3", "cataclysm:ancient_remnant;3", "cataclysm:scylla;3", "cataclysm:ignis;3", "aquamirae:captain_cornelia;3", "cataclysm:ender_guardian;3", "cataclysm:the_leviathan;3", "cataclysm:maledictus;3", "twilightforest:minoshroom;3", "twilightforest:knight_phantom;3", "twilightforest:snow_queen;3", "twilightforest:hydra;3", "twilightforest:ur_ghast;3"]
+

@@ -1,0 +1,39 @@
+{
+  "logModelCreationData": false,
+  "debugOnRightClick": false,
+  "renderModeChoice": "NORMAL",
+  "vanillaModelHologramRenderMode_2": "OFF",
+  "modelExportMode": "NONE",
+  "attemptPhysicsModPatch_2": "CUSTOM",
+  "modelUpdateFrequency": "Average",
+  "entityRenderModeOverrides": {
+    "entity.minecraft.cat": "NORMAL",
+    "entity.minecraft.zombified_piglin": "NORMAL",
+    "infinite_abyss:deeprock_golem": "NORMAL",
+    "entity.happy_ghast_legacy.happy_ghast": "NONE"
+  },
+  "entityPhysicsModPatchOverrides": {},
+  "entityVanillaHologramOverrides": {
+    "entity.minecraft.cat": "OFF",
+    "entity.happy_ghast_legacy.happy_ghast": "NORMAL"
+  },
+  "modelsNamesDisabled": [],
+  "allowEBEModConfigModify": false,
+  "animationLODDistance": 20,
+  "retainDetailOnLowFps": true,
+  "retainDetailOnLargerMobs": true,
+  "animationFrameSkipDuringIrisShadowPass": true,
+  "preventFirstPersonHandAnimating": false,
+  "onlyClientPlayerModel": false,
+  "doubleChestAnimFix": false,
+  "enforceOptifineVariationRequiresDefaultModel": false,
+  "enforceOptifineVariationRequiresDefaultModel_v2": false,
+  "resetPlayerModelEachRender": true,
+  "resetPlayerModelEachRender_v2": true,
+  "onlyDebugRenderOnHover": false,
+  "enforceOptifineSubFoldersVariantOnly": true,
+  "enforceOptiFineAnimSyntaxLimits": true,
+  "allowOptifineFallbackProperties": true,
+  "enforceOptiFineFloorUVs": true,
+  "showReloadErrorToast": true
+}

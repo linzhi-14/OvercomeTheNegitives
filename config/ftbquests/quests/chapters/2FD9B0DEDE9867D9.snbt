@@ -1,0 +1,585 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "2FD9B0DEDE9867D9"
+	group: "0867D519EA45AC19"
+	icon: "nameless_trinkets:creeper_sense"
+	id: "2FD9B0DEDE9867D9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27F07DB8999F054B"]
+			description: [
+				"只见洁方刚提步在路，一道惊雷落下，那绿帽袍粉毛使者便从中出现"
+				""
+				"洁方连连数退，瞧那帽顶印有苦力怕标识，便以为是敌，掏剑对峙"
+				""
+				"&a“你药剂吧干啥！别这样看着我行不行！还有这语言风格是什么鬼啊”&r"
+				""
+				"林芝气得将【字幕】砸出了屏幕外，扔中了外面的某个人"
+				""
+				"&a“欸，oioioi，我才不是什么坏人哦，听着，小年轻！”&r"
+				""
+				"&a“我可是拥有神的力量的人！我可以卖给你......”&r"
+				""
+				"“一些&a【独特的】&r&d【神奇的】&r&b【妙妙的】&r”"
+				""
+				"&c“【大商品】”&r"
+				""
+				"洁方瞪大了双眼，咬紧了牙关，审视着面前这个可爱又迷人的小东西"
+				""
+				"内心细想着：“这人脑子有问题吗，该不会是疯掉了吧”"
+				""
+				"洁方还沉浸在自己的浮想中，她只打了个响指，洁方脖下的吊坠轰地就到了林芝手上"
+				""
+				"“我....我的东西，快把它还给我”，洁方急了，急急急急急急急急急急"
+				""
+				"&a“听着，我可以给你戴有更多饰品的【空间】，只要你和我【交易】”&r"
+				""
+				"林芝一个大闪瞬，啪地一下很快啊，一只手就按在了洁方的后背"
+				""
+				"&a“买买买买买买买买买！买！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！”&r"
+				""
+				"洁方无奈只能和她做了个小交易............."
+			]
+			hide_text_until_complete: true
+			icon: "nameless_trinkets:creeper_sense"
+			id: "65EAB87EB8D4AC8A"
+			rewards: [{
+				description: ""
+				id: "6B1D73BD34E479AF"
+				title: "“那人好奇怪啊，但是吧，卖的什么【空间】什么的，感觉还挺好”"
+				type: "toast"
+			}]
+			size: 2.0d
+			subtitle: "偶遇的神秘人"
+			tasks: [{
+				id: "5084583FFD270B1F"
+				title: "一个特殊的商人？！"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "7A5BD17A9A28DC36"
+			rewards: [{
+				auto: "invisible"
+				id: "0FF83DF5EEBD387F"
+				ignore_reward_blocking: true
+				stage: "body"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个胸饰栏位"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4C664D58584BD47F"
+				item: { Count: 5, id: "iter_rpg:flawless_diamond" }
+				type: "item"
+			}]
+			title: "胸饰栏位购买"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: "artifacts:flippers"
+			icon_scale: 2.0d
+			id: "0ED727AADAD85CCF"
+			rewards: [{
+				id: "110AEEFB80815A5E"
+				ignore_reward_blocking: true
+				stage: "feet"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个足部栏位"
+			tasks: [
+				{
+					consume_items: true
+					id: "5D5ABFBD666D0AA3"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "0A371E3BF58E801A"
+					item: { Count: 10, id: "ars_nouveau:wilden_wing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "2EDA85AB617DED33"
+					item: { Count: 10, id: "ars_nouveau:wilden_spike" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "721CCEB4DC7BA0EC"
+					item: { Count: 10, id: "ars_nouveau:wilden_horn" }
+					type: "item"
+				}
+			]
+			title: "足部栏位购买"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: "yuushya:backpack_pink_concrete"
+			icon_scale: 2.0d
+			id: "3597513C5871B03B"
+			rewards: [{
+				id: "0ACF5EF1F913E711"
+				ignore_reward_blocking: true
+				stage: "back"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个背饰栏位"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "3CC3AEA949703B5E"
+				item: { Count: 5, id: "iter_rpg:flawless_emerald" }
+				type: "item"
+			}]
+			title: "背饰栏位购买"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:starbuncle_charm"
+				tag: { }
+			}
+			icon_scale: 2.0d
+			id: "1BF046384B630419"
+			rewards: [{
+				id: "2E66B34D836AA02F"
+				ignore_reward_blocking: true
+				stage: "charm"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个护符栏位"
+			tasks: [
+				{
+					consume_items: true
+					id: "4115D146C288356B"
+					item: "infinite_abyss:crystal_heart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "069D044570F12935"
+					item: "goety:soul_ruby"
+					type: "item"
+				}
+			]
+			title: "护符栏位购买"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: "enigmaticaddons:quartz_ring"
+			icon_scale: 2.0d
+			id: "6897C82104DE7D7C"
+			rewards: [{
+				id: "461B6A3DFFD3A2A1"
+				ignore_reward_blocking: true
+				stage: "ring"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个戒指栏位"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0B103BCFF61C419F"
+				item: { Count: 5, id: "ars_nouveau:source_gem_block" }
+				type: "item"
+			}]
+			title: "戒指栏位购买"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: {
+				Count: 1
+				id: "l2complements:totemic_gold_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "67F0F4BA75FD1356"
+			rewards: [{
+				id: "4FF276B4A18AD01B"
+				ignore_reward_blocking: true
+				stage: "head"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个头饰栏位"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "5AA8ACC690E80626"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "65AD7AA8BE1BE3D0"
+					item: "enigmaticlegacy:blazing_core"
+					type: "item"
+				}
+			]
+			title: "头饰栏位购买"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: "goety:thrash_glove"
+			icon_scale: 2.0d
+			id: "4FD20BC9EBF6079D"
+			rewards: [{
+				auto: "invisible"
+				id: "279CBD59FE7CBFFF"
+				ignore_reward_blocking: true
+				stage: "hands"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个手饰栏位"
+			tasks: [
+				{
+					consume_items: true
+					id: "1F2B539A4E6E20B0"
+					item: "aquamirae:poseidons_breakfast"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "774DC2306BF0C89C"
+					item: "artifacts:eternal_steak"
+					type: "item"
+				}
+			]
+			title: "手饰栏位购买"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: "artifacts:cross_necklace"
+			icon_scale: 2.0d
+			id: "00F4A1D1AF94ED7B"
+			rewards: [{
+				id: "5391A096CBF98415"
+				ignore_reward_blocking: true
+				stage: "necklace"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个项链栏位"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "5B2C2786DE76C75F"
+				item: { Count: 5, id: "infinite_abyss:perfect_red_crystal" }
+				type: "item"
+			}]
+			title: "项链栏位购买"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: "botania:travel_belt"
+			icon_scale: 2.0d
+			id: "05ACBB367E9F5037"
+			rewards: [{
+				auto: "invisible"
+				id: "483454FD7E740A42"
+				ignore_reward_blocking: true
+				stage: "belt"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个腰带栏位"
+			tasks: [
+				{
+					consume_items: true
+					id: "1CD3A24258981A67"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1C6C723DD053B11D"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "腰带栏位购买"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1BF046384B630419"]
+			icon: "ars_nouveau:whirlisprig_charm"
+			icon_scale: 2.0d
+			id: "76E05BA3CE05121B"
+			rewards: [{
+				id: "591D368A3A389B9F"
+				ignore_reward_blocking: true
+				stage: "charm"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个护符栏位"
+			tasks: [
+				{
+					consume_items: true
+					id: "1B99F62A89319A84"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:eldritch_pan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2ED80059FEBCFA48"
+					item: "goety:ominous_orb"
+					type: "item"
+				}
+			]
+			title: "护符栏位购买"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["76E05BA3CE05121B"]
+			icon: "ars_nouveau:bookwyrm_charm"
+			icon_scale: 2.0d
+			id: "090557BB5902B663"
+			rewards: [{
+				id: "0F24E9FBE5BA376F"
+				ignore_reward_blocking: true
+				stage: "charm"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个护符栏位"
+			tasks: [
+				{
+					consume_items: true
+					id: "0EA46CD93B975173"
+					item: "goety:unholy_blood"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5925B85E475C5ABE"
+					item: "enigmaticaddons:etherium_core"
+					type: "item"
+				}
+			]
+			title: "护符栏位购买"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6897C82104DE7D7C"]
+			icon: "enigmaticlegacy:golden_ring"
+			icon_scale: 2.0d
+			id: "582796D88F1B1DF8"
+			rewards: [{
+				id: "2AE18A7C00DC8530"
+				ignore_reward_blocking: true
+				stage: "ring"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个戒指栏位"
+			tasks: [
+				{
+					consume_items: true
+					id: "4D6B239CFFC0D929"
+					item: "botania:terrasteel_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "68E94CB1190B06F6"
+					item: { Count: 5, id: "botania:gaia_ingot" }
+					type: "item"
+				}
+			]
+			title: "戒指栏位购买"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3597513C5871B03B"]
+			icon: "yuushya:backpack_decorative_lime_wool"
+			icon_scale: 2.0d
+			id: "2F79E13FE6C6B56F"
+			rewards: [{
+				id: "151E5AF4193B9904"
+				ignore_reward_blocking: true
+				stage: "back"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个背饰栏位"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "18D55E5B9C979FFE"
+				item: "divinerpg:wildwood_gem"
+				type: "item"
+			}]
+			title: "背饰栏位购买"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67F0F4BA75FD1356"]
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "131987AAA9872C76"
+			rewards: [{
+				id: "0F0E163F84DDFF77"
+				ignore_reward_blocking: true
+				stage: "head"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个头饰栏位"
+			tasks: [
+				{
+					consume_items: true
+					id: "205006C6D818E99F"
+					item: "l2hostility:charm_of_looting_2"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0480BB3F91CC696E"
+					item: "l2hostility:hostility_orb"
+					type: "item"
+				}
+			]
+			title: "头饰栏位购买"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05ACBB367E9F5037"]
+			icon: "botania:super_travel_belt"
+			icon_scale: 2.0d
+			id: "4A9D7CF469A4BB3F"
+			rewards: [{
+				auto: "invisible"
+				id: "70636558A2EC7C09"
+				ignore_reward_blocking: true
+				stage: "belt"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个腰带栏位"
+			tasks: [
+				{
+					consume_items: true
+					id: "15A9C3D75400D3DE"
+					item: "iceandfire:fire_dragon_heart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3996A8C89D979EF8"
+					item: "iceandfire:ice_dragon_heart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "29A03FC6A4448D4F"
+					item: "iceandfire:lightning_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "腰带栏位购买"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65EAB87EB8D4AC8A"]
+			icon: "l2hostility:bottle_of_curse"
+			icon_scale: 2.0d
+			id: "63DB9B6CB3996E03"
+			rewards: [{
+				auto: "invisible"
+				id: "147BBD5AE0AE276C"
+				ignore_reward_blocking: true
+				stage: "hostility_curse"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个恶意栏位"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "78FA3580A1AC89B2"
+				item: { Count: 3, id: "l2hostility:chaos_ingot" }
+				type: "item"
+			}]
+			title: "恶意栏位购买"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63DB9B6CB3996E03"]
+			icon: "l2hostility:hostility_essence"
+			icon_scale: 2.0d
+			id: "3909CD8E70977506"
+			rewards: [{
+				auto: "invisible"
+				id: "71228553E7A77F77"
+				ignore_reward_blocking: true
+				stage: "hostility_curse"
+				type: "gamestage"
+			}]
+			subtitle: "提交物品后即可获得一个恶意栏位"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "579979F3CC75C8CA"
+				item: "l2hostility:miracle_ingot"
+				type: "item"
+			}]
+			title: "恶意栏位购买"
+			x: 0.5d
+			y: -7.5d
+		}
+	]
+	title: "饰品栏商店"
+}

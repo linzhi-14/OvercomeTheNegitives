@@ -1,0 +1,630 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "087A175E1D7B97C6"
+	group: "0867D519EA45AC19"
+	hide_quest_until_deps_complete: true
+	icon: "yuushya:sprouting_dirt"
+	id: "087A175E1D7B97C6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28CA72B7F63C016A"]
+			icon: "yuushya:sprouting_dirt"
+			id: "5AADC4A4CA96B404"
+			rewards: [
+				{
+					id: "16B2CC13B943A70E"
+					ignore_reward_blocking: true
+					stage: "earth_sword"
+					type: "gamestage"
+				}
+				{
+					id: "2B6ABAC881DA0470"
+					ignore_reward_blocking: true
+					stage: "void_armor"
+					type: "gamestage"
+				}
+				{
+					id: "3A0104FCF0493BAE"
+					ignore_reward_blocking: true
+					stage: "netherite_heavy_crossbow"
+					type: "gamestage"
+				}
+				{
+					count: 10
+					id: "1BB5EE1FD0FD14CC"
+					item: "mowziesmobs:sculptor_spawn_egg"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "研究新的武器装备！"
+			tasks: [{
+				id: "3FDEC2A1CC492240"
+				title: "枝柏研究所"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AADC4A4CA96B404"]
+			icon_scale: 2.0d
+			id: "414A9B5C70D3CFB9"
+			rewards: [{
+				id: "00D25466994E2366"
+				ignore_reward_blocking: true
+				stage: "divine_sword"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "739AA77D72E72DE2"
+				item: {
+					Count: 1
+					id: "iter_rpg:earth_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["414A9B5C70D3CFB9"]
+			icon_scale: 2.0d
+			id: "29D82296A0AD9A1A"
+			rewards: [{
+				id: "6D818E0705C783D1"
+				ignore_reward_blocking: true
+				stage: "eden_blade"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "341D8EEE2B6ECCC3"
+				item: {
+					Count: 1
+					id: "divinerpg:divine_sword"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14E31C64D104FD1B"]
+			icon_scale: 2.0d
+			id: "5041AEF983D8ACCF"
+			tasks: [{
+				id: "7D4F84B8574F6E17"
+				item: {
+					Count: 1
+					id: "l2complements:totemic_gold_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5AADC4A4CA96B404"]
+			icon: {
+				Count: 1
+				id: "iter_rpg:void_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "545E02CA6AF0B7A5"
+			rewards: [{
+				id: "62CD12A32E2FAA10"
+				ignore_reward_blocking: true
+				stage: "terrasteel_armor"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "08F2F6AB6F43D434"
+					item: {
+						Count: 1
+						id: "iter_rpg:void_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D3E9B67019B570E"
+					item: {
+						Count: 1
+						id: "iter_rpg:void_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "431CD0C057E16877"
+					item: {
+						Count: 1
+						id: "iter_rpg:void_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DD581EFD525C6A7"
+					item: {
+						Count: 1
+						id: "iter_rpg:void_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["545E02CA6AF0B7A5"]
+			icon_scale: 2.0d
+			id: "7F45711C61347B29"
+			rewards: [{
+				id: "1F7A6C5ECCE9F4F6"
+				ignore_reward_blocking: true
+				stage: "netherite_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "3ADD95A770C60824"
+				item: {
+					Count: 1
+					id: "botania:terrasteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F45711C61347B29"]
+			icon_scale: 2.0d
+			id: "4D86D0F21CD2B338"
+			rewards: [{
+				id: "31586448C8A44CA0"
+				ignore_reward_blocking: true
+				stage: "frozen_armor"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "49B9CD076864F1F6"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08422C49478EA801"]
+			icon_scale: 2.0d
+			id: "35A35784AFE762A4"
+			tasks: [{
+				id: "6651EF33A4A5139F"
+				item: {
+					Count: 1
+					id: "divinerpg:golden_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5AADC4A4CA96B404"]
+			icon_scale: 2.0d
+			id: "37B875434263CE6A"
+			rewards: [{
+				id: "70C14A54B8FB3D12"
+				ignore_reward_blocking: true
+				stage: "eden_bow"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "519389F3D6246393"
+				item: {
+					Count: 1
+					id: "spartanweaponry:netherite_heavy_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["29D82296A0AD9A1A"]
+			icon_scale: 2.0d
+			id: "14E31C64D104FD1B"
+			rewards: [{
+				id: "59914063475F1EDD"
+				ignore_reward_blocking: true
+				stage: "totemic_gold_sword"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "1E1FC547F8C7D375"
+				item: {
+					Count: 1
+					id: "divinerpg:eden_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37B875434263CE6A"]
+			icon_scale: 2.0d
+			id: "23B68BBAE92167C5"
+			rewards: [{
+				id: "6AD955F1ACDB69FA"
+				ignore_reward_blocking: true
+				stage: "eden_blitz"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "66A6F4313522A587"
+				item: {
+					Count: 1
+					id: "divinerpg:eden_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23B68BBAE92167C5"]
+			icon_scale: 2.0d
+			id: "08422C49478EA801"
+			rewards: [{
+				id: "06814098E8E512CE"
+				ignore_reward_blocking: true
+				stage: "golden_fury"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "182C76D7A34479EA"
+				item: {
+					Count: 1
+					id: "divinerpg:eden_blitz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23B68BBAE92167C5"]
+			icon_scale: 2.0d
+			id: "6C1250E26B34623C"
+			rewards: [{
+				id: "6645267D9D7D48F6"
+				item: {
+					Count: 1
+					id: "slashblade:proudsoul_sphere"
+					tag: {
+						SpecialAttackType: "slashblade:drive_vertical"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27D01425276F0688"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:circle_slash"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/muramasa/doutanuki.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.8f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1200
+							proudSoul: 0
+							translationKey: "item.slashblade.doutanuki"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:circle_slash"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/muramasa/doutanuki.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.8f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1200
+							proudSoul: 0
+							translationKey: "item.slashblade.doutanuki"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: 5.2d
+		}
+		{
+			dependencies: [
+				"6C1250E26B34623C"
+				"08422C49478EA801"
+			]
+			icon_scale: 2.0d
+			id: "54AAAFB3891285E7"
+			subtitle: "传闻其中一个锈掉的鄂门掌握在娜迦手中..."
+			tasks: [{
+				id: "58AF8394A8AE75DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/sange/sange.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/sange/white.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 10.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1700
+							proudSoul: 0
+							translationKey: "item.slashblade.fox_white"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:knockback"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/sange/sange.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/sange/white.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 10.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 1700
+							proudSoul: 0
+							translationKey: "item.slashblade.fox_white"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.2d
+		}
+		{
+			dependencies: [
+				"54AAAFB3891285E7"
+				"35A35784AFE762A4"
+			]
+			icon_scale: 2.0d
+			id: "3835D41FB728E019"
+			subtitle: "传言散华被凋灵保管着...."
+			tasks: [{
+				id: "0BCF2E95BEF066F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/orotiagito.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 14.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 2200
+							proudSoul: 0
+							translationKey: "item.slashblade.orotiagito"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/orotiagito.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 14.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34179206L
+							maxDamage: 2200
+							proudSoul: 0
+							translationKey: "item.slashblade.orotiagito"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.2d
+		}
+	]
+	title: "枝柏临时研究所"
+}

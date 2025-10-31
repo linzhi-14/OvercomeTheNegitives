@@ -1,0 +1,11 @@
+{
+	id: "2367DA58AE2F989C"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "iceandfire:fire_dragon_blood" }
+		{ item: "iceandfire:ice_dragon_blood" }
+		{ item: "iceandfire:lightning_dragon_blood" }
+	]
+	title: "三种龙血"
+}

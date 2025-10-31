@@ -1,0 +1,20 @@
+{
+	id: "7A481A3F87747C92"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "iceandfire:dragonegg_red" }
+		{ item: "iceandfire:dragonegg_green" }
+		{ item: "iceandfire:dragonegg_bronze" }
+		{ item: "iceandfire:dragonegg_gray" }
+		{ item: "iceandfire:dragonegg_blue" }
+		{ item: "iceandfire:dragonegg_white" }
+		{ item: "iceandfire:dragonegg_sapphire" }
+		{ item: "iceandfire:dragonegg_silver" }
+		{ item: "iceandfire:dragonegg_electric" }
+		{ item: "iceandfire:dragonegg_amythest" }
+		{ item: "iceandfire:dragonegg_copper" }
+		{ item: "iceandfire:dragonegg_black" }
+	]
+	title: "龙蛋集"
+}

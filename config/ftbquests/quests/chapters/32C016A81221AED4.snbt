@@ -1,0 +1,662 @@
+{
+	autofocus_id: "34FDD4DDE7FD9386"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "32C016A81221AED4"
+	group: "253036D279AE5E2D"
+	icon: "iter_rpg:gold_ring_emerald"
+	id: "32C016A81221AED4"
+	images: [
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 1.2d
+			y: -0.8d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 1.2d
+			y: 0.4d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 1.2d
+			y: 1.6d
+		}
+		{
+			height: 2.0d
+			image: "create:item/shopping_list"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.5d
+			y: -1.2d
+		}
+		{
+			height: 1.0d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.2d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "linzhi:item/z_coin"
+			rotation: 0.0d
+			width: 0.9922480620155039d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/shop.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: 1.7d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["56F77BF247399674"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "infinite_abyss:deeprock_golem_spirit_stone"
+			id: "75A2724CE33805B3"
+			rewards: [{
+				count: 2
+				id: "25BE944A47CDE10B"
+				item: "infinite_abyss:deeprock_golem_spirit_stone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2D62ED1C072F8992"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "傀儡之心"
+			x: -4.1d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1FE2E1F2A5005F80"]
+			icon: "infinite_abyss:deepsilver_ore"
+			id: "4FE6EFDF6FC8E10C"
+			rewards: [{
+				id: "7D1887959C84060A"
+				item: "infinite_abyss:deepsilver_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "506698D4AC6FDD99"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "深银矿石"
+			x: -2.9d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["18D9AC4B5F4541DE"]
+			icon: "infinite_abyss:glowing_red_crystal"
+			id: "65F2EDD6FE0BA273"
+			rewards: [{
+				count: 3
+				id: "2EC72E6936075017"
+				item: "infinite_abyss:glowing_red_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "07FF5FEEC3657189"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "红水晶块"
+			x: -1.7d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BDFA11DFA1A270C"]
+			icon: "infinite_abyss:light_blue_crystal_block"
+			id: "5C1C5D43F45329AD"
+			rewards: [{
+				count: 5
+				id: "2B35A92BE894A642"
+				item: "infinite_abyss:light_blue_crystal_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "337716EB07D0CAB5"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "淡蓝色水晶块"
+			x: -0.5d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1ECF04DA03A5988F"]
+			icon: "divinerpg:purple_blaze"
+			id: "740648C4B12B5D17"
+			rewards: [{
+				id: "200CDDAE0564B6CD"
+				item: "divinerpg:purple_blaze"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "26C44A831C174CE2"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "紫焰粉"
+			x: 0.7d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BDFA11DFA1A270C"]
+			icon: "infinite_abyss:violet_diamond_ore"
+			id: "1278B17D5E77A436"
+			rewards: [{
+				count: 3
+				id: "068FC6AB73F086B6"
+				item: "infinite_abyss:violet_diamond_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0CBF6CD3EC68D185"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "紫钻石矿"
+			x: 1.9d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1DE048F039C02548"]
+			icon: "ae2:fluix_crystal"
+			id: "735BEFF9C5E5CDDF"
+			rewards: [{
+				count: 4
+				id: "303AEFEE92F4A796"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "10D228E8BB46692A"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "福鲁伊克斯水晶"
+			x: 3.1d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1DE048F039C02548"]
+			icon: "ae2:certus_quartz_crystal"
+			id: "1D0CD56298C3602A"
+			rewards: [{
+				count: 5
+				id: "488569516A6423B0"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7A1A3B6B636C3CE6"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "赛特斯石英水晶"
+			x: 4.2d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BDFA11DFA1A270C"]
+			icon: "infinite_abyss:opal_ore"
+			id: "746814D00A9517AB"
+			rewards: [{
+				count: 2
+				id: "7E8B1425143B3720"
+				item: "infinite_abyss:opal_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "297C6B956BB94F9F"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "蛋白石矿石"
+			x: 5.4d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5ADADDB0E13F6E85"]
+			icon: "iter_rpg:etherbloom"
+			id: "3FF15399D3AC14EC"
+			rewards: [{
+				count: 5
+				id: "5F4A9F90EBAF8A69"
+				item: "iter_rpg:etherbloom"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "253036FD6F0A9108"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "以太之花"
+			x: 6.6d
+			y: -0.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5ADADDB0E13F6E85"]
+			icon: "iter_rpg:abyssquartz_shard"
+			id: "34041139093F8210"
+			rewards: [{
+				count: 6
+				id: "6AC8A85B23658AE9"
+				item: "iter_rpg:abyssquartz_shard"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3DEDEC3EB38C3DA1"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "深渊石英"
+			x: -4.1d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5ADADDB0E13F6E85"]
+			icon: "divinerpg:king_crab_spawn_egg"
+			id: "28265595E1506CC8"
+			rewards: [{
+				count: 3
+				id: "6442255CBB8EBEF1"
+				item: "divinerpg:king_crab_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "49B2A2A05DCA10FF"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "帝王蟹刷怪蛋"
+			x: -2.9d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5ADADDB0E13F6E85"]
+			icon: "divinerpg:aequorea_spawn_egg"
+			id: "4E1DE92BD8D2D249"
+			rewards: [{
+				count: 5
+				id: "0D91C9EA517AA046"
+				item: "divinerpg:aequorea_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "76BC62A7D0CC5AC3"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "多管水母刷怪蛋"
+			x: -1.7d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1ECF04DA03A5988F"]
+			icon: "divinerpg:torridite_ore"
+			id: "34FDD4DDE7FD9386"
+			rewards: [{
+				count: 2
+				id: "507E866B1B5E4D55"
+				item: "divinerpg:torridite_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7742371041AE3B98"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "炽炎矿石"
+			x: -0.5d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1ECF04DA03A5988F"]
+			icon: "divinerpg:bloodgem_ore"
+			id: "6AB200D3BFDE6DF7"
+			rewards: [{
+				id: "4E11F0DD0913C3B2"
+				item: "divinerpg:bloodgem_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4C143660DAE06D3B"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "血宝石矿石"
+			x: 0.7d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1ECF04DA03A5988F"]
+			icon: "minecraft:ancient_debris"
+			id: "614B4FEDA9658C7A"
+			rewards: [{
+				id: "6517817BBF923A9C"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1CDC1434944C6575"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "远古残骸"
+			x: 1.9d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7273501130970307"]
+			icon: "twilightforest:liveroot"
+			id: "2C89C9C6EB45B336"
+			rewards: [{
+				count: 2
+				id: "7B6C3014BAAFCC48"
+				item: "twilightforest:liveroot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4E955095E4A31487"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "活根"
+			x: 3.1d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1ECF04DA03A5988F"]
+			icon: "divinerpg:molten_shards"
+			id: "71E6776BAC835372"
+			rewards: [{
+				count: 3
+				id: "1E3BA99CF138AB36"
+				item: "divinerpg:molten_shards"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7D8A19E08F95530D"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "熔火碎片"
+			x: 4.2d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["58C85E706FB0D250"]
+			icon: "iter_rpg:fire_fragment"
+			id: "058F456DFE510FB8"
+			rewards: [{
+				count: 2
+				id: "1CB8C84E068A1738"
+				item: "iter_rpg:fire_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "198A414B0B60F0C0"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "火碎片"
+			x: 5.4d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1141452396C64FFB"]
+			icon: "iter_rpg:water_fragment"
+			id: "792C0FF9E6DFD8F7"
+			rewards: [{
+				count: 2
+				id: "51D477A75D97C06D"
+				item: "iter_rpg:water_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "000A97A8CA8A4A22"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "水碎片"
+			x: 6.6d
+			y: 0.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EDFB615E4CCCE5B"]
+			icon: "iter_rpg:air_fragment"
+			id: "08BA6761E264B835"
+			rewards: [{
+				count: 2
+				id: "242EECCA3E229FD8"
+				item: "iter_rpg:air_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "229A91989F186501"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "空气碎片"
+			x: -4.1d
+			y: 1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["40D8582EAC8140BA"]
+			icon: "goety:ectoplasm"
+			id: "524B91BAF7CFA50E"
+			rewards: [{
+				count: 8
+				id: "3598182572974A38"
+				item: "goety:ectoplasm"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7F9B78DFF1266A92"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "灵质"
+			x: -2.9d
+			y: 1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1C71B78A0848D796"]
+			icon: "goety:cursed_ingot"
+			id: "59F5A3E51BF296AC"
+			rewards: [{
+				count: 3
+				id: "18B5A52B6341D8F5"
+				item: "goety:cursed_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "309E56F8A1A62CE6"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "诅咒金属锭"
+			x: -1.7d
+			y: 1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1C71B78A0848D796"]
+			icon: "goety:jade"
+			id: "0F30956568174C59"
+			rewards: [{
+				id: "2EDF2E7DCFC247E4"
+				item: "goety:jade"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0A6C7018DE958542"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "玉"
+			x: -0.5d
+			y: 1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["264FF3C0A55DB35C"]
+			icon: "undergarden:depthrock_regalium_ore"
+			id: "2894EA142FDAA02A"
+			rewards: [{
+				count: 6
+				id: "31E9710E3FDA6F7F"
+				item: "undergarden:depthrock_regalium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6B6BAC48C2789B9E"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "贵豪矿石"
+			x: 0.7d
+			y: 1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1DE048F039C02548"]
+			icon: "ars_nouveau:experience_gem"
+			id: "5F5568D994902789"
+			rewards: [{
+				id: "23632185291D9ADF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				consume_items: true
+				id: "159DFBE39BA62599"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "经验"
+			x: 1.9d
+			y: 1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1DE048F039C02548"]
+			icon: "minecraft:enchanted_golden_apple"
+			id: "2956FFC2FAE1D76B"
+			rewards: [{
+				id: "6F2DE16F0C400526"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0C8EF81ED6F0CF71"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "附魔金苹果"
+			x: 3.1d
+			y: 1.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["264FF3C0A55DB35C"]
+			icon: "minecraft:totem_of_undying"
+			id: "096A3C11A0281FE6"
+			rewards: [{
+				count: 2
+				id: "65A8792D300E3FAD"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5344F99566F58685"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: " 不死图腾"
+			x: 4.2d
+			y: 1.6d
+		}
+	]
+	title: "第二章特供货"
+}

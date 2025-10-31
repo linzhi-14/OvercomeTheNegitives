@@ -1,0 +1,59 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "5BEFABA86D89D54D"
+	group: "217CC514C94C2430"
+	icon: "divinerpg:arcana_portal"
+	id: "5BEFABA86D89D54D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["65058ACD8DF2EFBC"]
+			description: ["  如果你觉得身上有什么重要的东西，请放置好"]
+			icon: "linzhi:game_reset_button"
+			id: "5CC0E7C7B8983ABE"
+			rewards: [{
+				id: "01EBFD2613979881"
+				ignore_reward_blocking: true
+				stage: "difficulty_reset_button_cleared"
+				type: "gamestage"
+			}]
+			subtitle: "重置过程中会将身上的物品清除掉"
+			tasks: [
+				{
+					consume_items: true
+					id: "1FAB73920DD3D89A"
+					item: "linzhi:game_reset_button"
+					type: "item"
+				}
+				{
+					id: "3A1932DDE2B93363"
+					title: "重置将抹除你的所有成就进度，任务书进度和阶段，请谨慎选择"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CC0E7C7B8983ABE"]
+			id: "22673483FC8000C4"
+			rewards: [{
+				id: "1D50157AEDDD1C8D"
+				ignore_reward_blocking: true
+				stage: "game_reset"
+				type: "gamestage"
+			}]
+			subtitle: "准备好了吗？"
+			tasks: [{
+				id: "208F6CDFFF24B1EA"
+				title: "按下我确认重置"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	title: "重置"
+}

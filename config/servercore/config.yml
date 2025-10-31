@@ -1,0 +1,267 @@
+# ServerCore 主配置文件。
+# 大部分设置可以在不重启服务器的情况下，通过执行 /servercore reload 命令重新加载生效。
+
+# 大多数杂项功能开关。
+features:
+  # 阻止服务器加载世界出生点区块。
+  disable-spawn-chunks: false
+  # 防止玩家移动到未加载区块引起的卡顿。
+  prevent-moving-into-unloaded-chunks: false
+  # 当 /save-on 激活时，自动保存之间的游戏刻 (tick) 间隔。 (6000 tick ≈ 5 分钟)
+  autosave-interval: 6000
+  # 经验球可相互合并的概率分数。(1 = 100%，40 = 2.5%)
+  # 注意：同原版一样，经验球仍需大小相同才能实际合并。
+  xp-merge-fraction: 40
+  # 经验球可相互合并的半径（方块距离）。
+  xp-merge-radius: 0.5
+  # 物品可相互合并的半径（方块距离）。
+  item-merge-radius: 0.5
+  lobotomize-villagers:
+    # 如果村民被困在 1x1 空间内，则降低其被“唤醒”(tick) 的频率（俗称“精简村民”）。
+    enabled: true
+    # 被“精简”后，村民被“唤醒”(tick) 的间隔时间（游戏刻）。
+    tick-interval: 20
+
+
+# 根据服务器性能自动调整动态设置。
+dynamic:
+  # 启用动态性能检查。
+  enabled: true
+  # 目标平均每帧时间 (MSPT)。
+  target-mspt: 35
+  # 当服务器过载时**将按此处指定顺序依次降低**的设置。
+  # 从列表中移除设置将禁用该动态调整。
+  # ► max = 服务器将该设置增大到的最大值。
+  # ► min = 服务器将该设置减小到的最小值。
+  # ► increment = 每次增大或减小的幅度。
+  # ► interval = 两次增大或减小检查之间的间隔时间（秒）。
+  dynamic-settings:
+    - setting: 'CHUNK_TICK_DISTANCE' # 区块处理距离
+      max: 7
+      min: 2
+      increment: 1
+      interval: 15
+
+    - setting: 'MOBCAP_PERCENTAGE' # 生物生成上限百分比
+      max: 150
+      min: 10
+      increment: 10
+      interval: 15
+
+    - setting: 'SIMULATION_DISTANCE' # 模拟距离
+      max: 5
+      min: 2
+      increment: 1
+      interval: 15
+
+    - setting: 'VIEW_DISTANCE' # 视距/渲染距离
+      max: 7
+      min: 2
+      increment: 1
+      interval: 150
+
+
+# 一种专门影响动物和村民繁殖的生物上限控制。
+breeding-cap:
+  # 启用繁殖上限控制。
+  enabled: false
+  # 村民的繁殖上限设置。
+  # ► limit = 一定范围内同种生物的数量上限。设为负值将禁用该生物的繁殖上限控制。
+  # ► range = 检查同种生物的搜索半径（方块）。
+  villagers:
+    limit: 32
+    range: 64
+
+  # 动物的繁殖上限设置。
+  # 注意：此上限仅检查同种动物。
+  # 若上限为 32，你仍然可以在邻近区域繁殖 32 头牛和 32 头猪。
+  animals:
+    limit: 32
+    range: 64
+
+
+# 提供对生物生成的更精细控制。
+mob-spawning:
+  # 僵尸增援的生物上限设置。
+  # ► enforce-mobcaps = 是否为此类生物生成强制执行标准生物上限 (Mob Caps)。
+  # ► additional-capacity = 为此类生物生成提供的额外容量。决定其可超出标准生物上限生成的数量。
+  # 建议允许它们略微超出标准生物上限，否则它们将永远没有机会生成。
+  zombie-reinforcements: # 僵尸增援
+    enforce-mobcap: false
+    additional-capacity: 32
+
+  # 由地狱门随机刻 (random tick) 生成僵尸猪灵的生物上限设置。
+  nether-portal-randomticks: # 地狱门随机刻生成
+    enforce-mobcap: false
+    additional-capacity: 32
+
+  # 由刷怪笼生成怪物（生物）的生物上限设置。
+  monster-spawners: # 刷怪笼
+    enforce-mobcap: false
+    additional-capacity: 32
+
+  # 按生物分类定义其上限和生成间隔的列表。
+  # ► category = 原版生物生成类别名称（英文全大写）。
+  # ► mobcap = 在玩家附近可生成的同类别实体的最大数量上限。
+  # ► spawn-interval = 生成尝试之间的间隔时间（游戏刻）。数值越大意味着生成尝试频率越低。
+  categories:
+    - category: 'MONSTER' # 怪物
+      mobcap: 70
+      spawn-interval: 1
+
+    - category: 'CREATURE' # 陆生生物（被动型）
+      mobcap: 70
+      spawn-interval: 400
+
+    - category: 'AMBIENT' # 环境生物（如蝙蝠）
+      mobcap: 70
+      spawn-interval: 1
+
+    - category: 'AXOLOTLS' # 美西螈
+      mobcap: 5
+      spawn-interval: 1
+
+    - category: 'UNDERGROUND_WATER_CREATURE' # 地下水生生物（如发光鱿鱼）
+      mobcap: 5
+      spawn-interval: 1
+
+    - category: 'WATER_CREATURE' # 水生生物（如海豚、守卫者）
+      mobcap: 5
+      spawn-interval: 1
+
+    - category: 'WATER_AMBIENT' # 水环境生物（如各种鱼、鱿鱼）
+      mobcap: 20
+      spawn-interval: 1
+
+
+# 命令及其格式设置。
+commands:
+  # 启用 /servercore status 命令。
+  status-enabled: true
+  # 启用 /mobcaps 命令。
+  mobcaps-enabled: true
+  colors:
+    # 命令反馈消息中使用的颜色。可使用十六进制颜色代码或 Minecraft 传统颜色名称（英文）。
+    # primary = 命令反馈中最主要使用的颜色。
+    primary: 'dark_aqua' # 暗青色
+    # secondary = 用于高亮重要信息（如数值）的颜色。
+    secondary: 'green' # 绿色
+    # tertiary = 主要用于标题中文字的颜色。
+    tertiary: 'aqua' # 青色
+
+
+# 激活距离 (Activation Range) 可以通过基于实体距离玩家以及其他因素（如免疫检查）巧妙地跳过某些实体的“唤醒”过程，从而显著减少实体“唤醒”(ticking) 造成的卡顿。
+# 免疫检查 (Immunity checks) 用于判断即使实体在激活距离之外（例如当其正在坠落或受到伤害时），是否也应被“唤醒”。
+# 注意：这是一个非常强大的功能，但它仍可能减缓刷怪塔效率并破坏某些非常特殊的技术性装置 (technical contraptions)。
+activation-range:
+  # 启用激活距离功能。
+  enabled: false
+  # 对新加入世界的实体（包括生成和加载的实体）进行简短的“唤醒”（持续 10 秒）。
+  # 使它们在生成后如果符合条件就有机会获得免疫。这对刷怪塔可能有帮助。
+  tick-new-entities: true
+  # 启用垂直范围检查。默认情况下，激活距离仅作用于水平方向。
+  # 这在较高（如高建筑、高层洞穴）世界中可极大提高性能，但可能会破坏少数依赖实体 AI 的刷怪塔。
+  use-vertical-range: false
+  # 对于处于激活距离内但**未**免疫（例如正在坠落或处于水中）的实体，跳过其四分之三的“唤醒”过程。
+  skip-non-immune: false
+  # 允许村民在惊慌 (panicking) 状态时无视激活距离规则，正常被“唤醒”。
+  villager-tick-panic: true
+  # 村民在获得工作时免疫资格（如果它有工作任务）所需的不活动时间（秒）。
+  villager-work-immunity-after: 20
+  # 一个不活动的、拥有工作时免疫资格的村民在“工作免疫”状态下将被唤醒的次数（游戏刻）。
+  villager-work-immunity-for: 20
+  # 应从激活距离检查中排除的实体类型列表。
+  excluded-entity-types:
+    - 'minecraft:warden' # 监守者
+    - 'minecraft:hopper_minecart' # 漏斗矿车
+    - 'minecraft:ghast' # 恶魂
+  # 将分配给所有未定义自定义激活类型 (custom-activation-types) 的实体的默认激活类型。
+  # ► activation-range = 实体为了被激活 (activated) 而需要处于玩家周围的半径（方块）。
+  # ► tick-interval = 当实体处于**不活跃**状态时，其“激活刻”(active ticks) 之间的间隔。负值将禁用这些激活刻。
+  # ► wakeup-interval = 不活动实体的“唤醒”尝试之间的间隔时间（秒）。
+  # ► extra-height-up = 当启用垂直范围检查时，允许在玩家**上方**很远距离处的实体也被唤醒。
+  # ► extra-height-down = 当启用垂直范围检查时，允许在玩家**下方**很远距离处的实体也被唤醒。
+  default-activation-type:
+    activation-range: 16
+    tick-interval: 20
+    wakeup-interval: -1
+    extra-height-up: false
+    extra-height-down: false
+
+  # 自定义激活类型的列表。
+  # ► name = 激活类型的名称（自定义标识）。
+  # ► entity-matcher = 用于过滤实体的条件列表。实体只需满足其中一个条件即可匹配此类型。
+  # ► 如果一个实体匹配多个激活类型，将使用列表中位置**最高**（靠前）的那一个。
+  #     条件格式 (Conditions)：
+  #       - 匹配实体类型:        | 使用实体类型的命名空间标识符 (Namespace ID)  | 例如 'minecraft:zombie' 匹配僵尸，但不匹配尸壳或溺尸。
+  #       - 匹配类型分组 (Typeof): | 使用 'typeof:' 前缀               | 例如 'typeof:monster' 匹配所有怪物。
+  # ► 可用类型分组 (Typeof classes): mob, monster, raider, neutral, ambient, animal, water_animal, flying_animal, flying_monster, villager, projectile.
+  custom-activation-types:
+    - name: 'water' # 水生
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 60
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:water_animal' # 类型分组: 水生生物
+
+    - name: 'villager' # 村民
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 30
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:villager' # 类型分组: 村民
+
+    - name: 'zombie' # 僵尸类
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'minecraft:zombie' # 标准僵尸
+        - 'minecraft:husk' # 尸壳
+
+    - name: 'monster-below' # 下方怪物
+      activation-range: 32
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: true
+      entity-matcher:
+        - 'minecraft:creeper' # 苦力怕
+        - 'minecraft:slime' # 史莱姆
+        - 'minecraft:magma_cube' # 岩浆怪
+        - 'minecraft:hoglin' # 疣猪兽
+
+    - name: 'flying-monster' # 飞行怪物
+      activation-range: 48
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'minecraft:ghast' # 恶魂
+        - 'minecraft:phantom' # 幻翼
+
+    - name: 'monster' # 怪物类 (通用)
+      activation-range: 32
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:monster' # 类型分组: 怪物
+
+    - name: 'animal' # 动物与环境生物
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 60
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:animal' # 类型分组: 动物
+        - 'typeof:ambient' # 类型分组: 环境生物

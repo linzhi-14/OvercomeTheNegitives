@@ -1,0 +1,43 @@
+{
+	id: "13C9D26D11F1E849"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "l2hostility:speedy" }
+		{ item: "l2hostility:protection" }
+		{ item: "l2hostility:fiery" }
+		{ item: "l2hostility:regenerate" }
+		{ item: "l2hostility:reflect" }
+		{ item: "l2hostility:shulker" }
+		{ item: "l2hostility:grenade" }
+		{ item: "l2hostility:corrosion" }
+		{ item: "l2hostility:erosion" }
+		{ item: "l2hostility:growth" }
+		{ item: "l2hostility:split" }
+		{ item: "l2hostility:drain" }
+		{ item: "l2hostility:counter_strike" }
+		{ item: "l2hostility:gravity" }
+		{ item: "l2hostility:moonwalk" }
+		{ item: "l2hostility:arena" }
+		{ item: "l2hostility:dispell" }
+		{ item: "l2hostility:undying" }
+		{ item: "l2hostility:teleport" }
+		{ item: "l2hostility:repelling" }
+		{ item: "l2hostility:pulling" }
+		{ item: "l2hostility:reprint" }
+		{ item: "l2hostility:killer_aura" }
+		{ item: "l2hostility:ragnarok" }
+		{ item: "l2hostility:master" }
+		{ item: "l2hostility:weakness" }
+		{ item: "l2hostility:slowness" }
+		{ item: "l2hostility:poison" }
+		{ item: "l2hostility:wither" }
+		{ item: "l2hostility:levitation" }
+		{ item: "l2hostility:blindness" }
+		{ item: "l2hostility:nausea" }
+		{ item: "l2hostility:soul_burner" }
+		{ item: "l2hostility:freezing" }
+		{ item: "l2hostility:cursed" }
+	]
+	title: "恶意词条集"
+}

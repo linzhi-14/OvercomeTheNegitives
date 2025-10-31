@@ -1,0 +1,455 @@
+{
+	autofocus_id: "632D0FFA5C7E526D"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "40D6032124130CFE"
+	group: "253036D279AE5E2D"
+	icon: "iter_rpg:netherite_ring_emerald"
+	id: "40D6032124130CFE"
+	images: [
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -0.7d
+			y: 3.1d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -0.7d
+			y: 4.3d
+		}
+		{
+			height: 2.0d
+			image: "create:item/shopping_list"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.3d
+			y: 2.8d
+		}
+		{
+			height: 1.0d
+			image: "linzhi:item/z_coin"
+			rotation: 0.0d
+			width: 0.9922480620155039d
+			x: -7.0d
+			y: 4.9d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/shop.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.9d
+			y: 3.1d
+		}
+		{
+			height: 1.0d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.6d
+			y: 4.8d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: "infinite_abyss:enchanted_puffball_heart"
+			id: "5E05F6C736BA3C72"
+			rewards: [{
+				id: "5AD4FAF82EA837D7"
+				item: "infinite_abyss:enchanted_puffball_heart"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "37402CFF8861FF24"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "巨化腐烂之心"
+			x: -6.0d
+			y: 3.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2FEF3F0F324A7EA1"]
+			dependency_requirement: "one_completed"
+			icon: "create:blaze_cake"
+			id: "05F152C04588BC9D"
+			rewards: [{
+				id: "152F6FEFD12D641B"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "373D5B404A1DF86D"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "烈焰蛋糕"
+			x: -4.8d
+			y: 3.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"68E985120408F2BA"
+				"6F1FB7DBA97B255D"
+			]
+			dependency_requirement: "one_completed"
+			icon: "bedrock_edition_features:heat_block"
+			id: "32C04390A1F11FD8"
+			rewards: [{
+				id: "3398489B10BCF72A"
+				item: "bedrock_edition_features:heat_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0B881B399CCCD62B"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "加热块"
+			x: -3.6d
+			y: 3.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0CA68498E20E8488"
+				"2CB19D658ACFF3E3"
+			]
+			dependency_requirement: "one_completed"
+			icon: "apotheosis:gem_dust"
+			id: "0A25F39AB5274F6F"
+			rewards: [{
+				count: 8
+				id: "28D49BE8162107DD"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4B06C4235CBE20D6"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "宝石粉"
+			x: -2.4d
+			y: 3.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0CA68498E20E8488"
+				"2CB19D658ACFF3E3"
+			]
+			dependency_requirement: "one_completed"
+			icon: "apotheosis:common_material"
+			id: "58FC196143024DF8"
+			rewards: [{
+				count: 16
+				id: "5A423445DDF7E28E"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "45E54CC6706FF4E6"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "神秘废金属"
+			x: -1.2d
+			y: 3.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0CA68498E20E8488"
+				"2CB19D658ACFF3E3"
+			]
+			dependency_requirement: "one_completed"
+			icon: "apotheosis:uncommon_material"
+			id: "76E4D3524D072D27"
+			rewards: [{
+				count: 4
+				id: "2C4CD4E5F1F20411"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1391B542BD95E5EA"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "陈旧布匹"
+			x: 0.0d
+			y: 3.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0CA68498E20E8488"
+				"2CB19D658ACFF3E3"
+			]
+			dependency_requirement: "one_completed"
+			icon: "apotheosis:rare_material"
+			id: "6A817880BF3994A1"
+			rewards: [{
+				count: 2
+				id: "5E7C4C471849C1A9"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6F277B6760C6BEAA"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "发光水晶碎片"
+			x: 1.2d
+			y: 3.1d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6D736FF1C222EAC6"
+				"2A23DB9D7F38EA80"
+			]
+			dependency_requirement: "one_completed"
+			icon: "divinerpg:ice_shards"
+			id: "243FEF5B2E93A67B"
+			rewards: [{
+				count: 8
+				id: "57394AA8F8F2218B"
+				item: "divinerpg:ice_shards"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "26DC60A857D81B83"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "寒冰碎片"
+			x: 2.4d
+			y: 3.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:earth_heart"
+				tag: { }
+			}
+			id: "28B549597D8A978F"
+			rewards: [{
+				id: "2865F9BEA70746D8"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "41CC6D637518CCE4"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "大地之心"
+			x: -6.0d
+			y: 4.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: "iter_rpg:earth_fragment"
+			id: "565FA0786D5310F9"
+			rewards: [{
+				id: "3C8E5771F1A6179E"
+				item: "iter_rpg:earth_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "50720247FEDA93FE"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "大地碎片"
+			x: -4.8d
+			y: 4.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: "goety:venomous_fang"
+			id: "3E9394D9D46A61BE"
+			rewards: [{
+				count: 2
+				id: "7B25E5A6BA9F7DC1"
+				item: "goety:venomous_fang"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6C70E901CEA54AB3"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "毒牙"
+			x: -3.6d
+			y: 4.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: "iceandfire:hydra_fang"
+			id: "632D0FFA5C7E526D"
+			rewards: [{
+				id: "337FFC4EC779573B"
+				item: "iceandfire:hydra_fang"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "35CF54813363B87F"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "九头蛇毒牙"
+			x: -2.4d
+			y: 4.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: "botania:terrasteel_ingot"
+			id: "5144BA284834FBC1"
+			rewards: [{
+				id: "7AC3C3B8A354C1FC"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "19F72209B8833895"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "泰拉锭"
+			x: -1.2000000000000002d
+			y: 4.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: "iter_rpg:void_fragment"
+			id: "7F302F20A6BE4A6C"
+			rewards: [{
+				id: "571BA484C82E007D"
+				item: "iter_rpg:void_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2A5B7F377CBF0B85"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "虚空碎片"
+			x: 0.0d
+			y: 4.3d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"68E985120408F2BA"
+				"6F1FB7DBA97B255D"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "infinite_abyss:cold_resistance_potion"
+				}
+			}
+			id: "340B018C5C66C4B9"
+			rewards: [{
+				id: "0FCC83467825E599"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "infinite_abyss:cold_resistance_potion"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "75E7CD063DC3FA0F"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "抗寒药水"
+			x: 1.2d
+			y: 4.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["27F07DB8999F054B"]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:honeycomb"
+			id: "70F8B57A3DDE70AB"
+			rewards: [{
+				id: "168361565DCE15C9"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3A4DF2E17923F687"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			title: "蜜俾"
+			x: 2.4d
+			y: 4.3d
+		}
+	]
+	title: "第三章特供货"
+}

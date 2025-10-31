@@ -1,0 +1,4516 @@
+{
+	autofocus_id: "448F769F571DAB81"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "060DD7DA8478D86A"
+	group: "06A801A64CEA8820"
+	icon: "immersive_aircraft:industrial_gears"
+	id: "060DD7DA8478D86A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["549E0637DFBEAE33"]
+			description: [
+				"     清晨，太阳悄悄地挂上了天空，阳光穿过迷雾，透过玻璃洒在了贴近墙壁的桌子上。"
+				""
+				"老高轻轻地把门推开，随后把门贴合上，他已经干了一早的农活，水珠有的挂在他的脸上，有的浸湿他的衣襟，分不清是早晨的甘露，还是辛勤劳作的汗水，但他还不想喘大气"
+				"                                  他走到床边，微微地拍了拍床垫就坐下了，看了看陈年老旧的天花板，随后拿出一些烟草，"
+				"慢悠悠地卷起来，点上，吸个两三口"
+				""
+				"看了看地板，又看了看桌上透进来的朦胧的光，烟从他的嘴里一口气全呼出来了，他越来越意识到时间是这么地残酷，永远是这么无情地冲刷着他，他老了，上年纪了"
+				""
+				"老高往后瞧了瞧，那个陪了他十几年的如同亲人般的人，他睡地很甜，很香，慢慢看着他长大，老高也很欣慰"
+				""
+				"但毕竟不能一直陪着他，他也不能一直总是依赖着这个老村长"
+				""
+				"老高伸展了一下，起身走到窗户边把窗打开，光也不再模糊，陆陆续续地涌了进来，显得桌子&e金灿灿&f的"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:sunflower"
+			icon_scale: 2.0d
+			id: "448F769F571DAB81"
+			rewards: [
+				{
+					description: ""
+					id: "761177976E95D51B"
+					title: "“洁方，起床咯，洁方”"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					id: "62B7842A89045153"
+					ignore_reward_blocking: true
+					stage: "e_sundering_a"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "5A1CA33873C1F707"
+					ignore_reward_blocking: true
+					stage: "e_slowness_b"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "39BA6F04B9ABA04C"
+					ignore_reward_blocking: true
+					stage: "e_fatigue_b"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "57F6B68879274E07"
+					ignore_reward_blocking: true
+					stage: "e_weakness_a"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "0FBC2832082EF5F6"
+					ignore_reward_blocking: true
+					stage: "e_health_d"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "255AFB8BC853ECEC"
+					ignore_reward_blocking: true
+					stage: "e_unluck_a"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "726480C859002A40"
+					ignore_reward_blocking: true
+					stage: "start"
+					type: "gamestage"
+				}
+			]
+			size: 2.0d
+			subtitle: "天明"
+			tasks: [{
+				id: "4B9AD0F284056D6C"
+				title: "开始了"
+				type: "checkmark"
+			}]
+			title: "新的一天"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["448F769F571DAB81"]
+			description: [
+				"   被子好像大砝码重重地压在洁方的身上，费了许些劲才挣脱出来，洁方睡眼惺忪，再擦了擦眼睛，才发觉阳光打到了自己的脸上"
+				"    "
+				"“啊...阿爷，早上好，今天要做些什么吗？” 洁方一如既往地问到"
+				""
+				"  老高再吸了吸两口烟，迷雾缠绕，不过他很快就笑了笑，老高又转了个头"
+				"    "
+				"&6“今天的事啊，和往常可不太一样呐” "
+				""
+				"“是什么？” 洁方迷惑地看着老高"
+				""
+				"&6“以前，你都是跟着我做我的小跟班，有时就来帮帮我的忙，可是日子还是太快咯，你都变得跟甘蔗一样高咯”"
+				""
+				"&6“但是你身体实在是差，这么多年我没让你做太多，但我现在也是日薄西山咯”"
+				""
+				"&6“你已经16岁有余了，也是时候学着去独立去做一些事了”"
+				""
+				"洁方盯着天花板，好像在思索着什么"
+				""
+				"“嗯...嗯，我会尽力的，那我现在该做什么呢”"
+				""
+				" 老高随即从口袋中摸索，最后摸索出几个棕色方块"
+				""
+				"&6“你应该认识这个”"
+				""
+				"“嗯，我知道，这是树木上来的，一些叔叔把树砍倒之后就有这些方块了”"
+				""
+				"&6“创造是我们人呐，最伟大的发明，万物之作源于创造，而工作台就是我们最开始进行创造的地方了”"
+				""
+				"说着，老高就把这几个木头块子塞到洁方手中"
+				"    &6“你试着用这些合成一个工作台吧，洁方，你应该还记得的，你看过那些大人创造的模样\""
+				""
+				"&d        如果你不知道怎么制作&e某样东西&r&d"
+				"&d            你可以试试可以打开背包"
+				"&d  在右下角那个黑色的框框输入&e那个东西的名字&r"
+				"&d      之后再用&e鼠标左键&r&d点击出现的东西"
+				"&d            你就可以知道它的配方了"
+			]
+			hide_text_until_complete: true
+			icon: "yuushya:button_sign_question"
+			icon_scale: 2.0d
+			id: "498F206DDAF21509"
+			rewards: [
+				{
+					count: 5
+					id: "4CF20A280110808D"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					description: ""
+					id: "16B271DD01823340"
+					title: "“嗯！我试试看吧”"
+					type: "toast"
+				}
+			]
+			subtitle: "商量"
+			tasks: [{
+				id: "74DC36FD9CAE5DCD"
+				title: "商量"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["498F206DDAF21509"]
+			description: [
+				"虽说之前见过，但是好记性还是不如烂笔头"
+				""
+				"捣鼓了好一会，也是终于做出来了"
+				""
+				"“阿爷，你看是这样吗”"
+				""
+				"洁方眯着眼，一股兴奋从心里流出"
+				""
+				"老高蹲下来，仔细端详着这第一件造物"
+				""
+				"&6“嗯？我看看，嗯...看起来没有什么大问题，算你成功了”"
+				""
+				"眯着的眼又睁开了，随后又笑了起来"
+				""
+				"“好，那接下来应该做些什么呢？”"
+				""
+				"&6“人要生存，就离不开五个部分”"
+				""
+				"老高张开手，伸出五个手指头"
+				""
+				"&6“一个是要战斗，另一个是食物”"
+				""
+				"&6“接着就是创造，包含挖掘矿物，制造机器，使用魔法”"
+				""
+				"洁方耐心地听讲着"
+				""
+				"“嗯嗯！”"
+				""
+				"&6“接下来你得给这五个部分都打好基础才行”"
+				""
+				"&6“这个过程可能会要吃点苦头咯，不过不用担心”"
+				""
+				"&6“洁方，你一直都是个好孩子，我相信你可以办得到”"
+				""
+				"洁方看了看自己的身子，瘦骨嶙峋的，他有点忧虑，不知道自己能不能办得到"
+				"不过他很快又坚定下来"
+				""
+				"&dtips：    洁方将从五个基础化中逐步消除"
+				""
+				"&d                    【破甲】"
+				"&d                    【虚弱】"
+				"&d                  【挖掘疲劳】"
+				"&d                    【缓慢】"
+				"&d                  【血量限制】"
+				"&d              【霉运】六个debuff"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:crafting_table"
+			icon_scale: 2.0d
+			id: "02759DABC243F34C"
+			rewards: [
+				{
+					description: ""
+					id: "6EB53AA8B4B2B739"
+					title: "“就当是一场游戏吧”"
+					type: "toast"
+				}
+				{
+					id: "2148684AA6DDDF51"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					auto: "invisible"
+					id: "51E0328DE1FA4D89"
+					ignore_reward_blocking: true
+					stage: "tm_start"
+					type: "gamestage"
+				}
+				{
+					description: ""
+					id: "37AF5F1B8D3C4291"
+					title: "推荐先做矿物挖掘基础化这条线"
+					type: "toast"
+				}
+				{
+					description: ""
+					id: "1D8E2483AA0C6D86"
+					title: "推荐先做矿物挖掘基础化这条线"
+					type: "toast"
+				}
+				{
+					description: ""
+					id: "3E25F9056765F8FA"
+					title: "推荐先做矿物挖掘基础化这条线"
+					type: "toast"
+				}
+			]
+			subtitle: "五个基础化"
+			tasks: [
+				{
+					id: "0B1B7C44209B7502"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "6DBEB8E999FFC136"
+					title: "工作台的配方已被修改，请自行在EMI中查看"
+					type: "checkmark"
+				}
+			]
+			title: "制作工作台"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02759DABC243F34C"]
+			description: [
+				"&6“一把好镐子，就是矿工的心头肉”"
+				""
+				"老高和洁方边走边聊着，微风轻轻地抚过两人的脸面"
+				""
+				"“所以我第一步就要获取一个好镐子吗”"
+				""
+				"&6“对咯！”"
+				""
+				"&a“啊哟，老高啊，今天又带洁方出去去做些什么啦？”"
+				""
+				"一位老农妇正担着两木桶水回来"
+				""
+				"&6“哈，林姨，勒么快就干完活回来啦，今天咱们呢，要去做点不一样的”"
+				""
+				"洁方挥挥手"
+				""
+				"“中午好，阿姨”"
+				""
+				"&a“哎哟，我还没那么老呢，咱的洁方小伙子还是那么亲人呢！”"
+				""
+				"&a“那你们好好做吧，我回去好好休息啦”"
+				""
+				"“再见，大姐！”"
+				""
+				"说罢，她又继续拿着担子往回挑了"
+				""
+				"&6“话说到哪了？”"
+				""
+				" \"一个好镐子\""
+				""
+				"&6“哦，哦，哦对”"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:emerald_ore"
+			icon_scale: 2.0d
+			id: "7E46A655DA127473"
+			rewards: [
+				{
+					description: ""
+					id: "6815CB9A241B9B19"
+					title: "“你去试试自己造一把铁镐吧，就当是你的第一次试炼”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "59F932A7D9417E33"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					description: ""
+					id: "6FF3AC6C2B84DB0E"
+					title: "建议每做完一个任务就领取一个奖励，特别是有阶段的奖励，不然你的debuff消除可能会出现bug"
+					type: "toast"
+				}
+				{
+					count: 5
+					id: "0826DD278F9ED7CE"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+			]
+			subtitle: "一个好镐子"
+			tasks: [
+				{
+					id: "0C19FAFAABC4F77F"
+					title: "矿物挖掘基础化启动"
+					type: "checkmark"
+				}
+				{
+					id: "6887DA9259B7248A"
+					title: "完成该线的前半部分即可完全消除缓慢和疲劳效果"
+					type: "checkmark"
+				}
+			]
+			title: "矿物挖掘基础化"
+			x: -4.05d
+			y: 1.95d
+		}
+		{
+			dependencies: ["02759DABC243F34C"]
+			description: [
+				"              武器装备，是大事矣"
+				"          进可击溃敌寇，退可安顿吾身"
+				""
+				"老高用手指了指那边的稻草块"
+				""
+				"&6“洁方， 你身子还弱，可以做些小剑，用人偶来练练手”"
+				""
+				"洁方挠了挠自己的头发"
+				""
+				"“那还有什么要注意的吗？”"
+				""
+				"&6“喔，我也是差点忘了，还是你聪明，提醒我了”"
+				""
+				"&6“关于战斗的技巧，我书读地不多”"
+				""
+				"&6“不过我还是知道一点点”"
+				""
+				"&6“不要消耗完自己的力气，打不过就跑，走为上策”"
+				""
+				"&6“这是最重要的一点，其次...”"
+				""
+				"老高抬起手，轻轻搭在他的肩膀上"
+				""
+				"&6“不要盲目进攻，该进时候进，该退时候退，什么时间做什么你会慢慢领悟的”"
+				""
+				"&d本整合包含有自动辅助瞄准，只需要对着敌人快速点击两次就可以帮助你更好地瞄准射击"
+				""
+				"&d如  果  你  喜  欢"
+				""
+				"&d可以在 "
+				""
+				"&d【mods】 => 【motor_assistance】"
+				""
+				"&d中打开配置文件"
+				""
+				"&d将"
+				"&d【only assist when using a controller】"
+				"&d选项关闭即可"
+			]
+			hide_text_until_complete: true
+			icon: "nameless_trinkets:creeper_sense"
+			icon_scale: 2.0d
+			id: "68B6529E90C5DC80"
+			rewards: [{
+				description: ""
+				id: "1EE94A37D0ECF5AE"
+				title: "“我去整把小剑”"
+				type: "toast"
+			}]
+			subtitle: "兵者？"
+			tasks: [{
+				id: "7BFBD9A1C6B64FF8"
+				title: "武器装备基础化启动"
+				type: "checkmark"
+			}]
+			title: "武器装备基础化"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02759DABC243F34C"]
+			description: [
+				"            民以食为天，食崩天亦溃"
+				""
+				"两人间行到田野，一副绿油油的图画显现在他们眼前"
+				""
+				"这里的地很平阔，时不时有一两阵风袭来"
+				""
+				"洁方顺了顺自己的白衬衣，好让风趴进来，带走自己的汗水"
+				""
+				"“夏天也是要来到了呀，阿爷”"
+				""
+				"&6“可能今年要更早地来，这天气着实热起来了”"
+				""
+				"&6“但是该做还是要做，该学还是得学”"
+				""
+				"&6“今天我来教你种植作物”"
+				""
+				"洁方探出头，好让高爷爷的动作逃不出自己的眼睛"
+				""
+				"老高随即从口袋中揣出几颗大小，质地不一的种子"
+				""
+				"&6“你看好了，这是番茄的，这是稻米的，这是....”"
+				""
+				"洁方拿起来一一观摩了一下，就好像是在看唯美的艺术品"
+				""
+				"又拿了锄头凿出几颗小坑，翻滚一下土地"
+				""
+				"&6“作物呢，无非就是要阳光，要水，要空气，肥料”"
+				""
+				"&6“它们所需各有差异，有的要地多，有的要地少，比如说像水稻这样就要种地深些，而且还要水呢”"
+				""
+				"“那应该怎么样区别对待它们呢？”"
+				""
+				"老高把每样种子都示范种了两三遍后，又挖出来，将种子放在洁方的手心里面"
+				""
+				"&btips：   使用/back可以返回上一次死亡点"
+			]
+			hide_text_until_complete: true
+			icon: "farmersdelight:fried_egg"
+			icon_scale: 2.0d
+			id: "5B3753B6D0D7DA24"
+			rewards: [
+				{
+					description: ""
+					id: "03831D5E83B3F9A6"
+					title: "“你试试拿去种，种出来了，就不错了！”"
+					type: "toast"
+				}
+				{
+					count: 2
+					id: "7CEFD487EA4F5408"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1E6F5F45686185C5"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "539EB01D58FFBB14"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "018104E9F2260DF8"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "种子"
+			tasks: [{
+				id: "44530ABE2CDB9596"
+				title: "农耕食事基础化启动"
+				type: "checkmark"
+			}]
+			title: "农耕食事基础化"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02759DABC243F34C"]
+			description: [
+				"李四光刚从其他村落淘来个了鼓风机"
+				""
+				"接上从水车传来的应力，便转地飞快起来"
+				""
+				"洁方和老高也才刚刚路过他家，一阵嗡嗡声，就咻地传入耳朵中"
+				""
+				"&a“现在很多村落也在搞新机器了哇，高村长，要不也进来坐坐呀”"
+				""
+				"&a“这机器可得劲了”"
+				""
+				"&6“哟，你小子哪弄的这玩意，怪凉爽的”"
+				""
+				"&a“这可是个好东西，既能凉风，还能烤火，一举多得”"
+				""
+				"洁方也是二话不说就把脸贴上去，肆意感受这强风肆虐"
+				""
+				"“阿爷，妮妮也是做这些东西的吧”"
+				""
+				"&6“欸，对！她简直天生就是干这个的，发明过很多奇特的东西”"
+				""
+				"&a“这小伙子，看着挺俊，说不定也能当天才呢”"
+				""
+				"“哈哈...”"
+				""
+				"洁方的脸润红了起来"
+				""
+				"&6“有空你也去找妮妮学学吧”"
+				""
+				"&btips：当双手都闲着的时候，蹲下+右键可以搬起生物或箱子！"
+			]
+			hide_text_until_complete: true
+			icon: "iter_rpg:cog_heart"
+			icon_scale: 2.0d
+			id: "1A7CC6B01B48BAAD"
+			rewards: [
+				{
+					description: ""
+					id: "4360F117EA9A5C7C"
+					title: "\"嗯！我也想要鼓风机”"
+					type: "toast"
+				}
+				{
+					description: ""
+					id: "5553AB87CCB50EB9"
+					title: "在游戏菜单的中间"
+					type: "toast"
+				}
+				{
+					description: ""
+					id: "56390E753C6244EB"
+					title: "有一个护目镜的标志，你可以点进去"
+					type: "toast"
+				}
+				{
+					description: ""
+					id: "14EA9F38C0F85CA9"
+					title: "你会看到一个思考索引的按钮！"
+					type: "toast"
+				}
+				{
+					description: ""
+					id: "15BC793DDA58C885"
+					title: "如果你没有一个良好的机械动力基础"
+					type: "toast"
+				}
+				{
+					description: ""
+					id: "723DF660E95B6296"
+					title: "请学习【动力源】【动力设备】【动力方块】三个栏目的内容！"
+					type: "toast"
+				}
+			]
+			subtitle: "鼓风"
+			tasks: [{
+				id: "2FFEFA98EA21BA8F"
+				title: "机械工业基础化启动"
+				type: "checkmark"
+			}]
+			title: "机械工业基础化"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02759DABC243F34C"]
+			description: [
+				"植物们对能量的极致吸取，无论是从大地，还是从太阳，它们本身就蕴含着这种神奇且奥秘的魔法"
+				""
+				"希望的原野上散漫着各种婀娜多姿的花朵，但是散发特有的魅力的花，仅仅几朵，分插在其他花中"
+				""
+				"老高弯下腰来，拾了几朵奇异的花朵"
+				""
+				"&6“对于魔法，我懂不了多少，但是这种有魔力的花呢，一眼就能相中了”"
+				""
+				"洁方惬意地躺在大地上，仿佛已经和这个大地融为一体了"
+				""
+				"他接过花朵，用鼻子嗅探一下，一瞬间芳香和松弛就充盈了他的全身"
+				""
+				"&6“那么我该怎么学习魔法呢”"
+				""
+				"老高拿起卷的烟抖了两抖，随后慢慢吸上一口"
+				""
+				"&6“这你可用不着着急，倒是有两本魔法书可以做出来”"
+				""
+				"“做好了你慢慢看就行”"
+			]
+			icon: "ars_nouveau:source_jar"
+			icon_scale: 2.0d
+			id: "13F3CCC4639F15ED"
+			rewards: [{
+				description: ""
+				id: "58213AA3B1D6F356"
+				title: "“那我去准备材料了”"
+				type: "toast"
+			}]
+			tasks: [{
+				id: "25F091DA5906C2E8"
+				title: "魔法应用基础化启动"
+				type: "checkmark"
+			}]
+			title: "魔法应用基础化"
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E46A655DA127473"]
+			description: [
+				"“白色闪闪发光的，是铁吗”"
+				""
+				"漆黑的洞穴，照不入一束光"
+				""
+				"只是衬着火把的光亮附上一层黄亮的颜色"
+				""
+				"洁方一手举起火把，一手举着简易的石镐"
+				""
+				"战战兢兢地前进"
+				""
+				"一只蝙蝠呼地掠过"
+				""
+				"洁方被蝙蝠掀过的风吹倒在地"
+				""
+				"他大舒几口气，才发觉那只是一只蝙蝠"
+				""
+				"“我，得，赶紧去把铁挖掉，挖完，我就走”"
+				""
+				"扶着镐子随后站起身来"
+				""
+				"“嗯，五个，应该够了”"
+				""
+				"&4“阿唔....嘶嘶，？，骨头敲敲？”"
+				""
+				"听到这，洁方心凉了半截，赶着往洞口方向奔逃"
+				""
+				"箭矢从他身旁擦过，火药的气味弥漫空中"
+				""
+				"“快点快点快点，再快点，到了吗？到了，到了！！”"
+				""
+				"温馨的阳光终于撞到他脸上，瞳孔变小，一不留神"
+				""
+				"他被洞口旁的草绊倒了，脸也重重地和土地亲吻上了"
+				""
+				"“&4嘶嘶.....&f这可不妙阿”"
+				""
+				"随后便飞出数米，昏了过去"
+				""
+				"&6“洁方，你怎么样了，多亏了咱村的神医呀，给你治好了”"
+				""
+				"洁方缓缓睁开眼"
+				""
+				"“这里不是天堂？”"
+				""
+				"神医苏延年走过来，用手平放在他的胸口上"
+				""
+				"&a“你没事啦，小伙子，得要小心喔，我就收你一点点经验当治疗费啦”"
+				""
+				"&6“老苏，多亏你发现他了”"
+				""
+				"&b洁方的【挖掘疲劳】由二级降为一级"
+				"&b洁方的【缓慢】由二级降低为一级"
+				""
+				"&dtips： 按住键盘左上角~键即可开启连锁挖矿"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "4EE90030191EC3AD"
+			rewards: [
+				{
+					description: ""
+					id: "120C05BF0E77FA25"
+					title: "“嗨，应该的”"
+					type: "toast"
+				}
+				{
+					count: 2
+					id: "757965FEDA3E405F"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "23A2246F07F1BBDB"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "5F4C83ABF0C92A5C"
+					ignore_reward_blocking: true
+					stage: "e_fatigue_c"
+					type: "gamestage"
+				}
+				{
+					id: "2A690C32A6AD45EF"
+					ignore_reward_blocking: true
+					stage: "e_slowness_c"
+					type: "gamestage"
+				}
+				{
+					count: 5
+					id: "02A0D5CF0C6AE850"
+					item: "iceandfire:silver_ore"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5D6EC788A62DE90F"
+					item: "divinerpg:realmite_ore"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6B629AF9120AF160"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "357F3B7FA66C5A60"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "神医在世"
+			tasks: [
+				{
+					id: "2D07D2EB6F695795"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FC429CA57BB14BE"
+					points: false
+					type: "xp"
+					value: 2L
+				}
+				{
+					id: "7DC2B6679C285BAC"
+					title: "这个任务可降低【挖掘疲劳】到一级"
+					type: "checkmark"
+				}
+				{
+					id: "775397A8816C8299"
+					title: "这个任务可降低【缓慢】到一级"
+					type: "checkmark"
+				}
+			]
+			title: "获取铁镐"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EE90030191EC3AD"]
+			description: [
+				"多次下洞，已然克服了他的恐惧"
+				""
+				"一步一个脚印，旋转，跳跃，一气呵成"
+				""
+				"上一次封狼居胥的败北，在他心里仍然挥之不去"
+				""
+				"“小心能使万年船” 深深地烙印在他的胸膛"
+				""
+				"“要不再往下走走？”"
+				""
+				"回望原路，他稍加犹豫"
+				""
+				"“来都来了，看看有什么宝贝吧”"
+				""
+				"刚往下挖开一条通路，热气腾腾就冒上来了"
+				""
+				"&a绿色鱼线&r接着&6黄荧光的钓饵&r，似乎想从岩浆中垂钓鱼物"
+				""
+				"“地下居然也能有这么般好景色”"
+				""
+				"“这是什么？闪长岩”"
+				""
+				"但很快一抹蓝色又吸引了他的目光"
+				""
+				"很快，&a绿色&r，&1蓝色&r，&d紫色&r，&4红色&r，&6金色&r"
+				""
+				"万紫千红在于灰茫的矿洞"
+				""
+				"姹紫嫣红在于洁方的心情"
+				""
+				"&b洁方的【挖掘疲劳】完全消除了！"
+			]
+			hide_text_until_complete: true
+			icon: "apotheosis:pickaxe_tome"
+			icon_scale: 2.0d
+			id: "4EBD081A8EB1CF1C"
+			rewards: [
+				{
+					count: 5
+					id: "640A49140B6DD87A"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "462CC7A58548199F"
+					ignore_reward_blocking: true
+					stage: "e_fatigue_r"
+					type: "gamestage"
+				}
+				{
+					count: 2
+					id: "057594D546A98B89"
+					item: "divinerpg:terran_shards"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2A26543516D9A652"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "琳琅满目"
+			tasks: [
+				{
+					id: "37EB0572052D17CD"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "52855288F9CE7A16"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3A3AAACEFA0F2121"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "77D09DCE7585F2A9"
+					title: "完全消除挖掘疲劳的任务"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B3753B6D0D7DA24"]
+			description: [
+				"麦浪在日头下泛着金，沉甸甸压弯了腰，洁方镰刀划过，麦秆应声而倒"
+				""
+				"“这几颗番茄好像也熟了”"
+				""
+				"汗珠滚进土里，最后一捆麦子扛上肩，脚步踩在回村的土路上，扬起细小的尘烟"
+				""
+				"几个小娃眼巴巴蹲在路边，肚子咕咕声比虫鸣还响"
+				""
+				"洁方停下，抽出几颗莓果，塞进那几只脏乎乎的小手"
+				""
+				"“这个，甜”洁方指着莓果对小孩们说"
+				""
+				"小娃们攥着几颗小果，欢叫着跑远，像一群惊飞的麻雀，洁方看着，肩头的重量似乎轻快了些"
+				""
+				"推开吱呀的木门，老高正卷着烟丝，火花从石间迸出"
+				""
+				"洁方把麦捆小心搁在屋角，金黄的颗粒在幽暗里也散着微光"
+				""
+				"“阿爷，收回来了”"
+				""
+				"老高踱近，枯瘦的手指捻开一穗麦壳"
+				""
+				"饱满的麦粒滚落掌心，他掂了掂，丢几颗进嘴，慢慢嚼着"
+				""
+				"他脸上的沟壑动了动，拍拍洁方沾着草屑的胳膊"
+			]
+			hide_text_until_complete: true
+			icon: "farmersdelight:wild_tomatoes"
+			icon_scale: 2.0d
+			id: "1BEE4C06894D4F1C"
+			rewards: [
+				{
+					description: ""
+					id: "04FD5FA1FA956D16"
+					title: "“嗯，瓷实”"
+					type: "toast"
+				}
+				{
+					id: "191054AD65AABBBC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "7431D5547EB5A2CE"
+					item: "farmersdelight:wild_onions"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "03C6A9C0727AAEF1"
+					item: "farmersdelight:wild_cabbages"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E8C5E1205B00BD8"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "收成"
+			tasks: [
+				{
+					count: 5L
+					id: "729AF9E95A712CE9"
+					item: { Count: 5, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5BF290A94B205D80"
+					item: { Count: 10, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1424C48F6254EAC2"
+					item: { Count: 10, id: "farmersdelight:rice" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "196E3939BA1E1E70"
+					item: { Count: 5, id: "minecraft:potato" }
+					type: "item"
+				}
+				{
+					id: "21CD83334C6BE740"
+					title: "稻米需要种在一格水里面"
+					type: "checkmark"
+				}
+			]
+			title: "作物种植收成"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["798896BADBB85009"]
+			description: [
+				"老高新打的橡木橱柜正立在西墙角，木香混着树脂味慢悠悠飘"
+				""
+				"榫卯严丝合缝，柜门开合轻巧无声"
+				""
+				"洁方指尖滑过光滑柜面，又将整个脸贴到面上"
+				""
+				"感受着这木制具的冰凉触感"
+				""
+				"“阿爷的手艺 还是神乎其神” 他低语"
+				""
+				"老高正弯腰给矮凳敲最后一道楔子，榔头“笃笃”声像啄木鸟叩问树干"
+				""
+				"&6“家伙趁手，活就细” 他头也不抬，烟卷在嘴角斜斜挂着"
+				""
+				"洁方靠在崭新的柜门上，日光穿过窗棂，在干净的木纹上投下斜斜的亮格子"
+				""
+				"他忽然觉得这满屋的扎实木器，都是老高的， 扎在这土墙里"
+				""
+				"“阿爷……” 他声音闷在柜门后头"
+				""
+				"榔头声停了"
+				""
+				"&6“嗯？”"
+				""
+				"洁方搓着裤缝边一根毛刺，看着地上自己长长的影子"
+				""
+				"“等我能自个儿打出一套好家具...”"
+				""
+				"他咽了口唾沫"
+				""
+				"“有一天，说不定，我是说，我也可以造出自己的房子，不大，刚好能放下我的工作台...还有...我挖的第一个钻石就行”"
+				""
+				"“门朝东，清早第一道光，就能晒到我打的床头柜上”"
+				""
+				"老高没说话，烟灰无声落进泥地"
+				""
+				"他抬手，重重拍了拍刚立稳的柜门"
+				""
+				"“哐”"
+				""
+				"橡木沉稳的回应，在屋里荡开"
+				""
+				""
+				""
+				"&d完成此任务标志挖掘基础化完成！"
+			]
+			hide_text_until_complete: true
+			icon: "yuushya:bismuth_crystal"
+			icon_scale: 2.0d
+			id: "1D2BC9D91517772B"
+			rewards: [
+				{
+					count: 2
+					id: "7F0FE9AD143F8854"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E0E7C9B564746B7"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					description: ""
+					id: "595E9A50911CCAEE"
+					title: "“或许我也会有独属于自己的家呢”"
+					type: "toast"
+				}
+				{
+					count: 2
+					id: "2E1F1853FA7FB822"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "四堵墙的念想"
+			tasks: [
+				{
+					id: "17AD3B735AB247B7"
+					item: "fantasyfurniture:furniture_station"
+					type: "item"
+				}
+				{
+					id: "410435171A9AECE7"
+					item: "refurbished_furniture:light_electricity_generator"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1BEE4C06894D4F1C"]
+			description: [
+				"村东头牛栏栅栏豁了好大一个口子，地上积雪给踩踏得稀烂"
+				""
+				"几头牛和羊不见影子，雪泥里混着暗红的印子和乱糟糟的爪痕"
+				""
+				"老高蹲在豁口边上，烟叶子撒了一手，眯眼盯着黑黢黢的林子里"
+				""
+				"&6“牲口得寻回来几头，畜生尝着了甜头就住不了嘴，还得扎实栅栏”"
+				""
+				"他从那裹了浆的外套口袋里摸出几块冰凉的矿石，钻石在熹微的晨光里冒着寒气"
+				""
+				"&6“勒个套索稳当，比绳快，狼崽子追不上”"
+				""
+				"洁方蹲在工作台边叮叮当敲打，蓝白火星子溅到鼻尖烫出个小点"
+				""
+				"一条流淌着冷硬幽蓝光泽的索链捏在手里"
+				""
+				"老高拿那双粗糙的手试着力道扯了扯，索链发出细密的摩擦声"
+				""
+				"他往肩上一甩"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "5E9109F95B24F2C3"
+			rewards: [
+				{
+					id: "1978161F5FDEC23F"
+					item: "minecraft:sheep_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "04E97D5E76413A6B"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					description: ""
+					id: "50C3993FA3C282C9"
+					title: "“快走”"
+					type: "toast"
+				}
+				{
+					id: "31333218514C2620"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "把它们带回来"
+			tasks: [{
+				id: "5B2CC83B4E7AAB25"
+				item: "moblassos:diamond_lasso"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["403627EFA0EE3398"]
+			description: [
+				"铁砧叮当了一下午，火星四溅，汗水在洁方初显轮廓的背脊上淌出亮痕"
+				""
+				"最后一块铁靴组件淬火冷却，泛着沉沉的乌光"
+				""
+				"他一件件套上，铁甲覆胸，护腿箍膝，铁靴踏地，闷响沉沉"
+				""
+				"举手投足间，金属摩擦声透着生涩的坚实，水缸里映出个带着冷光的陌生少年"
+				""
+				"&6“变成帅小伙了，我都好似不认识了” 老高在门槛上磕了磕烟锅灰"
+				""
+				"紧了紧腕甲，拎起新打的铁剑，火把的光在黑暗中跳跃，脚步放得极轻，铁靴踏碎石的声响格外清晰"
+				""
+				"嘶嘶声，慢慢地从岩缝渗出，只需一点火星就能猝然亮起"
+				""
+				"洁方瞳孔猛缩，窒息感瞬间扼住喉咙"
+				""
+				"“哼...”"
+				""
+				"他没有退，将沉重的塔盾猛地顿在身前，铁甲紧贴冰凉盾背"
+				""
+				"&4“轰——！”"
+				""
+				"刺目的火团撕裂黑暗，灼热气浪裹着碎石狠狠撞上盾面"
+				""
+				"巨力推着他连退三步，铁靴刮擦地面发出刺耳锐响，盾牌嗡嗡哀鸣，碎石如雹砸在铁甲上，叮当乱响，震得他胸口气血翻腾"
+				""
+				"烟尘弥漫，刺鼻的硫磺味呛入鼻腔，洁方喘息着，手臂酸麻，耳中嗡鸣不止，但他站定了，透过烟尘，看到那个呲呲冒烟的浅坑和散落的火药渣"
+				""
+				"盾面添了焦痕，铁甲蒙了厚灰，他低头看看完好无损的手脚，又抬头望向那爆炸的源头"
+				""
+				"铁靴踏地的闷响，碾过烟尘"
+				""
+				"&b洁方的【破甲】从三级降为了二级"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "2948F1DC88392923"
+			rewards: [
+				{
+					description: ""
+					id: "1F4ED07BDFB8B01A"
+					title: "“不过如此”"
+					type: "toast"
+				}
+				{
+					id: "4BC84453E3592662"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "0B658DE9FE38B7B5"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "71B7F7CDED1A138E"
+					ignore_reward_blocking: true
+					stage: "e_sundering_b"
+					type: "gamestage"
+				}
+				{
+					count: 2
+					id: "4BBE9FD63BD2E3DE"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "铁衣辛勤久"
+			tasks: [
+				{
+					id: "5C79949AF45F3FFC"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F39EF385A5BD19F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C275D9A99EADE8F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EFF21504E76D0F6"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29FCFBBE2374F29C"
+					item: {
+						Count: 1
+						id: "iceandfire:silver_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26DC01694CAD4EB4"
+					title: "这个任务可将【破甲】降到二级"
+					type: "checkmark"
+				}
+			]
+			title: "铁套"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2948F1DC88392923"]
+			description: [
+				"铁刃砍进僵尸腐肉三分时，发出令人牙酸的“咔嘣”声"
+				""
+				"洁方只觉手上一轻，半截铁剑打着旋儿飞出去，叮当砸在石头上"
+				""
+				"剩下半截钝口子凄惨地留在木柄上，嗡嗡震颤，震得他虎口发麻"
+				""
+				"腐爪已到面门！"
+				""
+				"他狼狈地举起盾牌猛顶"
+				""
+				"“砰！”"
+				""
+				"尸骸撞退，洁方喘着粗气，盯着地上断剑茬口，那铁灰的裂痕像道丑陋的疤"
+				""
+				"天色渐暗，时不我待，走为上策"
+				""
+				"老高拿过断剑，粗糙的手指刮过豁口，感受着断痕的凹凸"
+				""
+				"&6“勒铁 吃不住劲了” 他摇头，火星子在昏暗中明明灭灭"
+				""
+				"&6“不过也好，旧的不去，新的不来”"
+				""
+				"洁方攥紧空落落的木柄，甚是失落"
+				""
+				"他挖开一处泥土，将木柄深埋此地，记作留念"
+				""
+				"“下回……” 他舔舔干裂的嘴唇 喉头滚动"
+				""
+				"“我要造一把更耐造的剑”"
+				""
+				"“造一把啃得动世间万物的硬家伙”"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "04E68F2A1624A7FB"
+			rewards: [
+				{
+					description: ""
+					id: "4D5B4C166C63FD3C"
+					title: "“造一把啃得动世间万物的硬家伙”"
+					type: "toast"
+				}
+				{
+					id: "5080965CEBA9F8A0"
+					item: "artifacts:feral_claws"
+					type: "item"
+				}
+				{
+					id: "02ECD3DC29034EFE"
+					ignore_reward_blocking: true
+					stage: "diamond_greatsword"
+					type: "gamestage"
+				}
+				{
+					count: 2
+					id: "09620BD7EBA13650"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "铁剑断处见锋芒"
+			tasks: [{
+				id: "1C4DDC0DD454832E"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"403627EFA0EE3398"
+				"1626E09CFF5B7333"
+			]
+			description: [
+				"日头偏西，洁方的影子趴在柴堆旁，盯着厚橡木板出神"
+				""
+				"矿洞骨箭的破空声还在耳畔"
+				""
+				"“阿爷，”他抬头，“要是这板板能拿来挡东西那该多好”"
+				""
+				"老高吐了吐口烟圈，击中了飞行的号鸟"
+				""
+				"&6“想弄盾？好！木头疙瘩挡抓挠飞石够用了。记住，家伙好，还得人灵醒”"
+				""
+				"洁方劲头十足。挑厚实橡木板，寻韧藤条。工作台上，厚板横竖拼成大方块，中央拧进粗藤当握把，边缘细藤扎牢"
+				""
+				"&6“嗡”一声轻响，一面方正、厚重、几乎齐胸高的橡木大盾立住了。洁方费力举起，左臂穿握把，五指紧扣边缘"
+				""
+				"&6“试试成色！”老高抄起柴火棍"
+				""
+				"“啪！”敲中盾心，闷响"
+				""
+				"“哚！”扫边缘，洁方手腕一斜，棍滑开"
+				""
+				"“再来！”棍扫下盘，洁方慢半拍，小腿挨了一下"
+				""
+				"洁方揉腿，夕阳西下"
+				""
+				"&btips：你杀的怪物越多，或者你进入的维度越多，你自身的难度就会越高"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "59409E6C977E938E"
+			rewards: [
+				{
+					description: ""
+					id: "4B27E09097751950"
+					title: "“盾是死的，人是活的！”"
+					type: "toast"
+				}
+				{
+					id: "767893067020E482"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "3F0AF2A2E9443F7E"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "木疙瘩"
+			tasks: [{
+				id: "641CE3D7642C44E3"
+				item: {
+					Count: 1
+					id: "spartanshields:wooden_tower_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59409E6C977E938E"]
+			description: [
+				"洁方举着沉甸甸的“蓝疙瘩”在村外练挡"
+				""
+				"这是他亲手铸造的坚墙"
+				""
+				"“呃…呃…”声惊起，绿眼腐爪的僵尸摇晃逼近！土坡后，白骨搭弓！"
+				""
+				"冷汗透背，巨盾下抵于地，全身缩其后 "
+				""
+				"“咻——！”骨箭破空！"
+				""
+				"“哚！”狠狠钉入厚盾寸许，盾身巨震"
+				""
+				"洁方只觉手麻，小退了半步，盾纹丝不动"
+				""
+				"腐爪抓来！盾向外一顶一旋，“啪！”爪擦缘滑开！"
+				""
+				"第二箭至！盾微调，“咚！”弹飞！"
+				""
+				"顶完一侧，另一测又来了，洁方举力将盾牌横扫"
+				""
+				"“砰！” 将尸撞退！"
+				""
+				"“走了走了”"
+				""
+				"他不再恋战 猛地背起盾来，朝着村口灯火狂奔！沉重的脚步甩开身后化作挑衅"
+				""
+				"洁方背靠门板滑坐，心擂如鼓 左臂酸软"
+				""
+				"盾牌上的凹陷，箭矢，就成了这一晚刻骨铭心的勋章"
+				""
+				"老高出来，看了看盾，捏捏他胳膊：“疼不？”"
+				""
+				"洁方咧嘴，眼亮，扶着盾站起身来"
+				""
+				"“酸！值！顶！”"
+				""
+				"老高拍盾，皱纹舒展"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "0808527AEA0242A0"
+			rewards: [
+				{
+					description: ""
+					id: "6C4EEA405BDD672E"
+					title: "“干得好！”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "3F5AFB8AEE736CD1"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "049D641DBF5718F7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "spartanshields:payback"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2B865B63B63D2001"
+					item: "divinerpg:terran_shards"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5F02098012CCB1A3"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "月明星稀"
+			tasks: [{
+				id: "0C99D6CE575E9B9A"
+				item: {
+					Count: 1
+					id: "spartanshields:diamond_tower_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0808527AEA0242A0"
+				"1B528D50ACFBF477"
+			]
+			description: [
+				"雪，扯棉絮般下得又急又密，盖住纺织厂灰黑的屋顶，盖住冰冷的铁轨，也盖住阿秀单薄得像片纸的脊背"
+				""
+				"一只狐狸从她的身体旁经过，嗅了嗅，从上面撕咬着扯下一块肉，又躲进了雪里"
+				""
+				"她趴在雪地里，身后拖出一道长长的痕，混着刺目的红，两条腿怪异地扭拧着"
+				""
+				"怀里死死抱着几卷没染透的粗布，靛蓝的染料混着血水，在雪地上泅开脏污的印子"
+				""
+				"冷，比工头打断她腿时的榆木棒子还钻心"
+				""
+				"她动了偷念，哪怕就一点，阿娘的药，弟弟的袄，就能够缓缓了吧"
+				""
+				"那点工钱，像永远梭不完的线头"
+				""
+				"&4“穷鬼婊子，厂里的东西也敢偷！” "
+				""
+				"工头的骂声和骨头碎裂的闷响还在耳朵里撞"
+				""
+				"就算如此，那好些匹布仍扔死攥在手里，工头没办法，只能让人把她整个扔出去"
+				""
+				"手指早冻僵了，只能用胳膊肘，一点点往前蹭，雪灌进领口，融了又冻成冰碴"
+				""
+				"家，那漏风的破棚子，就在矮坡后面，烟囱里似乎还剩一丝暖意的残影"
+				""
+				"眼前越来越模糊，雪白的世界蒙上灰翳，怀里的布卷重得喘不过气，像压着整个冬天的雪，阿娘枯瘦的脸在灰翳里晃了下，散了"
+				""
+				"雪停了，染脏的布卷从松开的怀里滚落，在雪地上摊开一小片扎眼的蓝"
+				""
+				"雪花轻轻落在她散乱的发上，睫毛上，盖住了那双映不出织机光影的眼睛"
+				""
+				"雪盖住她，像盖住一匹织坏了的布"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "64365F1DF3E65B52"
+			rewards: [
+				{
+					count: 32
+					id: "7F23486A889DADB8"
+					item: "spartanweaponry:iron_arrow"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07AF2CF5FE8069A7"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "碎布"
+			tasks: [{
+				id: "56040A55FA2E23EF"
+				item: {
+					Count: 1
+					id: "spartanweaponry:iron_longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"00513EEE663F9A93"
+				"798896BADBB85009"
+			]
+			description: [
+				"洁方从外面看到了些若干食谱"
+				""
+				"便决定自己亲自下厨，做些好吃的给高爷爷"
+				""
+				"可究竟要做什么呢，这可就犯了难"
+				""
+				"究竟是做点奢侈的牛排配土豆好呢"
+				""
+				"还是整点美味可口的羊排意面？"
+				""
+				"或者去涛涛大河上抓点鲜货"
+				""
+				"做上一顿鲜嫩的烘焙鳕鱼炖？"
+				""
+				"他将菜刀横在砧板上，从厨房里摸出来"
+				""
+				"询问老爷子想要点什么吃的"
+				""
+				"&6老高抬头想了一下：“就要.....”"
+				""
+				"&b完成任务，洁方的【血量】将完全恢复正常状态！"
+			]
+			icon: "farmersdelight:steak_and_potatoes"
+			icon_scale: 2.0d
+			id: "39A06C4C3E4A15AE"
+			rewards: [
+				{
+					count: 10
+					id: "0A9D517724D9A785"
+					item: "create:chocolate_bucket"
+					type: "item"
+				}
+				{
+					id: "30D0AAAB4E523C23"
+					ignore_reward_blocking: true
+					stage: "e_health_a"
+					type: "gamestage"
+				}
+				{
+					count: 3
+					id: "2611D654155A6451"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "亲自操刀"
+			tasks: [
+				{
+					advancement: "farmersdelight:main/eat_nourishing_food"
+					criterion: ""
+					id: "0D34A5E451DB4A8C"
+					type: "advancement"
+				}
+				{
+					id: "0C32C1D17E109100"
+					title: "从文本中任选一道菜制作并吃掉"
+					type: "checkmark"
+				}
+				{
+					id: "3ADEB74432709578"
+					title: "这个任务可以将血量升到二十"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"39A06C4C3E4A15AE"
+				"0918321E34AB9838"
+				"53CFFB8D61264DC9"
+				"189873806ADACB18"
+				"1D2BC9D91517772B"
+				"390F07E3EE5D9326"
+				"32429F6E680B90FA"
+			]
+			description: [
+				"随着各种机械堆砌在身旁，各色花朵在钢铁缝隙间鲜艳绽放"
+				""
+				"盔甲架台上冷蓝弧光横摇夺寸眸，五花八门的食谱作列清单贴在厨房老朽的门上"
+				""
+				"对于洁方，五个基础化已经稳稳扎进土地里，但他的藤条才刚刚爬出日头"
+				""
+				"&6“洁方，这阵子可累脱你三层皮了，好好休息一下吧”"
+				""
+				"老高手扶着门框，一轮红色从他眼前映出，吞吐着分不清是浓烟还是雾霜的混合物"
+				""
+				"&c“是呀是呀，洁方哥很棒呢，要不做顿大餐庆祝一下吧！”妮妮辫梢红石发夹急跳"
+				""
+				"三人站在小屋门外，霜地在脚下嘎吱作响，太阳正把冻云熔成金红铁水"
+				""
+				"“谢谢，阿爷，阿妮妮妹，不过这顿大餐还是由我来做吧”"
+				""
+				"&e“我也可以帮你的哟，就用我的土豆加农炮！”"
+				""
+				"话毕，妮妮从腰间掏出土豆加农炮一顿摆弄"
+				""
+				"“呃呃呃，你帮我拿一点东西就好啦”"
+				""
+				"“走啦，我们去准备一些材料吧”"
+				""
+				"&c“洁方，你要看好妮妮啊，路上小心点”"
+				""
+				"洁方把皮工具袋甩上肩，一溜烟就往前走了"
+				""
+				"&b洁方的【破甲】完全消除了！"
+				"&b洁方的【霉运】完全消除了！"
+			]
+			hide_text_until_complete: true
+			icon: "farmersdelight:roast_chicken_block"
+			id: "059439A3A9899685"
+			rewards: [
+				{
+					description: ""
+					id: "6CF101A859C426F6"
+					title: "“诶诶，赖皮鬼等等！慢点啦！”"
+					type: "toast"
+				}
+				{
+					id: "0A9DD4C4728CBFBC"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 3
+					id: "1328FA8AA8C0DAE1"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "77FE9577BF340F2C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "142C871F07556F0D"
+					item: "nameless_trinkets:mysterious_trinket"
+					type: "item"
+				}
+				{
+					id: "7C8A111C71A311D2"
+					item: "nameless_trinkets:mysterious_trinket"
+					type: "item"
+				}
+				{
+					id: "2C2C8C8E2F13019A"
+					item: "nameless_trinkets:mysterious_trinket"
+					type: "item"
+				}
+				{
+					id: "72F48A96FC45DEE3"
+					ignore_reward_blocking: true
+					stage: "e_sundering_r"
+					type: "gamestage"
+				}
+				{
+					id: "4E6EE1680379CF89"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					id: "42306D1A0E357D41"
+					ignore_reward_blocking: true
+					stage: "e_unluck_r"
+					type: "gamestage"
+				}
+				{
+					id: "263E6B2D875BE318"
+					ignore_reward_blocking: true
+					stage: "d_iceika"
+					type: "gamestage"
+				}
+				{
+					id: "6C6E72AB4B518055"
+					ignore_reward_blocking: true
+					stage: "compelete_chapter_one"
+					type: "gamestage"
+				}
+				{
+					count: 6
+					id: "58D5EBF838CE8503"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "圆满成功"
+			tasks: [
+				{
+					id: "2EBC709B2760BD9D"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+				{
+					id: "6F8871E833089BD4"
+					item: "farmersdelight:glow_berry_custard"
+					type: "item"
+				}
+				{
+					id: "0BF462B7FD20837B"
+					item: "farmersdelight:bone_broth"
+					type: "item"
+				}
+				{
+					id: "62D6A40112165F75"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					id: "0402F97D96874026"
+					item: "farmersdelight:shepherds_pie"
+					type: "item"
+				}
+				{
+					id: "6660396026ACA47A"
+					title: "进度属【农夫乐事】"
+					type: "checkmark"
+				}
+				{
+					id: "7E36EBB10D453C06"
+					title: "像盘装烤鸡这样的需要先做出烤鸡，再用碗右键"
+					type: "checkmark"
+				}
+				{
+					id: "42E47646BEA6B6E8"
+					title: "这个任务可以完全消除【破甲】和【霉运】"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"64365F1DF3E65B52"
+				"04E68F2A1624A7FB"
+				"1B528D50ACFBF477"
+			]
+			description: [
+				"数以百计的人如仙人掌般站在台下"
+				""
+				"点缀着这如沙漠般浩大广场"
+				""
+				"风刮过无数僵直的脊梁，发出枯草摩擦岩石的窸窣"
+				""
+				"&4“胜利！我们一直以来所追求的！我们实现！也会永远实现！”"
+				""
+				"他一开口，人群便沸腾起来，但没有发生骚乱"
+				""
+				"每个人都井然有序的，站在属于自己的位置"
+				""
+				"&4“我们将主导这片大陆！每个人都拥有幸福和希望！”"
+				""
+				"他所戴的帽子也是战战兢兢的，仿佛被他的话所震慑一般"
+				""
+				"&4“我们的国家！我们的帝国！这是属于我们的世界！”"
+				""
+				"&4“南方王国被我们击溃，剩下的不过苟延残喘！”"
+				""
+				"每个人都抬起头，看向代表了他们信仰的那个人"
+				""
+				"&4“当熔炉吞下最后一块废铁——”"
+				""
+				"他停顿，俯身如鹰隼掠食"
+				""
+				"&4“你们的孩子”"
+				""
+				"喉结在绷紧的领口下滚动"
+				""
+				"&4“就能踩着玻璃糖纸铺成的路 走进永不落雪的春天！”"
+				""
+				"&8“前进！！前进！！！前进！！！！！”"
+				""
+				"&4“前进吧！人民们！我们会击溃他们！”"
+				""
+				"&4“我们伟大的民族，是战无不胜的，没有什么东西能够妨碍我们！”"
+				""
+				"他说的每一句话，台下的每一个人都听到"
+				""
+				"就连广场，也要抖三抖"
+				""
+				"&b洁方的【虚弱】从二级降低为一级"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "spartanweaponry:diamond_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "0BD8A86AC3FE9B1A"
+			rewards: [
+				{
+					description: ""
+					id: "651F0C414198F85A"
+					title: "“万岁！”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "468D856825D8824C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "024851D51AB7E15A"
+					item: "enigmaticaddons:forger_gem"
+					type: "item"
+				}
+				{
+					id: "00C70AC8DE072DE9"
+					ignore_reward_blocking: true
+					stage: "e_weakness_c"
+					type: "gamestage"
+				}
+				{
+					count: 3
+					id: "430BB957E01EEC8B"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "千周帝国"
+			tasks: [
+				{
+					id: "479E705ECFE4EE4F"
+					item: {
+						Count: 1
+						id: "spartanweaponry:diamond_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "4CF718AA89381BE9"
+					title: "这个任务可将【虚弱】降到一级"
+					type: "checkmark"
+				}
+			]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1BEE4C06894D4F1C"
+				"54F3EE2F80A2207B"
+			]
+			description: [
+				"屋角的土灶台难得燃起了火，橘红的火苗舔舐着锅底，映得两张脸膛发亮，烟气混着水汽，模糊了窗纸，也模糊了两人的视线"
+				""
+				"&6“粒粒粮食，变作碗里饭食，是门道” "
+				""
+				"老高舀了瓢水入锅，水花翻滚，热气升腾"
+				""
+				"洁方递过刚舂好的米，白生生的米粒滑入沸水，咕嘟咕嘟冒起泡，香气丝丝缕缕钻出来，直勾着肚肠"
+				""
+				"&6“火候总是这样的，急不得，慢不得” "
+				""
+				"老高用长木勺缓缓搅动，米汤渐稠，洁方学样，小心添了根柴，火冒卷起，是使舞然"
+				""
+				"老高摸出两个鸡蛋，锅沿轻轻一磕，蛋液滑入粥中，瞬间绽开乳白的花，撒上一把切得细碎的野菜末，翠绿点点"
+				""
+				"两碗热粥端上桌，热气滚滚直升起，洁方吹了吹，将碗倾斜，小心啜了一口"
+				""
+				"暖意混着米香蛋香，从喉头滑落心底"
+				""
+				"灶火的暖，在舌尖化开，像流淌的春水"
+				""
+				"&b洁方的【血量】从十四血升级为十六血"
+			]
+			hide_text_until_complete: true
+			icon: "farmersdelight:stove"
+			icon_scale: 2.0d
+			id: "00513EEE663F9A93"
+			rewards: [
+				{
+					description: ""
+					id: "7ED6786BC8AB2C7A"
+					title: "“咕噜咕噜！”"
+					type: "toast"
+				}
+				{
+					id: "19905B10F26E95F7"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "401FB15804AFF7F8"
+					ignore_reward_blocking: true
+					stage: "e_health_b"
+					type: "gamestage"
+				}
+				{
+					count: 2
+					id: "160DD5FCDE9E8DD3"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "灶火"
+			tasks: [
+				{
+					id: "6ACA0A6BFCC4677F"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "56B70A9E4F115369"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3389BA30DDAE397D"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "2A1A9A597DA5FDA7"
+					stage: "e_health_c"
+					title: "完成训练人偶任务"
+					type: "gamestage"
+				}
+				{
+					id: "37DFF978FE99B736"
+					title: "这个任务可将血量升到十六"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5E9109F95B24F2C3"
+				"54B2E860F39D5CC2"
+			]
+			description: [
+				"半月夜明，冷光映射入洁方的眼膜"
+				""
+				"每当问起自己的身世，老高也仅仅是随意答答"
+				""
+				"带回来的羊羊们生了崽，崽子很可爱，匍匐于母爱的关怀中"
+				""
+				"他看了他羊崽子，又看了看老高，最后又看了看自己"
+				""
+				"“阿爷啊，我到底是从哪来的呢”"
+				""
+				"&6“唉...” 老高把烟按在门框上掐灭 “你这么大了，也是该告诉你了”"
+				""
+				"&6“二十多年前，你的父母啊，因为战乱，疲于奔命”"
+				""
+				"&6“不知道他俩是做什么的，可能是不想连累你吧”"
+				""
+				"洁方拾了一张凳椅，就地而坐，托着下巴，思绪扭紧了额头"
+				""
+				"&6“他们赶得很紧，只把你和你的名字托付给我，就冲南海而去”"
+				""
+				"“那他们现在怎么样了？” 洁方将头探前一步"
+				""
+				"&6“接着呢，后面就有几匹战马追了上来，问我有没有见到过抱着个小婴的俩夫妻”"
+				""
+				"&6“我随手指了个方向。那些个人大概是追不上你的父母了”"
+				""
+				"“那他们应该没有事了吧？为什么他们不回来接我？”"
+				"洁方低下头来，直盯着地面的缝隙看"
+				""
+				"&6“他们似要飘过那南海的，可南海凶险，海中有巨兽，就算是军队也不敢贸然前进”"
+				""
+				"&6“你的父母吗，希望他们好运吧，说不定你们还会有相见的一天”"
+				""
+				"那一晚，洁方躺在床上，看着窗外的星光，思索良久"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:wheat"
+			icon_scale: 2.0d
+			id: "0918321E34AB9838"
+			rewards: [
+				{
+					id: "4B56E2B178E10FCB"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "6CE724939ECC82A4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7F23786FB19CE6AE"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "究竟是哪儿呢？"
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/breed_an_animal"
+					criterion: ""
+					id: "52FCDC274DB804DB"
+					type: "advancement"
+				}
+				{
+					id: "31C7408FB35D442D"
+					title: "繁殖一对动物"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0BD8A86AC3FE9B1A"]
+			description: [
+				"工作台上钻石甲片冷光流窜"
+				""
+				"洁方拎起胸甲往身上扣，铁扣咔哒咬合肋骨"
+				""
+				"肩甲压上锁骨时沉甸甸下坠，蓝光刺得妮妮眯眼"
+				""
+				"胫甲铆进皮靴，踩地声如矿车碾过铁轨"
+				""
+				"全套披挂完毕，日光在棱面上折出冷蓝光瀑"
+				""
+				"他扭脖，关节发出生涩的“咯啦”响"
+				""
+				"&c“哇哦，洁方哥你帅到，爆了”"
+				""
+				"老高烟杆敲了敲钻石护腿"
+				""
+				"&6“叮咚叮咚的，看着亮闪闪，实则硬邦邦，好一个英雄在世”"
+				""
+				"洁方拔剑挥斩，刃风削断三格外蒲公英"
+				""
+				"花絮混着草屑纷扬落下"
+				""
+				"他屈指弹飞沾上肩甲的蒲公英绒毛"
+				""
+				"&b洁方的【破甲】由二级降低为一级"
+				""
+				"&d完成此任务标志装备基础化完成！"
+				""
+				"&b洁方的【虚弱】完全消除了！"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "189873806ADACB18"
+			rewards: [
+				{
+					description: ""
+					id: "3318EAA89A94CD02"
+					title: "“抛瓦！”"
+					type: "toast"
+				}
+				{
+					id: "5AF023E34752F9B5"
+					item: "slashblade:proudsoul_sphere"
+					type: "item"
+				}
+				{
+					id: "55073F676D126890"
+					item: "artifacts:cross_necklace"
+					type: "item"
+				}
+				{
+					id: "0AD71A282802A5A2"
+					ignore_reward_blocking: true
+					stage: "e_sundering_c"
+					type: "gamestage"
+				}
+				{
+					id: "4EB2A467C2F2E7BA"
+					ignore_reward_blocking: true
+					stage: "e_weakness_r"
+					type: "gamestage"
+				}
+				{
+					count: 4
+					id: "05B12D7BC9C97C08"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "钻石披身"
+			tasks: [
+				{
+					advancement: "minecraft:story/shiny_gear"
+					criterion: ""
+					id: "5A7FB8645E74B39C"
+					type: "advancement"
+				}
+				{
+					id: "2372FAEF8733EB1C"
+					title: "这个任务可将【破甲】降到一级"
+					type: "checkmark"
+				}
+				{
+					id: "459EE71B39FE199A"
+					title: "这个任务可以完全消除【虚弱】"
+					type: "checkmark"
+				}
+			]
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1A7CC6B01B48BAAD"]
+			description: [
+				"推开那扇咯吱响的橡木门，一只发条铜壳鸟就啄向洁方的脑门"
+				""
+				"屋里奏响着各种齿轮协调的乐章，简直是个开了锅的工坊"
+				""
+				"“啊呀，我都快晕掉了”"
+				""
+				"黄铜齿轮在墙角咬合旋转，红石粉线路细蛇一样爬满地板闪着暗红的光"
+				""
+				"那铁憨憨举着个空茶杯杵在墙边，像个等水来的树桩"
+				""
+				"&c“快看勒个！”"
+				""
+				"妮妮蹦跶着踩了一块不起眼的青石压力板，噗叽一声，一排粘液块台阶就从墙缝里挤出来"
+				""
+				"她咯咯笑，小辫子甩甩，上面还卡着个红石比较器模样的发夹"
+				""
+				"或许是出于红石的喜好，她裹着红黄相见的潮衣服"
+				""
+				"头顶戴着大眼镜，一副大工程师的模样"
+				""
+				"&c“勒个傻大个”"
+				""
+				"她指了指那只机械手臂，它抖抖索索拿着根比它还细的缝衣针"
+				""
+				"戳得空气嗤嗤响，“想穿线呢，可布都给它捅漏啦”"
+				""
+				"她的可爱脸蛋倒映着满屋叮光乱闪的机栝"
+				""
+				""
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "144C500C8695701F"
+			rewards: [
+				{
+					description: ""
+					id: "4641DFC20377F153"
+					title: "“洁方哥想不想学呀”"
+					type: "toast"
+				}
+				{
+					count: 32
+					id: "7B386CB3E18B15FA"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "059B66E1748941A1"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "妮妮的机械小窝"
+			tasks: [{
+				count: 10L
+				id: "2C91E6B9E1EA6816"
+				item: { Count: 10, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EBD081A8EB1CF1C"]
+			description: [
+				"&c                    你相信吗"
+				""
+				"&d                    这个玩意"
+				""
+				"&e                      可以"
+				""
+				"&f                  从附魔物品上"
+				""
+				"&b                     把附魔"
+				""
+				"&a                     抽取到"
+				" "
+				"&6                     书里面！"
+				""
+				""
+				""
+				"&c                    很神奇吧"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:grindstone"
+			icon_scale: 2.0d
+			id: "798896BADBB85009"
+			rewards: [
+				{
+					id: "788FC490AEFB3B5D"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					description: ""
+					id: "75F00DBD545EA7B0"
+					title: "你！来！试！试！吧！"
+					type: "toast"
+				}
+				{
+					id: "2756794F3303207B"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "神奇砂轮"
+			tasks: [
+				{
+					id: "41624B5265392CF1"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+				{
+					id: "45ECDF174CFB9309"
+					title: " 在砂轮用书驱魔的时候不要按shift，不然你的装备会爆掉！"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["144C500C8695701F"]
+			description: [
+				"河沿边的烂泥巴又冷又黏，洁方半个身子浸在冻骨头的水里，肩头扛着刚削好的沉重橡木水车轮"
+				""
+				"河水一股子冲劲儿，推得他脚板底打滑，那轮毂轴心死活对不上水底的石头基座"
+				""
+				"&c“偏了偏了！往左边，左边一点点嘛！”妮妮在岸上急"
+				""
+				"小羊皮靴在烂泥地上跺得啪叽响，手里那张画满圈圈叉叉的图纸糊了半张水"
+				""
+				"&c“使劲！往下压！腿！蹬住后边那块大鹅卵石！”"
+				""
+				"洁方把吃奶的劲儿都使在腰杆子上，牙根咬得咯嘣一声，那木头轴终于哐当一下卡进了凹槽"
+				""
+				"“呼，呼呼.....”"
+				""
+				"沉重的水车叶子被水流推着嘎吱嘎吱呻吟着开始转圈"
+				""
+				"妮妮欢呼着从岸上往下跳，拍着洁方湿透了的半边膀子"
+				""
+				"老高从旁边路过，看到孩子们辛勤的模样，一张眯着眼的笑从脸上铺张开来"
+				""
+				"&c“欸！高爷爷早上好呀！”"
+				""
+				"&6“欸，看起来，你们干地不错嘛！怎么样了昂”"
+				""
+				"洁方和妮妮异口同声"
+			]
+			hide_text_until_complete: true
+			icon: "create:water_wheel"
+			icon_scale: 2.0d
+			id: "1B48BE23F43835F1"
+			rewards: [
+				{
+					description: ""
+					id: "5B3D0775961450E7"
+					title: "“干得劲了”"
+					type: "toast"
+				}
+				{
+					count: 5
+					id: "149FC740BE9D5DB3"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05866E09233C6B5E"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "水车滚滚"
+			tasks: [
+				{
+					advancement: "create:water_wheel"
+					criterion: ""
+					id: "4B2220561C98C714"
+					type: "advancement"
+				}
+				{
+					id: "0942208F91838641"
+					title: "进度属【机械动力】"
+					type: "checkmark"
+				}
+				{
+					id: "54D7BD30BED13141"
+					title: "水车需要水用以转动"
+					type: "checkmark"
+				}
+				{
+					count: 5L
+					id: "2E69BB4FD6ACE798"
+					item: { Count: 5, id: "create:belt_connector" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5F5994B1EF8F2E6C"
+					item: { Count: 5, id: "create:gearbox" }
+					type: "item"
+				}
+				{
+					id: "587DD1144104753F"
+					item: "create:clutch"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B48BE23F43835F1"]
+			description: [
+				"许多个天过去了，那个鼓风机仍然萦绕在他的心头"
+				""
+				"很显然，他已经在想办法实现了"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "536EE1A5A80C2628"
+			rewards: [
+				{
+					id: "5E3B691875D0D5CD"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "757004C93748514E"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "念念不忘"
+			tasks: [{
+				count: 3L
+				id: "037CAB9658CB7BBE"
+				item: { Count: 3, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1BEE4C06894D4F1C"
+				"39A06C4C3E4A15AE"
+				"0918321E34AB9838"
+			]
+			description: [
+				"村西头金海翻腾，麦浪眼看要压塌田埂"
+				""
+				"一阵黑烟裹着震响撕裂田野的宁静"
+				""
+				"李四光跨在个铁皮大家伙上，两眼放光，单手把着颤动的铁舵轮"
+				""
+				"铁兽张开巨口，锋利的齿盘转动如飞"
+				""
+				"所过之处，麦秆如潮水倒伏，被卷进轰鸣的肚腹，只留下齐刷刷的短茬茬，像给大地剃了头"
+				""
+				"他胡子翘得老高，冲着田埂上呆立的俩人吼"
+				""
+				"&a“瞧瞧！这才叫动力收割！顶百十把镰刀！”"
+				""
+				"老高嘴里那根卷好的烟忘了点，烟叶子从指缝漏下几缕"
+				""
+				"他看着铁牛身后，金灿灿的麦浪被轻易吞噬，留下一条笔直光秃的通道，像道丑陋的伤疤"
+				""
+				"身旁的洁方看地也是出奇的入迷"
+				""
+				"风里熟悉的干熟麦香，被浓烈的铁腥和机油味压得抬不起头"
+				""
+				"老高弯腰，从脚边揪下一穗铁牛齿缝漏网的麦"
+				""
+				"捻开壳，饱满的麦粒滚在手心，依旧沉甸甸"
+				""
+				"他掂了掂，像掂量这土地最后的倔强"
+				""
+				"烟锅终于凑近火石"
+				""
+				"“嚓”"
+				""
+				"一点火星亮起，随即被喷出的浓烟吞没"
+				""
+				"老高眯眼，望进那片喧嚣的铁黑与飞扬的金黄"
+				""
+				"&6“犁耙……” 他声音混在突突声里，几不可闻"
+				""
+				"铁牛轰鸣着碾过下一个田垄，惊飞一群麻雀"
+				""
+				"&d完成此项标志农事基础化完成！"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "53CFFB8D61264DC9"
+			rewards: [
+				{
+					description: ""
+					id: "0846D0CB895FCE94"
+					title: "“怕是要在墙角，生锈了”"
+					type: "toast"
+				}
+				{
+					count: 4
+					id: "0A86ECE022BF1D54"
+					item: "create:andesite_alloy_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "59FD69A3F0068CF7"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "铁牛吞麦浪"
+			tasks: [{
+				id: "6282C9470371C058"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["536EE1A5A80C2628"]
+			description: [
+				"铁砧叮当响了一整天，火星子溅上墙壁又熄灭"
+				""
+				"洁方蹲在鼓风机旁，手指被黄铜齿轮咬得通红"
+				""
+				"热浪舔着窗框爬进来，蝉鸣粘稠得像麦芽糖，老高坐在竹椅上擦汗，短褂后背浸出盐霜"
+				""
+				"“成了”"
+				""
+				"风叶突然嗡嗡转起来，呼啦啦地涌出凉气，吹得墙上蓑衣簌簌跳舞"
+				""
+				"老高半闭着眼睛，任风从敞开的衣领灌进去，衣褶像鼓满的帆，枯瘦的脚踝在风里晃呀晃"
+				""
+				"洁方把下巴搁在出风口，说话声被风吹得颤巍巍"
+				""
+				"老高喉咙里滚出模糊的咕噜声，蒲扇滑落在凉席"
+				""
+				"&6“比那老李的还要劲了”"
+				""
+				"草编风铃叮当叮当响，两团影子在泥地上越拉越长，鼓风机还在嗡嗡哼唱"
+				""
+				"清凉覆盖新打的竹床，嘴角扬起道小小波浪"
+			]
+			hide_text_until_complete: true
+			icon: "create:encased_fan"
+			icon_scale: 2.0d
+			id: "54B2E860F39D5CC2"
+			rewards: [
+				{
+					description: ""
+					id: "5F6B49908079D44E"
+					title: "“阿爷睡着了吗”"
+					type: "toast"
+				}
+				{
+					count: 128
+					id: "7792CB92CF144C57"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					id: "156EB0BBE6113EE3"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "转起来"
+			tasks: [{
+				id: "33EC383BB3336F2E"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4EE90030191EC3AD"]
+			description: [
+				"微风带着希望轻轻的拂过洁方的脸颊，为他拭去身上的汗水"
+				""
+				"“呼~”"
+				""
+				"随着最后一锤子的砸下，最后一颗铆钉的嵌入，洁方缓缓长舒一口气，似想要将所有的疲惫与烦躁都呼出体外"
+				""
+				"“我年轻的时候可不会像你这样哩”"
+				""
+				"老高看着眼前的船只露出了欣慰的笑容，或许这艘船也托载着他年轻时的理想吧"
+				""
+				"不过现在的问题是该如何把船拖下水呢？不过聪明的洁方想到了一个奇妙的点子:用木棍放在船下，做了一个“简易传送带”。"
+				""
+				"不得不说，古埃及人用的方法果然很好用，除了不好控制方向外，其他的都没什么。"
+				""
+				"船也顺利下水了，洁方跳上了船，他将手伸出想要拉老高一把，但老高只是微笑着看着他，微微摇头。"
+				""
+				"&6“我大概没有办法陪你一起去咯，我的身体已经不如以前了... 况且这也应该是属于你的‘冒险’”"
+				""
+				"他只能默默点头，并尽量不去看老高，是的，他得去创造属于他自己的经历"
+				""
+				"船顺着江边缓缓行驶，听着鸟的啼鸣，闻着空气中带有的清香，看着远处辛勤劳作的人民......这些都与曾经读过的童话别无二致"
+				""
+				"在此方美景之中，微风度过，丝丝带走他的迷茫，好让他沉浸在自己的吹拂中"
+				""
+				"&b洁方的【缓慢】完全消除了！"
+			]
+			hide_text_until_complete: true
+			icon: "smallships:oak_cog"
+			icon_scale: 2.0d
+			id: "5CF42A47B1107947"
+			rewards: [
+				{
+					description: ""
+					id: "5BF4621DD147278E"
+					title: "“拉开风帆！”"
+					type: "toast"
+				}
+				{
+					id: "7F4F5D205E06F2D1"
+					item: "smallships:cannon"
+					type: "item"
+				}
+				{
+					id: "248FE94B2BC12E0F"
+					ignore_reward_blocking: true
+					stage: "e_slowness_r"
+					type: "gamestage"
+				}
+				{
+					id: "5C8B9A48D6C7F12A"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "乘风破浪"
+			tasks: [
+				{
+					id: "1A1852131490E83A"
+					item: "smallships:oak_cog"
+					type: "item"
+				}
+				{
+					id: "267001485F8C696B"
+					title: "完全消除缓慢的任务"
+					type: "checkmark"
+				}
+			]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B48BE23F43835F1"]
+			description: [
+				"夜火坠落，在夜空中划开一道蓝色伤口"
+				""
+				"震响空余千里，大地为之哭泣"
+				""
+				"头顶碎石哗啦啦掉，洁方摸着滚烫震动的岩壁扒开向下探查，一块黑沉沉的怪石头嵌在土里滋滋冒着白汽"
+				""
+				"石壳上爬满发紫发亮的细密纹路，嗡嗡低鸣，难道是宇宙抛弃了它？"
+				""
+				"“嘶，有点烫” 洁方拿镐子敲了敲 “空心的？里面有什么？”"
+				""
+				"里面盘踞着几根银丝，连着“玻璃柱”的紫色水晶芯子一闪一灭，像在喘粗气"
+				""
+				"“有意思，这玩意我可不懂，带回去给她瞧瞧吧” 拿一大布包好，背起就返程"
+				""
+				"刚放在台面上，布就由上往下散开，露出一个神秘方块"
+				""
+				"妮妮刚想戴上护目镜一探究竟，护目镜竟然瞬间缩小，进了那神秘方块"
+				""
+				"&c“欸！诶诶！我的眼镜！！这可是我的贴身标志啊”"
+				""
+				"妮妮的脸已经变得像小茶壶一般了"
+				""
+				"&c“洁哥，要不你试试把这破烂敲开吧”"
+				""
+				"“这好吗，万一坏了怎么办”"
+				""
+				"&c“没事的，我的修复能力可是独一无二的”"
+				""
+				"洁方二话不说拿起铁镐，站直，瞄准，一挥！"
+			]
+			hide_text_until_complete: true
+			icon: "ae2:certus_quartz_crystal"
+			icon_scale: 2.0d
+			id: "63C02148CF6540C1"
+			optional: true
+			rewards: [
+				{
+					id: "3FE76CD803800545"
+					item: "ae2:mysterious_cube"
+					type: "item"
+				}
+				{
+					id: "6F50FD8051EB09FB"
+					item: "ae2:flawless_budding_quartz"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "42B09F128D948E32"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+				{
+					description: ""
+					id: "2C4C45EC0EB2F2E4"
+					title: "“眼镜？被吐出来了？！”"
+					type: "toast"
+				}
+				{
+					count: 10
+					id: "568256BEC6654860"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "62437024A7345822"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			subtitle: "流星"
+			tasks: [
+				{
+					id: "426C9EEF629BCA5E"
+					title: "外星科技？"
+					type: "checkmark"
+				}
+				{
+					id: "3BFDDDB204D9660E"
+					title: "可选支线任务，可不做"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63C02148CF6540C1"]
+			description: [
+				"那吞掉护目镜的紫块静静躺在妮妮的工作台面上，像个打饱嗝的谜团"
+				""
+				"妮妮围着它转圈，小辫子上的红石发夹一颤一颤"
+				""
+				"她试着丢了根红石火把进去，噗，火把没了，匣子表面紫纹亮了一瞬，又暗下去"
+				""
+				"&c“嘿！真能吃！”"
+				""
+				"妮妮眼睛放光，又扔了块铁锭，铁锭消失，紫纹再亮，比上次久了一点点"
+				""
+				"&c“洁方哥！看勒个！”"
+				""
+				"她抄起红石改锥，撬开匣子底一块不起眼的暗板，露出几根银丝缠绕的紫色晶核，正微弱地搏动"
+				""
+				"&c“或许我控制它的 ‘饱’？ 或 ‘饿’ ？”"
+				""
+				"她翻箱倒柜，造出一台的小型能量泵，红石线路像蜘蛛网爬满泵身，几根裹着树胶的粗铜线被她麻利地接上晶核附近的银丝接口"
+				""
+				"“滋啦——” 能量泵吭哧吭哧转起来，一丝微弱的蓝光顺着铜线爬向晶核"
+				""
+				"紫纹猛地一亮，像打了个激灵，整个匣子嗡嗡轻震，表面竟浮起一层薄薄的光膜"
+				""
+				"妮妮小心地把半块面包凑近光膜，面包嗖一下被吸了进去，光膜涟漪般荡漾"
+				""
+				"但又把之前所吞的东西吐了出来，紫光闪闪，不太稳定"
+				""
+				"妮妮摘下护目镜，脸上微微透露出一丝失望"
+				""
+				"&c“或许，得给它拆成几个部分，那样才好控制吧”"
+				""
+				"&c“只要我们成功了，我们就造出来世界上独一无二的箱子啦！”"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "779FDFCF20B5AA04"
+			rewards: [
+				{
+					description: ""
+					id: "51C66EE00E37DC0A"
+					title: "“那我们来试试吧”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "53E148E927F11F36"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "455E6D9426D92527"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "饱饿控制"
+			tasks: [{
+				id: "500AB79C2C7E021A"
+				item: "createappliedkinetics:energy_provider"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["779FDFCF20B5AA04"]
+			description: [
+				"妮妮沾着机油的小手在羊皮纸上划拉，字迹歪扭像跳舞的蜘蛛"
+				""
+				"&c“洁哥！要勒些！”她把单子拍在洁方刚劈好的柴堆上"
+				""
+				"洁方抹了把汗，拾起单子："
+				""
+				"    嗡嗡叫的铁匣子"
+				""
+				"    沉甸甸的黑方块"
+				""
+				"    嵌着玻璃片的方格块"
+				""
+				"    裹树胶的铜线，越长越好"
+				""
+				"“你写的什么东西啊” 莫名的诧异感由心头而生"
+				""
+				"&c“算啦，还是我一个个同你说吧，笨蛋”"
+				""
+				"妮妮对着洁方叽里咕噜说了一堆，单子上被画满了草迹，半天就这样被她抓走了"
+				""
+				"&c“还有！亮晶晶的紫石头芯子！多弄点！”"
+				""
+				"“紫石头…矿洞底下，有亮光那种？” 洁方想起上次挖到的漂亮的紫水晶"
+				""
+				"&c“并非！” 妮妮指向洁方上次带回来的蓝色母岩"
+				""
+				"&c“呐，就是这个，我上次试过，拿水泡泡沾着有电的水晶，这种独特的紫色石子就直接浮现出来啦”"
+				""
+				"洁方点点头，收起单子，拎起铁镐和空背包"
+				""
+				"矿洞的凉气混着熟悉的岩石味扑面而来，火把光摇曳"
+				""
+				"镐尖敲击声在寂静中格外清晰，完备的材料渐渐地充盈了他的背包"
+			]
+			hide_text_until_complete: true
+			icon: "ae2:energy_acceptor"
+			icon_scale: 2.0d
+			id: "7468FE1C28FB96CE"
+			rewards: [
+				{
+					id: "6637FF0694715ACD"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39735BB3E2CF2619"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "单子长长"
+			tasks: [
+				{
+					id: "00C4DD34870ECC2E"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					id: "3386BFFB06214ECB"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "41AC846A1FB3C078"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "3D7C1C514449BDE4"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7468FE1C28FB96CE"]
+			description: [
+				"工作间挤满了奇形怪状的部件，铜线像藤蔓爬满地板，闪着危险的暗红"
+				""
+				"嗡嗡的铁匣子被固定在墙角的红石引擎上，吞吐着不稳定的光流"
+				""
+				"妮妮鼻尖沁汗，小改锥飞快地拧紧最后一颗黄铜螺丝，将裹着厚厚树胶的粗铜线一头接上驱动器的“脊背”"
+				""
+				"&c“洁哥！线！那头插‘脸’上！”她头也不抬"
+				""
+				"洁方小心地插入那块嵌着玻璃片的“终端”背面接口，玻璃片闪出一片杂乱的雪花"
+				""
+				"妮妮深吸口气，抱起一件又一件器件，小心翼翼地把它们一一装好"
+				""
+				"元件表面的紫纹感应到能量，紫色耀光开始如呼吸般明灭"
+				""
+				"她踮起脚，将储存元件稳稳地嵌入驱动器顶端的凹槽"
+				""
+				"“咔哒” 严丝合缝"
+				""
+				"两人的心来到了极点，脉动的声音在房间内好像格外响亮，屏息凝神"
+				""
+				"终端玻璃屏上的雪花开始疯狂闪烁，几秒后，骤然清晰"
+				""
+				"妮妮和洁方站在光里，影子被拉得老长，看着玻璃屏上跳动的光条"
+				""
+				"&b只需要将物品如下摆放，你也可以获得一个大箱子"
+				""
+				"&b                              ME终端 "
+				"&b                                 ||"
+				"&b      能量传输器--能源接收器--线缆"
+				"&b          Λ                      ||"
+				"&b          |||     存储元件 => ME驱动器"
+				"&b          |||"
+				"&b     机械应力传入"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "37C02610BFD871F4"
+			rewards: [
+				{
+					description: ""
+					id: "15FE598A5E04436A"
+					title: "“yeeeeee，大箱子！！！”"
+					type: "toast"
+				}
+				{
+					id: "7583A876C0923EE2"
+					item: "nameless_trinkets:mysterious_trinket"
+					type: "item"
+				}
+				{
+					id: "352C581C8ED2182D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "7B6C4F8F70E810F0"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "完工"
+			tasks: [{
+				id: "0FC63854C58A9548"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13F3CCC4639F15ED"]
+			description: [
+				"洁方贴在窗户旁，抓住照入的阳光，细细浏览"
+				""
+				"密密麻麻的文字展现在书中，像满仓的芝麻"
+				""
+				"洁方从小到大没读过多少书，这么厚的书他还是第一次见"
+				""
+				"洁方沉着头，快要将自己埋入书里头"
+				""
+				"“阿呀，这都什么呀”"
+				""
+				"这确实很晦涩难懂了"
+				""
+				"坐躺在椅子上的老高扭头瞧了瞧，看到洁方一脸迷惑"
+				""
+				"&6“读书嘛，没什么好怕的，看了就用，用了再看，如此往复，你就慢慢熟认啦”"
+				""
+				"洁方一把把书放下，去寻些材料造造"
+			]
+			hide_text_until_complete: true
+			icon: "botania:lexicon"
+			icon_scale: 2.0d
+			id: "4A7B453BDA67EAC5"
+			rewards: [
+				{
+					description: ""
+					id: "73B021EC5E062FD7"
+					title: "“这下看得懂了”"
+					type: "toast"
+				}
+				{
+					id: "5C5897E9576419ED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3C2DA0A39CAE1A43"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "深入"
+			tasks: [
+				{
+					id: "4FE3393AA1F27DEC"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "7842F55ACFB26A56"
+					title: "如果你没有基础，请认真学习这本书吧！"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["13F3CCC4639F15ED"]
+			description: [
+				"福克斯博士正在收拾着他所有心爱的实验品"
+				""
+				"准备告别这和他恩爱多年的实验室"
+				""
+				"&d“老国王已经死了，我还能有什么依靠的呢”"
+				""
+				"&d“不知道杀死老国王的是谁，但绝对不是什么好种”"
+				""
+				"&d“我已经不会想着继续待在这里了！”"
+				""
+				"&d“这个王国迟早会崩塌，和那群疯子在一起，哼哼哼”"
+				""
+				"博士怨声载道，一边收拾着自己的研究，一边期望着去哪里安身"
+				""
+				"但突然，他想明白了，他不再想着寄托一处"
+				""
+				"&d“我不想要让这群疯子找到我！逼着我干什么研究！！”"
+				""
+				"他想要周游世界，只有这样，他才能研究出更美妙的东西！"
+				""
+				"他检查了一下，大概完备了，即刻启程，向大陆各地奔走"
+				""
+				"可他还是遗漏了一本笔记本，记载着植物力量的研究"
+				""
+				"多年后，这本笔记随风氧化，宝贵的字迹仍然释放它的光芒"
+			]
+			hide_text_until_complete: true
+			icon: "ars_nouveau:worn_notebook"
+			icon_scale: 2.0d
+			id: "40B1C44F290B3339"
+			rewards: [
+				{
+					description: ""
+					id: "4D1312E941F78E84"
+					title: "“这才是我的风光自由！！”"
+					type: "toast"
+				}
+				{
+					count: 5
+					id: "569621056DE92347"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					id: "7A914AAEED6E8AB1"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "神秘科学家"
+			tasks: [
+				{
+					id: "49F6801E47C89C51"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "4248F5065D7F7FDB"
+					title: "如果你没有基础，请认真学习这本书吧！"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A7B453BDA67EAC5"]
+			description: [
+				"洁方第一次摆弄花药台时，手指沾满了青草汁的黏腻"
+				""
+				"台面刻满藤蔓缠绕的凹槽，泛着翡翠般温润的光"
+				""
+				"他将晨曦摘下的蒲公英放在中央，随后又添了三滴露水，两片橡树叶"
+				""
+				"台面突然泛起涟漪，像水面被月光吻过的波纹"
+				""
+				"蒲公英绒毛脱离花茎，飘浮在空中，分解成更细小的种子颗粒"
+				""
+				"每颗种子都在台面上跳跃，像是在跳一支古老的民间舞曲"
+				""
+				"洁方屏住呼吸，看着这些微小的生命开始分化"
+				""
+				"有的膨胀成巨型蒲公英，伞盖足有磨盘大小"
+				""
+				"有的缩成迷你品种，连花茎都细如发丝"
+				""
+				"还有几株竟长出了奇异的蓝色花瓣，这是他从未见过的品种"
+				""
+				"“只不过是把想法直接刻进自然里”"
+				""
+				"“魔法不是凭空变出东西 是唤醒沉睡的可能性”"
+				""
+				"他看着最后开出的那朵双色花,心中涌起一阵喜悦"
+				""
+				"就像春天看到第一棵嫩芽破土而出"
+				""
+				"就像暴雨过后看到彩虹挂在天边"
+				""
+				"自然，能与它共同创造的人类双手，叙说自己的语言"
+			]
+			hide_text_until_complete: true
+			icon: "botania:apothecary_default"
+			icon_scale: 2.0d
+			id: "728D2D9BE38206FF"
+			rewards: [
+				{
+					description: ""
+					id: "515EC5AE64F83122"
+					title: "“很神奇吧”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "4F54D9A2F3581F38"
+					item: "botania:light_blue_mushroom"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "44BC4386116CA522"
+					item: "botania:white_double_flower"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "372FAB0A0894BD61"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "创造性"
+			tasks: [{
+				id: "6753BDB701BD1A6D"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["728D2D9BE38206FF"]
+			description: [
+				"竹露湿青石板时，阿树翻土阿茶端碗：“又在捣鼓啥？”"
+				""
+				"&a“村头老丈给的白雏菊籽，埋土里来年开雪”"
+				""
+				"阿茶蹲下查探 “天旱咋办？”"
+				""
+				"&a“根扎深，旱不死” 阿树抹掉她嘴角圆子渣"
+				""
+				"定情日，雏菊开，阿茶别一朵在他耳后，自己也别一朵"
+				""
+				"阿树攥住她手：“要是哪天我要走……”"
+				""
+				"&a“走哪去？” 阿茶攥住他的手"
+				""
+				"&a“北边来了狼，烧了张庄，杀了好几家”"
+				""
+				"&a“我得去保护我们亲爱的家园”"
+				""
+				"阿茶摸出枕头下的干花，塞进他怀里：“回来给我编竹蜻蜓”"
+				""
+				"阿树走那天，浓雾遮住前路茫茫"
+				""
+				"阿茶站院门口，她把最后一朵白雏菊别他衣裳"
+				""
+				"后来，马蹄声碎，烽烟作响"
+				""
+				"今年春，阿茶在花畦边见第一株白雏菊它从砖缝钻出，花瓣有暗褐，像血"
+				""
+				"鞋跟碾碎野草，其中一株是白雏菊血珠渗出，滴在花上，染成淡红"
+				""
+				"摸出干花嚼，苦涩像那年春天，阿树沾泥的笑"
+				""
+				"马蹄声近阿茶抬头，云似白雏菊"
+				""
+				"阿茶轻蔑地笑了，轻声说"
+			]
+			hide_text_until_complete: true
+			icon: "botania:pure_daisy"
+			icon_scale: 2.0d
+			id: "03BC9A5ECAFD31C1"
+			rewards: [
+				{
+					description: ""
+					id: "28F0627EE6145ECE"
+					title: "“花又开了，我们可以相见了”"
+					type: "toast"
+				}
+				{
+					id: "0AB9E9E4D077C459"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "4079F4997ED77E78"
+					item: "nameless_trinkets:four_leaf_clover"
+					type: "item"
+				}
+				{
+					id: "263F12A4B0C3EB1F"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "白雏花开"
+			tasks: [
+				{
+					id: "60C970B34565491D"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					id: "164458DA19AB9E90"
+					title: "将原木或石头放在它的旁边等待一分钟，它们就会变成活木或活石"
+					type: "checkmark"
+				}
+			]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["403627EFA0EE3398"]
+			description: [
+				"一个褶皱苹果在天空中飞舞"
+				""
+				"电闪流光，剑客拔出刀，一刹那，苹果便四分五裂"
+				""
+				"他将切好的苹果各个放入食不果腹的孩童们手中"
+				""
+				"孩子们一边如狼虎般吞咽一边感激他的馈赠"
+				""
+				"但是他却发不出什么声音"
+				""
+				"因为这是他仅有的帮助"
+				""
+				"&e他只在心里想“吃吧，小鬼们，你们就吃吧”"
+				""
+				"抖了抖棕黄色牛仔帽上的泥灰，将剑收好，勒紧了马，便扬长而去"
+				""
+				"&e“【先导】变得越来越神秘了，让我去找些又穷又有天赋的小鬼办事？”"
+				""
+				"&e“这我上哪找去？！”"
+				""
+				"基米·忒尔想不明白，他一直做的事"
+				""
+				"到底是正确的，还是错误的？"
+				""
+				"马蹄下烟尘滚滚，裹挟着他的思绪，一路向西"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:judgement_cut"
+						StandbyRenderType: 0b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 34176590L
+						proudSoul: 0
+					}
+				}
+				id: "slashblade:slashblade_silverbamboo"
+				tag: {
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade:model/blade.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:judgement_cut"
+						StandbyRenderType: 0b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "slashblade:model/silverbamboo.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 2.0f
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 0b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 34176590L
+						maxDamage: 40
+						proudSoul: 0
+						translationKey: ""
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "1B528D50ACFBF477"
+			rewards: [
+				{
+					description: ""
+					id: "1D41B06A3B893880"
+					title: "“我再看看”"
+					type: "toast"
+				}
+				{
+					id: "73984B07FF7466AD"
+					item: "slashblade:proudsoul"
+					type: "item"
+				}
+			]
+			subtitle: "拔刀剑客"
+			tasks: [{
+				id: "42A68A01E397BC91"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34176590L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_silverbamboo"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/silverbamboo.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 2.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 34176590L
+							maxDamage: 40
+							proudSoul: 0
+							translationKey: ""
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "木偶刀"
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"728D2D9BE38206FF"
+				"03BC9A5ECAFD31C1"
+			]
+			description: [
+				"拿火红莲这个产魔花作为示例"
+				""
+				"先将火红莲，魔力发射器以及魔力池都放在地上"
+				""
+				"手持森林法杖，蹲下，右键火红莲之后再右键魔力发射器，这样就能将火红莲和魔力发射器绑定在一起，火红莲的能量也会到达这个发射器里面"
+				""
+				"再次手持森林法杖，蹲下，右键魔力发射器，再右键魔力池，这样就将魔力发射器和魔力池绑定到一起了，如果魔力池没有满且为输入模式（默认），且魔力发射器内有魔力，魔力发射器就会将魔力输送至魔力池中！"
+				""
+				"最后，扔一颗煤炭给火红莲，它就会吃掉并且开始产能啦"
+			]
+			icon: "botania:endoflame"
+			icon_scale: 2.0d
+			id: "21AB0D6B6F5352EC"
+			rewards: [
+				{
+					id: "0B62E7FB3BD7949C"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "43CE5F830DF1D3F7"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "魔力的产生与使用！"
+			tasks: [
+				{
+					id: "08B2736553342B4B"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "6251E1D39DFE7B1E"
+					title: "我主推火红莲好吧"
+					type: "checkmark"
+				}
+				{
+					id: "3B32756570E4B959"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "0775C1DBEF7C05C0"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "1CDF1BCF1E1C3E7A"
+					item: "botania:twig_wand"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["68B6529E90C5DC80"]
+			description: [
+				"前冲！上劈！下砍！"
+				""
+				"人偶仍然风雨不动安如山"
+				""
+				"洁方孜孜不倦地打量着它，就好像它是最亲密的战友"
+				""
+				"不过，它确实算得上是了"
+				""
+				"洁方靠在人偶旁作简单的休息，不一会他又开始了"
+				""
+				"练习给予他酸痛，但带走他的虚弱"
+				""
+				"挥汗如雨....挥汗如雨......"
+				""
+				"旁人走过招呼他，他也仅仅是挥手回应"
+				""
+				"就这样，整整一个下午，他将精力都花耗在了战斗上"
+				""
+				"看起来，他已经习得一些技巧了"
+				""
+				"&b洁方的【虚弱】从三级降低为二级"
+				"&b洁方的【血量】从十血升级为十四血"
+				""
+				"&dtips: 右键可以抵挡攻击，使敌人的攻击伤害减半，若敌人在攻击到自己的瞬间按下中键（皇家护卫！bushi），即可抵消本次伤害！"
+			]
+			hide_text_until_complete: true
+			icon: "dummmmmmy:target_dummy"
+			icon_scale: 2.0d
+			id: "403627EFA0EE3398"
+			rewards: [
+				{
+					description: ""
+					id: "6D7312100292AD69"
+					title: "“我会变得更强”"
+					type: "toast"
+				}
+				{
+					id: "4866A002A97CC24F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "032EF23189B6A61C"
+					ignore_reward_blocking: true
+					stage: "e_health_c"
+					type: "gamestage"
+				}
+				{
+					id: "4510706CE8C64434"
+					ignore_reward_blocking: true
+					stage: "e_weakness_b"
+					type: "gamestage"
+				}
+				{
+					id: "507B62E894A1534B"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "短暂训练"
+			tasks: [
+				{
+					id: "20E8A4A919DB51DC"
+					item: "dummmmmmy:target_dummy"
+					type: "item"
+				}
+				{
+					id: "6A564039E5E55791"
+					title: "这个任务可将【虚弱】降到二级"
+					type: "checkmark"
+				}
+				{
+					id: "31832524CE7E1579"
+					title: "这个任务可将血量升到十四"
+					type: "checkmark"
+				}
+			]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21AB0D6B6F5352EC"]
+			description: [
+				"                    一般材料"
+				"&b水或许可以带来好运"
+				"&b洁方的【霉运】由三级降低为二级"
+			]
+			icon: "botania:rune_water"
+			icon_scale: 2.0d
+			id: "1270C30767A76540"
+			rewards: [
+				{
+					id: "541DABC8BC1B4F98"
+					ignore_reward_blocking: true
+					stage: "e_unluck_b"
+					type: "gamestage"
+				}
+				{
+					count: 10
+					id: "76A04F51DC8CEFF1"
+					item: "botania:pink_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DF601901108178D"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "477F25461833C80D"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "6709D4097E23A18F"
+					title: "符文祭坛需要能量维持，可用发射器或者其他可以传递能量的东西连接"
+					type: "checkmark"
+				}
+				{
+					id: "65D35811D417A5A8"
+					title: "这个任务可将【霉运】降到二级"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["40B1C44F290B3339"]
+			description: [
+				"作物每生长一点，就能够转化一些能量"
+				""
+				"而农艺魔源通道正是如此，它热爱作物的生长"
+				""
+				"洁方也感到很惊讶"
+				""
+				"一根作物竟能与一台机器互通"
+				""
+				"就好像它们打小认识一般"
+				""
+				"每生长一点，一些紫荧光球就被吐出来"
+				""
+				"随后又被它所接收，容纳"
+				""
+				"“这书的作者有点东西的” 洁方蹲下来细细观察这这一切的生发"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "2BB25159F80991EE"
+			rewards: [
+				{
+					description: ""
+					id: "00DFD8B80BFEDB3E"
+					title: "“我要去多种一点”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "60D51F6158BDD239"
+					item: "iter_rpg:arcane_flower_seeds"
+					type: "item"
+				}
+				{
+					id: "18A51E146C576C1C"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "生长"
+			tasks: [{
+				id: "64B87AAF5A4C5E35"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"335EFBE892608006"
+				"2BB25159F80991EE"
+			]
+			description: ["            总要有储存的东西，对吧？"]
+			icon_scale: 2.0d
+			id: "76ACAD2E705C9BB2"
+			rewards: [
+				{
+					count: 3
+					id: "0632802AE4533E25"
+					item: "ars_nouveau:sourceberry_bush"
+					type: "item"
+				}
+				{
+					id: "26360470869A27A7"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74B33DB3AAFA15FE"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40B1C44F290B3339"]
+			description: [
+				"那本翻烂边角的法术书摊在台面上"
+				""
+				"与其一同的如泛黄叶子般卷起边角的破旧笔记本"
+				""
+				"“这个有点意思，巴拉巴拉！普塔扎科！”"
+				""
+				"洁方磕磕绊绊念着拗口的咒文，指尖抖啊抖，搓出个颤颤巍巍的淡紫光团"
+				""
+				"“书上说得这样……再这样……”他皱着眉回想步骤"
+				""
+				"手指头猛地往前一戳"
+				""
+				"那小小的紫光球没撞上前方的草人靶子，却像个溜滑的粘液球，噗溜一声歪歪扭扭朝着旁边滑过去"
+				""
+				"“欸？欸！！！”"
+				""
+				"正正地亲在妮妮撅着小腚摆弄红石线路板的腰根上"
+				""
+				"&c“哎呀！” 轰隆一声，她被掀翻在地，铺着红石粉到处都是"
+				""
+				"发辫梢被燎着了一点，卷起个小黑疙瘩"
+				""
+				"妮妮转过身，小脸又像关公又像包拯，红里透着黑，就剩下白牙和白眼一对"
+				""
+				"她撩撩自己的头发，从身上掏出土豆加农炮"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "335EFBE892608006"
+			rewards: [
+				{
+					description: ""
+					id: "6940703D12F00EB3"
+					title: "“吃我这招！”"
+					type: "toast"
+				}
+				{
+					count: 10
+					id: "66DB1E6F01EDFFCA"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					id: "56641174AE611661"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "魔法球！噗！"
+			tasks: [{
+				id: "380074AD35BD6182"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0A3FDB835DE8842D"
+				"291004093F890C22"
+			]
+			description: ["                    一般材料"]
+			icon_scale: 2.0d
+			id: "0EEC12A9070C611D"
+			rewards: [
+				{
+					count: 3
+					id: "7C777827A547BB3B"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "79043487EF213E29"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F14C03F3CB4A80D"
+				item: "ars_nouveau:glyph_freeze"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"76ACAD2E705C9BB2"
+				"21AB0D6B6F5352EC"
+			]
+			description: [
+				"炎炎夏夜，汗珠顺着洁方眉骨滑下"
+				""
+				"砸在抄写台光滑的至高木制台面，溅开一小圈模糊的水晕"
+				""
+				"羊皮纸上，羽毛笔尖蘸满青金石粉和金粉调和的浓墨，屏息描摹那枚流转幽光的“冻结”符文"
+				""
+				"笔尖落下，墨线猝然如活蛇般扭曲，“嗤啦——”烫出焦黑小洞"
+				""
+				"“又废了……”洁方甩甩酸痛的手腕，墨点蹭上鼻尖"
+				""
+				"老高蜷在暗角竹椅里，烟锅一点红星明灭，“心气浮，手不稳”"
+				""
+				"&c妮妮从红石零件堆探头，辫梢发夹叮当响，“洁哥！用稳手器！”"
+				""
+				"嗡嗡震动的铜管抛来，洁方卡住羽毛笔管，“噗滋！哧啦——”笔尖猛震飙出墨箭"
+				""
+				"蓝金污渍直钉老高翘起的旧布鞋尖"
+				""
+				"&6老高慢悠悠缩脚蹭了蹭鞋帮，“唉哟，靠机器，还得靠手心”"
+				""
+				"洁方抹将铜管放在一旁，重新捏起那杆轻飘羽毛笔"
+				""
+				"符文核心突突搏动，薄薄气旋浮起卷动纸屑"
+				""
+				"&c妮妮扒紧台沿，眼珠瞪圆，“亮了喂？！”"
+				""
+				"洁方指尖拂过微鼓发烫的纸面"
+			]
+			hide_text_until_complete: true
+			icon: "ars_nouveau:scribes_table"
+			icon_scale: 2.0d
+			id: "7A9BEEA0617CD674"
+			rewards: [
+				{
+					count: 5
+					id: "2F917829F72D4A1B"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5EC30D9B74325C61"
+					item: "ars_nouveau:blue_archwood_log"
+					type: "item"
+				}
+				{
+					description: ""
+					id: "17B4F267A53FBF9E"
+					title: "“烫”"
+					type: "toast"
+				}
+				{
+					id: "42F4607CF7F839F1"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "仲夜抄"
+			tasks: [
+				{
+					id: "00E1EEC289B02B4D"
+					item: "ars_nouveau:scribes_table"
+					type: "item"
+				}
+				{
+					id: "05AC2B6623DC22E3"
+					title: "用法术书右键即可抄写符文"
+					type: "checkmark"
+				}
+			]
+			x: 14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BB25159F80991EE"]
+			description: ["            制作一些物品的有效工具！"]
+			icon: "ars_nouveau:imbuement_chamber"
+			icon_scale: 2.0d
+			id: "291004093F890C22"
+			rewards: [
+				{
+					count: 5
+					id: "42ACF561C5F31734"
+					item: "minecraft:mangrove_propagule"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "695EAA3A91246BA4"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7BFC6B807BE2D605"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "12C851CA4984EF28"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0EEC12A9070C611D"]
+			description: [
+				"试试在抄写台上抄写出一张特定的法术羊皮纸吧！"
+				""
+				"&b准备一张空白羊皮纸放置于抄写台"
+				""
+				"&b按“C”键打开法术书，创建"
+				""
+				"&e一个 弹射物 -> 伤害 -> 伤害 -> 冻结 -> 冻结 的法术吧"
+				""
+				"&b接着蹲下右键抄写台"
+				""
+				"&b抄写台上的羊皮纸就会变成含有该法术的法术羊皮纸啦！"
+			]
+			icon_scale: 2.0d
+			id: "2BBB9FD10BFA7D07"
+			rewards: [{
+				id: "742A57988E8F7DF8"
+				item: "linzhi:z_coin"
+				type: "item"
+			}]
+			subtitle: "抄写法术羊皮纸"
+			tasks: [{
+				id: "0D271E216B73E1F2"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_parchment"
+					tag: {
+						"ars_nouveau:caster": {
+							current_slot: 0
+							flavor: ""
+							hidden_recipe: ""
+							is_hidden: 0b
+							spell_count: 1
+							spells: {
+								spell0: {
+									name: ""
+									recipe: {
+										part0: "ars_nouveau:glyph_projectile"
+										part1: "ars_nouveau:glyph_harm"
+										part2: "ars_nouveau:glyph_harm"
+										part3: "ars_nouveau:glyph_freeze"
+										part4: "ars_nouveau:glyph_freeze"
+										size: 5
+									}
+									sound: {
+										pitch: 1.0f
+										soundTag: {
+											id: "ars_nouveau:fire_family"
+										}
+										volume: 1.0f
+									}
+									spellColor: {
+										b: 180
+										g: 25
+										r: 255
+										type: "ars_nouveau:constant"
+									}
+								}
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 14.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7A9BEEA0617CD674"]
+			description: [
+				"              这些强大的附魔装置"
+				""
+				"       可以给物品或者书附魔上特定的魔咒"
+				""
+				"                   非常有用！"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			icon_scale: 2.0d
+			id: "0A3FDB835DE8842D"
+			rewards: [
+				{
+					id: "4F582B39E32A8961"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "33AA93EB98B70BF2"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "强大的附魔装置"
+			tasks: [
+				{
+					id: "62A7E7B5C062A0EC"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "4B39EE81CC93E84D"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "0D6471BA1CEE3848"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BBB9FD10BFA7D07"]
+			description: [
+				"&b想要让武器也可以施行特定法术吗"
+				""
+				"&b很简单！"
+				""
+				"&e首先你需要搭建好一个附魔装置"
+				""
+				"&e在奥术基座上放上特定的法术羊皮纸，一个青金石块，还有一个魔源宝石块"
+				""
+				"&e还有你得确保装置附近有魔源，保证为其供能"
+				""
+				"&e最后，把你想要的赋上特定法术的武器或书直接放入附魔装置中，只要你没出错，装置就会直接启动，然后你就会得到你想要的了"
+				""
+				"&a来试试给钻石大剑附上一个【弹射物 -> 伤害 -> 伤害 -> 冻结 -> 冻结】的法术吧（不可以含有其他附魔，因为nbt检测会不通过）"
+				""
+				"&b洁方的【霉运】由二级降低为一级"
+				""
+				"&d完成此任务标志魔法基础化完成！"
+			]
+			icon: {
+				Count: 1
+				id: "spartanweaponry:diamond_greatsword"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "ars_nouveau:reactive"
+						lvl: 1s
+					}]
+					RepairCost: 0
+					"ars_nouveau:reactive_caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_harm"
+									part2: "ars_nouveau:glyph_harm"
+									part3: "ars_nouveau:glyph_freeze"
+									part4: "ars_nouveau:glyph_freeze"
+									size: 5
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "390F07E3EE5D9326"
+			rewards: [
+				{
+					id: "4A424317FA2B8E4E"
+					item: "goety:wayfarers_belt"
+					type: "item"
+				}
+				{
+					id: "509A564C54B0F70E"
+					ignore_reward_blocking: true
+					stage: "e_unluck_c"
+					type: "gamestage"
+				}
+				{
+					count: 3
+					id: "5445193A2C6E346A"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "物品赋能"
+			tasks: [
+				{
+					id: "1D17274D9F1BC603"
+					item: {
+						Count: 1
+						id: "spartanweaponry:diamond_greatsword"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1s
+							}]
+							RepairCost: 0
+							"ars_nouveau:reactive_caster": {
+								current_slot: 0
+								flavor: ""
+								hidden_recipe: ""
+								is_hidden: 0b
+								spell_count: 1
+								spells: {
+									spell0: {
+										name: ""
+										recipe: {
+											part0: "ars_nouveau:glyph_projectile"
+											part1: "ars_nouveau:glyph_harm"
+											part2: "ars_nouveau:glyph_harm"
+											part3: "ars_nouveau:glyph_freeze"
+											part4: "ars_nouveau:glyph_freeze"
+											size: 5
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6057DDAA3C13021A"
+					title: "这个任务可将【霉运】降到一级"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4EE90030191EC3AD"]
+			description: [
+				"洁方正想做把铁剑来着"
+				""
+				"他把材料放好，等待着亮丽的锋芒出现"
+				""
+				"出人意料的是，等来的并非铁剑"
+				""
+				"而是一把铁锹"
+				""
+				"“啊？ 我放反了？ 浪费了吗？”"
+				""
+				"他不想白白浪费就这么幸苦得来的铁锭"
+				""
+				"于是奔波到田野间，一顿叙述"
+				""
+				"老高弓着背，铁锹的木柄斜抵在胸口，不假思索着"
+				""
+				"&6“哎呀，整上一个”反工作台“？，不对不对”"
+				""
+				"&6“喔，想起来了，回收器说是！”"
+				""
+				"洁方点点头，没说几句话又奔回去忙活自己的事情了"
+				""
+				"&atips：           在背包界面中"
+				"&a       使用鼠标对准某个物品，按下B键"
+				"&a       就会跳转到这个物品的MC百科啦"
+			]
+			hide_text_until_complete: true
+			icon: "corail_recycler:recycler"
+			icon_scale: 2.0d
+			id: "54F3EE2F80A2207B"
+			rewards: [
+				{
+					description: ""
+					id: "3567995B37F8E230"
+					title: "“好用！”"
+					type: "toast"
+				}
+				{
+					id: "2338170553F564FF"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "228A238415405BCB"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "回收的艺术"
+			tasks: [
+				{
+					id: "70BE6496F4EB7133"
+					item: "corail_recycler:recycler"
+					type: "item"
+				}
+				{
+					id: "5E66CCBFDF53344A"
+					item: {
+						Count: 1
+						id: "corail_recycler:diamond_disk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68B6529E90C5DC80"]
+			description: [
+				"一位青年踏进茶馆，戴了个小墨镜，脖子上的项链闪闪发光"
+				""
+				"像是来这里旅游的，随后将身上背包安置好"
+				""
+				"正要叫小二来点淡茶和点心"
+				""
+				"&4“别！别动！！”"
+				""
+				"一位中年大叔，面容有些泛黄，眼珠子被红线横竖的遮拦着"
+				""
+				"“漱”地冲到了那位年轻人后面"
+				""
+				"用手臂扼住年轻人的肩膀，用刀横在他的脖子上"
+				""
+				"&4“把你项链给我！还有，你们！钱！给我钱！不然我就杀了他！！”"
+				""
+				"这男人声嘶力竭地大喊着"
+				""
+				"当时我还在清理着桌面，接着我就被吓了一跳"
+				""
+				"这声音惊动了在场的每个人，但是没有人敢动"
+				""
+				"我连忙让小二去喊警卫，然后孤身一人慢慢靠近那男人"
+				""
+				"&a“我是这的老板娘，这位先生你有什么困难吗”"
+				""
+				"&a“有困难的话我们可以帮助你的，可以先把刀放下吗”"
+				""
+				"那位青年人脸都白了，哭也哭不出来，俨然一副不知所措的样子"
+				""
+				"&2“就是啊，你一大老爷们拿一年轻人作甚”"
+				""
+				"听到这，那大叔眉头皱地更紧了"
+				""
+				"&4“你们要是帮助我就快点给我钱啊！钱！！！”"
+				""
+				"接着他把刀横着更近了，我连忙后退了两步"
+				""
+				"&a“大哥大哥，冷静啊大哥，有事可以好商量的”"
+				""
+				"&4“商量？没钱商量个屁！！”"
+				""
+				"随后我掏出几块大钱，推向桌面上"
+				""
+				"&a“呐，你要的，这下可以把刀离远点了吧”"
+				""
+				"他心里仅有的良知最后还是触动了他，刀稍稍离远了些"
+				""
+				"最后，警卫进来了，顺带着他的良知也彻底崩溃了"
+				""
+				"在刀伸向那青年最后一刹那，我冲过去握住了刀子"
+				""
+				"“厮，那很疼了...”"
+				""
+				"鲜血从我的手，顺着刀柄，滴落在地面上，和地面碰撞发出的响声，使人震耳欲聋，我的脑袋也是嗡嗡响"
+				""
+				"警卫飞了过来，一把擒住了这位男人"
+				""
+				"&a“别动！停止挣扎！”"
+				""
+				"青年也是倒头晕过去了"
+				""
+				"男人的头跪在地板上，抽泣声回荡在大厅，泪花洒满地面"
+				""
+				"&4“我已经一无所有了，那混蛋【先导】加了税收，我那农庄让我滚铺盖走人”"
+				""
+				"&4“我的妻子接着又离开了我，我什么都没有了，警官，你打死我吧，好不好”"
+				""
+				"周围的看客们齐刷刷说道：“这小子敢骂【先导】，我看他是一心求死了”"
+				""
+				"最后我包扎好了，继续一天的工作，但那些客人们对我可是一脸不屑"
+				""
+				"&2“你冲上去挡住他还不是伤了你自己？有什么用？”"
+				""
+				"没办法，生意照做，忍忍耐吧....."
+				""
+				"&btips：可以使用指令/sethome 设置你的家"
+				"      &b设置之后可以用/home快速回家！"
+			]
+			hide_text_until_complete: true
+			icon: "sophisticatedbackpacks:gold_backpack"
+			icon_scale: 2.0d
+			id: "1626E09CFF5B7333"
+			rewards: [
+				{
+					description: ""
+					id: "17498367D5E06792"
+					title: "“贫瘠的生活，关心一无是处”"
+					type: "toast"
+				}
+				{
+					id: "4E9E9A202333CBAC"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "150DA825FC609070"
+					item: "ars_nouveau:source_berry_roll"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2D0289D3B7C8A64E"
+					item: "divinerpg:terran_shards"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BD8FB65B07666EA"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "茶馆"
+			tasks: [{
+				id: "41D5FA5A7A0CEB66"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "背包"
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54B2E860F39D5CC2"]
+			description: [
+				"铜锅炉肚里岩浆鼓泡，可可脂翻滚滤着"
+				""
+				"注液器一张一合，给浆果镀上一层铜，闪亮闪亮的"
+				""
+				"洁方扳下红石拉杆，齿轮阵列轰然咬合"
+				""
+				"传送带吐出亮晶晶的巧克力包层浆果，糖霜如雪"
+				""
+				"洁方捻起一颗塞进老高抿紧的嘴"
+				""
+				"铁腥混着甜腻在老头口腔炸开"
+				""
+				"老高腮帮绷紧又松开，结滚动咽下"
+				""
+				"&6“机械的基础化，看来也是差不多啦”"
+				""
+				"洁方弹飞指尖糖霜"
+				""
+				"&d完成此任务标志机械基础化完成！"
+			]
+			hide_text_until_complete: true
+			icon: "create:chocolate_glazed_berries"
+			icon_scale: 2.0d
+			id: "32429F6E680B90FA"
+			rewards: [
+				{
+					id: "3B377A1C53D5E748"
+					item: "nameless_trinkets:mysterious_trinket"
+					type: "item"
+				}
+				{
+					id: "078054BE30845A19"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					description: ""
+					id: "5B4215A2F85B31A5"
+					title: "“成了！”"
+					type: "toast"
+				}
+				{
+					count: 4
+					id: "7DEAF0563E3C35EA"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "嘿，巧克力"
+			tasks: [
+				{
+					count: 3L
+					id: "3FD57D31758437D7"
+					item: { Count: 3, id: "create:chocolate_glazed_berries" }
+					type: "item"
+				}
+				{
+					id: "2FE5C2D2A151F3D1"
+					title: "在亲自操刀任务中有巧克力桶奖励"
+					type: "checkmark"
+				}
+				{
+					id: "40A62AF5CE294DA4"
+					title: "请在背包内对着注液器按W思索并观看演示教程！"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B3753B6D0D7DA24"]
+			description: [
+				"&a按Ctrl + L 打开成就追踪界面"
+				""
+				"&e然后找到并勾选你想要完成的成就"
+				""
+				"&b退出之后按"
+				""
+				"&b alt + L 就会在侧边显示一个成就跟踪栏！"
+			]
+			icon_scale: 2.0d
+			id: "1A36AF9D17661371"
+			rewards: [{
+				id: "5D9926607B946AB2"
+				item: "minecraft:grass"
+				type: "item"
+			}]
+			subtitle: "不知道某个成就怎么完成好"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "35FFA348AA8B1370"
+				type: "advancement"
+			}]
+			title: "成就完成？"
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+	title: "五个基础化"
+}

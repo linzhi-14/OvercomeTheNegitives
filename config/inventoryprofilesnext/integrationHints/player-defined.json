@@ -1,0 +1,138 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 40,
+                "top": -21
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 33,
+                "bottom": 1
+            },
+            "SORT": {
+                "horizontalOffset": 34,
+                "bottom": 7
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 33,
+                "bottom": 7
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 33,
+                "bottom": 1
+            },
+            "PROFILE_SELECTOR": {
+                "horizontalOffset": 1,
+                "bottom": 51
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 27,
+                "top": -6
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 40,
+                "top": -6
+            },
+            "SETTINGS": {
+                "horizontalOffset": 27,
+                "top": -21
+            }
+        }
+    },
+    "com.tiviacz.travelersbackpack.client.screens.BackpackScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 5,
+                "bottom": -7
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 125
+            },
+            "SORT": {
+                "horizontalOffset": 76
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 75
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 74
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 20,
+                "top": 30
+            },
+            "SETTINGS": {
+                "horizontalOffset": 8,
+                "top": 15
+            }
+        }
+    },
+    "net.mcreator.infiniteabyss.client.gui.EnhancingScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 42,
+                "top": -6
+            },
+            "SETTINGS": {
+                "horizontalOffset": 28,
+                "top": -21
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 61,
+                "bottom": 66
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 77
+            },
+            "SORT": {
+                "horizontalOffset": 87
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 85
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 81
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 42,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 28,
+                "top": -20
+            }
+        }
+    },
+    "net.bedrock.edition.features.client.gui.ElementConstructorGScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 42,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 28,
+                "top": -20
+            }
+        }
+    },
+    "net.bedrock.edition.features.client.gui.CompoundcreatorguiScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 44,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 28,
+                "top": -20
+            }
+        }
+    }
+}

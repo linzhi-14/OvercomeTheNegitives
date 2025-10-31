@@ -1,0 +1,5 @@
+#Blocks of disabled rendering. Use block ids or tags.
+blocks = []
+#Classes of disabled rendering. Use full class names. Don't add anything or use this by default unless you know what you are doing.
+classes = []
+

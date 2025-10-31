@@ -1,0 +1,3663 @@
+{
+	autofocus_id: "68FA36DED08CD25D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6BF496AC97096983"
+	group: "51707624D2A3CE9A"
+	hide_quest_until_deps_complete: true
+	icon: "yuushya:fancy_sakura_0"
+	id: "6BF496AC97096983"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"12796AC49145A020"
+				"41E28044E50793B5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"船板在晨露里泛着潮光，三双手最后一次勒紧帆绳，麻绳磨出的毛边缠上指节"
+				""
+				"妮妮往舱里塞入最后一袋炒麦，袋口漏出的粒滚在洁方鞋尖，像跃出的自由的鱼儿"
+				""
+				"基米踩着船舷调整舵柄，木柄上的冰纹映着朝阳，刃光在他掌心晃荡，洁方摸了摸指尖，那里的戒痕隐在皮肉里，再也没有之前的灼痛感，取而代之的是对这段旅程的无限憧憬"
+				""
+				"老高的烟锅在岸边磕出火星，欧阳・柏舟的竹杖往水里点着，涟漪裹着船影晃，&a“暗礁缝的记号是三棵歪脖子松树”&r，柏舟的白须沾着雾"
+				""
+				"&a“过了缝就往南，顺流快得很”&r，老高往洁方怀里塞了包刚新烘的草药，叶尖还带着灶膛的温，&6“夜里凉，当熬着喝”&r"
+				""
+				"帆绳突然绷紧，风灌满帆布的响比欢呼脆乎，妮妮拽着基米往船尾跑，&c“快看！浪在推着咱呢”&r"
+				""
+				"洁方立在船头，手按在剑鞘上，鞘里的冰纹随船身轻颤，远处的岸越来越小，老高和柏舟的影子缩成两个黑点，像钉在滩上的桩"
+				""
+				"船首劈开浪的瞬间，洁方忽然回头，看见老高正往空中挥着烟杆，柏舟的竹杖在滩上画着圈，像在写没说出口的盼望"
+				""
+				"风卷着炒麦的香扑脸，妮妮举着骨棒往海里指，&c“鱼！好多鱼！”&r，基米的舵柄转得急，船身擦着块暗礁滑过，溅起的水花打在洁方手背上，凉得像晨露"
+				""
+				"帆上的向日葵纹路在风里鼓动着朝向东南的太阳，金线绣的花瓣沾着光，洁方望着戒痕，突然觉得那暖顺着水流淌，和海峡的浪缠成绳"
+				""
+				"基米往他手里又塞了块烤土豆，烫得他指尖缩，&e“发啥呆呢？小子，那南边的岛，据说有吃不完的椰果？！”&r"
+				""
+				"妮妮趴在舱边数游过的海豚，手指戳着柏舟说的歪脖子松，&c“到啦到啦”&r，洁方的剑鞘撞在船板上，响得像在应和，远处的海平面与天接成线，蓝得晃眼"
+				""
+				"老高在岸边望着船影变成点，烟锅的火星在雾里明灭，看着那一望无际的蓝色线条，柏舟先生突然笑了笑，竹杖敲着滩上的圈"
+			]
+			hide_text_until_complete: true
+			icon: "botania:pollidisiac"
+			id: "252104EDECDAED33"
+			rewards: [{
+				description: ""
+				id: "63F44A2202C7C407"
+				title: "“这群能掀翻海的娃，到那定有作为”"
+				type: "toast"
+			}]
+			size: 2.0d
+			subtitle: "扬帆向蓝"
+			tasks: [{
+				id: "0FC61B496B98375C"
+				title: "最终章，启动！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["252104EDECDAED33"]
+			description: [
+				"船行至千米处时，海风突然转厉，风云变幻，浪头拍得船板咚咚响"
+				""
+				"数十条海蟒从浪里窜出，鳞甲泛着冷光，虚白长矛如林竖起，却悬在半空不刺，矛尖的寒光扫过船帆，像在划定一条无形的边界"
+				""
+				"洁方按住基米拔刀的手，蹭过他腕间的勒痕，“别冲动”，海风卷着咸腥灌进舱，妮妮攥着舵柄的手在发抖"
+				""
+				"“它们好像不想让咱过”，海蟒吐着信子，矛阵随浪起伏，虾兵蟹将从海底浮起，螯钳上的刃闪着幽蓝，却始终没往前挪半寸"
+				""
+				"基米的喉结滚了滚，太刀在鞘里挣出轻响，&e“总不能就让这群带壳的拦着吧”&r，他往船舷迈的脚又被洁方拽住，“你看它们的阵”"
+				""
+				"洁方指向矛尖的角度，虚白光芒在海面拼出个歪歪扭扭的&4“禁”&r字，“这是警告！对我们没有敌意”"
+				""
+				"妮妮突然指着海底，虾兵举着的盾映出暗礁的影，&c“怎么办呀洁方哥哥！”&r"
+				""
+				"浪拍得船身倾斜，海蟒的尾尖扫过船底，带起的水花溅在帆上，向日葵纹被打湿，金线贴在布上宛如泪痕"
+				""
+				"望着这群挡板兵，洁方下令道：“退，先回去再想办法吧”，基米猛地转身扳舵，木柄在掌心转得咯吱响，&e“算老子认栽！”&r"
+				""
+				"船身调向的瞬间，矛阵突然收了，海蟒潜回浪里，虾兵蟹将的螯钳缓缓放下，退向深海时，螯尖在水面划出道浅痕，指着相反的方向"
+				""
+				"船往回驶的浪比来时沉，基米盯着舱里的炒麦袋，&e“等弄清楚路，非得掀了它们的窝，哼” &r"
+				""
+				"洁方望着渐远的矛影，咸风在戒痕上蹭，海风里似乎混着虾兵的咔嗒声"
+				""
+				"妮妮突然笑出声，指着船尾的水纹，虾兵的螯尖还在浪里闪，&c“它们好像还在给咱引路呢”&r，基米骂了句&e “屁！”&r，却悄悄松了舵柄的劲"
+				""
+				"老高在岸边看见桅杆折返，烟锅往鞋底磕了磕，对柏舟先生挑眉"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "iceandfire:tide_trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "24CE648C5A9C2FF5"
+			rewards: [
+				{
+					description: ""
+					id: "3AF4FEB5F44E026B"
+					title: "“这海，看起来比咱想得有规矩”"
+					type: "toast"
+				}
+				{
+					id: "55FE0CDC9E5F4195"
+					item: "immersive_aircraft:industrial_gears"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "26926ED905094D95"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "浪阻而归途"
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/use_tide_trident"
+					criterion: ""
+					id: "0E9236D95C35F4FC"
+					type: "advancement"
+				}
+				{
+					id: "66F372FEA87E2E2E"
+					title: "进度属【寒冰与烈火】"
+					type: "checkmark"
+				}
+				{
+					id: "6F8EBC621B2B916F"
+					title: "获取海潮三叉戟！"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24CE648C5A9C2FF5"]
+			description: [
+				"船锚刚咬进滩涂的沙，基米的靴底就碾着水花冲上岸，攥着缆绳的手青筋暴起"
+				""
+				"&e“柏舟先生！这到底...”&r话没说完就被老高递来的报纸拍在脸上，雅柏日报的头条&b“海 峡 禁 运”&r四个字烫得刺眼，油墨还带着印刷机的温度"
+				""
+				"柏舟的竹杖往报纸上点，&a“这斯库拉海妖女王，三天前刚好霸占了整片海域”&r"
+				""
+				"他的白须沾着野草，&a“渔民通报上说，深海里的珊瑚可都成了她的哨塔”&r，老高蹲下身系好船绳，&6“帝国的舰队刚开到海峡就折了半，现在只能睁只眼闭只眼”&r"
+				""
+				"基米把报纸揉成团砸在沙里，&e“凭什么她不让过就不过呀！”&r，洁方望着海面上若隐若现的珊瑚礁，突然扯了扯妮妮的辫，“你看那个”"
+				""
+				"热气球交易员正乘着球飘过，帆布上的广告被风吹得猎猎响，篮筐里的货物晃成小点"
+				""
+				"&c“对！飞过去！”&r，妮妮突然蹦起来，红石发卡撞在洁方肘弯，&c“我能把锅炉改造成动力舱，再糊三层帆布就行啦！”&r"
+				""
+				"基米的怒容僵在脸上，猛地拽过洁方的胳膊，&e“这疯丫头的主意... 好像有点用喔！”&r"
+				""
+				"三天后的黎明，滩涂的晨雾裹着松脂香，改装后的热气球飞艇在篝火上飘，妮妮往炉膛里塞最后一把硫磺晶，&c“这火力够飞半天了”&r"
+				""
+				"洁方检查缆绳的结，绳头缠着老高给的平安符，基米扛着太刀跳进篮筐，&e“要是掉海里，我就先砍了这群带壳的”&r"
+				""
+				"热空气灌满气囊的瞬间，飞艇猛地拔起，帆布上的向日葵纹在朝阳里亮得像团火，虾兵蟹将在浪里抬头望，螯钳举到半空又放下，海蟒的鳞甲闪了闪，没再拦"
+				""
+				"老高在岸边挥烟杆，柏舟的竹杖指向飞艇的方向，晨雾里的影子越来越小，像颗挣脱浪的星"
+				""
+				"妮妮趴在篮筐边往下喊，风声卷着她的笑撞在浪上"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "6F5F809CE697874A"
+			rewards: [
+				{
+					description: ""
+					id: "7CAB18327C5D3F58"
+					title: "“斯库拉再厉害，总够不着天上吧”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "00D3C9EA61B98587"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0E953904CA02C0B6"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "破空南行"
+			tasks: [{
+				id: "344E2AD911F57A76"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F5F809CE697874A"]
+			description: [
+				"气球气囊瘪成皱布时，篮筐擦着树梢晃，妮妮拽着缆绳喊，&c“左点左点”&r"
+				""
+				"基米蹬着筐沿踹开最后一片枝桠，“咚” 地砸在青石板路，震得三人膝盖发麻"
+				""
+				"卫兵的矛尖立刻围上来，寒光在晨露里跳，洁方慢慢抬手，指腹捏着柏舟那封信，信封边角还沾着海峡的盐"
+				""
+				"卫兵接过时指节绷得紧，拆信的动作却轻，&a“欧阳・柏舟”&r四个字落在眼里，矛尖齐刷刷往下沉"
+				""
+				"&a“请随我来吧！同志们”&r，领头卫兵的甲片撞出轻响，引着他们穿过市集，摊贩的吆喝裹着烤麦香"
+				""
+				"穿蓝布衫的路人步子轻快，砖缝里的草都修剪得齐，妮妮戳着基米的腰，&c“你看那房子，窗台上全是花欸”&r"
+				""
+				"路面净得能映出云影，孩童举着风车跑过，裙角扫过洁方鞋尖，留下片蒲公英绒毛"
+				""
+				"卫兵突然停在红砖墙前，门楣的铜环雕着麦穗，&a“里面就是中央委员会了”&r，他的靴跟磕出脆响，像在行礼"
+				""
+				"基米摸着腰间太刀，刃鞘撞在砖缝里的青苔，&e“这地方... 比帝国的军营亮堂多了”&r"
+				""
+				"洁方望着墙内探出的紫藤，花瓣落在信纸上，晕开柏舟墨迹的边 妮妮数着来往人的笑脸，突然拽住卫兵的袖，&c“他们都不用干活吗？”&r"
+				""
+				"&a“干活才笑得欢呢”&r，卫兵的笑混着风，推开铁门时，风铃撞出清响"
+				""
+				"三人踏上石阶的瞬间，洁方看见廊下的标语，&6“为耕者有其田”&r，这字迹比铠甲还硬，比人心还暖"
+				""
+				"主席的脚步声从里屋传来，卫兵的通报声撞在梁柱上，基米突然碰了碰洁方的肘，声音压得低"
+			]
+			hide_text_until_complete: true
+			icon: "biomeswevegone:prairie_grass"
+			icon_scale: 1.5d
+			id: "6870950EDFFD5B4E"
+			rewards: [
+				{
+					description: ""
+					id: "7FCC6EAE810113AC"
+					title: "“这地儿，好像真不一样”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "0DE030D00D000864"
+					item: "biomesoplenty:flowering_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "585BA7159FC5AF7B"
+					ignore_reward_blocking: true
+					stage: "d_the_aether"
+					type: "gamestage"
+				}
+				{
+					count: 2
+					id: "75024BD23152CA2A"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "彼岸新风"
+			tasks: [
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/little_house_on_the_prairie"
+					criterion: ""
+					id: "5DD20B15F5BF3E8F"
+					type: "advancement"
+				}
+				{
+					id: "40AB90AAA83AF736"
+					title: "进度属【我们走过的生物群系】"
+					type: "checkmark"
+				}
+				{
+					id: "71AA513D1C2E7776"
+					title: "探险指南针搜索【abandoned_prairie_house】以及【prairie_house】"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6870950EDFFD5B4E"]
+			description: [
+				"卫兵的靴声刚隐在走廊尽头，莉桑德拉・斯大林娜便合上父亲的目标本，封皮的向日葵烫金在晨光里跳"
+				""
+				"她指了指窗边的沙发，布料沾着淡淡的向日葵香，&c“坐吧，一路辛苦了”&r，锡壶在茶盘上转，热水注进粗陶碗的响是温柔的"
+				""
+				"&c“十七年前的败北，像场烧不尽的野火”&r，她的指尖点着碗沿的冰纹，&c“父亲带着残部登岛时，连喝的水都得省着分”&r"
+				""
+				"洁方的指节在膝盖上蹭，“炼狱游者踏平村子那天，老高的烟锅都掉了，我的手指也...”，基米的太刀在鞘里轻颤，&e“我见过他们把活人像劈柴似的砍”&r"
+				""
+				"&c“现在，我想看看各位有些什么本事，请展示吧”&r，莉桑德拉拖着茶杯微笑道，妮妮突然拽出怀里的红石图纸，边角卷得像浪"
+				""
+				"&c“这是我造的捕鼠夹，能夹碎铁甲呢！”&r，莉桑德拉的目光亮了亮，抚过图纸上的齿轮，&c“天才的脑子，该装更厉害的东西”&r"
+				""
+				"洁方起身时，剑盾相撞的脆响惊飞檐下的雀，紫纹在盾面转得急，基米的拔刀划出银弧，斩断飘落的紫藤花，瓣瓣粘在刃上"
+				""
+				"&c“很好，我想让各位找找...武神女王的踪迹，在我们刚到岛时候，天翼族还在北方抵抗着先导的侵略，不过他们最后还是某个山谷撤退了，现在他们应该是在天境西北方”&r"
+				""
+				"莉桑德拉掀开墙角的帘子，萤石铸造的天堂之门突然亮堂起来，光流顺着纹路爬，像凝固的星"
+				""
+				"&c“穿过这门，就是他们最后的庇护所”&r，妮妮扒着门框往里瞅，门内的风卷着羽毛飞，&c“我留下来帮您改机器吧”&r，她的红石发卡映着比谁都亮的萤光"
+				""
+				"洁方的手按在门沿，触感凉得像晨霜，基米的靴尖踢了踢门底的碎石，“找着那女王，可得把她请来”"
+				""
+				"莉桑德拉往他们怀里塞了包炒好的向日葵籽，&c“天境的雾会很迷眼，要是迷路的话就吃吃放松吧！”&r"
+				""
+				"门内的光突然涨了涨，裹着三人的影子晃，莉桑德拉的声音混着茶香飘"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:glowstone"
+			icon_scale: 2.0d
+			id: "5D6A2EAD3949F15D"
+			rewards: [
+				{
+					description: ""
+					id: "33997F67CA34628F"
+					title: "“祝你们顺利”"
+					type: "toast"
+				}
+				{
+					id: "15F59D33146E8730"
+					item: "aether:blue_cape"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78A6F49F5754A43E"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "天堂制造"
+			tasks: [
+				{
+					advancement: "aether:enter_aether"
+					criterion: ""
+					id: "42C8B97543443EB3"
+					type: "advancement"
+				}
+				{
+					id: "10901762DD4A7B7B"
+					title: "进度属【天境】"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D6A2EAD3949F15D"]
+			description: [
+				"神兵的铁甲撞碎天翼国城门时，紫焰在矛尖跳得欢，天翼族的银箭刚离弦就被弹成齑粉，长老们举着权杖后退，杖尖的光在神兵的黑甲上碎成星屑"
+				""
+				"&a“撤回天境！”&r，最后的号角声裹着血沫，年轻的天翼族拽着幼崽往传送阵跑，羽翼扫过满地的萤石粉，那是拆毁祭坛的碎屑，踩上去簌簌响"
+				""
+				"先头部队的铁蹄碾过城门残骸时，地上只剩萤石粉堆成的浅滩，&4“不见了？！他们哪去了！”&r"
+				""
+				"空中只飘落几片雪白的飞羽，先导的黑旗在城头晃，影子压着未凉的血"
+				""
+				"&4“追！他们肯定往北跑了！”&r，他的剑鞘撞在城砖上，火星溅在粉堆里，&4“天翼国的残部跑不远！”&r"
+				""
+				"神兵们踩着萤石粉冲锋，甲片摩擦的锐响盖过风中的哀鸣，北方小国的使节跪在路边，贡品的木箱在马蹄边颤"
+				""
+				"先导勒住马时，天边的云正被染成红，他望着累累小国的方向，突然笑了"
+				""
+				"剑指北方的雪原，&4“先平了这些弹丸之地！”&r，铁蹄踏碎使节的王冠，宝石滚进萤石粉里，闪得像泪"
+				""
+				"神兵的屠刀落下时，小国的宫殿在火里蜷成焦黑的卷，孩童的哭喊声被铁甲声吞没，先导站在尸堆上，掌心的萤石粉正慢慢凉，他突然将粉沫撒向空中"
+				""
+				"&4“雅柏芝序的版图，该连起来了！”&r，风卷着粉粒往北飘，神兵们的欢呼震得雪原发颤，只有地上的萤石粉记得，那些羽翼拍打的最后声响"
+				""
+				"有个幸存的天翼族幼童躲在石缝里，攥着半块萤石，听着远处的铁蹄渐远，突然对着天境的方向展开翅膀"
+			]
+			hide_text_until_complete: true
+			icon: "aether:altar"
+			icon_scale: 2.0d
+			id: "41A9F6608716E19B"
+			rewards: [
+				{
+					description: ""
+					id: "01B38AA20AE31103"
+					title: "“我们还会回来的！”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "3171F912800009BF"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					command: "/locate structure aether:bronze_dungeon"
+					elevate_perms: true
+					id: "59838658A494F67F"
+					title: "记得在天境维度中按下，这是下一个任务的坐标"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "7BB841B865F26834"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "萤粉的遗恨"
+			tasks: [
+				{
+					advancement: "aether:craft_altar"
+					criterion: ""
+					id: "1D4A081E26C83CE3"
+					type: "advancement"
+				}
+				{
+					id: "6089D62DDD8B600D"
+					title: "进度属【天境】"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41A9F6608716E19B"]
+			description: [
+				"恐鸟的羽冠扫过云絮时，洁方的笑声撞在雾团上碎成银铃，紫纹盾的光在云里晃"
+				""
+				"惊得飞天猪从旁边窜过，肥硕的肚皮蹭过恐鸟翅膀，带起的风掀乱基米的发"
+				""
+				"&e“抓牢咯！”，基米拽着恐鸟颈间的鬃毛，巨鸟突然斜冲，云团在脚下碾成棉絮&r"
+				""
+				"洁方的靴尖踢到只云跳羊，小羊 “咩” 地蹦起三丈高，蹄子带起的云沫溅在他脸上"
+				""
+				"恐鸟振翅的瞬间，云鲸从远处游过，庞大的身躯遮断天光，投下的阴影裹着两人往前冲"
+				""
+				"基米突然松开一只手，指着云鲸背上的天翼牛，&e“快看那家伙！”&r，牛蹄踏在鲸背的云毯上，发出闷响"
+				""
+				"洁方的剑鞘撞在恐鸟肋骨上，惊得它加速窜向云缝，风声灌满耳朵，云跳羊和天跃兔在旁边的浮空草甸上追逐，毛茸茸的影子在云里闪，像撒落的星"
+				""
+				"&e“比骑狼刺激多了！”&r，基米的喊声混着恐鸟的嘶鸣，突然俯身捞起只掉队的天跃兔，兔子在他手里蹬腿，绒毛沾着云丝，洁方笑着去接，指尖刚碰到兔耳，就被它挣脱窜进云里"
+				""
+				"恐鸟突然放缓速度，喙尖蹭过一朵积雨云，冰凉的水汽打在两人脸上，基米抹了把脸，看着远处云鲸喷出的雾柱，突然拍了拍恐鸟的肩"
+				""
+				"&e“往那边去！看谁先追上那大家伙！”&r，洁方的笑声在云里荡得老远，紫纹盾的光映着基米扬起的侧脸"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:feather"
+			icon_scale: 2.0d
+			id: "3297D6F8D0017EE2"
+			rewards: [
+				{
+					description: ""
+					id: "2ACDAC7A2E678504"
+					title: "“这云里的日子，比打仗舒坦多啦”"
+					type: "toast"
+				}
+				{
+					id: "68ADB1DA1BAE4B7D"
+					item: "botania:flare_chakram"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "06CC918063D1E1B4"
+					item: "l2complements:enchanted_totemic_apple"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "13FC89CE00D61E63"
+					item: "l2complements:eternium_ingot"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "40F51CBB386A7B55"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "云骑欢歌"
+			tasks: [
+				{
+					advancement: "aether:black_moa"
+					criterion: ""
+					id: "1EA9C65DA2F4DDE5"
+					type: "advancement"
+				}
+				{
+					id: "68764E8B2C8FBE61"
+					title: "进度属【天境】"
+					type: "checkmark"
+				}
+				{
+					id: "5DD19EC4B48CD3E8"
+					title: "此乃隐藏进度！"
+					type: "checkmark"
+				}
+				{
+					id: "020B3640EEA77DE2"
+					title: "可选"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41A9F6608716E19B"]
+			description: [
+				"铜板在魏绛和的指尖泛冷光，新律文的朱砂印钤在&a“最低薪资”&r四字上，比熔炉的火还烈"
+				""
+				"他往工厂主的绸缎上拍，墨痕浸进金丝绣的纹，&9“富商税加五成，敢扣工钱，拆了你的锻炉”&r"
+				""
+				"工厂主们的算盘珠子打得更急，却对着魏绛和的巡查队笑，眼角的褶里藏着冰，&4“大人放心，工人顿顿有肉呢！”&r"
+				""
+				"转身就把黑面包往童工怀里塞，&4“笑！魏大人来就咧开嘴笑！”&r，皮鞭在身后晃，影子比铁砧沉"
+				""
+				"魏绛和的马靴刚踏进厂门，纺织女工突然齐崭崭抬头，脸上的笑比浆过的布还硬，锭子转得匀，却没人敢看他的眼"
+				""
+				"锻工房的老锻工正抡锤，烫伤的胳膊藏在袖里，火星溅在老板递来的&e“工钱单”&r上，纸角蜷成焦黑的卷"
+				""
+				"&4“这是上月的饷”&r，老板的指甲掐着纸边，底下藏着半截断指，是今早刚被齿轮咬掉的"
+				""
+				"童工的笑卡在喉咙里，看见魏绛和的目光扫过来，突然指着窗外，&4“大人看！云像棉花糖！”&r，声音抖得像风中的纱"
+				""
+				"巡查队的脚步声渐远，工厂主的脸立刻沉成铁块，皮鞭抽在纺织机上，&4“刚才谁笑僵了？扣三天粮！”&r"
+				""
+				"断指的童工缩在角落，看着老板把带血的布条塞进炉膛，火星裹着焦味窜，像在烧没说出口的疼"
+				""
+				"魏绛和的新律文在风中掀，边角扫过工厂的烟囱，浓烟裹着工人的呜咽往天上飘，有个纺织女工摸着袖里的伤，突然对着云影笑，笑里裹着碎玻璃"
+			]
+			hide_text_until_complete: true
+			icon: "aether:bronze_dungeon_key"
+			icon_scale: 2.0d
+			id: "5CF616344C2F8954"
+			rewards: [
+				{
+					description: ""
+					id: "45DBF0EDC28C1E41"
+					title: "“这假笑，可要扎死人了”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "43EFF071E2AE5F42"
+					item: "aether:gravitite_ore"
+					type: "item"
+				}
+				{
+					command: "/locate structure aether:silver_dungeon"
+					elevate_perms: true
+					id: "47934057A0ED8189"
+					title: "记得在天境维度中按下，这是下一个任务的坐标"
+					type: "command"
+				}
+				{
+					count: 7
+					id: "29C0E46308B07650"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "笑里藏刀"
+			tasks: [
+				{
+					advancement: "aether:bronze_dungeon"
+					criterion: ""
+					id: "768970FA88C21B5A"
+					type: "advancement"
+				}
+				{
+					id: "12F27505D87897F7"
+					title: "进度属【天境】"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CF616344C2F8954"]
+			description: [
+				"破碗沿的粥渣结着硬壳，她蹲在征兵处的墙根，指尖划过布告栏上褪色的名单，“卡克”两个字被雨水泡得发涨，像他临走时揉皱的赌票"
+				""
+				"&2“见过这个人吗？”&r 她往哨兵手里塞了半块麦饼，饼渣掉在他锃亮的靴上，哨兵的矛尖往远处指，&2“上年战死在四芬河，尸都没捞着”&r"
+				""
+				"她突然抓住矛杆，指甲掐进木柄的裂，&2“不可能，他说赢了就回来赎地的”&r"
+				""
+				"碎银在布兜里叮当作响，是她连夜纺线换的，挨家挨户问过伤兵，有人说看见个白骨士兵举着断矛冲锋"
+				""
+				"甲片上的刻痕像她家灶台的纹，她往战场的方向走，草鞋磨穿的洞渗进血，路上的野狗叼着块染血的布，是他常穿的灰衫"
+				""
+				"白骨士兵的骨爪攥着断矛时，总觉得指节发痒，像握着她纺线的木锭，洁方复苏他那天，磷火在眼眶里跳，突然想起个模糊的影，蹲在灶台前添柴，火光映着辫梢的红"
+				""
+				"她在尸堆旁捡到块带牙印的粗金粒，是他赌桌上常摸的那枚，突然对着白骨士兵的方向磕头，额头撞在碎石上，血珠混着泪，&2“卡克，我知道是你”&r，远处的磷火闪了闪，像在应"
+				""
+				"白骨士兵的骨节突然发颤，矛尖往回指，磷火里又浮出半块麦饼，是她塞给哨兵的那种"
+				""
+				"他想迈步，腿骨却卡在冻土的裂，喉咙里的 “嗬嗬”声裹着风，像在说：&2“我在这”&r"
+				""
+				"有个拾荒的老汉看见她对着空野哭，突然往白骨士兵藏身处指，&a“那影，跟你寻的人一般高”&r"
+				""
+				"她突然笑了，解下头巾往天上抛，红布在风里飘得像团火"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:snowball"
+			icon_scale: 2.0d
+			id: "395B6CBA9F457612"
+			rewards: [
+				{
+					description: ""
+					id: "446368096D6366D3"
+					title: "“我就知道你没走远”"
+					type: "toast"
+				}
+				{
+					id: "0769F1C405F98DCB"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6F1D14608903B0F3"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "骨忆牵魂"
+			tasks: [
+				{
+					advancement: "aether:zephyr_hammer"
+					criterion: ""
+					id: "6C2967D1DDD71C8E"
+					type: "advancement"
+				}
+				{
+					id: "3F202DD4A3050305"
+					title: "可选"
+					type: "checkmark"
+				}
+				{
+					id: "61887A5A62A72218"
+					title: "可选，获取一把创世者飞锤"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5CF616344C2F8954"]
+			description: [
+				"神圣宫殿的玉阶在烈阳下泛着烫光，洁方的靴底粘着沿途的焦叶，信笺在掌心洇出浅痕"
+				""
+				"武神女王的银羽在殿门后轻颤，接过信时指节触到，&a“约瑟夫”&r三字，突然垂下羽翼"
+				""
+				"&c“他终究没能再踏上故土...”&r，女王的声线裹着殿内的凉，&c“当年撤回来的烈阳巨灵，恨败北更恨被囚，日日在天境核心咆哮”&r"
+				""
+				"她指向殿外的赤云，阳光穿过云层的刹那，焦土上的天翼族幼崽蜷成球"
+				""
+				"&c“他要手下寻会哭的石头，要能酿酒的云”&r，女王的权杖往地面顿，萤石拼的星图突然亮起"
+				""
+				"&c“暴行易施，稍有差池便是烈焰焚身”&r，洁方的剑鞘撞在玉柱上，紫纹随阳光跳，像在应和那灼热"
+				""
+				"&c“后来他又停了日月轮转”&r，女王的羽翼扫过案上的枯花，那是天翼族最后的耐寒草，&c“太阳悬在中天不落，连云鲸都躲进最深的雾”&r"
+				""
+				"基米的拔刀在鞘里挣，刃光映着殿外的焦痕，&c“我们的银羽碰着强光就化灰”&r"
+				""
+				"&c“人类的筋骨倒不畏这烫”&r，女王的银眸望进洁方眼底，&c“或许你们能熄熄他的火”&r，殿外的热风卷着焦味扑脸，天翼族的叹息从玉阶缝里钻出，如未完的渴求"
+				""
+				"洁方突然按住剑柄，手指蹭过紫纹的暖，“烈阳巨灵在哪？！”，女王的权杖指向西南方，一座种植着一片金琥珀林的球状浮岛，&c“在那树下，郁郁寡欢，哪也不去，他守着最后的败北”&r"
+				""
+				"基米往他手里塞了块向日葵籽，炒麦的香混着焦气，“等咱掀了那家伙的窝，让天翼族也见回月亮”，女王的银羽突然振起，声线混着殿外的灼风飘"
+			]
+			hide_text_until_complete: true
+			icon: "aether:silver_dungeon_key"
+			icon_scale: 2.0d
+			id: "0750AF55D723A691"
+			rewards: [
+				{
+					description: ""
+					id: "4C5A59124F591D4D"
+					title: "“天境的夜，等你们重启”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "624AD43654D75453"
+					item: "l2hostility:bottle_of_curse"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2456EA4F58E2DC6B"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "烈阳之囚"
+			tasks: [
+				{
+					advancement: "aether:silver_dungeon"
+					criterion: ""
+					id: "36BBE83E15FE5934"
+					type: "advancement"
+				}
+				{
+					id: "34C270149BA7F7E2"
+					title: "进度属【天境】"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0750AF55D723A691"]
+			description: [
+				"洁方的靴底沾着天境的黄色焦土，刚掀开门帘就被斯大林娜拽住胳膊，她的发梢扫过他的颈窝，带着向日葵的香"
+				""
+				"&c“真找到女王了？”&r，话音未落就踮脚亲在他脸颊，软得像云絮，洁方猛地后退，盾面撞在门框上，嗡鸣混着惊惶的喘"
+				""
+				"基米的太刀“哐当”砸在地上，刃光映着他涨红的脸，&e“你你你...！”&r，话没说完就被洁方捂住嘴，指缝漏出的气混着笑，“别咋呼”"
+				""
+				"斯大林娜的指尖还停在刚才亲过的地方，突然拍掌，&c“太好了！天翼族的援军指日可待！！”&r"
+				""
+				"“但得先打败烈阳巨灵...”，洁方摸着发烫的脸，紫纹盾在晨光里跳，&c“父亲说他刀枪不入来着”&r"
+				""
+				"斯大林娜突然翻出父亲的笔记，纸页上的烈阳巨灵画像泛着焦痕，&c“父亲写过，那家伙怕极了寒”&r"
+				""
+				"&e“雪球？”&r，基米的眉头拧成疙瘩，太刀在鞘里挣出轻响，&e“用那玩意儿砸？”&r，斯大林娜往他怀里塞了袋冻硬的雪团，是从冰窖里翻的"
+				""
+				"&c“越多越好，冻得越实越管用”&r，洁方捏碎个雪团，凉意顺着指缝钻，突然笑了，“我知道该去哪弄了”，他望着窗外的雪山，云影在冰面晃，像堆没化的星"
+				""
+				"基米还在嘟囔，&e“这法子太蠢了”&r，却弯腰捡起草绳，&e“得捆成球，不然扔不远”&r， 斯大林娜的向日葵发卡闪了闪，往他们包里塞了包炒麦"
+				""
+				"&c“天境的太阳毒辣辣，补充体力”&r，洁方的脸颊还在发烫，突然想起那个吻，盾面的紫纹亮得像团火，基米突然用胳膊肘撞他腰，声音压得低，带着酸溜溜的气"
+			]
+			hide_text_until_complete: true
+			icon: "aether:regeneration_stone"
+			icon_scale: 2.0d
+			id: "429AA2EBD5A46860"
+			rewards: [
+				{
+					description: ""
+					id: "7ED62A71C91ABB6E"
+					title: "“还愣着？再不去攒雪球，黄花菜都凉了”"
+					type: "toast"
+				}
+				{
+					count: 4
+					id: "002232AFA23EEFFB"
+					item: "iter_rpg:primordial_fragment"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "732AE979EFD1811B"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					command: "/locate structure aether:gold_dungeon"
+					elevate_perms: true
+					id: "5ACB5E39F2A9DE48"
+					title: "记得在天境维度中按下，这是下一个任务的坐标"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "3E2839A302B38755"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "雪球之兴"
+			tasks: [
+				{
+					advancement: "aether:regen_stone"
+					criterion: ""
+					id: "0C3733B35BA15659"
+					type: "advancement"
+				}
+				{
+					id: "47FD5B865216331D"
+					title: "进度属【天境】"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["429AA2EBD5A46860"]
+			description: [
+				"密室的石门“哐当”合拢时，烈阳巨灵的熔岩臂扫过岩壁，火星溅在洁方盾面，紫纹瞬间亮如白昼"
+				""
+				"基米的拔刀划出银弧，劈开迎面而来的火球，热浪燎得他发梢卷曲"
+				""
+				"&4“就凭你们？！俩小东西！”&r，巨灵的笑声震得石屑簌簌落，熔岩在他胸腔翻涌，&4“当年若不是被拽回天境，雅柏芝序早成焦土了！他们不懂我！”&r"
+				""
+				"火球连珠似的砸，洁方举盾格挡，盾沿的冰纹遇热嘶嘶冒白烟"
+				""
+				"基米突然拽过洁方的胳膊，往他怀里塞了颗雪球，&e“扔！”&r，雪团在半空炸开，冰雾裹着寒气撞在巨灵膝弯，他踉跄的瞬间"
+				""
+				"洁方已将数十颗雪球聚成冰弹，紫纹灌注的刹那，冰弹如箭射穿熔岩躯壳"
+				""
+				"&4“不可能！！”&r，巨灵的嘶吼裹着岩浆飞沫，胸口的弹孔正汩汩淌着熔金，他挥舞熔岩臂横扫"
+				""
+				"基米的刀削断他的腕，洁方的冰弹接踵而至，在他身上凿出密如星点的孔"
+				""
+				"&4“我不服！”&r，巨灵的熔岩瞳死死盯着冰弹来处，&4“我为天翼国流过血，他们却把我当疯子！”&r"
+				""
+				"最后一颗冰弹射穿他咽喉时，他仍举着残臂咆哮，&4“我要打回去！我要...”&r"
+				""
+				"话音卡在喉间，熔岩躯壳轰然倒塌，化作满地灼热的碎渣，基米用刀挑开块还在冒烟的碎块"
+				""
+				"&e“死到临头还嘴硬”&r，洁方望着那些逐渐冷却的渣，冰弹的寒气正一点点蚀掉最后的火"
+				""
+				"石门缓缓开启的瞬间，天翼族的银羽探进来，武神女王的声音混着风飘"
+			]
+			hide_text_until_complete: true
+			icon: "aether:gold_dungeon_key"
+			icon_scale: 2.0d
+			id: "134822EA27C6C265"
+			min_width: 1
+			rewards: [
+				{
+					description: ""
+					id: "0C3476A820332D66"
+					title: "“他早困在自己的仇恨里，却忘了为何而战”"
+					type: "toast"
+				}
+				{
+					count: 9
+					id: "6EF47CD42EAC8D6D"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "狂妄"
+			tasks: [
+				{
+					advancement: "aether:gold_dungeon"
+					criterion: ""
+					id: "63E3B440E5AAEDB0"
+					type: "advancement"
+				}
+				{
+					id: "2913D62A66B619B3"
+					title: "进度属【天境】"
+					type: "checkmark"
+				}
+				{
+					id: "471FD1D8FFE62B84"
+					title: "找到烈阳巨灵并击败他！"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["134822EA27C6C265"]
+			description: [
+				"月光刚漫过天境的浮空草甸，女王就蜷在天翼牛的绒毛里打盹，银羽随呼吸轻颤，比云絮还软"
+				""
+				"晨露沾在她睫毛上，像没干的泪，醒来时太阳正爬过圣殿尖顶，她忽然舒展羽翼，骨节发出舒服的轻响"
+				""
+				"&c“多久没见这般日月轮转了”&r，她跟着洁方往传送门走，指尖拂过路边的萤石，光粒粘在羽尖，像拎了串星星"
+				""
+				"基米扛着刀走在后面，看着女王不时弯腰摸云跳羊的头，突然笑，&c“这暴君一除，连空气都软了呢！”&r"
+				""
+				"主世界的风裹着麦香扑脸，女王的银羽在阳光下泛虹光，她盯着田埂上的新苗发怔"
+				""
+				"&c“当年撤离时，这里还是一穷二白”&r，斯大林娜捧着向日葵花束跑来，花瓣扫过女王的爪尖，&c“欢迎回家！”&r"
+				""
+				"女王突然俯身摸她的头，指腹蹭过她发间的发卡，&c“小丫头都长这么高了！”&r，斯大林娜的脸腾地红了，慌忙展开协议"
+				""
+				"墨迹在日光里泛着郑重，&c“这是联盟章程，天境加入后...”&r，女王的目光扫过&a“互助共存”&r四字，突然笑出声"
+				""
+				"&c“你父亲当年总说，要让耕者有其田，况且我和你父亲，算是老相识咯”&r，她蘸着晨露在协议末尾画押，银爪的痕像片展开的羽"
+				""
+				"洁方望着远处集合的天翼族战士，银甲在队列里闪，与南方军的铁甲相映，像两团交缠的光"
+				""
+				"基米往嘴里扔了颗向日葵籽，咔嚓声混着欢笑声，&e“这下兵强马壮，看谁还敢欺负咱”&r"
+				""
+				"女王的羽翼突然振起，带起的风卷着协议纸页响，上面的字迹正慢慢洇进历史的纹"
+				""
+				"斯大林娜突然举起协议欢呼，声音撞在粮仓的木墙上，惊飞檐下的雀"
+			]
+			hide_text_until_complete: true
+			icon: "aether:skyroot_bed"
+			icon_scale: 2.0d
+			id: "68FA36DED08CD25D"
+			rewards: [
+				{
+					description: ""
+					id: "11D4DF358852C18D"
+					title: "“这下，咱底气更足了”"
+					type: "toast"
+				}
+				{
+					id: "539D6B77DD9E7A32"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					command: "/locate structure deeperdarker:ancient_temple"
+					elevate_perms: true
+					id: "52A49B4BBD7E0CE4"
+					title: "下一个任务的坐标，记得在幽匿维度中才按下！"
+					type: "command"
+				}
+				{
+					id: "06901C1B8E1E5D6F"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "同盟新章"
+			tasks: [
+				{
+					advancement: "aether:aether_sleep"
+					criterion: ""
+					id: "247B6E6C46E5FFD8"
+					type: "advancement"
+				}
+				{
+					id: "1C6E08E17C929E8F"
+					title: "进度属【天境】"
+					type: "checkmark"
+				}
+				{
+					id: "5AF19FA3CD874130"
+					title: "在天境中睡觉吧！"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["68FA36DED08CD25D"]
+			description: [
+				"传讯器的幽蓝指示灯在审讯室忽明忽暗，警员的手指刚触到按键，里面突然传出电流杂音，夹杂着模糊的对话"
+				""
+				"&a“南联盟... 物资清点...”&r，钱安生的喉结滚了滚，手铐在桌腿上撞出闷响"
+				""
+				"雅柏日报的排字工手都在抖，头条的&b“无 线 截  获”&r"
+				""
+				"四字用了最粗的铅，油墨堆得像小山，报童的吆喝撕破晨雾 "
+				""
+				"&d“南方民主共和国联盟！无线通讯证实存在！”&r 买报的人挤成一团，指尖戳着版面的传讯器插图，惊呼声压过马车铃铛"
+				""
+				"先导的指节叩着床边，传讯器的录音在书房回荡，&9“南方那边的事...他们潜伏很久了...”&r"
+				""
+				"他突然把茶杯扫到地上，瓷片溅起的水花打湿地图，&4“海怪没吞了他们，倒让他们藏得更深了！为什么！”&r，副官的笔在记录簿上划得急，墨水晕开成黑团"
+				""
+				"魏绛和的手指悬在通讯器按键上，议事厅的钟摆敲得人心慌，&9“接南方频道...”&r 电流 “滋啦” 响过三秒，斯大林娜的声音突然清晰"
+				""
+				"&c“魏大人倒是比预想中地还快呀”&r，他的指腹按在“通话”键上，掌心的汗洇湿塑料壳"
+				""
+				"街面的广播喇叭突然响，传讯器的对话被公放，&9“...建立外交渠道...”&r，行人全停下脚步，菜贩的秤杆掉在地上，铁盘转得像陀螺"
+				""
+				"茶馆的说书人拍着醒木，&a“这无线波里藏着的，可是改天换地的风”&r"
+				""
+				"魏绛和望着窗外飘的报纸，传讯器里的呼吸声与自己的重合，突然对着麦克风说，声音透过电流传向远方"
+			]
+			hide_text_until_complete: true
+			icon: "deeperdarker:sculk_transmitter"
+			icon_scale: 2.0d
+			id: "617E27CB7D4A5572"
+			rewards: [
+				{
+					description: ""
+					id: "07175742F26A7A16"
+					title: "“明早九点，频道不变，重要议事”"
+					type: "toast"
+				}
+				{
+					count: 10
+					id: "46FF24FD2FD0B5E3"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "3D7280401BB228BC"
+					ignore_reward_blocking: true
+					stage: "tm_final_find"
+					type: "gamestage"
+				}
+				{
+					count: 2
+					id: "421FDB276F79FE43"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "暗线初明"
+			tasks: [
+				{
+					id: "4754B4E4EB94D16A"
+					item: "deeperdarker:sculk_transmitter"
+					type: "item"
+				}
+				{
+					id: "13C9F2ECD14EE1FB"
+					title: "只能在幽匿维度的远古神庙中找到"
+					type: "checkmark"
+				}
+				{
+					id: "2AD8E60C4B9CE759"
+					title: "探险指南针也可搜索【ancient_temple】"
+					type: "checkmark"
+				}
+				{
+					id: "5E6D0AB971CFCC36"
+					item: "nameless_trinkets:gods_crown"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"617E27CB7D4A5572"
+				"1752F12ADD4240B6"
+			]
+			description: [
+				"叶弥新的皮靴踏过科学院的青石板，溅起晨露，白褂下摆扫过门廊的铜铃，金属颤音正追着他的背影跑"
+				""
+				"斯大林娜的指尖刚触到桌案上的勘探图，叶弥新怀里的图纸就滑出角来"
+				""
+				"蓝线勾勒的地下第六层像块冻透的冰，仪器在他掌心发烫，最新数据正顺着导线往屏上爬"
+				""
+				"基米的喊声撞在院墙上，折回来时，叶弥新的脚腕猛地拧了下，手里的游标卡尺“当啷”坠在台阶上"
+				""
+				"木盒里的玻璃管晃出细碎的响，他转过身来，眼镜片上的雾还没散"
+				""
+				"&a“你们咋在这...”&r，叶弥新的指尖攥着图纸边缘，指节泛白，“我还想问你呢...”，洁方刚要开口就被他拽住胳膊"
+				""
+				"袖管蹭过对方胸前的徽章，勘探队的三角标在晨光里闪，&a“第六层的冻土能钻了”&r"
+				""
+				"斯大林娜接过图纸时，指甲划过高寒区的标记，铅笔注的温度数字裹着寒气"
+				""
+				"&c“设备够吗”&r，叶弥新突然笑起来，从白褂内袋摸出枚金属片，阳光透过它在地上投出齿轮的影，&a“新造的钻头比冰还硬呢”&r"
+				""
+				"基米弯腰捡起游标卡尺往他手里塞时，发现对方的裙摆还沾着机油，&a“跑这么急不怕摔着呀”&r"
+				""
+				"叶弥新把卡尺别在腰带上，突然拍洁方的肩，&a“等咱钻透那层冰，请你们喝冻顶茶！”&r"
+				""
+				"通讯器的蜂鸣声里，勘探队的集结号正从远处飘来，叶弥新往后退了两步，挥手时白褂的衣角扫过台阶上的玻璃管"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "infinite_abyss:cursed_opal_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "470E4D19F4352851"
+			rewards: [
+				{
+					description: ""
+					id: "0919B37279EF20C2"
+					title: "“明早六点准时下钻”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "54BE3D4CC616E504"
+					item: "infinite_abyss:charium_ore"
+					type: "item"
+				}
+				{
+					id: "29378C1008DB873A"
+					ignore_reward_blocking: true
+					stage: "d_seventh_layer"
+					type: "gamestage"
+				}
+				{
+					count: 4
+					id: "7369F09E75861802"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "再见的惊喜"
+			tasks: [
+				{
+					id: "08B8FA5602A5A819"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "infinite_abyss:cold_resistance_potion"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "infinite_abyss:chilled_bones"
+					criterion: ""
+					id: "1A21A14D41F71A48"
+					type: "advancement"
+				}
+				{
+					count: 14L
+					id: "694B5BC0F45A46E9"
+					item: { Count: 14, id: "infinite_abyss:deep_prismarine" }
+					type: "item"
+				}
+				{
+					id: "124922830ABBA76D"
+					item: "infinite_abyss:exploration_talisman"
+					type: "item"
+				}
+				{
+					id: "7259293E2BE66D3A"
+					item: {
+						Count: 1
+						id: "infinite_abyss:sixth_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59FDF4B63EC9C896"
+					title: "用深层海晶石和冰冻钥匙开门"
+					type: "checkmark"
+				}
+			]
+			title: "冻骨头"
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["617E27CB7D4A5572"]
+			description: [
+				"无线电流在会议室的喇叭里嗡鸣，魏绛和的指节叩着桌面，木痕与声波共振，&9“暮光生物夜夜撞边境，城墙都啃出豁口了”&r"
+				""
+				"他的声音裹着杂音，&9“与其内斗，不如联手”&r，传讯器的蓝光映着他眼底的红，是熬了数夜的痕"
+				""
+				"斯大林娜的指尖停在地图的月牙岛上的标记，大大小小的墨点被圈了又圈，&c“难怪渔民总说晚上海面泛紫光”&r，她突然拍桌，向日葵发卡震得轻响"
+				""
+				"“那些爬上岸的腐骨怪，原是从暮光裂隙钻的”，洁方的剑鞘在旁轻颤，紫纹随她的话音亮"
+				""
+				"基米的太刀往地上顿，火星溅在通讯器的导线旁，&e“早说过那些怪物不对劲”&r，魏绛和的声音透过电流飘"
+				""
+				"&9“帝国的银甲营已经折了三成，你们那的天翼族部队又擅长空战”&r，传讯器突然 “滋啦” 一声，像是被风裹了下"
+				""
+				"&c“联合部队...”&r，斯大林娜的指尖划过“合作协议”四字，墨迹在无线信号里晕开，&c“得划清，反击所得的一半领土归我们”&r"
+				""
+				"魏绛和的笑声混着杂音，&9“没问题，帝国也会派一定的军事人员”&r，双方的呼吸在电流里交缠，像两股汇流的溪流"
+				""
+				"窗外的暮光正漫过城墙，独角兽的嘶吼隐约传来，警员举着火把跑动，影子在墙上歪扭"
+				""
+				"天翼族哨兵站在塔顶，银箭搭在弦上，望着远方海面上的紫光，突然对着传讯器喊，声音裹着风的急"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:shulker_shell"
+			icon_scale: 2.0d
+			id: "6F44E323FA2C16A0"
+			rewards: [
+				{
+					description: ""
+					id: "7EE63FA4E9A0FFDD"
+					title: "“怪物又要来了，赶紧定下来吧”"
+					type: "toast"
+				}
+				{
+					id: "1814F8BF5A9F0815"
+					item: "l2complements:captured_shulker_bullet"
+					type: "item"
+				}
+				{
+					id: "0B48C3B81D6A2EBA"
+					ignore_reward_blocking: true
+					stage: "d_apalachia"
+					type: "gamestage"
+				}
+				{
+					id: "4CDAFCE6253875ED"
+					ignore_reward_blocking: true
+					stage: "d_skythern"
+					type: "gamestage"
+				}
+				{
+					id: "40C9B5B5DF370E19"
+					ignore_reward_blocking: true
+					stage: "d_mortum"
+					type: "gamestage"
+				}
+				{
+					count: 3
+					id: "1705235D3DF76FBD"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "联抗暮光"
+			tasks: [
+				{
+					advancement: "minecraft:end/levitate"
+					criterion: ""
+					id: "010727E8E7BAA2F9"
+					type: "advancement"
+				}
+				{
+					id: "5D2B2A9C70EF56E5"
+					title: "进度属【末地】"
+					type: "checkmark"
+				}
+				{
+					id: "6C517F0611A02576"
+					title: "利用潜影贝的攻击向上漂浮五十个方块"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6F44E323FA2C16A0"]
+			description: [
+				"空运的绳索在晨雾里荡成弧，洁方的靴底碾过帝国港口的木栈，盾面的紫纹撞着银甲营的铁衣，脆响在货箱间跳"
+				""
+				"基米的刀鞘扫过天翼族的羽箭，七日光景，联盟军的帐篷已在港区连成片，炊烟混着咸风，缠成带劲的绳"
+				""
+				"号角突然划破云层，帝国军的长枪方阵在前，同盟军的翼骑兵垫后"
+				""
+				"马蹄踏碎魔咒山脉的晨霜，传送门的暗影在崖壁上翻涌，像团没拧干的墨"
+				""
+				"洁方拽住缰绳时，看见暮光生物的利爪正抠着岩壁，黏液在石缝里凝成果冻状的滑"
+				""
+				"&9“左翼突！”&r，魏绛和的令旗在风里劈，银甲营的矛尖织成光网，基米的刀突然离鞘，弧光斩落个将领的骨翼"
+				""
+				"碎渣溅在昏域传送门的门楣，暗影猛地缩了缩，洁方举盾撞开扑来的腐兽，紫纹突然发烫，映得门内的暮光颤成水波"
+				""
+				"两周后的暮色里，传送门的暗影已淡得像层纱，两个暮光将领的残躯嵌在岩壁，骨甲上的裂痕渗着灰雾"
+				""
+				"溃败的生物往门内挤，翼骑兵的箭雨追着它们的尾，钉在门沿的刹那，暗影突然闭合，只留半截箭杆在外晃"
+				""
+				"营地的篝火舔着铁锅，联盟军的铜壶与帝国军的锡杯碰在一起，酒液溅在染血的地图上，把 “魔咒山脉” 四个字泡得发胀"
+				""
+				"有个年轻的翼兵正给银甲营的伤兵缠绷带，羽翎扫过对方的铁甲，痒得人直笑"
+				""
+				"斯大林娜望着渐暗的传送门方向，突然往魏绛和手里塞了块烤薯，热气烫得他指尖缩了缩"
+			]
+			hide_text_until_complete: true
+			icon: "divinerpg:skythern_heart"
+			icon_scale: 2.0d
+			id: "1B8BD95EE88EBAE7"
+			rewards: [
+				{
+					description: ""
+					id: "2F6239973C058129"
+					title: "“我们还是能和平共存的吧？”"
+					type: "toast"
+				}
+				{
+					count: 4
+					id: "19A95F5FE0CAD578"
+					item: "divinerpg:mortum_heart"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3A4026DFB6FDF865"
+					item: "l2complements:enchanted_totemic_apple"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "283D48633B0C5E50"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "转攻为守的侵略者"
+			tasks: [
+				{
+					advancement: "divinerpg:twilight/archaic_bowman"
+					criterion: ""
+					id: "173A117A6609D004"
+					type: "advancement"
+				}
+				{
+					advancement: "divinerpg:twilight/observer_of_the_skies"
+					criterion: ""
+					id: "5964B0CD7B30A647"
+					type: "advancement"
+				}
+				{
+					id: "31B50A2F5D1F3186"
+					title: "进度属【暮光维度】"
+					type: "checkmark"
+				}
+				{
+					id: "1812AF095693C556"
+					title: "像之前的伊甸维度一样，可以在神圣历书中查阅并攻略"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1B8BD95EE88EBAE7"]
+			description: [
+				"海岸的咸风卷着会议帐篷的边角，斯大林娜的靴尖碾过沙粒里的贝壳，指节捏着那份领土划分图"
+				""
+				"两成的标记用朱砂勾着，像道没愈合的疤，魏绛和的银表在指间转，金属反光晃过她眼底的沉"
+				""
+				"&9“扣押的士兵都在港里呢”&r，他的声线裹着潮味，比礁石冷，&9“两成，换他们全须全尾回家”&r"
+				""
+				"帐篷外的浪拍打着船板，联盟军的帆布与帝国军的旗帜在风里撞，发出沉闷的响"
+				""
+				"洁方靠在盾上闻着海浪声歇息，剑面映着远处被看守的士兵，他们的衣摆沾着船底的青苔"
+				""
+				"有人正往帐篷这边望，目光像抛过来的绳，基米的刀鞘扫过帐篷柱，&e“这叫趁火打劫”&r，话音未落就被斯大林娜按住肩，她的指甲掐进他的布甲"
+				""
+				"&c“签！”&r，她突然抓起笔，墨汁在图上的“两成”处洇开，像片涨水的滩涂，魏绛和接过图时"
+				""
+				"指尖触到她的笔痕，深得快要戳破纸背，&9“明智的选择！”&r，他的银表“咔嗒”停了，浪声突然涌进帐篷"
+				""
+				"返程的气球鼓着风，士兵们挤在岸边的木制甲板上，有人正给同伴看家人捎来的信，纸页被海风掀得哗哗响"
+				""
+				"斯大林娜倚在篮子的一边，望着逐渐缩小的帝国海岸，手里攥着半块向日葵饼，是出发前烤的，现在还带着余温"
+				""
+				"洁方蹲在她脚边，盾面朝上接了些落下来的海鸟粪，突然笑，“至少月牙岛的篝火还等着咱”"
+				""
+				"基米往海里扔了块碎木，涟漪荡开时，正对着夕阳的金，&e“下次再谈，咱得让他还回来”&r"
+				""
+				"飞艇突然晃了晃，有个年轻士兵在高处往下扔下些碎石，浪潮的银鳞被激得欢起"
+			]
+			hide_text_until_complete: true
+			icon: "divinerpg:halite_slicer"
+			icon_scale: 2.0d
+			id: "78059BD9B6C1DA05"
+			rewards: [
+				{
+					description: ""
+					id: "0310BB032F994C6F"
+					title: "“队长你看，月牙岛的方向，水都是暖的”"
+					type: "toast"
+				}
+				{
+					count: 5
+					id: "302E395BC3367C39"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "1BFB4B60B07A9E06"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "沙岸分疆"
+			tasks: [
+				{
+					advancement: "divinerpg:twilight/legolas"
+					criterion: ""
+					id: "65A6DC6B3EA7F4D8"
+					type: "advancement"
+				}
+				{
+					advancement: "divinerpg:twilight/arachnophobia"
+					criterion: ""
+					id: "14AFCD4D2F896B40"
+					type: "advancement"
+				}
+				{
+					id: "7D9F9B51D5947159"
+					title: "进度属【暮光维度】"
+					type: "checkmark"
+				}
+				{
+					id: "06AA9E43DF5982C4"
+					title: "像之前的伊甸维度一样，可以在神圣历书中查阅并攻略"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"78059BD9B6C1DA05"
+				"39D2BF8A8A202225"
+				"58F6B55A75393997"
+			]
+			description: [
+				"南联盟的地下情报在雅柏芝序的地基里盘成密网，五年前的铜制发射器早就在酒馆的夹层里嗡鸣"
+				""
+				"酒保擦杯的布角扫过天线时，帝国议会的争吵正顺着电流爬进来"
+				""
+				"无线通讯器的绿灯连闪三下，北沦城的传单在情报里堆成小山，使徒的画像印在每张纸的角"
+				""
+				"黑袍下摆缠着毒蛇的纹，&4“新神降世”&r的墨迹晕在电报纸上，像未干的血"
+				""
+				"斯大林娜的指尖叩着通讯器的按键，纤细的手指蹭过文件上的&d“夺权”&r二字，洁方的盾靠在桌腿，紫纹映着地图上的帝国疆域"
+				""
+				"地下情报点的标记比星密，&c“半死不活的帝国才有用”&r，她突然扯过张纸，炭笔在使徒的名字上划了道粗线"
+				""
+				"基米的刀鞘撞在墙角的发报机上，摩斯电码的滴答混着他的气声，&a“杀了他？”&r"
+				""
+				"窗外的月牙岛正涨潮，浪声漫过窗沿时，斯大林娜已在命令上盖了章，蜡油滴在“北沦教堂”四字上，凝成果冻状的硬"
+				""
+				"情报员的皮靴碾过北沦的石板，黑袍混在教徒的队伍里，袖管里的短刀蹭着无线发报器，使徒正在教堂的台阶上宣讲，声线裹着风灌进每条街巷，白鸽惊飞时，刀已出鞘"
+				""
+				"通讯器的绿灯突然灭了，北沦的电流里混着尖叫，斯大林娜望着窗外的晨雾，指尖捏着张五年前的设计图，那上面的铜线还闪着新轧的光"
+				""
+				"基米往火塘里又添了块柴，火星溅在洁方坐着的一旁的沙滩上，突然笑出声来"
+			]
+			hide_text_until_complete: true
+			icon: "goety:unholy_blood"
+			icon_scale: 2.0d
+			id: "1752F12ADD4240B6"
+			rewards: [
+				{
+					description: ""
+					id: "243994D11C624F8D"
+					title: "“这盘棋，还得慢慢下”"
+					type: "toast"
+				}
+				{
+					id: "39536EB9ECAB5DA6"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					id: "503299CEC42429E5"
+					ignore_reward_blocking: true
+					stage: "d_sixth_layer"
+					type: "gamestage"
+				}
+				{
+					count: 10
+					id: "4A79E67BB10DE273"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "落子"
+			tasks: [
+				{
+					advancement: "goety:goety/kill_a_apostle"
+					criterion: ""
+					id: "4D266BBF445FD165"
+					type: "advancement"
+				}
+				{
+					id: "0C7DC3407AA033F0"
+					title: "进度属【黑暗艺术】"
+					type: "checkmark"
+				}
+				{
+					id: "2957258F9886674E"
+					title: "召唤并击败使徒！"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"1752F12ADD4240B6"
+				"49CC0B9E5178FDD8"
+				"62C8FB8E787E684C"
+				"04A725C4670FEAFE"
+			]
+			description: [
+				"亲爱的人民们："
+				""
+				"帝国的粮秤砝码永远往&e金库&r倾轧，先导的铁靴碾碎杏仁村的晨炊，黑森林诅咒啃噬着垂暮者的皮囊"
+				""
+				"二十年了，他们的赋税吸管扎穿了每寸田埂，朱砂禁令像带刺的矛尖戳进我们瞳孔"
+				""
+				"谈判桌上的白旗被&4血手&r印玷污，他们要求降书的条件竟是让雅柏江&4倒流&r"
+				""
+				"熔炉钢水映着童工凹陷的颧骨，矿洞晶灯晃着债契的厚度，诏令压弯千万根脊梁，却压不灭晒谷场草垛下的&c火星&r"
+				""
+				"卫城海妖垄断渔网，北枝柏雪掩埋义士骸骨，他们连坟茔的野莓都要榨出汁"
+				""
+				"我们递出的&a橄榄枝&r在议会厅发了霉，和平鸽的翅羽被钉在箭靶中央，边境飘来的&4硫磺味&r混着他们磨刀的霍霍声"
+				""
+				"钟国英的血在冻土绽成冰花，同盟军的刀在河岸卷了刃，此刻便是最后的号角"
+				""
+				"车床轰鸣骤然静默，纺织娘放下梭子，矿工铁镐悬在半空，千万道视线刺破阴云"
+				""
+				"熔毁的锁链在锻炉嘶吼，淬火犁刃泛着破晓青光，妇人拆嫁衣裹马蹄，少年撬门环铸箭簇"
+				""
+				"铁匠铺风箱鼓起烈焰，老裁缝银针扎透军旗穗，眼角的褶子里蓄着江州沦陷夜的雨"
+				""
+				"码头货箱撬开夹层，红石线路在暗格流淌，学生课本折成纸鸢驮火药飞越警戒塔"
+				""
+				"渔船底舱渗出桐油味，缆绳绞盘缠满引信，涂黑的帆等东风点燎原火"
+				""
+				"听啊，枝柏市的汽笛正在呜咽，那不是哀鸣，是&c熔断枷锁&r的号角"
+				""
+				"田垄麦芒倒竖如矛，工厂齿轮咬出进行曲，连晾衣绳都绷成满弓"
+			]
+			hide_text_until_complete: true
+			icon: "cataclysm:gauntlet_of_guard"
+			icon_scale: 2.0d
+			id: "2875E00A0955FD9D"
+			rewards: [
+				{
+					description: ""
+					id: "07142E256DB12E97"
+					title: "“快带上温热的锄头，去犁开故土的冻层”"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					id: "0FCC0F12AE727114"
+					ignore_reward_blocking: true
+					stage: "tm_third_world_war"
+					type: "gamestage"
+				}
+				{
+					count: 9
+					id: "70D86AA3786D6F70"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "《告全雅柏人民书》"
+			tasks: [
+				{
+					advancement: "cataclysm:kill_ender_guardian"
+					criterion: ""
+					id: "575001A4375F0CB4"
+					type: "advancement"
+				}
+				{
+					id: "179B0DB0AA51EFF0"
+					title: "进度属【灾变】"
+					type: "checkmark"
+				}
+				{
+					id: "1017ADF0B081FAA1"
+					title: "击败末影守卫"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"39D2BF8A8A202225"
+				"78059BD9B6C1DA05"
+			]
+			description: [
+				"腐殖土在脚下碾成碎末，洁方的盾沿挂着灰绿色的黏液，紫纹在暮色里忽明忽暗"
+				""
+				"基米的刀身淌着半凝固的黑血，刃光劈开最后一道暗影时，卡萝特的巨影突然从岩壁后撞出来"
+				""
+				"那兔子的耳尖擦着崖顶的枯藤，三个人叠起来才够着他的肩，黑毛里嵌着碎骨与弹片"
+				""
+				"猩红的瞳仁扫过满地蜷缩的幼兔尸骸，突然僵住，前爪悬在半空，像要去捞水里的月"
+				""
+				"&4“我的崽...”&r，他的喉间滚出破风箱似的响，巨爪猛地刨向地面，碎石飞溅中，几只没长毛的幼兔尸体从土坑翻出，皮毛上还沾着未干的血"
+				""
+				"洁方的盾重重顿在地上，紫纹的光映着那些小小的躯体，突然觉得掌心发沉"
+				""
+				"基米的刀往旁一拄，刀背的血珠滴在幼兔紧闭的眼上，&e“你喝人血时，没想过人家也有崽？”&r"
+				""
+				"卡萝特的巨耳突然耷拉下来，黑毛簌簌掉，像深秋的落叶，他低下头，鼻尖蹭过最近的一具幼尸，呼吸吹得那小身子轻轻晃"
+				""
+				"&4“就想...就想带它们喝口鲜的...”&r，他的声音突然劈裂，前爪狠狠捶向自己的太阳穴，黑血从指缝涌出来"
+				""
+				"&4“我一辈子就这点念想...”&r洁方突然别过脸，盾面的反光里，卡萝特正缓缓屈膝，庞大的身躯像座要塌的山"
+				""
+				"“嘭”的一声闷响震得崖谷发颤，卡萝特的头颅撞进坚硬的岩层，巨身慢慢歪倒，压碎了一片幼兔尸骸"
+				""
+				"黑毛在风中掀起涟漪，像给孩子们盖上最后的毯，基米用刀挑开他仍在抽动的后腿，突然往地上啐了口"
+				""
+				"远处传来联盟军的欢呼，暮光的暗影正一点点退去，洁方望着那座黑色的尸山，突然听见基米的声音低下来，带着点说不清的涩"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "divinerpg:halite_phaser"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "3D9D1E075E631913"
+			optional: true
+			rewards: [
+				{
+					description: ""
+					id: "763AC81B4E74978A"
+					title: "“这算哪门子的报应”"
+					type: "toast"
+				}
+				{
+					count: 10
+					id: "73BD4D6C59BC93AC"
+					item: "l2complements:life_essence"
+					type: "item"
+				}
+			]
+			subtitle: "兔殇崖谷"
+			tasks: [
+				{
+					advancement: "divinerpg:twilight/five_heads_are_better_than_one"
+					criterion: ""
+					id: "595CA7B56C5805D2"
+					type: "advancement"
+				}
+				{
+					advancement: "divinerpg:twilight/anger_management_problems"
+					criterion: ""
+					id: "402DDCBC3025CCC0"
+					type: "advancement"
+				}
+				{
+					id: "6EDFBB6283D9012F"
+					title: "进度属【暮光维度】"
+					type: "checkmark"
+				}
+				{
+					id: "64E088A7CD39895F"
+					title: "像之前的伊甸维度一样，可以在神圣历书中查阅并攻略"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"78059BD9B6C1DA05"
+				"58F6B55A75393997"
+			]
+			description: [
+				"冥鬼独角兽的银蹄踏碎月光时，残影在崖壁上叠成晃动的网"
+				""
+				"洁方的盾刚抬到胸前，那支螺旋状的角已刺破幻影，带着腥风擦过他的鼻尖"
+				""
+				"&a“同志，闪开！”&r，同盟军士兵的肩甲撞在洁方肋下，力道掀得他踉跄后退"
+				""
+				"转身的瞬间，独角兽的角已从士兵后背钻出，血珠顺着螺旋纹滚落，像串断裂的红珠"
+				""
+				"士兵的手指抠进独角兽的鬃毛，另一只手摸向腰间的炸药包，引线在掌心蹭出火星，&a“咱联盟... 不差我一个！”&r"
+				""
+				"爆炸声掀飞崖顶的碎石，角尖带着血肉与碎布飞出去，独角兽的独眼突然迸出黑血，痛得扬蹄嘶吼"
+				""
+				"基米的刀趁机扎进它的前腿，天翼族的银箭如暴雨落下，钉得那怪物无法动弹，洁方的盾猛地拍向它的侧脸"
+				""
+				"紫纹炸开的光里，刀刃与蹄甲的碰撞声搅成一锅沸汤，当最后一块尸骸落地时，崖谷里只剩血雾在打转"
+				""
+				"洁方跪在士兵散落的尸骨前，指腹抚过块沾着炸药残迹的肩甲，泪花砸在碎石上，洇出小小的湿痕"
+				""
+				"他用布片裹起那些碎骨，动作轻得像在捧易碎的星，风卷着天翼族的呜咽掠过，带起几片沾血的羽"
+				""
+				"“为啥...”，他的声音卡在喉咙里，盾面的紫纹突然亮了亮，映出自己发抖的指尖"
+				""
+				"基米蹲下来帮他系紧布袋，刀鞘在地上划出浅痕，&e“他把你当自己人...就是了”&r"
+				""
+				"布袋被小心地背在身后，洁方对着崖谷深处敬了个礼，袖口的褶皱里还卡着块爆炸后的铁片"
+				""
+				"天翼族的哨兵在崖顶收弓时，突然对着风说，声音轻得像叹息"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "divinerpg:halite_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "4A77F6A1452EBA58"
+			optional: true
+			rewards: [
+				{
+					description: ""
+					id: "5565C62BBD96DA3A"
+					title: "“这就是联盟的骨头啊”"
+					type: "toast"
+				}
+				{
+					count: 10
+					id: "1F70D27770DF8E53"
+					item: "l2complements:life_essence"
+					type: "item"
+				}
+			]
+			subtitle: "舍身"
+			tasks: [
+				{
+					advancement: "divinerpg:twilight/exorcism"
+					criterion: ""
+					id: "28934DEB611261C1"
+					type: "advancement"
+				}
+				{
+					advancement: "divinerpg:twilight/bicorn"
+					criterion: ""
+					id: "2C25436E9C0E2CC8"
+					type: "advancement"
+				}
+				{
+					id: "27A39D51C3C6FAB0"
+					title: "进度属【暮光维度】"
+					type: "checkmark"
+				}
+				{
+					id: "2F2C59D75DFCD6A3"
+					title: "像之前的伊甸维度一样，可以在神圣历书中查阅并攻略"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["470E4D19F4352851"]
+			description: [
+				"进步科学院的木桌摆着三只玻璃杯，西瓜汁的甜气裹着窗缝钻进来的风"
+				""
+				"妮妮的吸管戳得杯底发出轻响，橙红液体顺着管壁爬，在她鼻尖沾了个小印子"
+				""
+				"叶弥新的指尖叩着自己的杯沿，冰粒撞出脆响，&a“枝柏的砖缝还在掉灰时，我正把棱镜往木箱塞”&r"
+				""
+				"&e“你这家伙居然这么快就想着跑了！”&r，他忽然停住，目光扫过墙角的旧仪器，&a“数据本揣在怀里，当时就像揣着团火似的”&r"
+				""
+				"&a“森林的苔藓漫过靴底时，钟国英的旗帜在望远镜里歪了”&r，他往妮妮杯里续了点汁，&a“那面旗一倒，我就知道得往南跑”&r"
+				""
+				"草叶的涩味似乎还在喉间，&a“跑过第七片稻田时，海的腥气突然漫过来”&r"
+				""
+				"沙滩的沙粒嵌进磨破的鞋时，身后的马蹄声正啃着路，叶弥新抓起块船板往水里推"
+				""
+				"&a“小船晃得像片叶子”&r，浪头砸下来的瞬间，他只记得仪器箱在怀里翻了个身，&a“咸水灌进嘴时，倒看清了天上的星”&r"
+				""
+				"&a“醒来时，医护室的纱帘正飘着，很庆幸我还活着”&r，他摸了摸妮妮的头，指尖沾着果汁的黏"
+				""
+				"&a“救我起来的村民说，我和仪器被浪裹着，像团浮草一样”&r，消毒水的味混着海边的潮，在记忆里缠成绳"
+				""
+				"妮妮突然把吸管往桌上一放，&c“我能帮你看那些亮晶晶的东西吗”&r，眼睛亮得像刚洗过的玻璃"
+				""
+				"叶弥新的笑声撞在仪器的金属壳上，弹回来时带着暖意"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "infinite_abyss:violet_diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "206422DF2CB1BACF"
+			rewards: [
+				{
+					description: ""
+					id: "39C0D2CA89574079"
+					title: "“最盼着有双小手，能拧动那些细螺丝呢”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "71F1D7DF810B5EEC"
+					item: "infinite_abyss:perfect_charium"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "75A36A0A9B99D9E1"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "渡海寻知"
+			tasks: [
+				{
+					advancement: "infinite_abyss:go_no_further"
+					criterion: ""
+					id: "7CE7F0AA3003E78D"
+					type: "advancement"
+				}
+				{
+					count: 14L
+					id: "275D414344ADE26D"
+					item: { Count: 14, id: "minecraft:blue_ice" }
+					type: "item"
+				}
+				{
+					id: "6C756DCB28D09505"
+					item: {
+						Count: 1
+						id: "infinite_abyss:seventh_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F59CCA57D43D6FF"
+					title: "用蓝冰和暗影钥匙开门"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["206422DF2CB1BACF"]
+			description: [
+				"洁方的盾面还凝着未散的霜气，基米的刀身淌着极寒凋灵的残息，第七层的寒雾正顺着裂缝往上飘，撞在新架的灯柱上，化作细水珠滚落"
+				""
+				"极寒凋灵消散的地方，地面的冰壳正以肉眼可见的速度起皱，像块被揉过的锡箔"
+				""
+				"矿道的轨车碾过碎石，哐当声在巷道里叠成串，赤铁矿的红混着锡砂的银，在车斗里晃出流光"
+				""
+				"押车的矿工往手心呵气，白汽刚冒就散了，&a“这地下暖得只需要穿三件衣服了”&r，他的靴底踢到块松动的煤，黑灰腾起时，轨车已拐过下一个弯道"
+				""
+				"冶炼厂的烟囱在晨光里戳出淡影，熔炉的火光映红了天际，矿石倒进料斗的闷响裹着风，往各村镇的方向飘"
+				""
+				"锻工的锤子砸在铁砧上，火星溅在刚出炉的钢坯上，淬成星点，&a“这批料够造百支长矛了”&r，有人举着铁钳吆喝，声线裹着铁水的烫"
+				""
+				"斯大林娜站在矿脉图前，指尖划过新标出的矿点，那处的墨线比约瑟夫当年的笔记更密"
+				""
+				"&c“父亲的凿子还在工具箱里”&r，她忽然转身，望着运矿车扬起的尘，&c“他说过，只要专心，地下的石头也会‘说话’”&r"
+				""
+				"洁方蹲在新铺的轨道路基旁，用盾沿敲了敲铁轨，共鸣声顺着矿道传远"
+				""
+				"基米正帮矿工校准车辙，刀鞘挑开缠在轮轴上的铁丝，&e“再往下挖三层，说不定能着见更烫的岩浆”&r"
+				""
+				"有个老矿工扛着风镐走过，镐尖的寒光扫过堆积的矿石，突然咧嘴笑"
+			]
+			hide_text_until_complete: true
+			icon: "infinite_abyss:wither_artefact"
+			icon_scale: 2.0d
+			id: "6F6501FFAD4726D4"
+			rewards: [
+				{
+					description: ""
+					id: "55A60E1E3B212568"
+					title: "“这地底下的宝贝，总算肯露头了”"
+					type: "toast"
+				}
+				{
+					count: 6
+					id: "29841DDA659584EF"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:withered_tome"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4B0E0D4BEF32D641"
+					ignore_reward_blocking: true
+					stage: "d_arcana"
+					type: "gamestage"
+				}
+				{
+					count: 8
+					id: "3BED877457DF8F3F"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "冶矿传出新声"
+			tasks: [
+				{
+					advancement: "infinite_abyss:frozen_skulls"
+					criterion: ""
+					id: "63C5428C17040CB3"
+					type: "advancement"
+				}
+				{
+					id: "361831A216FD8598"
+					title: "使用冰封头颅召唤极寒凋灵"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6F6501FFAD4726D4"]
+			description: [
+				"南联盟进步科学院的操作台还留着焦痕，妮妮把最后一块死渊宝石嵌进凹槽"
+				""
+				"深紫光芒顺着缝隙漫出来，叶弥新握着蓝窥晶的手微微发颤，那晶体的蓝光在掌心跳，像被困住的星"
+				""
+				"&a“再挪近半寸试试看”&r，叶弥新的声音裹着仪器的嗡鸣，妮妮踮脚推了推宝石块，两者相触的瞬间，强光突然炸开"
+				""
+				"热浪掀得两人往后仰，妮妮的辫梢扫过发烫的桌沿，焦味混着能量的腥气漫开来"
+				""
+				"探测仪的指针突然绷直，屏幕上的乱码碎成星点，重组出片漂浮的蓝白色门，银黑色液在石缝间淌，像没凝固的月光"
+				""
+				"妮妮指着画面里扇半开的门，&c“那后面是不是藏着东西！”&r，叶弥新扶正歪掉的镜片，指尖在屏幕上划，&a“这波动比死渊维度的还稳定”&r"
+				""
+				"斯大林娜接过记录时，&b“新维度参数”&r几个字闪耀得亮眼，墨迹被能量灼得发卷"
+				""
+				"&c“把洁方他们叫回来吧”&r，她对着通讯器说，声线里带着压不住的劲，&c“这趟勘探，还是离不了他们”&r"
+				""
+				"洁方的盾刚靠在门柱上，基米就拍了他胳膊一下，刀鞘上的反光扫过荧幕"
+				""
+				"&e“又有新地方能闯了，哈哈！”&r，他的靴底在地面碾出浅痕，带起的灰里混着蓝窥晶的碎屑"
+				""
+				"妮妮突然举着块碎晶跑过来，晶体的光在她掌心晃，&c“能带上我的机械鸟吗”&r"
+				""
+				"眼睛亮得像浸了水的琉璃，叶弥新往探测仪里输入数据，头也没抬地笑"
+			]
+			hide_text_until_complete: true
+			icon: "divinerpg:arcanium"
+			icon_scale: 2.0d
+			id: "1633AC456C73A210"
+			rewards: [
+				{
+					description: ""
+					id: "1E1439B785DD3832"
+					title: "“等你们探明了路，第一个就让它去飞”"
+					type: "toast"
+				}
+				{
+					count: 10
+					id: "07CAC0F1C8FFA854"
+					item: "divinerpg:arcanium"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6315043FDD20F405"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "偶然发现的新领域"
+			tasks: [
+				{
+					count: 6L
+					id: "736FD5AC3C7C38E5"
+					item: { Count: 6, id: "divinerpg:arcanium" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "66437C2F81D318B9"
+					item: { Count: 12, id: "divinerpg:arcana_portal_frame" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1633AC456C73A210"]
+			description: [
+				"江州的会议大厅飘着松烟香，南联盟大使的指尖捋过领土地图的折痕"
+				""
+				"雅柏芝序帝国的使者正用银勺搅着冷茶，茶沫在杯底旋成小小的涡，双方的座椅隔着三张长桌，距离像没搭好的桥"
+				""
+				"&a“南方六镇本就是咱的根！”&r，南联盟大使突然把文件往桌上一推，纸页撞出的响惊飞了窗台上的鸟"
+				""
+				"对方的指尖在&e“固有领土”&r四字上敲，节奏又急又密，&d“帝国的户籍册里还记着先光年间的界碑”&r"
+				""
+				"雅柏芝序的使者突然笑，指腹蹭过杯沿的茶渍，&d“如今住的可都是帝国子民”&r，他的钢笔在记录簿上顿了顿，墨点晕成小团"
+				""
+				"&d“动迁可不是搬石头”&r，南联盟大使的拳头猛地攥紧，指节泛白时，窗外的云正好遮住日头"
+				""
+				"谈判桌的阴影越拉越长，双方的话语在空气里撞得粉碎，最后南联盟大使收起文件，封皮的铜扣磕在桌角"
+				""
+				"&c“咱们下次再见”&r，雅柏芝序的人已起身，靴底碾过掉落的羽毛，&9“奉陪到底”&r"
+				""
+				"斯大林娜站在城楼上，望着使者离去的马车扬起的尘，洁方的靠在砖墙边上，紧盯着军备清单上的数字"
+				""
+				"&c“锻造坊的锤声得再密些了”&r，她突然转身，指尖点向地图上的防线，&c“但谈判的文书还得写”&r"
+				""
+				"基米正帮士兵校准弩箭，弓弦的震颤顺着手臂爬，&e“真要打？”&r，斯大林娜往城墙下扔了块碎砖，落点在下次谈判的会址旁，&c“得先让他们看看咱的铁！”&r"
+				""
+				"有个文书抱着新拟的谈判草案跑过来，纸页被风掀得哗哗响，在她面前站定"
+			]
+			hide_text_until_complete: true
+			icon: "divinerpg:dungeon_tokens"
+			icon_scale: 2.0d
+			id: "49CC0B9E5178FDD8"
+			rewards: [
+				{
+					description: ""
+					id: "41056F6A42E2AE04"
+					title: "“下次会面的日子，定在秋收后了”"
+					type: "toast"
+				}
+				{
+					id: "5D6F05A60913DFA6"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "2B0D32A3EDCAD16E"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "江州未决"
+			tasks: [
+				{
+					advancement: "divinerpg:arcana/evil_disease"
+					criterion: ""
+					id: "6D26A23F3EC4A9FB"
+					type: "advancement"
+				}
+				{
+					advancement: "divinerpg:arcana/dungeon_master"
+					criterion: ""
+					id: "048D4C8AC3BDEF6E"
+					type: "advancement"
+				}
+				{
+					id: "2360C1D4C828DD88"
+					title: "进度属【秘界】"
+					type: "checkmark"
+				}
+				{
+					id: "2300AFE4E404C688"
+					title: "杀死秘界寄生虫和地牢监管者！"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"617E27CB7D4A5572"
+				"1752F12ADD4240B6"
+			]
+			description: [
+				"枝柏市的石板路还留着解放时的标语残痕，帝国兵的皮靴碾过&b“自由”&r二字时，墙根下的老妇正往竹篮里塞窝头"
+				""
+				"篮子的夹层晃出片布条，绣着同盟军的徽记，风卷着标语的纸角，在士兵的尖矛上扫出轻响"
+				""
+				"市民的眼神像蒙着层雾，挑水的汉子故意把桶撞在哨卡的木栏上，水花溅湿士兵的裤脚时，桶底的字条已滑进暗沟"
+				""
+				"那是地下据点的新暗号，用灶灰写着&e“今夜送药”&r，汉子低头赔笑时，喉结滚了滚，把&e“别信他们”&r四个字咽回肚里"
+				""
+				"粮铺的掌柜总在打烊后留盏灯，窗纸被指节敲出三短两长的响，就把掺着盐巴的干粮从后门递出去，士兵的脚步声在巷口响起时"
+				""
+				"门轴的吱呀里已藏好半袋糙米，掌柜用围裙擦手的动作，和解放时给同盟军端粥时一模一样"
+				""
+				"地下的密道里，窝头的热气顺着砖缝往上飘，同盟军的哨兵数着篮子里的窝头，每个底都刻着小三角，代表安全的路线"
+				""
+				"有个少年突然拽住递粮人的袖管，那袖肘打着补丁，和他父亲牺牲时穿的那件一模一样"
+				""
+				"帝国兵的巡逻队走过街角时，墙缝里的野花正往密道的方向歪，像在指认藏着的人，挑水汉子又经过哨卡，这次桶里漂着片菜叶，叶梗上的齿痕是新的信号"
+				""
+				"他望着士兵麻木的脸，突然想起解放那天，这张脸也曾笑着接过他递的酒"
+				""
+				"有个穿补丁衣的小姑娘蹲在墙根，用石子在地上画同盟军的徽记，士兵的皮靴刚要踩上去时，她突然哭着扑过去抱住靴腿，石子已被掌心攥成粉，混着汗渗进砖缝"
+				""
+				"老妇把最后一个窝头塞进竹篮，望着士兵换岗的背影，往暗沟里又丢了块石头，在惊起的蛙声里，她对着墙根轻语"
+			]
+			hide_text_until_complete: true
+			icon: "divinerpg:demon_furnace"
+			icon_scale: 2.0d
+			id: "2EC2EADBEBC5704F"
+			rewards: [
+				{
+					description: ""
+					id: "2972D048AF0FD6B5"
+					title: "“等他们再来时，咱还举着灯等”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "071153C0430B6294"
+					item: "l2hostility:witch_droplet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "66B12DFFFAD0D1A3"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "在地下的薪火相传"
+			tasks: [
+				{
+					id: "4DD2317B2D1B3676"
+					item: "divinerpg:demon_furnace"
+					type: "item"
+				}
+				{
+					id: "4ADD2F90EF8AFEE3"
+					title: "在秘界交易所得"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["523B7FABCDF43C55"]
+			description: [
+				"进步科学院的木桌上，妮妮的土豆加农炮正躺着，铜制炮管泛着冷光，炮尾的木柄还留着妮妮的手温"
+				""
+				"叶弥新的指尖刚触到炮身，就被那圈磨损的纹路勾住目光，&a“这小家伙看着倒还不起眼”&r，他把炮口转过来对着自己，瞳孔里突然映出团橙黄"
+				""
+				"烤土豆破膛而出的瞬间，空气被撞出闷响，挂画的木框在墙面上晃了晃，裂开的纸页间漏出片天空，叶弥新的冷汗顺着鬓角往下淌"
+				""
+				"指腹摸着炮口残留的热，&a“没沾半点魔法气，竟能砸穿三层纸”&r，他突然拍了下桌面，瓷杯里的水晃出细珠，&a“过去或现在都盯着魔杖法杖，倒把实打实的物理忘了”&r"
+				""
+				"妮妮踮脚够着炮管，掌心按在发烫的地方，&c“塞火药会不会更厉害呢？”&r，叶弥新眼睛亮起来，拽着她往试验场跑"
+				""
+				"白褂的下摆扫过堆废弃的铁管，试验场的泥土刚翻过，还带着湿腥气，他把磨尖的铁珠夯进炮膛，又往药室里塞了把黑色火药"
+				""
+				"引线燃尽的脆响后，铁珠拖着白烟蹿出，百米外的草坡突然凹下去块，土块混着草叶飞起来"
+				""
+				"妮妮数着坑边的裂痕，&c“比土豆深了近三倍！”&r，叶弥新蹲在坑边，手指插进焦黑的泥土，&a“得把炮管做长，再安个托”&r，他突然扯过妮妮的手，在她掌心画着什么，粉笔灰沾成个模糊的形状"
+				""
+				"三个月后的晨光里，第一把枪躺在绒布上，枪管的黑铁泛着淬过火的亮，枪托的木纹里还嵌着试做时的火药渣"
+				""
+				"妮妮攥着它往靶场走，枪身的重量压得她胳膊微沉，叶弥新举着测距仪，&a“扣扳机时别闭眼”&r，铅弹穿透靶心的刹那，木屑飞溅的声音比魔法箭更脆"
+				""
+				"斯大林娜的指尖划过枪管的刻痕，那是标注射程的数字，&c“比弩箭快多少”&r，叶弥新往枪里压着新做的子弹，&a“眨眼功夫就能穿三层木板！”&r"
+				""
+				"妮妮突然抢话，&c“就是做一支要磨三天铁了...做完整整一只，都要连着七天七夜呢...”&r，斯大林娜把枪还给她，手指蹭过还没磨平的棱角"
+				""
+				"基米从门外探进头，刀鞘上的反光扫过枪身，&e“给我试试！”&r"
+				""
+				"他接过枪时，威风凛凛，枪托磕在腰间的甲片上，发出清越的响，靶场的风裹着硝烟味飘进来，混着妮妮的笑"
+				""
+				"叶弥新正在调试新做的模具，突然抬头对着众人喊，声音里裹着铁屑的涩"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "4AB811DFA62906B6"
+			rewards: [
+				{
+					description: ""
+					id: "0960644960F66055"
+					title: "“明年这时，定能让流水线转起来些！”"
+					type: "toast"
+				}
+				{
+					count: 64
+					id: "5314EE4167B470A3"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "5674A698364EC243"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "新式的爆炸性发明"
+			tasks: [{
+				id: "7C8467E71FEB683D"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["2EC2EADBEBC5704F"]
+			description: [
+				"海峡的浪正啃着陨石的铁壳，灰黑色的岩体半浸在水里，浪沫拍上去就化作白烟，斯库拉的拖船在百米外抛锚"
+				""
+				"望远镜里的陨石像块没烧透的炭，她突然把指挥旗往海里一扔"
+				""
+				"&d“捡破烂的活，谁爱干谁干”&r，旗面沉进浪里时，两国的勘探船已扯着帆往这边赶"
+				""
+				"潜水钟的钢缆在雾里绷成直线，驾驶员戴着铜制头盔，靴底蹬在陨石表面的凹坑"
+				""
+				"凿子敲下去的脆响裹着水压传上来，第一块碎岩被吊上船时，阳光透过晶体的裂隙，在甲板上投出彩虹状的斑，化验室的烧杯里，矿物粉末正顺着杯壁爬，遇火就绽出蓝绿色的焰"
+				""
+				"雅柏日报的头条用了加粗的铅字，&e“天外石藏异光”&r，报纸边角卷着油墨香，被报童的吆喝声卷过街角，茶馆里的茶客正对着插图争论"
+				""
+				"有人说那是星星的骨头，有人攥着茶杯说：&b“能造比飞艇快十倍的东西”&r，唾沫星子溅在报纸的陨石照片上，抹开小小的湿痕"
+				""
+				"飞艇的气囊早在四年前的天空鼓成白团，舷窗里的乘客总望着云层以上的蓝，有人用铅笔在舱壁画飞艇在太空的模样，引擎被涂得像烧红的铁"
+				""
+				"科学院的阁楼里，叶弥新正把陨石粉末和金属熔在一起，坩埚里的液体泛着珍珠母的光"
+				""
+				"&a“这硬度，能戳穿大气层了”&r，他的眼镜片沾着火星，在图纸上画的轨道线，比飞艇航线陡得多"
+				""
+				"两国的实验室几乎同时亮了彻夜的灯，南联盟的工匠在锻火箭头，锤声比四年前景气时更密"
+				""
+				"雅柏芝序的科学家正校准星图，圆规在&e“月球”&r二字上画了圈，报纸的新头条也换了标题，&e“拭目以待！谁先摘星！”&r，报童跑过广场时，看见孩子们举着纸糊的火箭，在飞艇的影子里追着跑"
+				""
+				"妮妮举着块陨石碎片，对着太阳看，晶体里的光点像在跳，她突然拽住路过的洁方，盾面映着远处起吊的火箭部件"
+				""
+				"&c“会比蓝窥晶还亮吗”&r，洁方刚要开口，就听见试验场传来闷响，新铸的箭体正刺破晨雾，在天空划了道浅痕"
+				""
+				"叶弥新把最新的轨道参数记在密密麻麻黑点的小本上，被风吹起的纸角勾住他的袖口，他望着逐渐聚拢的人群，突然提高了声线"
+			]
+			hide_text_until_complete: true
+			icon: "ad_astra:oil_bucket"
+			icon_scale: 2.0d
+			id: "5F0F10319C0B3D9C"
+			rewards: [
+				{
+					description: ""
+					id: "48B82CFB29A3DC04"
+					title: "“顶多三年，咱的铁家伙能摸着星星！”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "60998445885A7FF6"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "太空星轨竞赛"
+			tasks: [
+				{
+					advancement: "ad_astra:ocean_cleanup"
+					criterion: ""
+					id: "6730D72A895A2B62"
+					type: "advancement"
+				}
+				{
+					id: "5CC4771FD65065BB"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ad_astra:astrodux"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "494BE84A8EFED0C6"
+					title: "获取一桶石油即可"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5F0F10319C0B3D9C"]
+			description: [
+				"魔法阵的银辉缠在箭体的焊缝，科学仪器的指针在舱内跳成星光，叶弥新攥着陨石矿提炼的螺栓，双手夹着的汗洇透垫片时"
+				""
+				"火箭突然抖了抖，尾焰舔着发射架的瞬间，竟在云幕上烧出道虹，三年的晨光里，这凝实的铁家伙率先刺破穹顶，舱内的记录仪正哼着南联盟的调子，把星穹的蓝刻进胶片"
+				""
+				"宇航员的靴底碾过月尘时，那粉末竟泛着魔法阵的余温，采集舱里的样本箱贴满标签，&6“第一捧太空土”&r的字迹被失重扯得发飘，传回地面的影像里"
+				""
+				"国旗的红在真空里挺括，比任何宣言都更响亮，科学院的钟楼敲了十二下，钟声裹着捷报往各村镇跑，有人把这一天的日历裁下来，夹进孩子的课本"
+				""
+				"又两年，火星的赤沙漫过登陆舱的舷梯，机械臂铲起的矿样里，藏着能让金属自我修复的秘，运输舱穿过大气层时，焰尾拖得比飞艇的航迹还长，舱门打开的刹那"
+				""
+				"新炼的合金在晨光里亮得刺眼，车床开始昼夜不停地转，轴承的精度比魔法卷轴的咒文更密，收音机里的新闻总带着颤，&e“亩产翻了三番！”&r，&e“织布机自己换线！”&r等的爆炸性新闻连绵不断"
+				""
+				"雅柏芝序的发射架在雨里锈成褐色，民众举着旧报纸在议会外站着，那上面的&5“赶超南联盟”&r的铅字早已模糊，实验室的灯倒亮得勤，只是坩埚里熬的不再是星轨数据，而是能穿透铁甲的熔剂"
+				""
+				"工匠的锤子砸在炮管上，声线比四年前沉了八度，有个老科学家对着报废的火箭图纸叹气，铅笔在&3“落后七个月”&r的批注上划了又划"
+				""
+				"斯大林娜站在太空博物馆的玻璃柜前，里面摆着第一枚火箭的残骸，锈迹里还嵌着叶弥新当年忘拿的扳手，她指尖点向火星沙盘"
+				""
+				"那上面的勘探点比帝国的武器库标记还密，洁方的贴在展柜一旁，眼睛里映着的是屏幕里的新空间站"
+				""
+				"叶弥新正调试往金星的探测器，电线在他脚边缠成星的形状，妮妮举着火星土培育的花跑过来，花瓣的红里掺着星尘的亮"
+				""
+				"他突然抬头望向穹顶，声线裹着焊锡的香"
+			]
+			hide_text_until_complete: true
+			icon: "ad_astra:mars_globe"
+			icon_scale: 2.0d
+			id: "696140FB2A883378"
+			rewards: [
+				{
+					description: ""
+					id: "22893ABC08110A4C"
+					title: "“这才刚摸着星星的边呢”"
+					type: "toast"
+				}
+				{
+					count: 8
+					id: "32BF2B63CB16552F"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "星途先登"
+			tasks: [
+				{
+					advancement: "ad_astra:mars"
+					criterion: ""
+					id: "0F8B7ED85AA3FDBE"
+					type: "advancement"
+				}
+				{
+					id: "3C4DA32D892AA37A"
+					title: "进度属【ad_astra】"
+					type: "checkmark"
+				}
+				{
+					id: "4B1395AFC99AA3F0"
+					title: "红色就是火星吧"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["696140FB2A883378"]
+			description: [
+				"卫城的铁铸穹顶悬着银烛台，烛泪在斯大林娜的军靴边积成小丘，她指尖点向展柜里的星尘合金，金属的流光漫过魏绛和发紧的眉"
+				""
+				"&c“这是火星带回的料，能造跨洋大桥”&r，她把联合开发计划书推过去"
+				""
+				"纸页边缘的烫金印着双握在一起的手，&c“故土如果能归位，铁轨就能连到帝国都城”&r"
+				""
+				"&c“民众在界碑旁种的树，都已合抱粗了”&r，斯大林娜的声线顺着烛火往上荡"
+				""
+				"当年分土地的账，在老账本的夹层里记着，她展开泛黄的税册，墨迹里还能闻见当年的麦香"
+				""
+				"&c“若共商发展，纺织厂的布能多织三成，矿脉的铁能早出半年”&r，魏绛和的指腹摩挲着倡议书的签字栏"
+				""
+				"五年间南联盟的飞艇已能载千吨货，而帝国的船坞还泊着十年前的旧舰"
+				""
+				"钢笔尖刚要蘸墨，一支信箭突然穿窗而来，木杆带着破空的哨声扎进桌心，信纸展开时，&4“先导”&r 二字像块冰压灭烛苗"
+				""
+				"&4“伤愈归政”&r，笔迹比刀刻还深，&4“魏绛和革职”&r，最末行的字裹着戾气，&4“拒签任何领土文书”&r"
+				""
+				"魏绛和的钢笔从指间滑落，在石砖上滚出脆响，他抚过信末的鎏金玺印，那纹样比他的银表更刺眼"
+				""
+				"&9“终究是要烧起来了...”&r，他的喉结动了动，把后半句咽成叹息，斯大林娜弯腰拾笔，笔尖的墨滴在 &4“和平”&r 二字上，晕成朵墨色的花"
+				""
+				"窗外的浪突然拔高，拍在卫城的垛口上，溅起的水花打湿了哨兵的甲"
+				""
+				"&a“帝国军营的炊烟密了”&r，哨兵的声音带着颤，甲片的碰撞声混着远处的号角，像在撕空气"
+				""
+				"斯大林娜望着那封钉在桌上的信，用手扒开被箭杆戳破的界碑图，纸页的裂口正往&4“和平”&r二字爬，她突然转身，银烛台的光在她眼底碎成星"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "523B7FABCDF43C55"
+			rewards: [
+				{
+					description: ""
+					id: "32D422A5E719BE30"
+					title: "“还是该把新造的枪擦亮，让铁来说话！”"
+					type: "toast"
+				}
+				{
+					id: "64B480740937CD2A"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "04EF25C68841A97A"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "卫城断笔"
+			tasks: [{
+				count: 3L
+				id: "1F9EAF65DB2F2FDC"
+				item: { Count: 3, id: "ad_astra:etrium_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"470E4D19F4352851"
+				"49CC0B9E5178FDD8"
+			]
+			description: [
+				"晨雾把河对岸的轮廓泡得发涨，曾离岸蹲在哨位后的芦苇丛里，铁皮焊的单筒镜正对着对岸的碉堡"
+				""
+				"镜筒上的锈迹蹭着他的眉骨，芦苇叶扫过他的领章，把布料磨出细毛"
+				""
+				"班长的靴底碾过草茎的脆响突然从身后漫过来，曾离岸猛地回头，单筒镜 \"哐当\" 砸在泥里"
+				""
+				"镜片里的碉堡碎成星点，&b“哨位是你离得的？！”&r，班长的声音裹着雾，比枪栓还冷"
+				""
+				"曾离岸赶紧站成笔杆，脊梁挺得比枪杆直，露水顺着裤腿往下淌，在脚边积成小水洼"
+				""
+				"&a“想看看对岸的布防...”&r，曾离岸的喉结滚了滚，指尖抠着枪带的扣，&a“万一打起来，提前摸清，少吃亏”&r"
+				""
+				"班长突然扯过他的胳膊，单筒镜的背带勒得他锁骨生疼，&b“当兵的脊梁可是纪律撑起来的！”&r，班长戳着他的太阳穴，&b“你这叫擅自行动，叫添乱！”&r"
+				""
+				"&b“那你说，参军是为了啥”&r，班长的声音缓了些，雾在他的帽檐凝成小水珠，曾离岸的指甲掐进掌心"
+				""
+				"&a“为了祖国！”&r，他顿了顿，看见雾里飘着片柳叶，像老家房檐下的那片，&a“为了乡亲能安稳种庄稼！”&r"
+				""
+				"班长突然往他腿弯踹了一脚，曾离岸“咚”地跪在泥里，单筒镜的碎片映着他发红的眼，&b“服从纪律！才能攥成拳头！”&r，班长的靴尖顶着他的后背"
+				""
+				"&b“你这根指头先翘出去，拳头还怎么硬”&r，曾离岸的鼻尖蹭着泥地，闻到土里混着芦苇的腥，像老家河湾的味"
+				""
+				"&a“俺爹娘的老家，就在对岸的柳树屯...”&r，他的声音突然发颤，泥点溅在领章上，&a“俺想让他们早点回去收麦子”&r"
+				""
+				"班长的脚松开了，雾里传来他摸烟盒的窸窣，&b“俺当年也犯过这错”&r，火星在雾里亮了下，&b“想偷偷过江看俺娘”&r"
+				""
+				"曾离岸盯着单筒镜的碎片，对岸的碉堡又拼了起来，班长的手突然落在他肩上，掌心的茧蹭着他的肩窝，&b“站完这班岗，跟俺去看对岸的详图吧”&r"
+				""
+				"他把单筒镜从泥里拎起来，用衣角擦着镜片，&b“纪律是框，框住的是乱撞的劲，不是心”&r"
+				""
+				"晨雾渐渐散了，对岸的柳树冒出绿芽，曾离岸望着班长把详图展开在炮管上，图上的柳树屯被红笔圈着，他突然挺直腰，露水从帽檐滴进眼里，涩得发疼"
+			]
+			hide_text_until_complete: true
+			icon: "apotheosis:draconic_endshelf"
+			icon_scale: 2.0d
+			id: "549960FE3E663220"
+			rewards: [
+				{
+					description: ""
+					id: "75078EDA65010697"
+					title: "“纪律，原是保护咱的亲人”"
+					type: "toast"
+				}
+				{
+					count: 7
+					id: "570BB0F0FD0623D7"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "最美好的愿景"
+			tasks: [
+				{
+					advancement: "apotheosis:enchanting/upgrade_endshelf"
+					criterion: ""
+					id: "076C0EC72335FAD7"
+					type: "advancement"
+				}
+				{
+					id: "0BEBCC49E79961C1"
+					title: "进度属【神秘的附魔台】"
+					type: "checkmark"
+				}
+				{
+					id: "2BB85E51CEDDE9DE"
+					title: "巨龙末地书架！"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2EC2EADBEBC5704F"
+				"4AB811DFA62906B6"
+			]
+			description: [
+				"斯大林娜的指尖划过沙盘上的珊瑚礁模型，木制飞机群的黑影正掠过海图边缘，投下颤动的光斑"
+				""
+				"&c“空中的鹰隼已归巢，可海底的巨钳还锁着粮道”&r，她突然攥紧计划书的边角，羊皮纸皱出深痕"
+				""
+				"基米用刀鞘挑起利维坦的黏土塑像，鳞片纹路硌着鞘上冰纹，&e“那畜生的脊背能撞碎舰船，眼珠比灯塔还亮呢”&r，妮妮蹲在沙盘旁串起爆破引线，铜丝缠住她腕间的红绳"
+				""
+				"洁方蘸湿手指在卫城水道图上抹过，潮痕立刻洇开，“漩涡底下藏着三十六道暗门，硬闯怕是得喂了鱼虾”"
+				""
+				"钢笔尖突然戳向&d“月潮”&r二字，墨团在日期上胀开，&c“等满月那夜，用机群佯攻东翼卵滩”&r，斯大林娜将红色兵棋推入礁石群，“让那母妖以为我们要端她老巢”"
+				""
+				"&c“主力船队绕至西峡裂谷”&r，她指甲掐进沙盘裂缝，&c“妮妮的硫磺爆雷能炸开珊瑚闸”&r，爆雷图纸从妮妮怀里滑出，齿轮零件滚过“卫城”标记"
+				""
+				"基米突然掰断利维坦模型的尾巴，&e“我带敢死队去引钓出那巨怪，洁方也可以去直插心脏祭坛”&r，太刀在腰侧轻吟，鞘口震落细沙"
+				""
+				"洁方摩挲着不再灼痛的戒痕，往沙盘中央按下黑曜石棋子，“我还是直接去应付斯库拉吧，她是主要的”，石子在珊瑚王冠标记上投下楔形暗影"
+				""
+				"风撞开临海窗扇，计划书哗啦扬起，斯大林娜用镇纸压住飞扬的页角，青铜虎符压住&e“总攻”&r二字"
+				""
+				"门缝漏进咸腥的晨雾，混着码头锈锚的叹息，她撕下计划书塞进洁方护甲夹层，纸缘还带着松烟墨的潮气"
+				""
+				"妮妮突然举起改造的深海罗盘，磁针在玻璃罩里疯转，&c“爆破艇吃水浅，应该能钻过暗流隧道”&r，基米笑着抛接硫磺晶块，黄光在掌心忽明忽灭"
+				""
+				"海鸥的鸣叫刺破寂静，斯大林娜望向窗外，货船在哨塔监视下如僵死的鲸"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:blue_ice"
+			icon_scale: 2.0d
+			id: "489089CAA9683632"
+			rewards: [
+				{
+					description: ""
+					id: "0F597AFF5825B809"
+					title: "“三日后潮汐转向时，让渔网重新沉进自由的海”"
+					type: "toast"
+				}
+				{
+					count: 2
+					id: "39BBDA9193718DF0"
+					item: "aquamirae:ship_graveyard_echo"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E047CF19CA5DD64"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "破浪之谋"
+			tasks: [
+				{
+					advancement: "aquamirae:adventure/find_ice_maze"
+					criterion: ""
+					id: "7256726E4AEFE30E"
+					type: "advancement"
+				}
+				{
+					id: "18DDF3A748B83EF6"
+					title: "进度属【海灵物语】"
+					type: "checkmark"
+				}
+				{
+					id: "22739E4EF2A3F2FB"
+					title: "探险者指南针直接搜索【ship】即可！"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["549960FE3E663220"]
+			description: [
+				"情报纸的边缘卷着下界的霜，焰魔的撤职令印在最末行，墨迹被硫磺气熏得发暗"
+				""
+				"&4“贬为边境戍卒长官”&r几字的笔画里，还嵌着他旧军服的焦痕，信使的靴底沾着下界的砾石，放在桌案上时，碎粒滚成小堆，像没烧透的炭"
+				""
+				"先导的地堡入口在情报图上标着红三角，铁门的缝里渗着机油味，没人知他何时搬进去的，只听说地堡的通风管总飘出股草药香"
+				""
+				"斯大林娜捏着那张图，&e“焰魔戍守区”&r的界碑符号尤为醒目，那符号像个蜷着的影子"
+				""
+				"洁方的盾靠在墙角，面光映着下界的地图，暗河的蓝线在图上弯成蛇形，“焰魔在那边守着黑曜石门”"
+				""
+				"斯大林娜往他手上放了枚铜符，符面刻着边境守军的暗号，&c“探探他的底，顺带...”&r，她突然停住，指背在符上敲了敲，那节奏像刀鞘撞石头"
+				""
+				"下界的风裹着硫磺味，吹得洁方的袍角贴在靴筒上，黑曜石门的缝隙里淌出红光，焰魔的甲片在哨卡晃动着，甲缝里还嵌着上回战役的血痂"
+				""
+				"他正往熔岩里扔着骨殖，火星溅在洁方的盾上，&5“南联盟的人也倒敢来？！”&r，他的声线裹着烟，像磨过砂石"
+				""
+				"洁方摸出铜符晃了晃，符面的光扫过焰魔的眼，“来看看老对手罢了...”，他的盾沿突然压向火塘"
+				""
+				"火星腾起时，看见焰魔靴边的刀正泛着淬毒的蓝，斯大林娜的话在耳边响，&c“留着是根刺，得拔干净”&r"
+				""
+				"地堡的通风管又飘出草药香，混着下界的硫磺，在风里缠成绳"
+				""
+				"洁方往石门后瞥，暗河的水声正漫过石缝，像在数着什么，焰魔突然笑，甲片的碰撞声惊飞了檐下的火影"
+			]
+			hide_text_until_complete: true
+			icon: "cataclysm:bulwark_of_the_flame"
+			icon_scale: 2.0d
+			id: "2DE93457EA4010BB"
+			rewards: [
+				{
+					description: ""
+					id: "585B818422B63F7B"
+					title: "“这界碑，该换个守的人了”"
+					type: "toast"
+				}
+				{
+					count: 8
+					id: "1AACDBA9A83892B9"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "暗中调动"
+			tasks: [
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "4F560EA3C291DC0E"
+					type: "advancement"
+				}
+				{
+					id: "70F52A07BE612C1D"
+					title: "进度属【灾变】"
+					type: "checkmark"
+				}
+				{
+					id: "30E3F2F9DB7F641E"
+					title: "杀死焰魔！"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2DE93457EA4010BB"]
+			description: [
+				"车间的蒸汽管道嘶鸣着喷出白雾，年轻学徒的扳手在传送带上打滑，指节蹭破的皮混着机油发亮"
+				""
+				"&e“又加两小时，这铁疙瘩都快比我亲爹还亲了”&r，抱怨声刚冒头就被锻锤的轰鸣碾碎，老师傅的茶缸往铁砧上一磕，枸杞在沸水里翻腾"
+				""
+				"老焊工的面罩掀起半边，焊花在皱纹间跳，&6“小子，我像你这么大时，帝国兵把咱村铁锹都熔了做枪矛”&r"
+				""
+				"他指了指墙上泛黄的旧照片，硝烟熏黑的相框里，一群青年正用锄头拼出&c“反抗”&r二字"
+				""
+				"熔炉的焰舌突然窜高，映得车间墙上标语发烫，&c“多炼一块钢，多造一杆枪”&r，新来的姑娘踮脚挂上这横幅，袖口的补丁蹭着未干的油漆"
+				""
+				"流水线的齿轮突然卡住，年轻人们围上去，有人递扳手，有人塞棉纱"
+				""
+				"七手八脚间，不知谁哼起《锻工进行曲》，生锈的轴承在合唱里重新转起来"
+				""
+				"食堂的南瓜汤冒着热气，老会计的算盘珠在桌角晃，&a“这批新铣床，抵得上三个月的产量”&r，他的秃顶反着吊灯的光，账本边角贴着女儿画的帆船简笔画"
+				""
+				"夜班的汽笛撕开暮色，少女把辫子盘进工帽，车床的切削声里，她突然对同伴眨眼"
+				""
+				"&a“等打回北岸，我要用这机床给自己车个发卡”&r，铁屑溅在围裙上，像迸散的星子"
+				""
+				"冶炼厂的钢水浇进模子，橙红浆液映着二十张年轻的脸，老师傅的铜哨一响，众人齐喊&a“为了南联盟！”&r，声浪震得吊车铁链微微晃"
+				""
+				"斯大林娜的钢笔在增产令上顿了顿，窗外的探照灯扫过新落成的军械库，玻璃映出她眼下的青灰"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "4AEA62135AEC35A4"
+			rewards: [
+				{
+					description: ""
+					id: "4AE15DCAE2F6BAAC"
+					title: "“等春天来了，这些钢铁就会生开出花”"
+					type: "toast"
+				}
+				{
+					count: 8
+					id: "14ABF419F27876AB"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "熔炉与星火"
+			tasks: [{
+				id: "4649393A1322782A"
+				item: "l2hostility:abrahadabra"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4AEA62135AEC35A4"]
+			description: [
+				"货舱里的木箱硌着脚踝，老渔夫解缆时瞥见飞艇投下的菱形暗影，正割裂着海面的钴青"
+				""
+				"&e“这筐海盐比鱼腥味还沉&r”，他抹了把眉梢的汗珠，盐粒沾在皱纹里像霜"
+				""
+				"年轻伙计把麻绳绕成圈，绳结的毛刺勾住他虎口的裂口，&e“我爹那会儿撒一网能兜住半舱银鳞呢”&r，风灌进敞开的外套，露出里头磨薄的旧渔衫"
+				""
+				"热气球掠过珊瑚哨塔的尖顶时，塔尖的荧光映着海妖卫兵甲壳的冷光，虾兵正把成箱的鲭鱼拖进漩涡，浪沫溅在封印的礁石上"
+				""
+				"新来的少年数算着云层下的黑点，&a“三艘卫城号渔船，五艘拖船”&r，他突然指向浅湾处翻白的死鱼群，&e“瞧！那是咱从前的渔场”&r"
+				""
+				"装满陶罐的货筐突然倾斜，风干的鱿鱼条撒落甲板，老渔夫蹲身去捡，指尖触到鱿鱼蜷曲的须，像触碰昨日未收的破渔网"
+				""
+				"&a“小心气流！”&r，领航员拽紧方向绳，飞艇猛地倾斜，少年撞在围栏上，怀里的指南针滑出衣袋，玻璃罩里的小指针疯转如离水的鱼"
+				""
+				"云絮撕开的缝隙间，望见海妖商贩的珍珠筏正泊近帝国码头，镶金鞘的匕首挑开货箱麻布，露出底下冻僵的鳕鱼青白的鳃"
+				""
+				"&e“她们拿珍珠换锈钉呢”&r，少年啐掉吹进嘴的沙粒，气球的帆布补丁被风吹得噗噗响，针脚是渔夫老伴缝的浪花纹"
+				""
+				"黄昏的橙光涂满气囊时，返航的飞艇擦着积雨云掠过，雨滴砸在鬓角像咸涩的吻，货舱里新收的棉布还裹着硝石味"
+				""
+				"&6“明日还要运火药去枝柏市...”&r，少年望着逐渐暗沉的海面，那里浮起夜光藻的绿斑，如他娘在渔村窗边点的油灯"
+				""
+				"老渔夫突然指向西面，海平线尽头游过抹香鲸的背脊，喷起的水柱散成虹，&6“霜月十七，本是钓黑鲔的时节”&r，他喉结上下滚动着，像吞咽着无形的网"
+				""
+				"飞艇降落在南盟码头时，卫兵挑开货帘，月光漏进筐缝，照着少年偷偷藏起的贝壳，边缘还粘着星点蓝鳞"
+				""
+				"远处传来海妖商队的螺号声，悠长得让人心头发空"
+			]
+			hide_text_until_complete: true
+			icon_scale: 2.0d
+			id: "47F119A29212D661"
+			rewards: [
+				{
+					description: ""
+					id: "6540A1F7E3EC7BC1"
+					title: "“等哪天，真想再闻闻浪头打湿裤脚的味道”"
+					type: "toast"
+				}
+				{
+					count: 8
+					id: "4E89398E27CC8C09"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "悬空望复归"
+			tasks: [{
+				id: "67E095F0E2D2BBA3"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["47F119A29212D661"]
+			description: [
+				"淬火池的蓝烟裹着未冷的钢甲漫出车间，红石机械傀儡的眼窝骤然点亮，齿轮咬合的咔嗒声惊飞了檐下的麻雀"
+				""
+				"&a“三号流水线全速启动”&r，老师傅的扳手敲了敲传送带，新浇铸的关节部件泛着青灰的冷光"
+				""
+				"九月的晨雾还未散尽，江州广场的石板路已被铁靴踏出白痕，三米高的终极战争机器碾过界碑，履带缝里嵌着昨夜的露，每步落下时震得路边野菊簌簌颤"
+				""
+				"天翼族士兵掠过钟楼尖顶，翅膜在朝阳里透出蛙皮般的青紫，淬毒箭镞悬在腰侧，滴落的黏液蚀穿了铺路的松针"
+				""
+				"老兵把家传的护符塞进新领的枪套，粗粝指腹蹭过枪栓的防锈油，&6“这铁疙瘩比当年打麻匪用的土炮强多哩”&r，身旁的新兵踮脚数着傀儡后背的炮管数量，喉结紧张地滑动"
+				""
+				"妮妮钻过警戒绳，红石发卡勾住了基米的武装带，&c“快看那个会喷蒸汽的！”&r，她指向呼啸傀儡头顶的排气阀，白雾正嘶嘶漫过向日葵涂装"
+				""
+				"斯大林娜站在观礼台阴影里，钢笔尖悬在花名册上空，墨迹在“第七装甲兵团”处洇开圆斑，像未干的血"
+				""
+				"队列拐过纺织厂废墟时，墙洞探出几个小脑袋，最胆大的男孩突然模仿起机械傀儡的行走姿态，铁皮罐头在脚上哐当作响"
+				""
+				"&e“正步——走！”&r，传令兵胸腔炸开的吼声撞在傀儡外壳上，三百具钢铁躯干同时抬腿，气阀排出的热浪燎焦了路旁的狗尾草"
+				""
+				"卖早点的妇人托着蒸屉穿过小巷，笼屉缝隙漏出的葱香混进机油味，&a“多拿两个肉包吧”&r，她把油纸包塞进轮休士兵怀里，&a“吃饱了才抡得动那些铁胳膊”&r"
+				""
+				"教堂彩窗忽然震颤起来，神父扶住倒下的烛台，彩玻璃拼成的和平鸽裂开细纹，光影碎在终极战争机器的巨臂上"
+				""
+				"基米用刀鞘轻碰洁方腰侧，太刀映出天翼族掠过的残影，&e“等打过去，老子要第一个砍下先导的头！”&r"
+				""
+				"孩童骑上父亲肩头，小手攥着木雕飞机追逐呼啸傀儡，螺旋桨叶在晨风里转成虚影"
+				""
+				"&e“打过海峡去——解放全雅柏——”&r，不知谁起的头，呼喊突然炸开，声浪推着钢铁洪流往前涌，广场鸽群惊飞时羽翼拍散钟声"
+				""
+				"老焊工举起焊枪指向海峡方向，枪口迸出的火星落进人海"
+			]
+			hide_text_until_complete: true
+			icon: "goety:redstone_monstrosity_head"
+			icon_scale: 2.0d
+			id: "62C8FB8E787E684C"
+			rewards: [
+				{
+					description: ""
+					id: "1477BD53AC435549"
+					title: "“碾过去，把咱们的旗插到对岸礁石上”"
+					type: "toast"
+				}
+				{
+					id: "4DA761F374D3B408"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "26A20C6C821771BE"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "铁流破晓"
+			tasks: [
+				{
+					advancement: "goety:goety/summon_redstone_monstrosity"
+					criterion: ""
+					id: "68A4B66CA97D3025"
+					type: "advancement"
+				}
+				{
+					advancement: "goety:goety/summon_golems"
+					criterion: ""
+					id: "72E9709030499B9F"
+					type: "advancement"
+				}
+				{
+					advancement: "goety:goety/summon_squall_golem"
+					criterion: ""
+					id: "3B9663510DF2E3A9"
+					type: "advancement"
+				}
+				{
+					id: "4502F4BA545E2746"
+					title: "进度属【黑暗艺术】"
+					type: "checkmark"
+				}
+				{
+					id: "24A10AFAFCF4C0C4"
+					title: "召唤红石巨兽，呼啸傀儡，红石傀儡，冰傀儡，以及一个墓灵巨像"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["489089CAA9683632"]
+			description: [
+				"海蚀洞吞吐咸腥的潮音，卫芝岛的峭壁像被巨斧劈开的翡翠，斜插在雅柏芝序大陆与月牙岛之间的海峡咽喉处，东偏北的礁群在浪沫里时隐时现"
+				""
+				"&a“二十年前，咱的船常在这儿补渔网”&r，老渔夫指着岸滩朽木码头的残桩，藤壶啃噬的缆绳蜷在砂砾间，像干瘪的血管"
+				""
+				"洁方踩过风化的贝壳堆，碎碴钻进革靴缝合线，身后小队的箭囊磕碰声惊起岩缝处的雪鸥，羽翅拍散薄雾时，露出黑曜石垒的卫城轮廓"
+				""
+				"昔日渔人歇脚的棕榈棚早被珊瑚哨塔取代，塔尖嵌着斯库拉的鳞甲徽记，幽蓝荧光在暮色里如鬼火浮动"
+				""
+				"&a“看东北角！”&r向导冻裂的指尖戳向冰峡，寒雾中骤然凝出人形冰墙，二十年前的探险舰旗冻在冰棱顶端，褪成灰白的布条裹着霜晶飘荡"
+				""
+				"科妮莉亚的虚影从冰幕渗出，寒铁直矛刮擦冰面发出裂帛锐鸣，&5“此路封死！”&r，冰甲下的眼窝结着深紫霜花"
+				""
+				"洁方旋身避过劈斩，盾牌撞碎冰锥骤雨，融化的冰水顺盾面淌下，浸透臂甲衬里，幽灵船长的披风翻涌如怒潮，生锈锚链幻影绞住他脚踝"
+				""
+				"&e“铛！”&r基米的太刀在鞘中震鸣，洁方借势劈开幻影桅杆，刃尖挑中她胸甲中的冰核"
+				""
+				"蛛网裂痕炸开的脆响里，科妮莉亚的冰甲簌簌剥落，焦黑的船长制服显露，&d“抱歉啊...”&r她声音忽如解冻溪流，&d“那妖女的冰咒噬了我...二十年魂魄...”&r"
+				""
+				"虚影抚过制服金锚绣纹，指腹穿过残破布料，&d“....如今才算闻见真正的海风...”&r，冰阵随她笑容消融，暖阳刺破雾霭照亮苔痕斑驳的礁石，痛苦的灵魂也就此散去"
+				""
+				"队员拾起她消散处凝结的冰棱，结晶里封着半枚生锈舷窗扣"
+			]
+			hide_text_until_complete: true
+			icon: "aquamirae:frozen_key"
+			icon_scale: 2.0d
+			id: "0CCEF549D01BD182"
+			rewards: [
+				{
+					description: ""
+					id: "46AC1E9B01FA697D"
+					title: "“自由的风，终是吹散傀儡的壳”"
+					type: "toast"
+				}
+				{
+					count: 4
+					id: "132D305D250417E5"
+					item: "aquamirae:abyssal_amethyst"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "2F3736C5D8A1F640"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "碧涛遗梦与冰释前嫌"
+			tasks: [
+				{
+					advancement: "aquamirae:adventure/obtain_frozen_key"
+					criterion: ""
+					id: "2889FEFAF74D633B"
+					type: "advancement"
+				}
+				{
+					id: "0D1A1AF21709EB47"
+					title: "进度属【海灵物语】"
+					type: "checkmark"
+				}
+				{
+					id: "0DAF220CF85CE1F1"
+					title: "召唤并击败科妮莉亚船长！"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0CCEF549D01BD182"]
+			description: [
+				"铅笔尖戳穿了设计图纸，妮妮趴在橡木桌上叹气，手肘压着散乱的红石线路图，&c“第十三次改动还是像坨废铁”&r"
+				""
+				"叶弥新的布鞋无声滑过瓷砖缝，试管架在他白褂口袋里叮当作响，&a“闷坏了吧小工匠，看点活蹦乱跳的灵感去”&r"
+				""
+				"合金仓库门滑开的刹那，寒雾裹着铁锈味涌出，妮妮的鞋跟卡在门轨凹槽里"
+				""
+				"瞳孔骤然放大，十四米长的紫龙正用下颌蹭着白龙的颈鳞，珐琅质鳞片折射出频闪的流光，冷凝液从金属翼缘滴落，在环氧地面积成虹彩水洼"
+				""
+				"&c“末地...末地龙？吗！”&r妮妮的扳手咣当砸地，声波撞上白龙尾椎的感应环，它突然昂首喷出霜雾，冰晶在射灯下碎成钻石尘"
+				""
+				"叶弥新拽着她退到防撞柱后，&a“别怕，这是普通的龙，况且还有我用外星科技写的植入式驯化芯片呢”&r，紫龙的爪钩轻刨地坪，刮出五道新月形浅痕，液压关节发出蜂蜜般的粘稠嗡鸣"
+				""
+				"妮妮踮脚摸到白龙后踝的散热鳍，鳞片温度交替变换，冷热波段像呼吸般规律"
+				""
+				"&c“古籍说它们只饮岩浆...”&r，指尖传来五十赫兹的稳定震颤，&c“可这循环系统明明是‘水冷式！’”&r"
+				""
+				"紫龙忽然侧卧，翼膜铺成深紫地毯，白龙用尾尖卷起钛合金饲料槽，槽内液态以太泛着星云旋涡，喂食时龙舌卷过机械臂，留下道荧蓝唾液痕"
+				""
+				"叶弥新翻出控制平板，屏幕显示两条脑波纠缠的曲线，&a“看见没，这对冤家打架拆过三座要塞，现在倒学会给对方理鳞了”&r"
+				""
+				"妮妮的素描本唰啦翻飞，铅笔速写龙翼的齿轮传动结构，&c“关节承重比红石傀儡精巧些”&r，紫龙突然朝她喷嚏，硫磺味的火星点燃了纸页边缘"
+				""
+				"焦痕在图纸蔓成藤蔓状，她竟笑出声，沾着龙涎的指尖在灰烬里画圈"
+			]
+			hide_text_until_complete: true
+			icon: "iceandfire:dragon_stick"
+			icon_scale: 2.0d
+			id: "117B1BCC17F87765"
+			rewards: [
+				{
+					description: ""
+					id: "53063FFF628EEB2F"
+					title: "“原来传说里的死神坐骑，也会撒娇讨食呢”"
+					type: "toast"
+				}
+				{
+					count: 10
+					id: "457D6EFCA836FAF5"
+					item: "iceandfire:dragon_meal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "49634BCDDA4A0936"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "双龙旋舞"
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragon_staff"
+					criterion: ""
+					id: "5249CE142457F575"
+					type: "advancement"
+				}
+				{
+					id: "368F86F55D3E6DC6"
+					title: "进度属【寒冰与烈火】"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["117B1BCC17F87765"]
+			description: [
+				"水晶门的裂痕蛛网般蔓延，碎碴混着海水沫溅在洁方靴面，悬空的冰晶阶梯在脚下泛蓝光，每一步都震落星屑似的冰尘"
+				""
+				"&a“她就在顶上！”&r，队员的剑柄撞开最后道冰栅，云层突然撕开，白晶宫殿的尖顶刺破天穹"
+				""
+				"斯库拉的金甲折射出万道利芒，长发间的海蛇昂首吐信，衔着未落的浪沫"
+				""
+				"船锚砸在冰阶的爆响震耳欲聋，晶屑如霰弹迸射，&5“南联盟的贼寇也配谈解放？”&r 她的冷笑裹着咸腥海风，锚链绞碎空气发出呜咽"
+				""
+				"洁方旋身避过横扫的巨锚，青剑斩开链环迸出青紫火花，&5“渔民饿着肚子时，你的珍珠筏正往帝国运鲜货”&r"
+				""
+				"剑尖点向宫殿外墙，那里镶嵌着溺亡者的骸骨，指骨还抠着珊瑚缝"
+				""
+				"斯库拉的蛇发突然暴长，毒牙距洁方喉头三寸时被剑刃格开"
+				""
+				"&5“弱肉强食何罪之有？”&r，金甲在移步时铿然作响，锚尖犁过冰面掀起丈高浪墙"
+				""
+				"“把活路还给他们！”，洁方踏浪跃起，盾面狠撞她胸甲，裂纹在金甲蔓延如龟背纹，海蛇凄嘶着缩回发间"
+				""
+				"半小时的缠斗让冰阶染满晶粉与血沫，斯库拉踉跄跌坐王座，船锚当啷滚落，压碎半幅海图，她望着海峡的方向喘息，金甲裂缝渗出蓝血"
+				""
+				"&5“哼哼....我不过...让海维持它的法则...罢了”&r，尾音被洁方的剑钉进椅背，王座的水晶应声炸裂，如暴雨倾倒"
+				""
+				"垂首的刹那，一条小蛇滑落她肩头，倏地钻入地缝逃远"
+			]
+			hide_text_until_complete: true
+			icon: "cataclysm:essence_of_the_storm"
+			icon_scale: 2.0d
+			id: "7E8196D65D59CCCF"
+			rewards: [
+				{
+					description: ""
+					id: "0A486559EC6BEA9C"
+					title: "“有什么好说的？”"
+					type: "toast"
+				}
+				{
+					count: 3
+					id: "5A404DCF3CC9C864"
+					item: "cataclysm:lacrima"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2E7427B7599F49FC"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "海魄碎晶"
+			tasks: [
+				{
+					advancement: "cataclysm:kill_scylla"
+					criterion: ""
+					id: "0F8CAC53DCCFC3D1"
+					type: "advancement"
+				}
+				{
+					id: "357A8D223165DC61"
+					title: "进度属【灾变】"
+					type: "checkmark"
+				}
+				{
+					id: "61317517EF75EC87"
+					title: "召唤并击败斯库拉！"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["7E8196D65D59CCCF"]
+			description: [
+				"快艇的螺旋桨撕开墨绿浪沫，基米攥着舵盘的手背青筋虬结，利维坦的尾鳍扫过艇尾，咸腥飓风几乎掀翻船船舷"
+				""
+				"&e“再近点！蠢鱼！”&r，他猛打方向躲过熔金射线，高热蒸腾的水雾灼焦了鬓发"
+				""
+				"卫城的黑岩轮廓撞进视野时，基米突然熄火，快艇如死鱼般漂在浪尖，巨兽的阴影瞬间吞没小艇，獠牙距船船舷仅三寸"
+				""
+				"&e“就是现在！”&r，他踹开发动机盖，红石核心迸出刺目流光，利维坦被激怒的咆哮震裂云层，失控的巨躯碾过暗礁群，岩壳崩裂声如天穹塌陷"
+				""
+				"搁浅的刹那，沙岸被犁出百米深沟，鱼腹摩擦礁石的嘶啦声让人牙酸，洁方的钻蓝锋刃已旋出光轮"
+				""
+				"&c“散开！交替轰炸！”&r，飞行编队俯冲投下硫磺弹，炸开的橙雾裹住挣扎的巨兽，天翼族战士的淬毒箭雨扎进鳞隙，渗出荧蓝毒液"
+				""
+				"基米攀上鱼脊的太刀插进骨缝，借力翻跃躲过甩尾，洁方的源质塔盾撞上利维坦眼眶，反冲力震得腕骨欲裂"
+				""
+				"“左鳍关节！” 洁方嘶吼着劈开鳞甲，基米的刀锋楔入骨缝狠绞，青灰色韧带崩断的脆响混着兽嚎"
+				""
+				"垂死的扫尾拍飞两名战士，血沫混着浪花浮起，洁方踏着倒下的战友盾牌跃起，剑尖贯入颅骨缝隙，下界合金刃在脑髓中旋拧"
+				""
+				"巨躯的抽搐渐弱，海潮冲刷着搁浅的尸山，基米拔出血淋淋的太刀，刀尖挑着块仍在搏动的蓝核"
+				""
+				"幸存的战士跪在浅滩喘息，浪花舔舐着伤口，洁方抹去溅在睫毛上的蓝血，望向再无阴霾的海平线"
+			]
+			hide_text_until_complete: true
+			icon: "cataclysm:tidal_claws"
+			icon_scale: 2.0d
+			id: "04A725C4670FEAFE"
+			rewards: [
+				{
+					description: ""
+					id: "0CA381107A03CEC9"
+					title: "“众人齐心，也能克服最深的浪”"
+					type: "toast"
+				}
+				{
+					id: "567605FE62F63AEE"
+					item: "linzhi:special_point"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "28A35822BC3EBE9C"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "怒海同心链"
+			tasks: [
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "3493E3478781B6A2"
+					type: "advancement"
+				}
+				{
+					id: "5DB314081F37F256"
+					title: "进度属【灾变】"
+					type: "checkmark"
+				}
+				{
+					id: "609106F842D89302"
+					title: "召唤并击败利维坦！"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["2875E00A0955FD9D"]
+			description: [
+				"帝国的战舰群如朽木浮筏般散开，南联盟运输船卸下的钢铁洪流淹没了滩涂，红石傀儡的履带碾碎防波堤，碎石混着浪沫溅上晴空"
+				""
+				"&a“左翼登陆完毕！”&r，传令兵的铜哨挂在嘴角震颤，三米高的战争机器踏出船船舱，震波惊飞了礁石上的贼鸥"
+				""
+				"炮弹尖啸着犁过海岸线，帝国箭塔的砖石如糖块崩解，有个新兵捡起崩落的金鹰徽章塞进怀，旋即被战友拽进弹坑"
+				""
+				"空中编队掠过燃烧的桅杆，木制机翼投下的菱形暗影切开浓烟，燃烧瓶如熟透的果子坠向堡垒顶，硫磺火瀑浇透了青铜闸门"
+				""
+				"&a“制空权到手，报告完毕”&r，飞行员对着震颤的仪表盘咧嘴，操纵杆映出下方溃散的灰制服人潮，像被沸水冲开的蚁群"
+				""
+				"基米踹开半融的铁栅，太刀挑飞冒烟的引信，“第二港口拿下”，他鞋底黏着热柏油，踩出叽咕声响"
+				""
+				"妮妮的红石发卡在浓烟里闪烁，她正把瘫痪的傀儡接上备用能源，电线缠着小臂如青蛇，&c“这大家伙还再能轰三轮齐射！”&r"
+				""
+				"{@pagebreak}"
+				"西线传来闷雷般的塌陷声，维齐尔的黑旗插上总督府露台，彩窗碎片雨点般砸在起义军肩头，&b“独立？他倒会挑时候摘桃子”&r，钟国英旧部的络腮胡汉子啐出口血沫"
+				""
+				"先导的鎏金手谕在枝柏市街头燃成灰，守军丢弃的盔甲堆满小巷，少年们用铁矛杆挑着军帽狂奔，&e“自由啦！自由啦！”&r，欢呼撞在空货架上发出回响"
+				""
+				"洁方正给冲锋傀儡校准红石核心，人群里突然伸出枯藤般的手按住他肩胛，力道沉得惊人"
+				""
+				"“您需要帮助吗？”，他转身看见皱纹如刀刻的老妪，旧头巾裹着银灰发丝，眼窝蓄着海峡般的深蓝"
+				""
+				"&6“孩子...你叫什么名字...”&r，她的骨节抵在他护甲缝，像要确认什么实体"
+				""
+				"“洁方，姓屈”，话音未落老妪的泪已滚落，混着硝烟沾湿他胸甲，&6“屈砚是你父亲，我是你母亲...你被留在杏仁村那夜，海风冷得像刀子”&r"
+				""
+				"{@pagebreak}"
+				"她颤抖的指尖划过他眉骨，&6“这倔劲跟他当年一模一样”&r，远处炮弹炸开的火光突然镀亮两人身影，气浪掀飞了货摊的篷布"
+				""
+				"洁方的手悬在半空，二十年的矿洞、铁匠铺、焦土战场在脑内翻搅，最终落在老妪脊背补丁的粗粝触感上"
+				""
+				"“娘...” 音节生涩地挤出喉咙，像锈锁突开"
+				""
+				"苏婉的呜咽被爆炸声吞没，她掏出褪色的襁褓布塞进他掌心，经纬里还缠着海草的咸，&6“你爹的剑插进利维坦那刻...喊的是你名字”&r"
+				""
+				"维齐尔的叛军与同盟军在市政厅前交火时，母子俩蜷在炸塌的面粉仓后，苏婉用煤灰抹黑洁方后背的胎记，“当年追兵就认这红月痕”，她撕下裙摆裹住他佩剑的寒光"
+				""
+				"基米扛着冒烟的机炮撞进来，&e“找你半天！西侧需要...”&r，话音戛止在两人相握的手上"
+				""
+				"“我娘！”，洁方将老妪护在身后，剑尖挑飞穿窗的流弹，金属碰撞的脆响里，苏婉突然笑了，&6“你这朋友嗓门比屈砚还大呢”&r"
+				""
+				"&e“他们还没认输”&r，基米擦着太刀上的血渍，刃面映出天际最后一缕金辉，&e“但枝柏市已经加入我们了”&r"
+				""
+				"维齐尔的残部从巷陌涌出，黑甲上还带着燎痕，为首的军官却撕下袖章掷地，&d“我们受够给疯子陪葬了”&r，铁靴踏过燃烧的诏书，灰烬粘在同盟军的蓝旗上"
+				""
+				"斯大林娜的传令兵疾驰而至，马蹄踏碎广场的碎玻璃，&c“南联盟欢迎所有反抗暴政的兄弟”&r，他展开烫金文书，印信盖在维齐尔残部递来的名册上，墨迹未干就被欢呼声震得发颤"
+				""
+				"苏婉突然抓住洁方的手，掌心粗粝如旧渔网，&6“你爹要是看见...”&r，话音被东面突然炸响的炮火截断，帝国最后的要塞腾起浓烟，却再没人回头张望"
+				""
+				"妮妮解下红石发卡别在同盟军旗上，金属与布帛碰撞的轻响里，基米突然大笑，&e“这下咱们的傀儡可得刷层新漆了”&r"
+				""
+				"晚霞泼在众人肩头，像熔化的金链将过去与未来焊接，洁方望着母亲眼角的泪光，那里映着远去的战舰与初升的星"
+			]
+			hide_text_until_complete: true
+			icon: "cataclysm:door_of_seal"
+			icon_scale: 2.0d
+			id: "1FA4233759429F8D"
+			rewards: [
+				{
+					description: ""
+					id: "4FD7ABB4FD669CD9"
+					title: "“团圆饭里，该多加副碗筷了”"
+					type: "toast"
+				}
+				{
+					id: "4FA570448B2E0463"
+					ignore_reward_blocking: true
+					stage: "event_check_strongest"
+					title: "判定玩家是否满加强"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "41C7D83A894E1C22"
+					ignore_reward_blocking: true
+					stage: "tm_great_leberation"
+					type: "gamestage"
+				}
+				{
+					count: 5
+					id: "06005F71E818FFEE"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "伟大的解放战争"
+			tasks: [
+				{
+					advancement: "cataclysm:find_frosted_prison"
+					criterion: ""
+					id: "0BA424C4E49EA738"
+					type: "advancement"
+				}
+				{
+					id: "50241983E2AC7E58"
+					title: "进度属【灾变】"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"1FA4233759429F8D"
+				"62C8FB8E787E684C"
+				"04A725C4670FEAFE"
+				"49CC0B9E5178FDD8"
+				"4AB811DFA62906B6"
+			]
+			description: [
+				"地堡的钢铁门像只锈蚀的眼，瞳仁里淌出的黑雾缠上冲锋士兵的脚踝，刚踏入三步就被无形的力扯成血雾，碎骨混着弹片溅在门楣的弹痕里，像给旧伤添了新痂"
+				""
+				"斯大林娜的指挥杖在冻土上戳出浅坑，杖头的向日葵纹被血溅得发暗，&c“第十三波了....”&r，她的声线裹着北风，比地堡的钢还冷，&c“再填进去就是送死...”&r"
+				""
+				"洁方的靴底碾过冻结的血渍，冰碴嵌进纹里硌得生疼，炎葬巨剑的晶板在背后来回晃，光粒顺着衣缝往下掉，像没捏紧的星"
+				""
+				"母亲苏婉突然拽住他的袖管，指节因用力泛白，&6“才刚找着你...”&r，她的指甲掐进他小臂的旧疤，那是七年前在矿洞被落石划的，&e“就不能等探清楚？”&r"
+				""
+				"基米的太刀往地上顿，刃光劈开飘来的黑雾，&e“这疯子窝明显有诈！”&r，他往洁方手里塞了块冻硬的压缩饼"
+				""
+				"&e“至少让妮妮的探测器先探路吧！”&r，洁方咬了口饼，碎屑掉在炎葬的护手，晶板突然亮了亮，映出他眼底的红"
+				""
+				"&e“七年前在矿洞，看着同伴被塌方埋了，我只能躲在石缝里....”&r，洁方突然扯开领口，露出锁骨处的烫伤，&e“南联盟的五年教会我，有些坎就得自己踏”&r"
+				""
+				"他握住母亲的手贴在炎葬上，剑体的温顺着掌纹爬，&e“这剑聚的是太阳的劲，该黑暗见见光芒了”&r"
+				""
+				"苏婉突然从怀里摸出个布包，粗麻布裹着块船锚形护身符，铜绿里还沾着海沙，&6“你爹当年战斗时总带着”&r，她把符塞进洁方甲胄的夹层，指尖抖得像秋风里的草，&6“娘在外面烧着松枝等你”&r"
+				""
+				"基米突然解下腰间的水壶往嘴里灌，水顺着下巴淌进领口，&e“要疯就一起！”&r，他用刀鞘撞了撞洁方的肘，&e“当年在死渊维度你欠我半块烤薯，得还！”&r"
+				""
+				"{@pagebreak}"
+				"洁方笑出声，炎葬的光在他笑纹里跳，两人的靴底同时碾过地堡前的血冰，发出细碎的裂响"
+				""
+				"黑雾像活物般裹上来，钻进甲胄的缝隙砭骨地冷，地堡里的腥气混着腐臭扑面而来，脚刚落地就踢到根断骨，骨头上还挂着半片军装"
+				""
+				"满地的尸体以诡异的姿势蜷着，有的手还保持着扣扳机的模样，有的喉管被撕开，血冻成暗红的冰棱"
+				""
+				"&4“欢迎光临我的墓园！”&r，先导的声音从黑暗深处飘来，像用碎玻璃磨过的砂纸，洁方举剑的瞬间，晶板的光照亮了悬浮在半空的灵体"
+				""
+				"半透明的躯体里缠着黑雾，眼窝是两团跳动的幽蓝，脚边堆着空药瓶，瓶身的&d“万灵药”&r标签被血泡得发涨"
+				""
+				"基米的刀突然出鞘，银弧劈向灵体的脖颈，刃风却从中间穿了过去，&4“没用的！我可是无敌的！”&r，先导笑起来，黑雾在他周身翻涌"
+				""
+				"&4“幸亏你们杀了使徒，亚玻伦大人的恩赐，才让我成了不死的巫妖王”&r，他抬手往地上一指，几具尸体突然抽搐着站起，喉咙里发出嗬嗬的怪响，&4“这些只是我亿万子民的缩影，我也不稀罕什么帝国了，等我吸干你们两个的血，我带领的不死军团将再次统治世界，哈哈哈哈！”&r"
+				""
+				"洁方的炎葬突然爆发出炽烈的光，晶板吸收着仅有的微光，剑刃扫过处，黑雾发出滋滋的响，&4“这剑...”&r，先导的幽蓝眼窝猛地收缩，&4“炎葬怎么会在你手里？！”&r，他的灵体突然虚化，躲开洁方的横劈，黑雾撞上洞壁，炸出片焦痕"
+				""
+				"&e“拜你所赐！”&r，洁方的剑招越来越快，光轨在黑暗里织成网，每击中一次，先导的灵体就淡一分，却又迅速被黑雾补满"
+				""
+				"&4“可惜啊，哈哈哈！”&r，先导突然挥出条雾鞭，抽在洁方胸口，他踉跄着后退，撞在堆尸体上，&4“你的力量还是太弱了，根本就喂不饱它”&r"
+				""
+				"基米趁机从侧面劈砍，刀刀都落在灵体的核心，却只激起更多黑雾，&e“他妈的怎么打不死”&r，他的虎口被震得发麻，刀身的冰纹都在颤"
+				""
+				"{@pagebreak}"
+				"&e“你没发现吗”&r，洁方突然喊，炎葬的光扫过洞顶，&e“他一直躲在最暗的角落”&r"
+				""
+				"基米猛地抬头，果然看见先导的灵体总往阴影里缩，光稍强些就往后退，&e“阳光...”&r"
+				""
+				"他突然笑起来，刀鞘往地上磕出脆响，&e“这怪物怕光！”&r，洁方的眼睛亮了，炎葬的晶板开始疯狂吸收周围的微光，剑刃的温度越来越高"
+				""
+				"&4“蠢货！”&r，先导的灵体突然膨胀，黑雾淹没了半条通道，&4“这里没有太阳！”&r，他的声音裹着狂傲，&4“炎葬在这种地方就是块废铁”&r，洁方的剑突然慢下来，光也暗了些，灵体趁机扑上来，黑雾凝成利爪抓向他的咽喉"
+				""
+				"&4“没错！杏仁村的火是我放的！”&r，先导的笑声在洞壁间回荡，&4“那些哭喊真好听，尤其是村民抱着自己孩子哭的时候，不是么？”&r"
+				""
+				"洁方的动作猛地一顿，炎葬的光瞬间弱了下去，&4“还有钟国英，是你把我引去那的吧，哈哈哈！”&r，先导的灵体凑到他耳边，&4“你手上沾的血，可不比我少”&r"
+				""
+				"基米突然撞开洁方，用身体挡住抓来的雾爪，后背的皮肉瞬间被撕开，血溅在洁方的脸上，&e“别信他的屁话！”&r"
+				""
+				"他的声音带着血沫，&e“你现在是南联盟的兵！”&r，洁方看着基米后背的伤口，看着满地战友的尸体，突然大笑起来，笑声撞得洞顶掉灰"
+				""
+				"&e“哼哼...”&r，洁方突然抓住基米的后领，猛地将他往洞口甩出，&e“但这账得我自己算了...”&r，基米的惊呼声还没落地，洁方就按下了手环上的按钮，地堡入口突然传来轰隆巨响，碎石和冻土倾泻而下，瞬间封死了通道"
+				""
+				"&e“你疯了！！！”&r，基米的拳头砸在堵死的碎石上，声音嘶哑得像破锣，地堡里的洁方却听不见了"
+				""
+				"{@pagebreak}"
+				"他举起通讯器，指尖因用力泛白，&e“我早就在堡顶填好了炸药，哈哈....为的就是这一刻！”&r，通讯器那头的呼吸声突然急促起来，&c“洁方？洁方？！洁方不要做傻事啊！”&r"
+				""
+				"&c“对不住了，斯大林娜同志，请允许我这一次鲁莽”&r，随着电流的滋滋声减弱，他关闭了通讯器，先导的灵体被这变故惊得后退，&4“你想干什么？你想干什么！！”&r"
+				""
+				"洁方没理他，炎葬的晶板贴在胸口，感受着里面母亲给的护身符，一步，两步，三步"
+				""
+				"他突然跃起，巨剑带着残影刺向灵体的核心，&e“给我钉在这吧！先导！！！！”&r，光与雾的碰撞爆发出刺眼的亮，先导的灵体剧烈挣扎，黑雾疯狂地啃噬着剑刃"
+				""
+				"十秒像一个世纪那么长，洁方的指节因用力而发白，汗水混着血滴在地上，他看着通讯器上的倒计时归零"
+				""
+				"地堡顶部突然传来震耳欲聋的巨响，碎石像暴雨般砸下来，一道金红的光从炸开的缺口灌进来，像天神撕开的裂缝"
+				""
+				"阳光！"
+				""
+				"炎葬的晶板在接触到阳光的刹那，爆发出前所未有的光芒，剑刃上的黑雾发出凄厉的尖叫，迅速消融"
+				""
+				"先导的灵体在光里扭曲、融化，他的幽蓝眼窝充满了不可置信，&4“不 ——！我可是！！！”&r，叫声越来越尖，最终化作一缕青烟，被阳光彻底驱散"
+				""
+				"地堡在持续的爆炸中坍塌，碎石掩埋了一切，只有那道阳光透过废墟的缝隙，照在一片狼藉的地上，像条通往天际的金带"
+				""
+				"基米跪在废墟外，拳头深深嵌进冻土，喉咙里发出困兽般的呜咽"
+			]
+			hide_text_until_complete: true
+			icon: "cataclysm:cursed_tombstone"
+			icon_scale: 2.0d
+			id: "45E8987A52189B41"
+			rewards: [
+				{
+					description: ""
+					id: "6724F7D425339D9B"
+					title: "“你他妈倒是出来啊...”"
+					type: "toast"
+				}
+				{
+					count: 10
+					id: "77DF1531527BD459"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "熔阳焚晦，报仇雪恨"
+			tasks: [
+				{
+					advancement: "cataclysm:kill_maledictus"
+					criterion: ""
+					id: "6D3FB7D77221B479"
+					type: "advancement"
+				}
+				{
+					id: "0AA3AA536C8D8256"
+					title: "进度属【灾变】"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["45E8987A52189B41"]
+			description: [
+				"铁钎在瓦砾中撬出最后道缝，阳光灌进去却只照见碎石与焦土，基米的手突然停在半空，指缝漏下的灰里没半点活气"
+				""
+				"武神女王的银羽垂得快触到地面，翅尖沾着的尘土簌簌掉，斯大林娜的指挥杖在冻土上戳出深痕，杖头的向日葵纹被泪浸得发暗"
+				""
+				"&c“收队吧...”&r，她的声线裹着阴云，比地堡的钢还冷，妮妮的红石发卡别在临时墓碑上，卡齿咬着张字条，&c“等你回家”&r"
+				""
+				"葬礼那天的云压得很低，像块浸了水的灰布，基米正往墓前摆洁方的剑鞘，突然听见身后有脚步声，混着熟悉的笑"
+				""
+				"&e“摆这玩意儿干啥呢！”&r，他猛地回头，看见洁方站在槐树下，衣摆还沾着土，胳膊上缠着渗血的布条"
+				""
+				"叶弥新手里的烧杯“哐当”砸在地上，玻璃碴溅起时，他直挺挺往后倒"
+				"&a“活... 活了？！鬼！”&r，话没说完就晕了过去"
+				""
+				"&e“你咋从土里冒出来了”&r，基米冲上去拽他的胳膊，掐着他的腰，疼得洁方龇牙，&e“先导化灰那阵，落石跟下雨似的”&r，他摸了摸后脑勺"
+				""
+				"&e“刚用剑劈开三块大石头，瞅见地板有空隙，顺手抄起把镐头砸出个洞”&r"
+				""
+				"他往地上比划，&e“钻进去时正好块巨石滚过来挡了口，就着隧道的风挖了半天，现在才好不容易找着你们”&r"
+				""
+				"妮妮突然跳起来拽他的耳朵，&c“你是铁打的啊”&r，指尖触到他耳后的擦伤，突然红了眼"
+				""
+				"{@pagebreak}"
+				"宴会的灯笼在杏仁村的老槐树上晃，光把人影投在土墙上，像群跳舞的星，老高的烟锅在石桌上磕出火星"
+				""
+				"苏婉往他碗里添了勺南瓜汤，&6“当年把他塞给你，真是选对人了”&r，老高的喉结滚了滚，&6“这小子七岁可就敢跟狼抢肉，哈哈”&r"
+				""
+				"话音刚落，叶弥新和妮妮正为最后块烤薯争得面红耳赤，武神女王突然从桌底钻出来，叼走烤薯就往草堆跑，银羽扫过叶弥新的眼镜，惹得他直跳脚"
+				""
+				"斯大林娜坐在门槛上，膝盖摊着战后重建清单，笔尖在“卫城学校”四字上划了圈，洁方和基米举着陶碗碰在一起，酒液溅在衣襟上，像泼了把星子"
+				""
+				"&e“明天去探东边的溶洞不”&r，基米的话混着酒气，洁方笑着点头，碗沿的酒珠滴在地上，洇出个小坑"
+				""
+				"南方民主共和国联盟的招牌换了新的，&e“南方&c社会主义&r共和国”&r的烫金在晨风里闪，雅柏大陆的地图上，芝柏、雅柏西部、中东的红色区块连成片"
+				""
+				"清算大会的广场上，工厂主们都低着头，民众的欢呼声掀翻了天，市集的粮堆比屋顶还高，孩童的风车转得比飞艇还欢"
+				""
+				"苏婉在杏仁村的老屋住了下来，窗台上的两盏油灯总亮到深夜，基米每天都和洁方来比劈柴，看谁劈得更快，老高和苏婉常坐在槐树下，看夕阳把影子拉得老长"
+				""
+				"妮妮的实验室里，新造的探测器正闪着绿光，她对着图纸笑，&c“这次能探到地心了！”&r"
+				""
+				"斯大林娜的办公室里，第三任期的委任状压在向日葵标本下，武神女王蜷在村头的草垛上，银羽被朝阳晒得暖，像盖了层金纱"
+				""
+				"洁方和基米扛着镐头往山那边走，露水打湿了裤脚，远处的天际线正泛起橙红"
+				""
+				"基米突然指着东边，那里的云被染成了金灿灿的样子"
+			]
+			id: "56FEE8F312A223D7"
+			invisible: true
+			rewards: [
+				{
+					description: ""
+					id: "57357D1E36542C4B"
+					title: "“看，天开了”"
+					type: "toast"
+				}
+				{
+					id: "1996B18B393BFED3"
+					ignore_reward_blocking: true
+					stage: "second_end"
+					type: "gamestage"
+				}
+				{
+					id: "6209D1D7182BFC43"
+					item: "linzhi:game_reset_button"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "5AAC3310A782CD42"
+					ignore_reward_blocking: true
+					stage: "tm_second_end"
+					type: "gamestage"
+				}
+			]
+			subtitle: "第二结局：曦光同路"
+			tasks: [{
+				id: "711663EB4A96EA60"
+				stage: "event_strongest_end"
+				title: "最强结局"
+				type: "gamestage"
+			}]
+			title: "第二结局"
+			x: -1.5d
+			y: 28.5d
+		}
+		{
+			dependencies: ["45E8987A52189B41"]
+			description: [
+				"铁钎撬开最后一块断岩时，洁方的手还保持着握剑的姿势，炎葬的晶板蒙着灰，像熄了火的星"
+				""
+				"基米的手指蹭过他凝固的眼，睫毛上的石屑簌簌掉，&e“醒醒...”&r，声音卡在喉咙里，变成野兽似的呜咽"
+				""
+				"斯大林娜的指挥杖斜插在瓦砾中，向日葵纹被泪打湿，晕成深黄的团，武神女王的银羽垂得很低，翅尖扫过洁方的靴，带起细尘"
+				""
+				"妮妮突然捂住嘴，红石发卡在发间颤，她看见剑刃上还缠着半片衣角，是南联盟军装的蓝"
+				""
+				"巨型棺材的木缝里嵌着向日葵花瓣，由八名士兵抬着绕城而行，沿街的民众脱帽时，帽檐的霜落在肩头，像撒了层碎银"
+				""
+				"有个孩童举着自制的木剑，跟着棺材跑，剑穗上的红布条扫过路面的血痕，&b“叔叔是英雄！”&r，奶声奶气的喊混在抽泣里，撞在卫城的石壁上"
+				""
+				"杏仁村的老槐树下，新掘的墓坑泛着湿土气，叶弥新的白褂沾着草屑，他把块棱镜放在墓前，阳光透过镜，在碑上投出彩虹，&a“你说过想看看纯粹的光...”&r"
+				""
+				"老高的烟锅掉在地上，火星烫穿了冻土，&6“早知道...该把你锁在磨房”&r，他的背比七年前驼了更多，苏婉突然握住他的手，掌心的茧蹭着他的"
+				""
+				"&6“他走的每步，都是自己选的”&r，她望着碑上&e“洁方”&r二字，眼角的纹里淌着泪，却带着笑，&6“这是你养出的光，是英雄！”&r"
+				""
+				"{@pagebreak}"
+				"卫城的人民英雄纪念碑新刻了行字，金漆裹着阳光，&c“为众生燃己”&r，南方民主共和国联盟的招牌换了新的，“南方社会主义共和国”的烫金在晨风里闪"
+				""
+				"雅柏大陆的地图上，芝柏、雅柏西部、中东的红色区块连成片，清算大会的广场上，曾经的压榨者低着头，民众的欢呼声掀翻了天，市集的粮摊堆成小山，孩童的风车转得比飞艇还欢"
+				""
+				"苏婉在杏仁村的老屋里住了下来，窗台上摆着两盏油灯，一盏是自己的，一盏擦得锃亮，像在等谁"
+				""
+				"基米每天都来劈柴，斧刃落在木头上的响，和当年洁方在时一模一样，他给老高递烟时，总多递一根放在门槛上"
+				""
+				"妮妮的实验室里，新造的太阳能剑泛着暖光，她对着图纸笑，&c“这把比炎葬温柔些”&r"
+				""
+				"斯大林娜的办公室里，第三任期的委任状压在向日葵标本下，笔尖在新法案上划过，墨迹里混着松烟香"
+				""
+				"武神女王蜷在洁方墓旁的草里，银羽被阳光晒得暖，像盖了层金纱，鼻息轻轻扫过墓顶的土，惊起两只跳虫"
+				""
+				"有株枝丫从墓缝里钻出来，嫩芽顶着露珠，往太阳的方向歪，苏婉蹲下身，指尖碰了碰那点新绿，风卷着槐花香飘过来，她对着枝丫轻语"
+			]
+			id: "28A4C14A8B71377D"
+			invisible: true
+			rewards: [
+				{
+					description: ""
+					id: "65888B589F6AFE69"
+					title: "“你看，光照着呢，孩子....”"
+					type: "toast"
+				}
+				{
+					id: "54AE66C10ABBE6C6"
+					ignore_reward_blocking: true
+					stage: "first_end"
+					type: "gamestage"
+				}
+				{
+					id: "1BA2A680B2965B69"
+					item: "linzhi:game_reset_button"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "219B53BC6149D3EC"
+					ignore_reward_blocking: true
+					stage: "tm_first_end"
+					type: "gamestage"
+				}
+			]
+			subtitle: "第一结局：向阳而生"
+			tasks: [{
+				id: "480E54702802B375"
+				stage: "event_not_strongest_end"
+				title: "还差一点"
+				type: "gamestage"
+			}]
+			title: "第一结局"
+			x: 1.5d
+			y: 28.5d
+		}
+		{
+			dependencies: ["1B8BD95EE88EBAE7"]
+			description: [
+				"与斯大林娜共同部署完计划后，魏绛和带着满身的疲惫回到了北沦总部，他泻尽了全身的力气推开了二楼的那扇时常发长吱呀声音的古木门"
+				""
+				"这段时间他几乎未离开过这个小房间，在这狭小的空间里，他仿佛守护的不只是一个人，而是他生命的全部————这个国家"
+				""
+				"矮小的短木板凳被搬了起来，静静地挪到了床边，他一只手靠在床边，一只手扶着凳边，整个背部几乎都靠上了床边"
+				""
+				"床上的人仍静在梦乡，梦里回顾着他那往年的英雄事迹，可时间就如流水一般，不断冲刷着他的回忆，越来越模糊"
+				""
+				"冷汗浸湿了背部，一阵冷风吹过，执念化作赤铁颜料染红了整个天空，他朝着年轻的自己追逐，却怎么也赶不上"
+				""
+				"他睁开双眼，只觉得吊灯刺眼，白光过后，他才发现魏绛和半蹲似的样子坐着，&4“绛和啊...别总是苦着了，来坐床边吧”&r"
+				""
+				"&9“是...”&r，魏绛和犹豫了片刻，紧接着又收起了板凳，快步走过坐下，但又紧紧是贴着床边"
+				""
+				"&9“我们...与南联盟那边...合作了....希望能够清理掉那些异界余孽”&r，魏绛和低着头，浅浅说了半句话试探一般"
+				""
+				"先导皱了皱眉头，无名的怒火从他的胸腔中喷涌而出，但又很快压抑回去，&4“南联盟？和他们吗？就清理这些个杂兵？”&r"
+				""
+				"&9“我们不能再消耗更多资源了，配合他们是最好的选择...”&r，魏绛和压着声音说"
+				""
+				"先导咳了两下，声音在房间中回荡，吊液瓶也随着晃荡了，&4“你更应该去整治，去相信，去磨练我们的军队！而不是跟他们做什么所谓的合作！”&r"
+				""
+				"&4“我们的军队曾经是世界上最强大的，我们就应该它恢复到我们该有的水平，咳咳！咳！”&r，一口老痰从气管中喷涌而出，溅进了置于地上的淡红色瓷光痰盂"
+				""
+				"&9“但是...但...”&r，多年来，一种由帝国为主导的迫切的和平之种子深埋在魏绛和的心底，总试着想要生根发芽"
+				""
+				"&9“难道我们就不能和他们交好吗？”&r，魏绛和的双手紧握着的被褥，双眼透露出期望的目光"
+				""
+				"&4“你呀，怎么还对他们有幻想，我们是谁，他们是谁，你还不懂吗”&r，先导正用着手指轻敲着床边"
+				""
+				"&4“在这个世界上，不是杀人，就是被杀！”&r，魏绛和转过身去，紧闭着双眼，试图将这些话抛掷脑后，可这些话仍在他心里面回响&4“....你都跟我这么多年了.....”&r"
+				""
+				"&9“您就在这里好好休息吧，我去忙了”&r，魏绛和整理好床褥，随后站起身就夺门而去"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "39D2BF8A8A202225"
+			rewards: [
+				{
+					description: ""
+					id: "4866805725EF9F7F"
+					title: "“咔哒！”"
+					type: "toast"
+				}
+				{
+					count: 8
+					id: "0DB61AB4BC831E15"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "抉断"
+			tasks: [
+				{
+					advancement: "mowziesmobs:kill_frostmaw"
+					criterion: ""
+					id: "2DEA553A71D1D5F4"
+					type: "advancement"
+				}
+				{
+					id: "4E08EE285F2251A3"
+					title: "击败霜冻巨兽，它一般生成在雪原和积雪针叶林等生物群系"
+					type: "checkmark"
+				}
+				{
+					id: "49E4BEAE63ECFA3F"
+					title: "实在找不到就自己造个刷怪蛋吧"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1B8BD95EE88EBAE7"]
+			description: [
+				"南联盟的议事帐里，斯大林娜展开老国王的残卷，纸页上的黄页掺着三个大字，&e“守卫者”&r"
+				""
+				"&c“那是南方王国最后的战争武器，藏在老国王陵墓深处”&r，她把青铜钥匙推到洁方面前，&c“你们去试试，或许能为联盟添份力”&r"
+				""
+				"基米摩挲着钥匙上的狮纹，&e“陵墓在乱石林下头，听说有三层机关”&r，两人穿过缠满枯藤的墓道，石缝里的幽蓝磷火映着壁画 ——画里老国王握着巨斧，身边的守卫者铠甲泛着冷光"
+				""
+				"地下最后一层的穹顶垂着石钟乳，中央的黑曜石座椅上，无名守卫者正垂首静坐，青铜铠甲裹着锈色，巨斧斜倚在椅边，刃沿爬着暗金纹"
+				""
+				"洁方的末影剑刚碰着台阶，守卫者突然睁眼，眼窝的红光亮得刺眼，&6“擅闯者，死”&r，巨斧猛地砸向地面，石砖裂开的缝里窜出火星"
+				""
+				"说罢，基米的拔刀剑已然出鞘，&e“我们是南联盟的人，想请你...”&r，话没说完，守卫者肩甲的晶孔里射出道道炽白光束，基米旋身躲开，光束在石墙上炸出焦坑"
+				""
+				"&6“老国王就是我的一切”&r，守卫者沉喝着挥斧，斧风裹着碎石，洁方持末影剑瞬移到侧后方，刃尖刺向铠甲缝隙，却被对方回身一斧逼退"
+				""
+				"&e“老国王已不在，南联盟需要你护着更多人！”&r，洁方的末影剑划出残影，基米趁机拔刀斩劈中斧柄，火星溅到守卫者的铠甲上"
+				""
+				"可它根本不听，激光再次喷发，两人只能分头躲闪，基米的拔刀剑在斧刃上划出长痕，洁方则借末影剑的瞬移绕到身后，剑刃抵住它的后心"
+				""
+				"&6“不义者...必亡”&r，守卫者突然狂笑，铠甲下的能量开始暴涨，&6“为国王尽忠！！！”&r"
+				""
+				"基米拽着洁方往后退，只听“轰”的巨响，守卫者的身躯炸成碎铁，巨斧的残片嵌在石墙上，还留着暗金纹的余温"
+				""
+				"洁方望着满地的青铜碎块，末影剑的光渐渐暗下去，基米收刀入鞘，喉结滚了滚，声音裹着灰屑"
+			]
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:guardian_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "58F6B55A75393997"
+			rewards: [
+				{
+					description: ""
+					id: "6319B98416F4E00C"
+					title: "“此等忠义，我想起了他...钟....”"
+					type: "toast"
+				}
+				{
+					count: 8
+					id: "35F3DAC97A636E61"
+					item: "linzhi:z_coin"
+					type: "item"
+				}
+			]
+			subtitle: "死义"
+			tasks: [
+				{
+					advancement: "eeeabsmobs:eeeabsmobs/kill_nameless_guardian"
+					criterion: ""
+					id: "746159A0EDD954F0"
+					type: "advancement"
+				}
+				{
+					id: "59002C4C1F0180D7"
+					title: "生成于古陵【guling】"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 16.0d
+		}
+	]
+	title: "月明花开"
+}
