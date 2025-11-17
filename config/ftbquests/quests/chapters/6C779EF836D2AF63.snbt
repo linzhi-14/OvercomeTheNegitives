@@ -594,6 +594,18 @@
 					item: "l2hostility:bottle_of_sanity"
 					type: "item"
 				}
+				{
+					description: ""
+					id: "4C3AE702422C5C1B"
+					title: "点击完之后，点击左侧展开栏"
+					type: "toast"
+				}
+				{
+					description: ""
+					id: "28FD939EB3FE92A4"
+					title: "选择&e五个基础化&r章节，开始游玩体验"
+					type: "toast"
+				}
 			]
 			size: 1.5d
 			subtitle: "看我"

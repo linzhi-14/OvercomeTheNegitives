@@ -341,6 +341,12 @@
 					item: "mutantmonsters:mutant_zombie_spawn_egg"
 					type: "item"
 				}
+				{
+					description: ""
+					id: "503D3A5DCC437977"
+					title: "对动力合成器使用按钮可以使其开始强制合成"
+					type: "toast"
+				}
 			]
 			subtitle: "工作台已经满足不了啦"
 			tasks: [{

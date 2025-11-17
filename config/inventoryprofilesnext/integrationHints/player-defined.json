@@ -134,5 +134,32 @@
                 "top": -20
             }
         }
+    },
+    "com.mrcrayfish.furniture.refurbished.client.gui.screen.ElectricityGeneratorScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 1
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 24
+            },
+            "SORT": {
+                "horizontalOffset": 26
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 26
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 25
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 41,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 28,
+                "top": -20
+            }
+        }
     }
 }

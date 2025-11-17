@@ -2156,7 +2156,7 @@
 				}
 				{
 					id: "4692E65A35F74829"
-					title: "制作一个魔法地图"
+					title: "制作一个空白魔法地图"
 					type: "checkmark"
 				}
 			]
@@ -2197,6 +2197,7 @@
 				"它虽是不懂人言，但浑浊的脑子最后搅起一滩残念"
 			]
 			hide_text_until_complete: true
+			icon: "twilightforest:naga_courtyard_miniature_structure"
 			icon_scale: 2.0d
 			id: "0A37A8784EF97763"
 			rewards: [
@@ -2232,12 +2233,19 @@
 				}
 			]
 			subtitle: "愿了"
-			tasks: [{
-				advancement: "twilightforest:progress_naga"
-				criterion: ""
-				id: "7BABC051AE3A6704"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+					id: "7BABC051AE3A6704"
+					type: "advancement"
+				}
+				{
+					id: "6298B5D012A7C14E"
+					title: "找到并杀死娜迦"
+					type: "checkmark"
+				}
+			]
 			x: -17.0d
 			y: 12.0d
 		}
@@ -2285,6 +2293,7 @@
 			]
 			hide_dependent_lines: true
 			hide_text_until_complete: true
+			icon: "twilightforest:lich_tower_miniature_structure"
 			icon_scale: 2.0d
 			id: "1EDFB615E4CCCE5B"
 			rewards: [
@@ -2330,12 +2339,19 @@
 				}
 			]
 			subtitle: "分崩离析"
-			tasks: [{
-				advancement: "twilightforest:progress_lich"
-				criterion: ""
-				id: "2F82892CBC5BCA03"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+					id: "2F82892CBC5BCA03"
+					type: "advancement"
+				}
+				{
+					id: "6F988265E84A8004"
+					title: "找到并杀死巫妖"
+					type: "checkmark"
+				}
+			]
 			x: -17.0d
 			y: 17.5d
 		}
@@ -2423,6 +2439,11 @@
 				{
 					id: "18FB2B3D5D3D5E70"
 					title: "此条单线的进度全属【深暗之园】"
+					type: "checkmark"
+				}
+				{
+					id: "019BB03B4B47A946"
+					title: "使用左边的物品可以造传送门！"
 					type: "checkmark"
 				}
 			]
@@ -3314,29 +3335,6 @@
 			]
 			x: 12.0d
 			y: 13.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["69B6A349B0F2B9B1"]
-			description: [""]
-			icon_scale: 2.0d
-			id: "09CAA41B6E1F2BF2"
-			optional: true
-			rewards: [{
-				id: "06F56AC9FE0ACDAA"
-				item: "cataclysm:netherite_monstrosity_spawn_egg"
-				type: "item"
-			}]
-			subtitle: "如果你所在的地区该生物已被其他玩家消灭，你可以在这里购买一个刷怪蛋"
-			tasks: [{
-				consume_items: true
-				id: "06C728C42AE7A6A3"
-				item: "iter_rpg:flawless_diamond"
-				type: "item"
-			}]
-			title: "BOSSBUY"
-			x: -14.0d
-			y: 17.5d
 		}
 		{
 			dependencies: ["1FF94DD24A180EFB"]

@@ -535,8 +535,8 @@
 						}
 					}
 				}
-				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 5.5d
 			y: 5.2d
@@ -619,8 +619,8 @@
 						}
 					}
 				}
-				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 8.5d
 			y: 5.2d

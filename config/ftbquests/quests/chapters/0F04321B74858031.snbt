@@ -1174,8 +1174,8 @@
 						}
 					}
 				}
-				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 1.0d
 			y: 4.8d
@@ -1258,8 +1258,8 @@
 						}
 					}
 				}
-				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 4.0d
 			y: 4.8d
@@ -1458,6 +1458,74 @@
 				"1E2D0C4196AC6BA6"
 				"6134714405899BDA"
 			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:drive_vertical"
+						StandbyRenderType: 2b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "slashblade:model/named/muramasa/muramasa.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 144.0f
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 0b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 34214083L
+						maxDamage: 30000
+						proudSoul: 0
+						translationKey: "item.slashblade.muramasa"
+					}
+				}
+				id: "slashblade:slashblade"
+				tag: {
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:drive_vertical"
+						StandbyRenderType: 2b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "slashblade:model/named/muramasa/muramasa.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 144.0f
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 0b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 34214083L
+						maxDamage: 30000
+						proudSoul: 0
+						translationKey: "item.slashblade.muramasa"
+					}
+				}
+			}
 			icon_scale: 2.0d
 			id: "527B8848030967FA"
 			rewards: [{
@@ -1472,276 +1540,87 @@
 				type: "item"
 			}]
 			subtitle: "传说夜叉被某位亚玻伦之徒所收纳\\n而枯石大刀，它是凋零的意外产物...."
-			tasks: [{
-				id: "6241AC7826546EA0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							AttackAmplifier: 0.0f
-							ComboRoot: "slashblade:standby"
-							Damage: 0
-							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
-							RepairCounter: 0
-							SpecialAttackType: "slashblade:drive_vertical"
-							StandbyRenderType: 2b
-							SummonedSwordColor: -13421569
-							SummonedSwordColorInverse: 0b
-							TargetEntity: 0
-							TextureName: "slashblade:model/named/muramasa/muramasa.png"
-							_onClick: 0b
-							adjustXYZ: [
-								0.0d
-								0.0d
-								0.0d
-							]
-							baseAttackModifier: 144.0f
-							currentCombo: "slashblade:standby"
-							fallDecreaseRate: 0.0f
-							isBroken: 0b
-							isDefaultBewitched: 0b
-							isSealed: 0b
-							killCount: 0
-							lastActionTime: 34214083L
-							maxDamage: 30000
-							proudSoul: 0
-							translationKey: "item.slashblade.muramasa"
+			tasks: [
+				{
+					id: "6241AC7826546EA0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:drive_vertical"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/muramasa/muramasa.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 144.0f
+								currentCombo: "slashblade:standby"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 34214083L
+								maxDamage: 30000
+								proudSoul: 0
+								translationKey: "item.slashblade.muramasa"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:drive_vertical"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/muramasa/muramasa.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 144.0f
+								currentCombo: "slashblade:standby"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 34214083L
+								maxDamage: 30000
+								proudSoul: 0
+								translationKey: "item.slashblade.muramasa"
+							}
 						}
 					}
-					id: "slashblade:slashblade"
-					tag: {
-						bladeState: {
-							AttackAmplifier: 0.0f
-							ComboRoot: "slashblade:standby"
-							Damage: 0
-							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
-							RepairCounter: 0
-							SpecialAttackType: "slashblade:drive_vertical"
-							StandbyRenderType: 2b
-							SummonedSwordColor: -13421569
-							SummonedSwordColorInverse: 0b
-							TargetEntity: 0
-							TextureName: "slashblade:model/named/muramasa/muramasa.png"
-							_onClick: 0b
-							adjustXYZ: [
-								0.0d
-								0.0d
-								0.0d
-							]
-							baseAttackModifier: 144.0f
-							currentCombo: "slashblade:standby"
-							fallDecreaseRate: 0.0f
-							isBroken: 0b
-							isDefaultBewitched: 0b
-							isSealed: 0b
-							killCount: 0
-							lastActionTime: 34214083L
-							maxDamage: 30000
-							proudSoul: 0
-							translationKey: "item.slashblade.muramasa"
-						}
-					}
+					type: "item"
+					weak_nbt_match: true
 				}
-				type: "item"
-				weak_nbt_match: true
-			}]
+				{
+					id: "19198E9775B704DF"
+					title: "夜叉只能通过任务书获得"
+					type: "checkmark"
+				}
+			]
 			x: 12.0d
-			y: 4.8d
-		}
-		{
-			dependencies: [
-				"527B8848030967FA"
-				"2842AAC7C840366A"
-			]
-			icon_scale: 2.0d
-			id: "253E95AE3DD58D6E"
-			subtitle: "传闻夜叉鬼哭被某位末影的战士所守护了起来"
-			tasks: [{
-				id: "31CC88EF7A3BCB4E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							AttackAmplifier: 0.0f
-							ComboRoot: "slashblade:standby"
-							Damage: 0
-							ModelName: "slashblade:model/named/agito.obj"
-							RepairCounter: 0
-							SpecialAttackType: "slashblade:drive_horizontal"
-							StandbyRenderType: 2b
-							SummonedSwordColor: -13421569
-							SummonedSwordColorInverse: 0b
-							TargetEntity: -1
-							TextureName: "slashblade:model/named/a_tukumo.png"
-							_onClick: 0b
-							adjustXYZ: [
-								0.0d
-								0.0d
-								0.0d
-							]
-							baseAttackModifier: 169.0f
-							currentCombo: "slashblade:standby"
-							fallDecreaseRate: 0.0f
-							isBroken: 0b
-							isDefaultBewitched: 1b
-							isSealed: 0b
-							killCount: 0
-							lastActionTime: 34214083L
-							maxDamage: 10000
-							proudSoul: 0
-							translationKey: "item.slashblade.yuzukitukumo"
-						}
-					}
-					id: "slashblade:slashblade"
-					tag: {
-						Enchantments: [
-							{
-								id: "minecraft:fire_aspect"
-								lvl: 1s
-							}
-							{
-								id: "minecraft:sharpness"
-								lvl: 4s
-							}
-							{
-								id: "minecraft:unbreaking"
-								lvl: 3s
-							}
-						]
-						bladeState: {
-							AttackAmplifier: 0.0f
-							ComboRoot: "slashblade:standby"
-							Damage: 0
-							ModelName: "slashblade:model/named/agito.obj"
-							RepairCounter: 0
-							SpecialAttackType: "slashblade:drive_horizontal"
-							StandbyRenderType: 2b
-							SummonedSwordColor: -13421569
-							SummonedSwordColorInverse: 0b
-							TargetEntity: -1
-							TextureName: "slashblade:model/named/a_tukumo.png"
-							_onClick: 0b
-							adjustXYZ: [
-								0.0d
-								0.0d
-								0.0d
-							]
-							baseAttackModifier: 169.0f
-							currentCombo: "slashblade:standby"
-							fallDecreaseRate: 0.0f
-							isBroken: 0b
-							isDefaultBewitched: 1b
-							isSealed: 0b
-							killCount: 0
-							lastActionTime: 34214083L
-							maxDamage: 10000
-							proudSoul: 0
-							translationKey: "item.slashblade.yuzukitukumo"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 14.5d
-			y: 4.8d
-		}
-		{
-			dependencies: [
-				"253E95AE3DD58D6E"
-				"6001FF69493CB1DE"
-			]
-			icon_scale: 2.0d
-			id: "60EAAE82965FBBA3"
-			subtitle: "阎魔刀，象征最强大的力量\\n它为某位帝国首领所掌控"
-			tasks: [{
-				id: "077BDC4E55DCE5F9"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							AttackAmplifier: 0.0f
-							ComboRoot: "slashblade:standby"
-							Damage: 0
-							ModelName: "slashblade:model/named/yamato.obj"
-							RepairCounter: 0
-							SpecialAttackType: "slashblade:judgement_cut"
-							StandbyRenderType: 1b
-							SummonedSwordColor: -13421569
-							SummonedSwordColorInverse: 0b
-							TargetEntity: -1
-							TextureName: "slashblade:model/named/yamato.png"
-							_onClick: 0b
-							adjustXYZ: [
-								0.0d
-								0.0d
-								0.0d
-							]
-							baseAttackModifier: 256.0f
-							currentCombo: "slashblade:standby"
-							fallDecreaseRate: 0.0f
-							isBroken: 0b
-							isDefaultBewitched: 1b
-							isSealed: 0b
-							killCount: 4
-							lastActionTime: 34214091L
-							maxDamage: 1000000
-							proudSoul: 143
-							translationKey: "item.slashblade.yamato"
-						}
-					}
-					id: "slashblade:slashblade"
-					tag: {
-						Enchantments: [
-							{
-								id: "minecraft:soul_speed"
-								lvl: 2s
-							}
-							{
-								id: "minecraft:power"
-								lvl: 5s
-							}
-							{
-								id: "minecraft:feather_falling"
-								lvl: 4s
-							}
-						]
-						bladeState: {
-							AttackAmplifier: 0.0f
-							ComboRoot: "slashblade:standby"
-							Damage: 0
-							ModelName: "slashblade:model/named/yamato.obj"
-							RepairCounter: 0
-							SpecialAttackType: "slashblade:judgement_cut"
-							StandbyRenderType: 1b
-							SummonedSwordColor: -13421569
-							SummonedSwordColorInverse: 0b
-							TargetEntity: -1
-							TextureName: "slashblade:model/named/yamato.png"
-							_onClick: 0b
-							adjustXYZ: [
-								0.0d
-								0.0d
-								0.0d
-							]
-							baseAttackModifier: 256.0f
-							currentCombo: "slashblade:standby"
-							fallDecreaseRate: 0.0f
-							isBroken: 0b
-							isDefaultBewitched: 1b
-							isSealed: 0b
-							killCount: 4
-							lastActionTime: 34214091L
-							maxDamage: 1000000
-							proudSoul: 143
-							translationKey: "item.slashblade.yamato"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 17.0d
 			y: 4.8d
 		}
 	]

@@ -374,7 +374,7 @@ _version = 3
 			# IP_ONLY: Example: "192.168.1.40" 
 			# NAME_IP: Example: "Minecraft Server IP 192.168.1.40" 
 			# NAME_IP_PORT: Example: "Minecraft Server IP 192.168.1.40:25565"NAME_IP_PORT_MC_VERSION: Example: "Minecraft Server IP 192.168.1.40:25565 GameVersion 1.16.5"
-			serverFolderNameMode = "NAME_IP_PORT"
+			serverFolderNameMode = "IP_ONLY"
 
 		[client.advanced.autoUpdater]
 			#
@@ -568,7 +568,7 @@ _version = 3
 		# CHAT 
 		# LOG 
 		# DISABLED
-		showGenerationProgress = "OVERLAY"
+		showGenerationProgress = "DISABLED"
 		#
 		# How often should the distant generator progress be displayed?
 		generationProgressDisplayIntervalInSeconds = 5
@@ -580,7 +580,7 @@ _version = 3
 		# When logging generation progress also include the rate at which chunks 
 		# are being generated. 
 		# This can be useful for troubleshooting performance.
-		generationProgressIncludeChunksPerSecond = true
+		generationProgressIncludeChunksPerSecond = false
 
 	[common.lodBuilding]
 		#
@@ -689,7 +689,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 4
+		numberOfThreads = 8
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -780,13 +780,13 @@ _version = 3
 	generationBoundsRadius = 0
 	#
 	# If true, clients will receive real-time LOD updates for chunks outside the client's render distance.
-	enableRealTimeUpdates = true
+	enableRealTimeUpdates = false
 	#
 	# Defines the distance the player will receive updates around.
 	realTimeUpdateDistanceRadiusInChunks = 256
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
-	synchronizeOnLoad = true
+	synchronizeOnLoad = false
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.

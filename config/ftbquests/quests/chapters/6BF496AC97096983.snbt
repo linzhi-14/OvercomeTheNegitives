@@ -649,7 +649,7 @@
 				}
 				{
 					id: "61887A5A62A72218"
-					title: "可选，获取一把创世者飞锤"
+					title: "可选，获取一把创世者飞锤，然后.....这是个隐藏成就..."
 					type: "checkmark"
 				}
 			]
@@ -1459,6 +1459,78 @@
 					item: "linzhi:z_coin"
 					type: "item"
 				}
+				{
+					id: "6CA998DFA2C5BF38"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/yasha/yasha.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:sakura_end"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/yasha/yasha.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 6.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 808133L
+								maxDamage: 70
+								proudSoul: 0
+								translationKey: "item.slashblade.yasha"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/yasha/yasha.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:sakura_end"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/yasha/yasha.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 6.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 808133L
+								maxDamage: 70
+								proudSoul: 0
+								translationKey: "item.slashblade.yasha"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "落子"
 			tasks: [
@@ -1542,6 +1614,78 @@
 					count: 9
 					id: "70D86AA3786D6F70"
 					item: "linzhi:z_coin"
+					type: "item"
+				}
+				{
+					id: "0F195874858D62BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/yasha/yasha_true.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:circle_slash"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/yasha/yasha.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 6.0f
+								currentCombo: "slashblade:standby"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 814289L
+								maxDamage: 70
+								proudSoul: 0
+								translationKey: "item.slashblade.yasha_true"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/yasha/yasha_true.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:circle_slash"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/yasha/yasha.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 6.0f
+								currentCombo: "slashblade:standby"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 814289L
+								maxDamage: 70
+								proudSoul: 0
+								translationKey: "item.slashblade.yasha_true"
+							}
+						}
+					}
 					type: "item"
 				}
 			]
@@ -3323,6 +3467,78 @@
 					count: 10
 					id: "77DF1531527BD459"
 					item: "linzhi:z_coin"
+					type: "item"
+				}
+				{
+					id: "3D56985B1C1C7714"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 39
+								ModelName: "slashblade:model/named/yamato.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:judgement_cut"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/yamato.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 7.0f
+								currentCombo: "slashblade:standby"
+								fallDecreaseRate: 0.0f
+								isBroken: 1b
+								isDefaultBewitched: 0b
+								isSealed: 1b
+								killCount: 0
+								lastActionTime: 815023L
+								maxDamage: 40
+								proudSoul: 0
+								translationKey: "item.slashblade.yamato"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 39
+								ModelName: "slashblade:model/named/yamato.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:judgement_cut"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/yamato.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 7.0f
+								currentCombo: "slashblade:standby"
+								fallDecreaseRate: 0.0f
+								isBroken: 1b
+								isDefaultBewitched: 0b
+								isSealed: 1b
+								killCount: 0
+								lastActionTime: 815023L
+								maxDamage: 40
+								proudSoul: 0
+								translationKey: "item.slashblade.yamato"
+							}
+						}
+					}
 					type: "item"
 				}
 			]
